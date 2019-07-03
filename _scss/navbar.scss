@@ -1,6 +1,29 @@
 // Navbar
 @import "colors";
 
-.navbar {
-    background-color: $pirate-dark-black;
+@media (min-width: 992px) {
+    .navbar {
+        .lang-nav {
+            margin-bottom: 20px;
+        }
+        .nav-options {
+            padding-left: 16px;
+            box-shadow: 0px 20px 30px -5px $pirate-dark-black;
+            background-color: $pirate-dark-black;
+        }
+        .pirate-nav {
+            .nav-item {
+                padding: 10px 50px 14px 0px;
+            }
+        }
+        .dropdown {
+            &:hover .dropdown-menu {
+                display: block;
+            }
+            .dropdown-menu {
+                border-radius: 0;
+                z-index: -1;
+            }
+        }
+    }
 }

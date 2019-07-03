@@ -4,7 +4,7 @@ Displays the site's navigation
 
 {% assign url = page.url | remove:'index.html' %}
 <header class="site-header">
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg p-0">
     <a class="navbar-brand" href="/">
       <img src="https://piratar.is/wp-content/uploads/2017/10/xp_logo2017.png" width="112" height="28">
     </a>
@@ -13,40 +13,42 @@ Displays the site's navigation
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse flex-md-column" id="navbar">
-      <ul class="navbar-nav ml-auto">
-        {% for language in site.data.languages.lang %}
-        <li class=nav-item>
-          <a href="{{ language.url }}" class="nav-link {% if language.label == page.lang %} active {% endif %}">
-            {{ language.label }}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        {% for link in site.data.navigation.[page.lang] %}
-        {% if link.sub %}
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            {{ link.title }}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            {% for child in link.sub %}
-            <a href="{{ child.url | absolute_url }}" class="dropdown-item">
-              {{ child.title }}
+      <div class="nav-options ml-auto">
+        <ul class="navbar-nav lang-nav">
+          {% for language in site.data.languages.lang %}
+          <li class="nav-item">
+            <a href="{{ language.url }}" class="nav-link text-uppercase {% if language.label == page.lang %} active {% endif %}">
+              {{ language.label }}
             </a>
-            {% endfor %}
-          </div>
-        </li>
-        {% else %}
-        <li class="nav-item {% if link.cta %} cta {% endif %}">
-          <a class="nav-link" href="{{ link.url | absolute_url }}">
-            {{ link.title }}
-          </a>
-        </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
+          </li>
+          {% endfor %}
+        </ul>
+        <ul class="navbar-nav pirate-nav">
+          {% for link in site.data.navigation.[page.lang] %}
+          {% if link.sub %}
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link" id="navbarDropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">
+              {{ link.title }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% for child in link.sub %}
+              <a href="{{ child.url | absolute_url }}" class="dropdown-item">
+                {{ child.title }}
+              </a>
+              {% endfor %}
+            </div>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link {% if link.cta %} cta {% endif %}" href="{{ link.url | absolute_url }}">
+              {{ link.title }}
+            </a>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
     </div>
   </nav>
 </header>

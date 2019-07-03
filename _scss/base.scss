@@ -1,6 +1,20 @@
 
 @import "colors";
 
-html {
+body {
     background-color: $pirate-black;
+    font-family: proxima-nova, sans-serif;
+}
+
+a {
+    color: $pirate-white;
+    &:hover {
+        color: $pirate-white;
+    }
+    &.active {
+        color: $pirate-orange;
+    }
+    &.cta {
+        color: $pirate-orange;
+    }
 }
