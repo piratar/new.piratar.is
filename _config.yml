@@ -1,0 +1,10 @@
+title:
+  is: Píratar
+  en: Icelandic Pirate Party
+description:
+  is: Vefsíða Pírata
+  en: Icelandi Pirate Party website
+baseurl:
+sass:
+  sass_dir: _scss
+  style: compressed

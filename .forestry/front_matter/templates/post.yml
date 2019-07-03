@@ -1,0 +1,27 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: related_posts
+  label: related_posts
+- type: text
+  name: sub_heading
+  label: sub_heading
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: banner_image
+  label: banner_image
+- type: text
+  name: layout
+  label: layout
+pages:
+- _posts/2019-07-01-titill.md

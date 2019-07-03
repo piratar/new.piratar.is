@@ -1,0 +1,9 @@
+lang:
+  - is:
+    label: is
+    title: Íslenska
+    url: /
+  - en:
+    label: en
+    title: English
+    url: /en
