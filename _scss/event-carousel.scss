@@ -1,0 +1,31 @@
+@import "colors";
+
+.events {
+    padding: 35px 1em 50px;
+    @media (min-width: 768px) {
+        padding: 4em 5em 8em;
+    }
+    .swiper-slide {
+        background: $pirate-purple;
+        padding: 1.5em;
+        color: $pirate-white;
+        &.swiper-slide-active {
+            background-color: lighten($pirate-purple, 20%);
+        }
+        &.swiper-slide-next {
+            background-color: lighten($pirate-purple, 10%);
+        }
+    }
+
+    .event-box {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 200px;
+        .link {
+            margin: 10px 0;
+        }
+    }
+}
+

@@ -1,9 +1,15 @@
 
 @import "colors";
 
+html {
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: proxima-nova, sans-serif;
+}
 body {
     background-color: $pirate-black;
-    font-family: proxima-nova, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -16,5 +22,8 @@ a {
     }
     &.cta {
         color: $pirate-orange;
+    }
+    &.gray {
+        color: $pirate-gray;
     }
 }

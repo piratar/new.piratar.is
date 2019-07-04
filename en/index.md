@@ -1,5 +1,5 @@
 ---
 title: Front page
-layout: default
+layout: frontpage
 lang: en
 ---

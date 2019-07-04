@@ -1,0 +1,10 @@
+---
+layout: default
+---
+{% assign events=site.events | where:"lang", page.lang  %}
+{% if events.size > 0 %}
+
+    {% include event-carousel.html events=events %}
+
+{% endif %}
+

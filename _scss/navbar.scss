@@ -5,6 +5,14 @@
     .navbar {
         .lang-nav {
             margin-bottom: 20px;
+            a {
+                font-size: 14px;
+                color: $pirate-gray;
+                &.active {
+                    color: $pirate-orange;
+                }
+            }
+
         }
         .nav-options {
             padding-left: 16px;
@@ -13,7 +21,7 @@
         }
         .pirate-nav {
             .nav-item {
-                padding: 10px 50px 14px 0px;
+                padding: 10px 60px 14px 0px;
             }
         }
         .dropdown {
@@ -21,9 +29,24 @@
                 display: block;
             }
             .dropdown-menu {
+                box-shadow: inset 0px 30px 25px -25px $pirate-dark-black;
+                border: 0;
                 border-radius: 0;
-                z-index: -1;
+                padding: 40px 10px 20px 4px;
+                .dropdown-item {
+                    padding: 0.75rem 1.5rem;
+                    font-size: 14px;
+                    &:hover {
+                        color: inherit;
+                        background-color: inherit;
+                        text-decoration: underline;
+                    }
+                }
             }
         }
     }
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }

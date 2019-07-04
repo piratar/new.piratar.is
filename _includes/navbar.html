@@ -27,7 +27,7 @@ Displays the site's navigation
           {% for link in site.data.navigation.[page.lang] %}
           {% if link.sub %}
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link" id="navbarDropdown" role="button"
+            <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               {{ link.title }}
             </a>

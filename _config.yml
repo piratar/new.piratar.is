@@ -8,3 +8,11 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
+collections:
+  events:
+    output: true
+t:
+  is:
+    see_event: Skoða viðburð
+  en:
+    see_event: Read more
