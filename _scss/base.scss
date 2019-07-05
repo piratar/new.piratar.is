@@ -1,29 +1,28 @@
-
 @import "colors";
 
 html {
-    line-height: 1.5;
-    font-size: 16px;
-    font-family: proxima-nova, sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: proxima-nova, sans-serif;
 }
 body {
-    background-color: $pirate-black;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  background-color: $pirate-black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
+  color: $pirate-white;
+  &:hover {
     color: $pirate-white;
-    &:hover {
-        color: $pirate-white;
-    }
-    &.active {
-        color: $pirate-orange;
-    }
-    &.cta {
-        color: $pirate-orange;
-    }
-    &.gray {
-        color: $pirate-gray;
-    }
+  }
+  &.active {
+    color: $pirate-orange;
+  }
+  &.cta {
+    color: $pirate-orange;
+  }
+  &.gray {
+    color: $pirate-gray;
+  }
 }
