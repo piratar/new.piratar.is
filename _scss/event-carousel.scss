@@ -1,10 +1,8 @@
 @import "colors";
 
 .events {
-  padding: 35px 1em 50px;
-  @media (min-width: 768px) {
-    padding: 4em 5em 8em;
-  }
+  position: relative;
+  max-width: 1300px;
   .swiper-slide {
     background: $pirate-purple;
     padding: 1.5em;

@@ -1,6 +1,9 @@
 ---
 layout: default
 ---
+
+{% include hero.html %}
+
 {% assign events=site.events | where:"lang", page.lang  %}
 {% if events.size > 0 %}
 

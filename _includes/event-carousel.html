@@ -1,20 +1,18 @@
 <section class="events container-fluid mt-5">
-  <div class="swiper-outer">
-    <div class="row">
-      <div class="swiper-button prev col-lg-1"></div>
-      <div class="swiper-container event-carousel col-xs-12 col-lg-10">
-        <div class="swiper-wrapper">
-          {% for event in include.events %}
-          <div class="swiper-slide">
-            <div class="event-box">
-              <h3>{{ event.title }}</h3>
-              <a class="link" href="{{ event.url }}">{{ site.t[page.lang].see_event }}</a>
-            </div>
-          </div>
-          {% endfor %}
+  <div class="swiper-container container">
+    <div class="swiper-wrapper">
+      {% for event in include.events %}
+      <div class="swiper-slide">
+        <div class="event-box">
+          <h3>{{ event.title }}</h3>
+          <a class="link" href="{{ event.url }}">{{ site.t[page.lang].see_event }}</a>
         </div>
       </div>
-      <div class="swiper-button next col-lg-1"></div>
+      {% endfor %}
     </div>
+
   </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+
 </section>
