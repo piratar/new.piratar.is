@@ -33,13 +33,13 @@ Displays the site's navigation
             {% for link in site.data.navigation.[page.lang] %}
             {% if link.sub %}
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link text-uppercase" id="navbarDropdown" role="button" data-toggle="dropdown"
+              <a href="#" class="nav-link" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 {{ link.title }}
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {% for child in link.sub %}
-                <a href="{{ child.url | absolute_url }}" class="dropdown-item text-uppercase">
+                <a href="{{ child.url | absolute_url }}" class="dropdown-item">
                   {{ child.title }}
                 </a>
                 {% endfor %}
@@ -47,7 +47,7 @@ Displays the site's navigation
             </li>
             {% else %}
             <li class="nav-item">
-              <a class="nav-link text-uppercase {% if link.cta %} cta {% endif %}" href="{{ link.url | absolute_url }}">
+              <a class="nav-link {% if link.cta %} cta {% endif %}" href="{{ link.url | absolute_url }}">
                 {{ link.title }}
               </a>
             </li>

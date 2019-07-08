@@ -23,28 +23,29 @@
     .pirate-nav {
       .nav-item {
         padding: 10px 32px 14px 32px;
-        font-size: 18px;
-        font-weight: 300;
+        font-size: 20px;
+        font-weight: 700;
       }
     }
     .dropdown {
-      &:hover .dropdown-menu {
-        opacity: 1;
-        visibility: visible;
-      }
       .dropdown-menu {
         box-shadow: inset 5px 20px 25px -15px $pirate-dark-black;
         border: 0;
         border-radius: 0;
-        padding: 30px 80px 20px 0px;
-        transition: all 0.4s ease;
+        padding: 25px 8px 10px 10px;
+        transition: all 0.2s ease-in;
         opacity: 0;
+        left: 10px;
         display: block;
         visibility: hidden;
+        &.show {
+          opacity: 1;
+          visibility: visible;
+        }
         .dropdown-item {
           padding: 0.75rem 1.5rem;
           font-size: 14px;
-          font-weight: 300;
+          font-weight: 500;
           &:hover {
             color: inherit;
             background-color: transparent;
