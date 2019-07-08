@@ -1,14 +1,13 @@
 @import "colors";
 
-html {
-  line-height: 1.5;
-  font-size: 16px;
-  font-family: proxima-nova, sans-serif;
-}
 body {
   background-color: $pirate-black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: proxima-nova, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+
 }
 
 a {
