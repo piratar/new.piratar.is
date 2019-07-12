@@ -8,11 +8,13 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
-collections:
-  events:
-    output: true
 t:
   is:
-    see_event: Skoða viðburð
+    share_event: Deila með vini
+    add_to_calendar: Setja í dagatal
+    register_event: Skrá mig á viðburð
   en:
-    see_event: Read more
+    share_event: Share with a friend
+    add_to_calendar: Add to calendar
+    register_event: Register
+

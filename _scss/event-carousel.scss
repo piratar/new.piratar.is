@@ -4,25 +4,87 @@
   position: relative;
   max-width: 1300px;
   .swiper-slide {
-    background: $pirate-purple;
-    padding: 1.5em;
-    color: $pirate-white;
+    background: $pirate-white;
+    padding: 1em 1.5em;
+    color: $pirate-black;
+    width: 360px;
+    height: auto;
     &.swiper-slide-active {
-      background-color: lighten($pirate-purple, 20%);
+      background-color: lighten($pirate-white, 4%);
     }
     &.swiper-slide-next {
-      background-color: lighten($pirate-purple, 10%);
+      background-color: lighten($pirate-white, 2%);
     }
   }
 
-  .event-box {
+  .event-card {
     height: 100%;
+    min-height: 200px;
+    padding: 1em;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 200px;
-    .link {
-      margin: 10px 0;
+    .time {
+      font-size: 18px;
+      color: $pirate-gray;
+      font-weight: 100;
     }
+    .date {
+      color: $pirate-orange;
+      line-height: 1;
+      text-align: right;
+      .month {
+        font-size: 20px;
+      }
+      .day {
+        font-size: 30px;
+        font-weight: 100;
+      }
+    }
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .location {
+      font-size: 14px;
+    }
+    .description {
+      font-size: 18px;
+      color: $pirate-gray;
+      font-weight: 100;
+    }
+    .msg-btn {
+      font-size: 18px;
+      font-weight: 100;
+      color: $pirate-gray;
+    }
+    .cal-btn {
+      font-size: 18px;
+      width: 100%;
+      border-color: $pirate-orange;
+      color: $pirate-orange;
+      border-radius: 0;
+    }
+
+    .icon-btn {
+      display: flex;
+      align-items: center;
+      .icon {
+        margin-right: 12px;
+      }
+    }
+    .register-btn {
+      font-size: 18px;
+      width: 100%;
+      background-color: $pirate-orange;
+      border-color: $pirate-orange;
+      border-radius: 0;
+      color: $pirate-white;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .calendar {
+    display: none;
   }
 }

@@ -1,18 +1,66 @@
-<section class="events container-fluid mt-5">
-  <div class="swiper-container container">
-    <div class="swiper-wrapper">
-      {% for event in include.events %}
-      <div class="swiper-slide">
-        <div class="event-box">
-          <h3>{{ event.title }}</h3>
-          <a class="link" href="{{ event.url }}">{{ site.t[page.lang].see_event }}</a>
+<section class="events container-fluid mt-5 mb-5">
+  <script type="text/template" data-template="event-modal">
+    <div class="modal" id="modal-${id}">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Add to calendar</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div>${ical}</div>
+              <div>${gcal}</div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </script>
+  <script type="text/template" data-template="event">
+      <div class="swiper-slide" id="slide-${id}">
+        <div class="event-card">
+          <div class="row justify-content-between">
+            <div class="time">${time}</div>
+            <div class="date">
+              <div class="month">${date}</div>
+              <div class="day text-uppercase">${day}</div>
+            </div>
+          </div>
+          <div class="row flex-grow-1 ">
+            <h3 class="title">${title}</h3>
+          </div>
+          <div class="row description">
+            ${description}
+          </div>
+          <div class="row location mt-3 mb-3 flex-grow-1">
+            ${location}
+          </div>
+          <div class="share mt-3">
+            <div class="row messenger">
+              <button href="" class="btn btn-outline-* msg-btn icon-btn">                
+                <img class="icon" height="22px" src={{ "/assets/img/messenger.svg" | absolute_url }}>
+                <span>{{ site.t[page.lang].share_event }}</span>
+              </button>
+            </div>
+            <div class="row calendar mt-2">
+              <button type="button" class="btn btn-outline-* text-left cal-btn icon-btn" data-toggle="modal" data-target="#modal-${id}">
+                <img class="icon" height="22px" src={{ "/assets/img/mail.svg" | absolute_url }}>
+                <span >{{ site.t[page.lang].add_to_calendar }}</span
+              </button>
+            </div>
+            <div class="row register mt-3">
+              <button type="button" class="btn btn-* register-btn" id="register-${id}">{{ site.t[page.lang].register_event }}</button>
+            </div>
+          </div>
         </div>
       </div>
-      {% endfor %}
+  </script>
+  <div class="swiper-container container">
+    <div class="swiper-wrapper">
     </div>
-
   </div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-
 </section>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
