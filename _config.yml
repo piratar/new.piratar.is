@@ -17,4 +17,7 @@ t:
     share_event: Share with a friend
     add_to_calendar: Add to calendar
     register_event: Register
-
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
