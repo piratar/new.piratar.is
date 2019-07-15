@@ -7,7 +7,7 @@
     background: $pirate-white;
     padding: 1em 1.5em;
     color: $pirate-black;
-    width: 360px;
+    max-width: 360px;
     height: auto;
     &.swiper-slide-active {
       background-color: lighten($pirate-white, 4%);
