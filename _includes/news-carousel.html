@@ -1,41 +1,25 @@
 <section class="news container-fluid mt-5 mb-5">
-    <div class="swiper-container container">
-        <div class="swiper-wrapper">
-            {% assign size=site.posts.size | times: 2 | divided_by: 3 %}
-            {% assign last=site.posts.size | minus: 1 %}
-            {% assign split=false %}
-            {% assign index=0 %}            
-            {% for counter in (0..size) %}
-            {% if split==true and index<last %}
-                <div class="swiper-slide split">
-                    <div class="news-box">
-                        <h3 class=title>{{ site.posts[index].title }}</h3>
-                        <a class="link">Link</a>
-                    </div>
-                    {% assign index=index | plus:1 %}
-                    {% if index<site.posts.size %}
-                    <div class="news-box">
-                        <h3 class=title>{{ site.posts[index].title }}</h3>
-                        <a class="link">Link</a>
-                    </div>
-                    {% endif %}
-                </div>
-                {% assign split=false %}
-            {% elsif index<site.posts.size %}
-                <div class="swiper-slide">
-                    <div class="news-box">
-                        <h3 class=title> {{site.posts[index].title}}</h3>
-                        <a class="link">Link</a>
-                    </div>
-                </div>
-                {% assign split=true %}
-            {% endif %}
-            {% assign index=index | plus:1 %}
-            {% endfor %}
-
+  <script type="text/template" data-template="post">
+      <div class="swiper-slide">
+        <div class="news-card">
+          <h3 class="title">${title}</h3>
         </div>
+      </div>
+    </script>
+  <script type="text/template" data-template="post-split">
+    <div class="swiper-slide split">
+      <div class="news-card">
+        <h3 class=title>${title}</h3>
+      </div>
+      <div class="news-card">
+        <h3 class=title>${title}</h3>
+      </div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-
+  </script>
+  <div class="swiper-container container">
+    <div class="swiper-wrapper">
+    </div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 </section>
