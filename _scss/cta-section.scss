@@ -1,0 +1,12 @@
+@import "colors";
+section.call-to-action {
+    background-color: $pirate-dark-black;
+    .btn {
+        padding: 1em;
+        h2 {
+            font-family: refrigerator-deluxe, sans-serif;
+            font-size: 3rem;
+            font-weight: 400;
+        }
+    }
+}

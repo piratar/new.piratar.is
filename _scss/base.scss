@@ -18,10 +18,11 @@ a {
   &.active {
     color: $pirate-orange;
   }
-  &.cta {
-    color: $pirate-orange;
-  }
+
   &.gray {
     color: $pirate-gray;
   }
+}
+.cta {
+  color: $pirate-orange;
 }
