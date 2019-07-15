@@ -1,10 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="{{ page.lang }}">
 <head>
+  {% seo %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }} - {{ site.title.[page.lang] }}</title>
-  <meta name="description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description.[page.lang] }}{% endif %}">
   <meta name="viewport" content="width=device-  width, initial-scale=1">
   <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absolute_url }}"/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
