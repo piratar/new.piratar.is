@@ -1,20 +1,17 @@
 .news {
-    position: relative;
-    max-width: 1300px;
-    .swiper-slide {
-        width: 250px;
-        height: 350px;
-        &.split {
-            height: 450px;
-            .news-card {
-                height: calc(50% - 30px);
-                margin-top: 30px;
-            }
-        }
+  position: relative;
+  max-width: 1300px;
+  .swiper-slide {
+    background: $pirate-purple;
+    padding: 1em 1.5em;
+    color: $pirate-black;
+    max-width: 360px;
+    margin-right: 30px;
+    height: auto;
+
+    @media (max-width: 420px) {
+      margin-right: 10px;
+      max-width: 300px;
     }
-    .news-card {
-        background: $pirate-purple;
-        height: 100%;
-        margin: 65px 0 20px;
-    }
+  }
 }

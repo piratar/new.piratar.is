@@ -6,18 +6,6 @@ $(document).ready(function () {
   }
 });
 
-const setupEventCarousel = () => {
-  return new Swiper('.events .swiper-container', {
-    slidesPerView: 3,
-    freeMode: true,
-    slidesPerView: 'auto',
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-}
-
 const getEvents = (url, token, organizer, callback) => {
   $.ajax({
     url: url,
@@ -35,7 +23,7 @@ const getEvents = (url, token, organizer, callback) => {
 }
 
 const addEvents = (events) => {
-  const eventSwiper = setupEventCarousel();
+  const eventSwiper = setupCarousel('.events');
   const language = document.documentElement.lang;
   const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
   for (let event of events) {

@@ -42,7 +42,7 @@ const getPosts = (wp, callback) => {
   });
 }
 const addPosts = (posts) => {
-  const newsSwiper = setupNewsCarousel();
+  const newsSwiper = setupCarousel('.news');
   posts.sort((a, b) => (a.date < b.date) ? 1 : -1);
   const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
   for (let index in posts) {
