@@ -40,7 +40,6 @@ function addEvents(events) {
   const eventSwiper = setupCarousel();
   const language = document.documentElement.lang;
   const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
-  const modalTpl = $('script[data-template="event-modal"]').text().split(/\$\{(.+?)\}/g);
   for (let event of events) {
     let start = new Date(event.start.local);
     let time = formatTime(start);
@@ -55,7 +54,7 @@ function addEvents(events) {
     };
     item['ical'] = calendarGenerators.ical(item);
     item['gcal'] = calendarGenerators.google(item);
-    $('body').append(modalTpl.map(render(item)).join(''));
+    item['outlook'] = calendarGenerators.outlook(item);
     eventSwiper.appendSlide(eventTpl.map(render(item)).join(''));
     createWidget(event.id);
   }
@@ -102,7 +101,7 @@ const calendarGenerators = {
       '&location=' + (event.location || ''),
       '&sprop=&sprop=name:'
     ].join(''));
-    return '<a class="icon-google" target="_blank" href="' +
+    return '<a class="dropdown-item icon-google" target="_blank" href="' +
       href + '">Google Calendar</a>';
   },
 
@@ -123,12 +122,12 @@ const calendarGenerators = {
         'END:VEVENT',
         'END:VCALENDAR'].join('\n'));
 
-    return '<a class="' + eClass + '" target="_blank" href="' +
-      href + '">' + calendarName + ' Calendar</a>';
+    return '<a class="dropdown-item d-none d-lg-block ' + eClass + '" target="_blank" href="' +
+      href + '">' + calendarName + '</a>';
   },
 
   ical: function (event) {
-    return this.ics(event, 'icon-ical', 'iCal');
+    return this.ics(event, 'icon-ical', 'Apple Calendar');
   },
 
   outlook: function (event) {

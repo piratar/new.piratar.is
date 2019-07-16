@@ -7,7 +7,6 @@ body {
   font-family: proxima-nova, sans-serif;
   font-style: normal;
   font-size: 16px;
-
 }
 
 a {
@@ -25,4 +24,22 @@ a {
 }
 .cta {
   color: $pirate-orange;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.dropdown, .dropup {
+  .dropdown-menu {
+    border-radius: 0;
+
+    .dropdown-item {
+      padding: 0.75rem 1.5rem;
+      &:hover {
+        color: inherit;
+        background-color: transparent;
+      }
+    }
+  }
 }

@@ -9,12 +9,6 @@
     color: $pirate-black;
     max-width: 360px;
     height: auto;
-    &.swiper-slide-active {
-      background-color: lighten($pirate-white, 4%);
-    }
-    &.swiper-slide-next {
-      background-color: lighten($pirate-white, 2%);
-    }
   }
 
   .event-card {
@@ -65,11 +59,28 @@
       border-radius: 0;
     }
 
+    .dropdown-menu {
+      width: 100%;
+      border-radius: 0px;
+      background-color: lighten($pirate-white, 2%);
+      a:hover {
+        background-color: inherit;
+      }
+    }
+
     .icon-btn {
       display: flex;
       align-items: center;
       .icon {
         margin-right: 12px;
+        height: 22px;
+        width: 22px;
+        &.icon-messenger {
+          background-image: url("/assets/img/messenger.svg");
+        }
+        &.icon-mail {
+          background-image: url("/assets/img/mail.svg");
+        }
       }
     }
     .register-btn {
@@ -80,11 +91,5 @@
       border-radius: 0;
       color: $pirate-white;
     }
-  }
-}
-
-@media (max-width: 991px) {
-  .calendar {
-    display: none;
   }
 }
