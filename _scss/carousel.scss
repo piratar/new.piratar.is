@@ -1,3 +1,11 @@
 .swiper-button-disabled {
     display: none;
 }
+
+.swiper-button-next {
+    background-image: url("/assets/img/arrow-right.svg");
+}
+
+.swiper-button-prev {
+    background-image: url("/assets/img/arrow-left.svg");
+}

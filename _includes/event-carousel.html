@@ -26,9 +26,12 @@
               </button>
             </div>
             <div class="row dropup calendar mt-2">
-              <button id="calendarDropdown" type="button" class="btn btn-outline-* text-left cal-btn icon-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <div class="icon icon-mail"></div>
-                <span >{{ site.data.translations[page.lang].add_to_calendar }}</span>
+              <button id="calendarDropdown" type="button" class="btn btn-outline-* justify-content-between cal-btn icon-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div class="d-flex flex-row">
+                  <div class="icon icon-mail"></div>
+                  <span >{{ site.data.translations[page.lang].add_to_calendar }}</span>
+                </div>
+                <div class="icon icon-arrow-down"></div>
               </button>
               <div class="dropdown-menu" aria-labelledby="calendarDropdown">
                   ${ical}

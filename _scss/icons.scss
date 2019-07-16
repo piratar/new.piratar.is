@@ -1,0 +1,17 @@
+.icon {
+    margin-right: 12px;
+    height: 22px;
+    width: 22px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &.icon-messenger {
+      background-image: url("/assets/img/messenger.svg");
+    }
+    &.icon-mail {
+      background-image: url("/assets/img/mail.svg");
+    }
+    &.icon-arrow-down {
+      background-image: url("/assets/img/arrow-down.svg");
+      height: 12px;
+    }
+}
