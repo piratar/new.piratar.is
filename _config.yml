@@ -4,19 +4,6 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
-t:
-  is:
-    share_event: Deila með vini
-    add_to_calendar: Setja í dagatal
-    register_event: Skrá mig á viðburð
-    newsletter_signup: Skrá mig á póstlista
-    join_party: Skrá mig í flokkinn
-  en:
-    share_event: Share with a friend
-    add_to_calendar: Add to calendar
-    register_event: Register
-    newsletter_signup: Subscribe to newsletter
-    join_party: Join the party
 plugins:
   - jekyll-sitemap
   - jekyll-feed
