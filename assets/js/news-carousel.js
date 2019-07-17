@@ -1,54 +1,82 @@
-var posts = {{ site.posts | limit: 5 | jsonify }};
-var wps = [{ 'url': 'https://piratar.is', 'loaded': false }];
+
+const newsfeed = [];
 
 $(document).ready(function () {
   if ($('section.news').length) {
-    for (wp in wps) {
-      getPosts(wps[wp]);
-    }
+    renderPosts();
+    feeds.forEach(feed => {
+      feedGenerator[feed.origin](feed);
+    });
   }
 });
 
-const setupNewsCarousel = () => {
-  return new Swiper('.news .swiper-container', {
-    freeMode: true,
-    slidesPerView: 'auto',
-    spaceBetween: 30,
-    navigation: {
-      nextEl: '.news .swiper-button-next',
-      prevEl: '.news .swiper-button-prev',
-    },
-  });
+const renderPosts = () => {
+  const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
+  {% for post in site.posts | limit: 5 %}
+  var html = postTpl.map(render({ "title": "{{ post.title }}" })).join('');;
+  newsfeed.push({ 'date': "{{ post.date }}", 'html': html });
+  {% endfor %}
 }
 
-const getPosts = (wp, callback) => {
+
+
+var feeds = [
+  { 'url': 'https://piratar.is/wp-json/wp/v2/posts', 'origin': 'wp' },
+  { 'url': 'https://api.spreaker.com/v2/users/piratapodcast/episodes', 'origin': 'spreaker' }
+];
+
+var feedGenerator = {
+  wp: function (feed) {
+    getPosts(feed, { 'per_page': 5 }, renderWp);
+  },
+  spreaker: function (feed) {
+    getPosts(feed, { 'limit': 5 }, renderSpreaker);
+  },
+};
+
+const loadFeed = (data, feed, render) => {
+  feed.loaded = true;
+  if (data) {
+    render(data, feed);
+  }
+  showNewsfeed();
+};
+
+const renderWp = (data, feed) => {
+  const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
+  data.forEach(wp => {
+    let html = postTpl.map(render({ 'title': wp.title.rendered })).join('')
+    newsfeed.push({ 'date': wp.date, 'html': html });
+  });
+};
+
+const renderSpreaker = (data, feed) => {
+  const spreakerTpl = $('script[data-template="spreaker"]').text().split(/\$\{(.+?)\}/g);
+  data.response.items.forEach(podcast => {
+    let html = spreakerTpl.map(render({ 'title': podcast.title })).join('')
+    newsfeed.push({ 'date': podcast.published_at, 'html': html });
+  });
+};
+
+const getPosts = (feed, data, callback) => {
   $.ajax({
-    url: wp.url + '/wp-json/wp/v2/posts',
-    data: { per_page: 5 },
+    url: feed.url,
+    data: data,
     type: 'GET',
     dataType: 'json',
-    success: function (data) {
-      wp.loaded = true;
-      posts = posts.concat(data);
-      if (wps.every(p => p.loaded)) {
-        addPosts(posts);
-      }
+    success: function (response) {
+      loadFeed(response, feed, callback);
     }, error: function (error) {
-      wp.loaded = true;
-      if (wps.every(p => p.loaded)) {
-        addPosts(posts);
-      }
+      loadFeed(false, feed, callback);
     },
   });
 }
-const addPosts = (posts) => {
-  const newsSwiper = setupCarousel('.news');
-  posts.sort((a, b) => (a.date < b.date) ? 1 : -1);
-  const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
-  for (let index in posts) {
-    const post = posts[index];
-    const title = post.title.rendered || post.title;
-
-    newsSwiper.appendSlide(postTpl.map(render({'title': title})).join(''));
+const showNewsfeed = () => {
+  if (feeds.every(f => f.loaded)) {
+    const newsSwiper = setupCarousel('.news');
+    newsfeed.sort((a, b) => (a.date < b.date) ? 1 : -1);
+    newsfeed.forEach(n => {
+      newsSwiper.appendSlide(n.html);
+    });
   }
 };
