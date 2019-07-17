@@ -12,6 +12,12 @@
     }
     &.icon-arrow-down {
       background-image: url("/assets/img/arrow-down.svg");
-      height: 12px;
+      height: 14px;
+      width: 26px;
+    }
+    &.icon-arrow-up {
+      background-image: url("/assets/img/arrow-up.svg");
+      height: 14px;
+      width: 26px;
     }
 }

@@ -72,6 +72,21 @@
       display: flex;
       align-items: center;
     }
+
+    .dropup {
+      .icon-arrow-up {
+        display: none;
+      }
+      &.show {
+        .icon-arrow-up {
+          display: block;
+        }
+        .icon-arrow-down {
+          display: none;
+        }
+      }
+    }
+
     .register-btn {
       font-size: 18px;
       width: 100%;

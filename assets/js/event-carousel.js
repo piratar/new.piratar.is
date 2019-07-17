@@ -42,14 +42,15 @@ function addEvents(events) {
   const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
   for (let event of events) {
     let start = new Date(event.start.local);
-    let time = formatTime(start);
+    let end = new Date(event.end.local)
+    let time = formatTime(start, end);
     let date = formatDate(start);
     let day = start.toLocaleDateString(language, { weekday: 'long' }).slice(0, 3);
     let title = event.name.text;
     let description = event.description.text;
     let location = event.venue.name;
     let item = {
-      id: event.id, start: start, end: start, time: time, date: date,
+      id: event.id, start: start, end: end, time: time, date: date,
       day: day, title: title, description: description, location: location,
     };
     item['ical'] = calendarGenerators.ical(item);
@@ -74,10 +75,13 @@ const render = (props) => (tok, i) =>
 
 const leadingZero = (num) => `0${num}`.slice(-2);
 
-const formatTime = (date) =>
-  [date.getHours(), date.getMinutes()]
-    .map(leadingZero)
-    .join(':');
+const formatTime = (start, end) => {
+  const format = (date) =>
+    [date.getHours(), date.getMinutes()]
+      .map(leadingZero)
+      .join(':');
+  return format(start) + ' - ' + format(end);
+}
 
 const formatDate = (date) =>
   [date.getDate(), date.getMonth() + 1]
