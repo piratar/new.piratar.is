@@ -5,6 +5,11 @@
     .container-fluid {
       padding-right: 0;
     }
+    .navbar-brand {
+      img {
+        height: 65px
+      }
+    }
     .lang-nav {
       padding: 10px 32px;
       justify-content: end;
@@ -56,6 +61,12 @@
       height: 100%;
       z-index: -1;
     }
+    .navbar-brand {
+      padding-left: 0.3125rem;
+      img {
+        height: 50px;
+      }
+    }
     .nav-options {
       background-color: $pirate-black;
     }
@@ -86,7 +97,6 @@
       }
     }
     .navbar-toggler {
-      padding-top: 17px;
       &:not(.collapsed) {
         .icon-bar {
           &:nth-child(1) {
