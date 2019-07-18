@@ -1,9 +1,18 @@
 <section class="news container-fluid mt-5 mb-5">
   <script type="text/template" data-template="post">
-    <div class="swiper-slide">
-      <div class="news-card">
-        <h3 class="title">${title}</h3>
-      </div>
+    <div class="swiper-slide" style="background-image:url('${image}');">
+      <a href="${url}" class="news-card d-flex flex-column justify-content-between">
+        <div class="row upper">
+          <div class="category">Fræðsla</div>
+        </div>
+        <div class="lower flex-column d-flex">
+          <span class="row date">${date}</span>
+          <div class="row title">
+            <h3 class="w-100 text-uppercase">${title}</h3>
+          </div>
+          <span class="row summary">${summary}</span>
+        </div>
+      </a>
     </div>
   </script>
   <script type="text/template" data-template="spreaker">

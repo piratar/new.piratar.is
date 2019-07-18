@@ -10,7 +10,6 @@ const setupCarousel = (selector) => {
   let swiper = new Swiper(selector + ' .swiper-container', {
     freeMode: true,
     slidesPerView: 'auto',
-    spaceBetween: 30,
     navigation: {
       nextEl: nextEl,
       prevEl: prevEl,

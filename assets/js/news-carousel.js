@@ -13,7 +13,14 @@ $(document).ready(function () {
 const renderPosts = () => {
   const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
   {% for post in site.posts | limit: 5 %}
-  var html = postTpl.map(render({ "title": "{{ post.title }}" })).join('');;
+  var item = {
+    'title': '{{ post.title }}',
+    'date': '{{ post.date | date: "%d/%m/%y" }}',
+    'summary': '{{ post.sub_heading }}',
+    'image': '{{ post.image }}',
+    'url': '{{ post.url }}',
+  };
+  var html = postTpl.map(render(item)).join('');;
   newsfeed.push({ 'date': "{{ post.date }}", 'html': html });
   {% endfor %}
 }
