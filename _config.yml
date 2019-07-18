@@ -115,6 +115,8 @@ defaults:
       path: "_staff/en"
     values:
       lang: en
+facebook:
+  app_id: 1234567
 plugins:
   - jekyll-sitemap
   - jekyll-feed
