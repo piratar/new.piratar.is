@@ -60,7 +60,7 @@ const renderWp = (data, feed) => {
 const renderSpreaker = (data, feed) => {
   const spreakerTpl = $('script[data-template="spreaker"]').text().split(/\$\{(.+?)\}/g);
   data.response.items.forEach(podcast => {
-    let html = spreakerTpl.map(render({ 'title': podcast.title })).join('')
+    let html = spreakerTpl.map(render({ 'title': podcast.title, 'url': podcast.playback_url })).join('')
     newsfeed.push({ 'date': podcast.published_at, 'html': html });
   });
 };
