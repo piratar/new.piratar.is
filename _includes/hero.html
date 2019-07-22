@@ -2,11 +2,16 @@
   <div class="swiper-container">
     <div class="swiper-wrapper">
       {% for hero in site.data.hero %}
-      <div class="swiper-slide" style="background-image: url('{{ hero.image }}');">
-        <div class="hero-card">
-          {{ hero.url }}
+        {% if hero.url %}
+        <a href="{{ hero.url }}" class="swiper-slide" style="background-image: url('{{ hero.image }}');">
+        {% else %}
+        <div class="swiper-slide" style="background-image: url('{{ hero.image }}');">
+        {% endif %}
+        {% if hero.url %}
+        </a>
+        {% else %}
         </div>
-      </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
