@@ -37,6 +37,7 @@
   }
   .lower {
     padding: 0 1.5rem;
+    box-shadow: 0 -55px 40px 40px rgba(77, 77, 77, 0.33), inset 0px 60px 60px 10px rgba(77, 77, 77, 0.33);
     .title {
       &:after {
         background-color: $pirate-orange;
