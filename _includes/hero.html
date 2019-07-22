@@ -1,2 +1,13 @@
-<section class="hero container">
+<section class="hero">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      {% for hero in site.data.hero %}
+      <div class="swiper-slide" style="background-image: url('{{ hero.image }}');">
+        <div class="hero-card">
+          {{ hero.url }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
