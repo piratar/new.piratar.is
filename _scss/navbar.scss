@@ -79,7 +79,6 @@
     .pirate-nav {
       li {
         border-top: 1px solid #616467;
-
         > a {
           padding: 25px 15px 25px 30px;
           color: $pirate-white;
@@ -123,6 +122,14 @@
         display: block;
         background: $pirate-white;
       }
+    }
+  }
+}
+
+.pirate-nav {
+  .nav-item:last-child {
+    a {
+      color: $pirate-orange;
     }
   }
 }

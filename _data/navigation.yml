@@ -1,47 +1,47 @@
-is:
-  - title: Fréttir
-    sub:
-      - title: Viðburðir
-        url: /events
-      - title: Fréttir
-        url: /posts
-      - title: Beint
-        url: /live
-      - title: Hlaðvarp
-        url: /podcast
-  - title: Fólkið
-    sub:
-      - title: Þingflokkur
-        url: /thingflokkur
-  - title: Um Pírata
-    sub:
-      - title: Stefna
-        url: /stefna
-  - title: Verslun
-    url: /verslun
-    cta: true
-
-en:
-  - title: News
-    sub:
-      - title: Events
-        url: /events
-      - title: News
-        url: /posts
-      - title: Live
-        url: /live
-      - title: Podcasts
-        url: /podcast
-  - title: Our people
-    sub:
-      - title: Þingflokkur
-        url: /thingflokkur
-  - title: About us
-    sub:
-      - title: Policy
-        url: /stefna
-  - title: Verslun
-    url: /verslun
-    cta: true
-
-      
+navigation:
+  'is':
+    - title: Fréttir
+      sub:
+        - title: Viðburðir
+          url: /events
+        - title: Fréttir
+          url: /posts
+        - title: Beint
+          url: /live
+        - title: Hlaðvarp
+          url: /podcast
+    - title: Fólkið
+      sub:
+        - title: Þingflokkur
+          url: /thingflokkur
+    - title: Um Pírata
+      sub:
+        - title: Stefna
+          url: /stefna
+    - title: Taka þátt
+      sub:
+        - title: Bóka viðburð
+          url: /boka-vidburd
+  'en':
+    - title: News
+      sub:
+        - title: Events
+          url: /events
+        - title: News
+          url: /posts
+        - title: Live
+          url: /live
+        - title: Podcasts
+          url: /podcast
+    - title: Our people
+      sub:
+        - title: Þingflokkur
+          url: /thingflokkur
+    - title: About us
+      sub:
+        - title: Policy
+          url: /stefna
+    - title: Participate
+      sub:
+        - title: Book an event
+          url: /book-event

@@ -19,17 +19,17 @@ Displays the site's navigation
       <div class="collapse navbar-collapse flex-md-column" id="navbar">
         <div class="nav-options ml-auto bottom-shadow">
           <ul class="navbar-nav lang-nav">
-            {% for language in site.data.languages.lang %}
+            {% for language in site.data.languages%}
             <li class="nav-item">
               <a href="{{ language.url }}"
-                class="nav-link text-uppercase {% if language.label == page.lang %} active {% endif %}">
-                {{ language.label }}
+                class="nav-link text-uppercase {% if language.key == page.lang %} active {% endif %}">
+                {{ language.key }}
               </a>
             </li>
             {% endfor %}
           </ul>
           <ul class="navbar-nav pirate-nav">
-            {% for link in site.data.navigation.[page.lang] %}
+            {% for link in site.data.navigation.navigation.[page.lang] %}
             {% if link.sub %}
             <li class="nav-item dropdown">
               <a href="#" class="nav-link" id="navbarDropdown-{{ forloop.index }}" role="button" data-toggle="dropdown"
