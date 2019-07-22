@@ -56,21 +56,6 @@ const createWidget = (id) => {
   });
 }
 
-const leadingZero = (num) => `0${num}`.slice(-2);
-
-const formatTime = (start, end) => {
-  const format = (date) =>
-    [date.getHours(), date.getMinutes()]
-      .map(leadingZero)
-      .join(':');
-  return format(start) + ' - ' + format(end);
-}
-
-const formatDate = (date) =>
-  [date.getDate(), date.getMonth() + 1]
-    .map(leadingZero)
-    .join('/');
-
 const formatCalTime = (date) =>
   date.toISOString().replace(/-|:|\.\d+/g, '');
 

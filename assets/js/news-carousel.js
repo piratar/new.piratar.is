@@ -1,4 +1,3 @@
-
 const newsfeed = [];
 
 $(document).ready(function () {
@@ -28,7 +27,7 @@ const renderPosts = () => {
 
 
 var feeds = [
-  { 'url': 'https://piratar.is/wp-json/wp/v2/posts', 'origin': 'wp' },
+  { 'url': 'https://piratar.is/wp-json/wp/v2/posts', 'origin': 'wp', 'image': '/assets/img/dora.jpg' },
   { 'url': 'https://api.spreaker.com/v2/users/piratapodcast/episodes', 'origin': 'spreaker' }
 ];
 
@@ -52,7 +51,15 @@ const loadFeed = (data, feed, render) => {
 const renderWp = (data, feed) => {
   const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
   data.forEach(wp => {
-    let html = postTpl.map(render({ 'title': wp.title.rendered })).join('')
+    let date = new Date(wp.date);
+    var item = {
+      'title': wp.title.rendered,
+      'summary': wp.excerpt.rendered,
+      'image': feed.image,
+      'url': wp.link,
+      'date': formatDateWithYear(date),
+    };
+    let html = postTpl.map(render(item)).join('')
     newsfeed.push({ 'date': wp.date, 'html': html });
   });
 };
@@ -60,7 +67,12 @@ const renderWp = (data, feed) => {
 const renderSpreaker = (data, feed) => {
   const spreakerTpl = $('script[data-template="spreaker"]').text().split(/\$\{(.+?)\}/g);
   data.response.items.forEach(podcast => {
-    let html = spreakerTpl.map(render({ 'title': podcast.title, 'url': podcast.playback_url })).join('')
+    let date = new Date(podcast.published_at);
+    let html = spreakerTpl.map(render({
+      'title': podcast.title,
+      'url': podcast.playback_url,
+      'date': formatDateWithYear(date),
+    })).join('')
     newsfeed.push({ 'date': podcast.published_at, 'html': html });
   });
 };
