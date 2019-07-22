@@ -27,6 +27,8 @@ is:
   see_all_articles: Sjá allar greinar
   preferences: Stillingar
   attachments: Viðhengi
+  cookie_consent: Þessi síða notar vafrakökur
+  more_info: Sjá nánar
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -56,9 +58,11 @@ en:
   see_all_articles: See all articles
   preferences: Preferences
   attachments: Attachments
+  cookie_consent: This site uses cookies
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
   register_event: Register
   newsletter_signup: Subscribe to newsletter
   join_party: Join the party
+  more_info: More info

@@ -1,0 +1,14 @@
+@import "colors";
+
+#cookie-policy {
+    padding: 24px 0;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: $pirate-dark-black;
+    color: $pirate-white;
+    font-weight: 500;
+    z-index: 10;
+  }
+  
