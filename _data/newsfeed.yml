@@ -6,9 +6,11 @@ wordpress:
     title: Píratar
     url: https://piratar.is/wp-json/wp/v2/posts
     image: /assets/img/dora.jpg
+    limit: 5
   
 spreaker:
   -
     title: Hlaðvarp
     url: https://api.spreaker.com/v2/users/piratapodcast/episodes
     image: /assets/img/dora.jpg
+    limit: 5

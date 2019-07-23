@@ -1,17 +1,20 @@
 const newsfeed = [];
+const feeds = {'wp': {{ site.data.newsfeed.wordpress | jsonify }}, 'spreaker': {{ site.data.newsfeed.spreaker | jsonify }} };
 
 $(document).ready(function () {
   if ($('section.news').length) {
     renderPosts();
-    feeds.forEach(feed => {
-      feedGenerator[feed.origin](feed);
-    });
+    for (var type in feeds) {
+      feeds[type].forEach(feed => {
+        feedGenerator[type](feed);
+      });
+    }
   }
 });
 
 const renderPosts = () => {
   const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
-  {% for post in site.posts | limit: 5 %}
+  {% for post in site.posts | limit: site.data.newsfeed.posts.limit %}
   var item = {
     'title': '{{ post.title }}',
     'date': '{{ post.date | date: "%d/%m/%y" }}',
@@ -24,19 +27,12 @@ const renderPosts = () => {
   {% endfor %}
 }
 
-
-
-var feeds = [
-  { 'url': 'https://piratar.is/wp-json/wp/v2/posts', 'origin': 'wp', 'image': '/assets/img/dora.jpg' },
-  { 'url': 'https://api.spreaker.com/v2/users/piratapodcast/episodes', 'origin': 'spreaker' }
-];
-
 var feedGenerator = {
   wp: function (feed) {
-    getPosts(feed, { 'per_page': 5 }, renderWp);
+    getPosts(feed, { 'per_page': feed.limit }, renderWp);
   },
   spreaker: function (feed) {
-    getPosts(feed, { 'limit': 5 }, renderSpreaker);
+    getPosts(feed, { 'limit': feed.limit }, renderSpreaker);
   },
 };
 
@@ -91,7 +87,7 @@ const getPosts = (feed, data, callback) => {
   });
 }
 const showNewsfeed = () => {
-  if (feeds.every(f => f.loaded)) {
+  if (allLoaded()) {
     const newsSwiper = setupCarousel('.news');
     newsfeed.sort((a, b) => (a.date < b.date) ? 1 : -1);
     newsfeed.forEach(n => {
@@ -99,3 +95,12 @@ const showNewsfeed = () => {
     });
   }
 };
+
+const allLoaded = () => {
+  for (var type in feeds) {
+    if (feeds[type].some(f => !f.loaded)) {
+      return false;
+    }
+  }
+  return true;
+}
