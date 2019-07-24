@@ -15,6 +15,10 @@ is:
   all_categories: Allt
   previous_posts: Nýrra efni
   next_posts: Eldra efni
+  id_number: Kennitala
+  account_number: Reikningsnúmer
+  email: Netfang
+  telephone: Sími
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -32,6 +36,10 @@ en:
   all_categories: Everything
   previous_posts: Previous
   next_posts: Next
+  id_number: ID Number
+  account_number: Bank account
+  email: Email
+  telephone: Phone number
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
