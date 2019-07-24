@@ -1,22 +1,41 @@
 ---
 layout: default
 ---
-{% comment %}
-	This layout is used to by posts.md to display all of documents in
-	the _posts/ collection
-{% endcomment %}
 
-{% for post in site.posts %}
-<div class="container pure-g">
-  <div class="pure-u-1">
-      <div class="content content-narrow">
-        <div class="list-layout">
-          <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-          <div>{{ post.content | truncatewords: 30 }}</div>
-          <date>{{ post.date | date_to_string }}</date>
+<script type="text/template" data-template="post">
+  <div class="post">
+    <a href="${url}" class="news-card d-flex flex-column justify-content-between">
+      <div class="row upper">
+        <div class="category">Fræðsla</div>
+      </div>
+      <div class="lower flex-column d-flex">
+        <span class="row date">${date}</span>
+        <div class="row title">
+          <h3 class="w-100 text-uppercase">${title}</h3>
+        </div>
+        <span class="row summary">${summary}</span>
+      </div>
+    </a>
+  </div>
+</script>
+<script type="text/template" data-template="spreaker">
+  <div class="spreaker">
+    <a href="${url}" target="_blank" class="news-card d-flex flex-column justify-content-between">
+      <div class="row upper">
+        <div class="category">Hlaðvarp</div>
+      </div>
+      <div class="lower flex-column d-flex">
+        <span class="row date">${date}</span>
+        <div class="row title">
+          <h3 class="w-100 text-uppercase">${title}</h3>
+        </div>
+        <div class="row">
+          <img height="22" src="/assets/img/spotify_icon.png" alt="Spotify"/>
         </div>
       </div>
-    </div>
+    </a>
   </div>
+</script>
+
+<div class="container newsfeed-posts">
 </div>
-{% endfor %}
