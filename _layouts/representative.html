@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<div class="container" style="color:white;">
+  <h2>Greinar</h2>
+  {% assign articles = site.articles | where:"category", page.category %}
+  {% for article in articles %}
+  <a href="{{ article.url }}">{{ article.title }}</a>
+  {% endfor %}
+</div>

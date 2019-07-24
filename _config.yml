@@ -4,6 +4,13 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
+collections:
+  representatives:
+    output: true
+    permalink: /fulltruar/:categories/
+  articles:
+    output: true
+    permalink: /fulltruar/:categories/:title/
 plugins:
   - jekyll-sitemap
   - jekyll-feed
