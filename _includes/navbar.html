@@ -16,8 +16,11 @@ Displays the site's navigation
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="collapse navbar-collapse flex-md-column" id="navbar">
-        <div class="nav-options ml-auto bottom-shadow">
+      <div class="collapse navbar-collapse justify-content-end" id="navbar">
+        <form class="form-inline my-2 my-lg-0" role="search" id="search-form">
+          <input id="search-box" class="form-control mr-sm-2" type="search" aria-label="Search" placeholder="Leita">
+        </form>
+        <div class="nav-options bottom-shadow">
           <ul class="navbar-nav lang-nav">
             {% for language in site.data.languages%}
             <li class="nav-item">
