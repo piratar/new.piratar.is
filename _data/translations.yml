@@ -4,12 +4,14 @@ is:
   register_event: Skrá mig á viðburð
   newsletter_signup: Skrá mig á póstlista
   join_party: Skrá mig í flokkinn
+  no_results: Því miður fundust engar niðurstöður.
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
   register_event: Register
   newsletter_signup: Subscribe to newsletter
   join_party: Join the party
+  no_results: Sadly, we found no results.
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
