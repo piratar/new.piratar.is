@@ -1,0 +1,17 @@
+#no-results {
+    color: $pirate-white;
+    font-size: 20px;
+}
+
+.result {
+    margin: 3em 0;
+    display: block;
+    &:hover {
+        text-decoration: none;
+    }
+}
+.result-title {
+    font-size: 20px;
+    color: $pirate-orange;
+    margin-bottom: 0;
+}

@@ -10,6 +10,22 @@
         height: 65px
       }
     }
+    #search-box {
+      border: none;
+      border-bottom: 1px solid white;
+      background-color: inherit;
+      color: white;
+      max-width: 150px;
+      transition: all 0.3s ease-in;
+      &.active, &:focus {
+        max-width: 350px;
+        width: 350px;
+        font-size: 36px;
+      }
+      &.active {
+        transition: none;
+      }
+    }
     .lang-nav {
       padding: 10px 32px;
       justify-content: end;

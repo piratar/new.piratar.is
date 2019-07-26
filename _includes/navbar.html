@@ -17,16 +17,17 @@ Displays the site's navigation
         <span class="icon-bar"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbar">
-        <form class="form-inline my-2 my-lg-0" role="search" id="search-form">
-          <input id="search-box" class="form-control mr-sm-2" type="search" aria-label="Search" placeholder="Leita">
+        <form role="search" id="search-form" class="align-self-end">
+          <input id="search-box" data-searchurl="{{ site.data.languages[page.lang].searchUrl }}"
+            class="mr-sm-5 mb-sm-3" type="search" aria-label="Search" placeholder="Leita">
         </form>
         <div class="nav-options bottom-shadow">
           <ul class="navbar-nav lang-nav">
             {% for language in site.data.languages%}
             <li class="nav-item">
-              <a href="{{ language.url }}"
-                class="nav-link text-uppercase {% if language.key == page.lang %} active {% endif %}">
-                {{ language.key }}
+              <a href="{{ language[1].url }}"
+                class="nav-link text-uppercase {% if language[0] == page.lang %} active {% endif %}">
+                {{ language[0] }}
               </a>
             </li>
             {% endfor %}
