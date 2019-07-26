@@ -7,10 +7,29 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   if ($('.newsfeed-posts').length) {
-    const feeds = {{ site.data.newsfeed | jsonify }}
-    generateFeeds(feeds, showNewsfeed);
+    const feeds = {{ site.data.newsfeed | jsonify }};
+    //generateFeeds(feeds, showNewsfeed);
+    setupNewsfeedCarousel();
   }
 });
+
+const setupNewsfeedCarousel = () => {
+  const selector = ".newsfeed-posts";
+  const nextEl = selector + ' .swiper-button-next';
+  const prevEl = selector + ' .swiper-button-prev';
+  let swiper = new Swiper(selector + ' .swiper-container', {
+    freeMode: true,
+    slidesPerView: 'auto',
+    slidesPerColumn: 3,
+    navigation: {
+      nextEl: nextEl,
+      prevEl: prevEl,
+    },
+  });
+  $(nextEl).css('display', '');
+  $(prevEl).css('display', '');
+  return swiper;
+}
 
 const generateFeeds = (feeds, callback) => {
   var newsfeed = [];
