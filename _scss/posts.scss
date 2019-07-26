@@ -2,12 +2,15 @@
   .swiper-slide {
     max-width: 360px;
     margin: 0 30px 30px 0;
-    min-height: 200px;
     height: auto;
     padding: 1em 1.5em;
+    @media (max-width: 420px) {
+      margin: 0;
+    }
   }
   .swiper-button-below {
     position: relative;
+    margin: 0;
     &.swiper-button-disabled {
       display: block;
     }
