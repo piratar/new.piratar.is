@@ -4,10 +4,11 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
+include: ["_pages"]
 collections:
-  representatives:
+  pages:
     output: true
-    permalink: /fulltruar/:categories/
+    permalink: /:path
   articles:
     output: true
     permalink: /fulltruar/:categories/:title/

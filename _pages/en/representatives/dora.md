@@ -1,6 +1,6 @@
 ---
-title: Þórhildur
+title: Dóra
 layout: representative
 lang: is
-path: thorhildur
+category: dora
 ---
