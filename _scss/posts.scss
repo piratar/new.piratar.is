@@ -1,0 +1,52 @@
+.newsfeed-posts {
+  .swiper-slide {
+    max-width: 340px;
+    margin: 0em 40px 1em 0;
+    height: auto;
+    @media (max-width: 420px) {
+      margin: 0em 20px 10px 0;
+      max-width: 330px;
+    }
+    .news-card {
+      color: $pirate-white;
+      &:hover {
+        text-decoration: none;
+      }
+      .date {
+        margin-top: 0.5em;
+        font-size: 14px;
+      }
+      .image {
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      .title {
+        font-size: 20px;
+      }
+    }
+  }
+  .swiper-button-below {
+    position: relative;
+    margin: 0 10px 10px 0;
+    max-width: 300px;
+    @media (min-width: 992px) {
+      width: auto;
+    }
+    span {
+      position: relative;
+      color: white;
+      top: 6px;
+      padding: 4px;
+      &.prev {
+        left: 55px;
+      }
+      &.next {
+        right: 55px;
+      }
+    }
+    &.swiper-button-disabled {
+      display: block;
+    }
+  }
+}

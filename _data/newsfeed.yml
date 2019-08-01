@@ -1,0 +1,15 @@
+posts:
+  limit: 5
+  category: post
+  image: /assets/img/dora.jpg
+articles:
+  limit: 15
+  category: article
+  image: /assets/img/dora.jpg
+spreaker:
+  -
+    title: Hlaðvarp
+    url: https://api.spreaker.com/v2/users/piratapodcast/episodes
+    image: /assets/img/dora.jpg
+    limit: 5
+    category: podcast

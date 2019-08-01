@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h2>Fulltrúar</h2>
+  {% for rep in site.representatives %}
+  <div class="representative">
+    <div class="name">
+      {{ rep.title }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+<style>
+  .representative {
+    color: white;
+  }
+</style>

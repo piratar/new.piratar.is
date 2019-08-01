@@ -1,0 +1,68 @@
+<section class="news container-fluid mt-5 mb-5">
+  <script type="text/template" data-template="article">
+    <div class="swiper-slide article" data-category="article" style="background-image:url('${image}');">
+      <a href="${url}" class="news-card d-flex flex-column justify-content-between">
+        <div class="row upper">
+          <div class="category">{{ site.data.translations[page.lang].article }}</div>
+        </div>
+        <div class="lower flex-column d-flex">
+          <span class="row date">${date}</span>
+          <div class="row title">
+            <h3 class="w-100 text-uppercase">${title}</h3>
+          </div>
+          <span class="row summary">${summary}</span>
+        </div>
+      </a>
+    </div>
+  </script>
+  <script type="text/template" data-template="post">
+    <div class="swiper-slide post" data-category="post" style="background-image:url('${image}');">
+      <a href="${url}" class="news-card d-flex flex-column justify-content-between">
+        <div class="row upper">
+          <div class="category">{{ site.data.translations[page.lang].post }}</div>
+        </div>
+        <div class="lower flex-column d-flex">
+          <span class="row date">${date}</span>
+          <div class="row title">
+            <h3 class="w-100 text-uppercase">${title}</h3>
+          </div>
+          <span class="row summary">${summary}</span>
+        </div>
+      </a>
+    </div>
+  </script>
+  <script type="text/template" data-template="spreaker">
+    <div class="swiper-slide podcast" data-category="podcast">
+      <div class="news-card d-flex flex-column justify-content-between">
+        <div class="row upper">
+          <div class="category">{{ site.data.translations[page.lang].podcast }}</div>
+        </div>
+        <div class="lower flex-column d-flex">
+          <span class="row date">${date}</span>
+          <div class="row title">
+            <h3 class="w-100 text-uppercase">${title}</h3>
+          </div>
+          <div class="row listen">
+            <a href="https://open.spotify.com/show/0PkvH07P8HqmuU58GcRwqt" target="_blank"><img height="22" src="/assets/img/spotify_icon.png" alt="Spotify"/></a>
+            <a href="https://podcasts.apple.com/is/podcast/píratar-kosningar-2018/id1367226465" target="_blank"><img height="22" src="/assets/img/podcast_icon.png" alt="Apple Podcast"/></a>
+            <a href="https://soundcloud.com/podcastpirata" target="_blank"><img class="soundcloud-icon" height="26" src="/assets/img/soundcloud-icon.png" alt="Soundcloud"/> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+  <nav class="news-filters" style="display: none;">
+    <ul>
+      <li><a href="#" class="underline active">{{ site.data.translations[page.lang].all_categories }}</a></li>
+      <li><a href="#" class="underline" data-category="podcast">{{ site.data.translations[page.lang].podcasts }}</a></li>
+      <li><a href="#" class="underline" data-category="article">{{ site.data.translations[page.lang].articles }}</a> </li>
+      <li><a href="#" class="underline" data-category="post">{{ site.data.translations[page.lang].posts }}</a></li>
+    </ul>
+  </nav>
+  <div class="swiper-container container">
+    <div class="swiper-wrapper">
+    </div>
+  </div>
+  <div class="swiper-button-next" style="display: none"></div>
+  <div class="swiper-button-prev" style="display: none"></div>
+</section>

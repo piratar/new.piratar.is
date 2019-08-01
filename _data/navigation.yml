@@ -1,15 +1,15 @@
 navigation:
   'is':
-    - title: Fréttir
+    - title: Stefnan
       sub:
         - title: Viðburðir
-          url: /events
+          url: /vidburdir
         - title: Fréttir
-          url: /posts
+          url: /frettir
         - title: Beint
-          url: /live
+          url: /beint
         - title: Hlaðvarp
-          url: /podcast
+          url: /hladvarp
     - title: Fólkið
       sub:
         - title: Þingflokkur
@@ -26,22 +26,22 @@ navigation:
     - title: News
       sub:
         - title: Events
-          url: /events
+          url: /en/events
         - title: News
-          url: /posts
+          url: /en/posts
         - title: Live
-          url: /live
+          url: /en/live
         - title: Podcasts
-          url: /podcast
+          url: /en/podcast
     - title: Our people
       sub:
         - title: Þingflokkur
-          url: /thingflokkur
+          url: /en/thingflokkur
     - title: About us
       sub:
         - title: Policy
-          url: /stefna
+          url: /en/stefna
     - title: Participate
       sub:
         - title: Book an event
-          url: /book-event
+          url: /en/book-event

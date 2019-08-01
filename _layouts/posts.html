@@ -1,22 +1,63 @@
 ---
 layout: default
 ---
-{% comment %}
-	This layout is used to by posts.md to display all of documents in
-	the _posts/ collection
-{% endcomment %}
-
-{% for post in site.posts %}
-<div class="container pure-g">
-  <div class="pure-u-1">
-      <div class="content content-narrow">
-        <div class="list-layout">
-          <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-          <div>{{ post.content | truncatewords: 30 }}</div>
-          <date>{{ post.date | date_to_string }}</date>
-        </div>
+<script type="text/template" data-template="article">
+  <div class="swiper-slide article" data-category="article">
+    <a href="${url}" class="news-card d-flex flex-column justify-content-between">
+      <div class="image" style="background-image: url('${image}');"></div>
+      <div class="lower flex-column d-flex">
+        <span class="date">${date}</span>
+        <div class="title w-100">${title}</div>
+        <p class="summary">${summary}</p>
+      </div>
+    </a>
+  </div>
+</script>
+<script type="text/template" data-template="post">
+  <div class="swiper-slide post" data-category="post">
+    <a href="${url}" class="news-card d-flex flex-column justify-content-between">
+      <div class="image" style="background-image: url('${image}');"></div>
+      <div class="lower flex-column d-flex">
+        <span class="date">${date}</span>
+        <div class="title w-100">${title}</div>
+        <p class="summary">${summary}</p>
+      </div>
+    </a>
+  </div>
+</script>
+<script type="text/template" data-template="spreaker">
+  <div class="swiper-slide podcast" data-category="podcast">
+    <div class="news-card d-flex flex-column justify-content-between">
+      <div class="image" style="background-image: url('${image}');"></div>
+      <div class="lower flex-column d-flex">
+        <span class="date">${date}</span>
+        <div class="title w-100">${title}</div>
+        <span class="summary">${summary}</span>
       </div>
     </div>
   </div>
+</script>
+<div class="newsfeed-posts mt-5">
+  <nav class="news-filters" style="display: none;">
+      <ul>
+        <li><a href="#" class="underline active">{{ site.data.translations[page.lang].all_categories }}</a></li>
+        <li><a href="#" class="underline" data-category="podcast">{{ site.data.translations[page.lang].podcasts }}</a></li>
+        <li><a href="#" class="underline" data-category="article">{{ site.data.translations[page.lang].articles }}</a> </li>
+        <li><a href="#" class="underline" data-category="post">{{ site.data.translations[page.lang].posts }}</a></li>
+      </ul>
+    </nav>
+  <div class="container mt-5">
+    <div class="swiper-container container">
+        <div class="swiper-wrapper">
+        </div>
+      </div>
+    <div class="d-flex justify-content-lg-around justify-content-between mb-5">
+        <div class="swiper-button-below swiper-button-prev d-block" style="display: none">
+          <span class="prev d-none d-lg-block">{{ site.data.translations[page.lang].previous_posts }}</span>
+        </div>
+        <div class="swiper-button-below swiper-button-next d-block" style="display: none">
+          <span class="next d-none d-lg-block">{{ site.data.translations[page.lang].next_posts }}</span>
+        </div>
+    </div>
+  </div>
 </div>
-{% endfor %}

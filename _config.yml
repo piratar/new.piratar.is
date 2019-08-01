@@ -4,6 +4,14 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
+include: ["_pages"]
+collections:
+  pages:
+    output: true
+    permalink: /:path
+  articles:
+    output: true
+    permalink: /fulltruar/:categories/:title/
 plugins:
   - jekyll-sitemap
   - jekyll-feed

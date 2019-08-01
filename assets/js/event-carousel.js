@@ -1,25 +1,12 @@
 $(document).ready(function () {
   if ($("section.events").length) {
-    setupCarousel()
     let public_key = 'N24WDLHYCATEMYHRTZSU';
     let organizer = '24900253141';
     getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, addEvents);
   }
 });
 
-function setupCarousel() {
-  return new Swiper('.events .swiper-container', {
-    slidesPerView: 3,
-    freeMode: true,
-    slidesPerView: 'auto',
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-}
-
-function getEvents(url, token, organizer, callback) {
+const getEvents = (url, token, organizer, callback) => {
   $.ajax({
     url: url,
     type: 'GET',
@@ -35,8 +22,8 @@ function getEvents(url, token, organizer, callback) {
   });
 }
 
-function addEvents(events) {
-  const eventSwiper = setupCarousel();
+const addEvents = (events) => {
+  const eventSwiper = setupCarousel('.events');
   const language = document.documentElement.lang;
   const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
   for (let event of events) {
@@ -60,7 +47,7 @@ function addEvents(events) {
   }
 }
 
-function createWidget(id) {
+const createWidget = (id) => {
   window.EBWidgets.createWidget({
     widgetType: 'checkout',
     eventId: id,
@@ -68,24 +55,6 @@ function createWidget(id) {
     modal: true,
   });
 }
-
-const render = (props) => (tok, i) =>
-  (i % 2) ? props[tok] : tok;
-
-const leadingZero = (num) => `0${num}`.slice(-2);
-
-const formatTime = (start, end) => {
-  const format = (date) =>
-    [date.getHours(), date.getMinutes()]
-      .map(leadingZero)
-      .join(':');
-  return format(start) + ' - ' + format(end);
-}
-
-const formatDate = (date) =>
-  [date.getDate(), date.getMonth() + 1]
-    .map(leadingZero)
-    .join('/');
 
 const formatCalTime = (date) =>
   date.toISOString().replace(/-|:|\.\d+/g, '');

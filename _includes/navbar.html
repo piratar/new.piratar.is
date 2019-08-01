@@ -1,7 +1,3 @@
-{% comment %}
-Displays the site's navigation
-{% endcomment %}
-
 {% assign url = page.url | remove:'index.html' %}
 <header class="site-header">
   <nav class="navbar navbar-expand-lg p-0">
@@ -10,51 +6,64 @@ Displays the site's navigation
       <a class="navbar-brand" href="/">
         <img src="{{ "/assets/img/logo.png" | absolute_url }}" alt="Píratar">
       </a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar"
-        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="collapse navbar-collapse flex-md-column" id="navbar">
-        <div class="nav-options ml-auto bottom-shadow">
-          <ul class="navbar-nav lang-nav">
-            {% for language in site.data.languages%}
-            <li class="nav-item">
-              <a href="{{ language.url }}"
-                class="nav-link text-uppercase {% if language.key == page.lang %} active {% endif %}">
-                {{ language.key }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          <ul class="navbar-nav pirate-nav">
-            {% for link in site.data.navigation.navigation.[page.lang] %}
-            {% if link.sub %}
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link" id="navbarDropdown-{{ forloop.index }}" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                {{ link.title }}
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{ forloop.index }}">
-                {% for child in link.sub %}
-                <a href="{{ child.url | absolute_url }}" class="dropdown-item">
-                  {{ child.title }}
+      <div class="navbar-mobile-right">
+          <button type="button" class="icon icon-search btn d-lg-none" id="mobile-nav-search">
+              <span class="sr-only">Search</span>
+          </button>
+          <button class="navbar-toggler collapsed btn" type="button" data-toggle="collapse" data-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbar">
+        <div class="nav-options bottom-shadow">
+          <div class="nav-upper d-flex">
+            <ul class="navbar-nav lang-nav">
+              {% for language in site.data.languages%}
+              <li class="nav-item">
+                <a href="{{ language[1].url }}"
+                  class="nav-link text-uppercase {% if language[0] == page.lang %} active {% endif %}">
+                  {{ language[0] }}
                 </a>
+              </li>
+              {% endfor %}
+            </ul>
+            <button type="button" class="btn d-none d-lg-block icon icon-search" id="desktop-nav-search">
+              <span class="sr-only">Search</span>
+            </button>
+          </div>
+          <div class="nav-lower">
+            <ul class="navbar-nav">
+                {% for link in site.data.navigation.navigation.[page.lang] %}
+                {% if link.sub %}
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link" id="navbarDropdown-{{ forloop.index }}" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    {{ link.title }}
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown-{{ forloop.index }}">
+                    {% for child in link.sub %}
+                    <a href="{{ child.url | absolute_url }}" class="dropdown-item">
+                      {{ child.title }}
+                    </a>
+                    {% endfor %}
+                  </div>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                  <a class="nav-link {% if link.cta %} cta {% endif %}" href="{{ link.url | absolute_url }}">
+                    {{ link.title }}
+                  </a>
+                </li>
+                {% endif %}
                 {% endfor %}
-              </div>
-            </li>
-            {% else %}
-            <li class="nav-item">
-              <a class="nav-link {% if link.cta %} cta {% endif %}" href="{{ link.url | absolute_url }}">
-                {{ link.title }}
-              </a>
-            </li>
-            {% endif %}
-            {% endfor %}
-          </ul>
+              </ul>
+          </div>
         </div>
       </div>
+      {% include search-overlay.html %}
     </div>
   </nav>
 </header>

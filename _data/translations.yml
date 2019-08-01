@@ -4,12 +4,34 @@ is:
   register_event: Skrá mig á viðburð
   newsletter_signup: Skrá mig á póstlista
   join_party: Skrá mig í flokkinn
+  no_results: Því miður fundust engar niðurstöður.
+  search_placeholder: Leitaðu!
+  podcast: Hlaðvarp
+  podcasts: Hlaðvarp
+  article: Grein
+  articles: Greinar
+  post: Tilkynning
+  posts: Tilkynningar
+  all_categories: Allt
+  previous_posts: Nýrra efni
+  next_posts: Eldra efni
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
   register_event: Register
   newsletter_signup: Subscribe to newsletter
   join_party: Join the party
+  no_results: Sadly, we found no results.
+  search_placeholder: Type your search.
+  podcast: Podcast
+  podcasts: Podcasts
+  article: Article
+  articles: Articles
+  post: Announcement
+  posts: Announcements
+  all_categories: Everything
+  previous_posts: Previous
+  next_posts: Next
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar

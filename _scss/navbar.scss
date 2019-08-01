@@ -10,9 +10,10 @@
         height: 65px
       }
     }
-    .lang-nav {
+    .nav-upper {
       padding: 10px 32px;
-      justify-content: end;
+      justify-content: space-between;
+      align-items: center;
       a {
         font-size: 14px;
         color: $pirate-gray;
@@ -24,7 +25,7 @@
     .nav-options {
       background-color: $pirate-dark-black;
     }
-    .pirate-nav {
+    .nav-lower {
       .nav-item {
         padding: 10px 32px 14px 32px;
         font-size: 20px;
@@ -70,13 +71,15 @@
     .nav-options {
       background-color: $pirate-black;
     }
-    .lang-nav {
-      flex-direction: row;
+    .nav-upper {
+      .lang-nav {
+        flex-direction: row;
+      }
       a {
         padding: 25px 15px 25px 30px;
       }
     }
-    .pirate-nav {
+    .nav-lower {
       li {
         border-top: 1px solid #616467;
         > a {
@@ -126,7 +129,7 @@
   }
 }
 
-.pirate-nav {
+.nav-lower {
   .nav-item:last-child {
     a {
       color: $pirate-orange;
