@@ -1,5 +1,5 @@
 ---
-title: Þórhildur
+title: Þórhildur Sunna
 layout: representative
 lang: en
 category: parliament

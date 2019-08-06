@@ -2,7 +2,8 @@ $(document).ready(function () {
   if ($('section.representative-articles').length) {
     let swiper = setupCarousel('section.representative-articles', 2);
     setupRepresentativeFilter();
-    // Select category and representavies using query parameters
+
+    // Select category and representaties using query parameters
     const urlParams = new URLSearchParams(window.location.search);
     let category = urlParams.get('category');
     if (category) {

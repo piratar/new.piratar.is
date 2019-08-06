@@ -18,15 +18,15 @@
         font-size: 20px;
         font-weight: 700;
         &.active {
-            color: inherit;
-            &::before {
-              display: block;
-              position: relative;
-              top: 32px;
-              border-bottom: 2px solid $pirate-white;
-              border-color: $pirate-orange;
-              content: "";
-            }
+          color: inherit;
+          &::before {
+            display: block;
+            position: relative;
+            top: 32px;
+            border-bottom: 2px solid $pirate-white;
+            border-color: $pirate-orange;
+            content: "";
+          }
         }
       }
       .representative {
