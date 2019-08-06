@@ -1,8 +1,9 @@
 ---
-title: Þórhildur
+title: Þórhildur Sunna
 layout: representative
 lang: is
 category: thorhildur
+description: Þingmaður Pírata
 ---
 
 Ég er 29 ára lögfræðingur, blaðamaður og Pírati. Lögfræðina lærði ég í fjórum háskólum víðsvegar um Evrópu (Þýskalandi, Grikklandi og Hollandi), þar sem ég sérhæfði mig í alþjóðalögum, Evrópulögum, mannréttindum og alþjóðlegum refsirétti. Frá því að ég útskrifaðist með mastersgráðu frá háskólanum í Utrecht árið 2013 hef ég búið hér heima og aðallega unnið sem blaðamaður og við ritstörf tengd mannréttindum.

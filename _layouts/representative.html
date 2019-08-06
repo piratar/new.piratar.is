@@ -2,10 +2,53 @@
 layout: default
 ---
 
-<div class="container" style="color:white;">
-  <h2>Greinar</h2>
-  {% assign articles = site.articles | where:"category", page.category %}
-  {% for article in articles %}
-  <a href="{{ article.url }}">{{ article.title }}</a>
-  {% endfor %}
+<div class="representative container-fluid mt-5">
+  <section class="profile">
+    <div class="container">
+      <h2 class="title">{{ page.title }}</h2>
+      <h4 class="heading">{{ page.description }}</h4>
+      <div class="about">
+        {{ page.content }}
+      </div>
+    </div>
+  </section>
+  <section class="call-to-action container-fluid mt-5">
+    <div class="row h-100 justify-content-center align-items-center bottom-shadow">
+      {% include cta-newsletter.html %}
+    </div>
+  </section>
+  <section class="representative-articles mt-5">
+    <div class="container">
+      <div class="swiper-container container">
+        <div class="swiper-wrapper">
+          {% assign articles = site.articles | where:"category", page.category %}
+          {% for article in articles limit: 3 %}
+          <div class="swiper-slide news-card">
+            <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
+              <div class="image" style="background-image: url('{{ article.image }}');"></div>
+              <div class="lower flex-column d-flex">
+                <span class="date">{{ article.date | date: "%d/%m/%y" }}</span>
+                <div class="title w-100">{{ article.title }}</div>
+                <p class="summary">{{ article.sub_heading }}</p>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% if page.social %}
+  <section class="social mt-4 d-flex justify-content-center">
+    {% if page.social.twitter %}
+    <a class="twitter p-1" href="{{ page.social.twitter }}">Twitter</a>
+    {% endif %}
+    {% if page.social.instagram %}
+    <a class="instagram p-1" href="{{ page.social.instagram }}">Instagram</a>
+    {% endif %}
+    {% if page.social.facebook %}
+    <a class="facebook p-1" href="{{ page.social.facebook }}">Facebook</a>
+    {% endif %}
+  </section>
+  {% endif %}
 </div>
