@@ -1,16 +1,19 @@
 .representative {
   .profile {
     background-color: $pirate-white;
-    margin: 20px auto;
-    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
     max-width: 1400px;
     .title {
       font-size: 56px;
       color: $pirate-gray;
     }
     .about {
-      column-count: 3;
       margin-top: 26px;
+      @media (min-width: 992px) {
+        column-count: 3;
+      }
     }
   }
 }
