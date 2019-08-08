@@ -1,6 +1,15 @@
 @import "colors";
 // Desktop
 @media (min-width: 992px) {
+  .desktop-banner {
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .mobile-banner {
+    display: none;
+  }
   .navbar {
     .container-fluid {
       padding-right: 0;
@@ -52,6 +61,16 @@
 }
 // Mobile
 @media (max-width: 991px) {
+  .desktop-banner {
+    background-image: none !important;
+  }
+  .mobile-banner {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   .navbar {
     .navbar-inner-background {
       background: black;

@@ -3,7 +3,7 @@ $(document).ready(function () {
     let swiper = setupCarousel('section.representative-articles', 2);
     setupRepresentativeFilter();
 
-    // Select category and representaties using query parameters
+    // Select category and representatives using query parameters
     const urlParams = new URLSearchParams(window.location.search);
     let category = urlParams.get('category');
     if (category) {
