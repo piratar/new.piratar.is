@@ -4,12 +4,13 @@
 const render = (props) => (tok, i) =>
   (i % 2) ? props[tok] : tok;
 
-const setupCarousel = (selector) => {
+const setupCarousel = (selector, slidesPerColumn = 1) => {
   const nextEl = selector + ' .swiper-button-next';
   const prevEl = selector + ' .swiper-button-prev';
   let swiper = new Swiper(selector + ' .swiper-container', {
     freeMode: true,
     slidesPerView: 'auto',
+    slidesPerColumn: slidesPerColumn,
     navigation: {
       nextEl: nextEl,
       prevEl: prevEl,
@@ -45,3 +46,4 @@ const formatTime = (start, end) => {
 {% include_relative search.js %}
 {% include_relative newsfeed.js %}
 {% include_relative representative.js %}
+{% include_relative articles.js %}

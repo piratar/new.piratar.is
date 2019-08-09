@@ -1,6 +1,6 @@
 ---
 title: Dóra
 layout: representative
-lang: is
+lang: en
 category: dora
 ---
