@@ -4,14 +4,14 @@ layout: default
 <nav class="representative-filters">
   <ul>
     <li>
-      <a href="#" class="underline active category">Allir</a>
+      <a href="#" class="underline active category">{{ site.data.translations[page.lang].reps_all }}</a>
     </li>
     <li>
-      <a href="#" class="underline category" data-category="parliament">Þingflokkur</a>
+      <a href="#" class="underline category" data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
       <div class="sub-menu" style="display: none;">
         {% assign reps = site.pages | where:"layout","representative" | where:"category", "parliament"| where:"lang", page.lang %}
         <ul>
-          <li><a href="#" class="underline active representative">Allir</a></li>
+          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
           {% for rep in reps %}
           <li><a href="#" class="underline representative"
               data-representative="{{ rep.representative }}">{{ rep.title }}</a></li>
@@ -20,11 +20,11 @@ layout: default
       </div>
     </li>
     <li>
-      <a href="#" class="underline category" data-category="municipal">Sveitarstjórn</a>
+      <a href="#" class="underline category" data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
       <div class="sub-menu" style="display: none;">
         {% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
         <ul>
-          <li><a href="#" class="underline active representative">Allir</a></li>
+          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
           {% for rep in reps %}
           <li><a href="#" class="underline representative"
               data-representative="{{ rep.representative }}">{{ rep.title }}</a></li>

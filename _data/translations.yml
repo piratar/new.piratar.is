@@ -19,6 +19,9 @@ is:
   account_number: Reikningsnúmer
   email: Netfang
   telephone: Sími
+  reps_parliament: Þingflokkur
+  reps_all: Allir
+  reps_municipal: Sveitarstjórn
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -40,6 +43,9 @@ en:
   account_number: Bank account
   email: Email
   telephone: Phone number
+  reps_parliament: Parliamentary
+  reps_all: All
+  reps_municipal: Local
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
