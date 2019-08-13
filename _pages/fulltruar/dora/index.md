@@ -2,7 +2,8 @@
 title: Dóra
 layout: representative
 lang: is
-category: dora
+category: municipal
+representative: dora
 description: Borgarfulltrúi Pírata
 social:
   facebook: https://www.facebook.com/DoraBjort/

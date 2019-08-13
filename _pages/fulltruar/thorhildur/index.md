@@ -2,7 +2,8 @@
 title: Þórhildur Sunna
 layout: representative
 lang: is
-category: thorhildur
+category: parliament
+representative: thorhildur
 description: Þingmaður Pírata
 ---
 

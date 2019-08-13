@@ -4,7 +4,8 @@ layout: default
 
 <div class="container">
   <h2>Fulltrúar</h2>
-  {% for rep in site.representatives %}
+  {% assign reps = site.pages | where:"layout", "representative" | where:"lang", page.lang %}
+  {% for rep in reps  %}
   <div class="representative">
     <div class="name">
       {{ rep.title }}
