@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  if ($('section.representative-articles').length) {
-    let swiper = setupCarousel('section.representative-articles', 2);
+  if ($('section.articles-page').length) {
+    let swiper = setupCarousel('section.articles-page', 2);
     setupRepresentativeFilter();
 
     // Select category and representatives using query parameters
@@ -44,11 +44,9 @@ const setupRepresentativeFilter = () => {
   $('.representative-filters a.category').click(function (e) {
     e.preventDefault();
     $this = $(this);
-    $('.representative-filters .sub-menu').hide();
-    $this.siblings().first().show();
     if (!$this.hasClass('active')) {
-      $('.representative-filters a.category.active').removeClass('active');
-      $this.addClass('active');
+      $('.representative-filters > ul > li.active').removeClass('active');
+      $this.parent().addClass('active');
       let category = $this.data('category');
       let query = category ? '?category=' + category : '';
       filterCategory(category);
@@ -62,9 +60,9 @@ const setupRepresentativeFilter = () => {
     if (!$this.hasClass('active')) {
       $this.closest('.sub-menu').find('a.representative.active').removeClass('active');
       $this.addClass('active');
-      let category = $('.representative-filters .category.active').data('category');
+      let category = $('.representative-filters .active .category').data('category');
       let representative = $this.data('representative');
-      filterRepresentative(representative);
+      filterRepresentative(representative, category);
       let query = '?category=' + category;
       query = representative ? query + '&representative=' + representative : query;
       updateQuery(query);

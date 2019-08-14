@@ -1,0 +1,15 @@
+.representative-list {
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 360px);
+  row-gap: 4rem;
+  justify-content: center;
+  column-gap: 6rem;
+  .representative {
+    color: white;
+    .image {
+      background: white;
+      height: 180px;
+    }
+  }
+}

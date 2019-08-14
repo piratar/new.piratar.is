@@ -2,21 +2,27 @@
 layout: default
 ---
 
-<div class="container">
-  <h2>Fulltrúar</h2>
+<nav class="representative-filters mt-5">
+  <ul>
+    <li class="active">
+      <a href="#" class="underline category">{{ site.data.translations[page.lang].reps_all }}</a>
+    </li>
+    <li>
+      <a href="#" class="underline category" data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
+    </li>
+    <li>
+      <a href="#" class="underline category" data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
+    </li>
+  </ul>
+</nav>
+<section class="representative-list container-fluid">
   {% assign reps = site.pages | where:"layout", "representative" | where:"lang", page.lang %}
   {% for rep in reps  %}
-  <div class="representative">
-    <div class="name">
+  <div class="representative" data-category="{{ rep.category }}">
+    <div class="image"></div>
+    <div class="title">
       {{ rep.title }}
     </div>
   </div>
   {% endfor %}
 </div>
-
-
-<style>
-  .representative {
-    color: white;
-  }
-</style>

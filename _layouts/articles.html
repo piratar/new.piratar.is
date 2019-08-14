@@ -3,28 +3,28 @@ layout: default
 ---
 <nav class="representative-filters">
   <ul>
-    <li>
-      <a href="#" class="underline active category">{{ site.data.translations[page.lang].reps_all }}</a>
+    <li class="active">
+      <a href="#" class="underline category">{{ site.data.translations[page.lang].reps_all }}</a>
     </li>
     <li>
-      <a href="#" class="underline category" data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
-      <div class="sub-menu" style="display: none;">
+      <a href="#" class="underline category" data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
+      <div class="sub-menu">
         {% assign reps = site.pages | where:"layout","representative" | where:"category", "parliament"| where:"lang", page.lang %}
         <ul>
-          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
+          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
           {% for rep in reps %}
           <li><a href="#" class="underline representative"
-              data-representative="{{ rep.representative }}">{{ rep.title }}</a></li>
+              data-representative="{{ rep.representative }}">{{ rep.title }}</a></li>
           {% endfor %}
         </ul>
       </div>
     </li>
     <li>
-      <a href="#" class="underline category" data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
-      <div class="sub-menu" style="display: none;">
-        {% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
+      <a href="#" class="underline category" data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
+      <div class="sub-menu">
+        {% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
         <ul>
-          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
+          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
           {% for rep in reps %}
           <li><a href="#" class="underline representative"
               data-representative="{{ rep.representative }}">{{ rep.title }}</a></li>
@@ -34,12 +34,12 @@ layout: default
     </li>
   </ul>
 </nav>
-<section class="container mt-5 representative-articles">
+<section class="container mt-5 representative-articles articles-page">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
       {% for article in site.articles %}
       <div class="swiper-slide news-card" data-category="{{ article.categories }}"
-        data-representative="{{ article.representative }}">
+        data-representative="{{ article.representative }}">
         <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
           <div class="image" style="background-image: url('{{ article.image }}');"></div>
           <div class="lower flex-column d-flex">

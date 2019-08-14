@@ -11,7 +11,7 @@ collections:
     permalink: /:path
   articles:
     output: true
-    permalink: /fulltruar/:categories/:title/
+    permalink: /fulltruar/greinar/:path/
 plugins:
   - jekyll-sitemap
   - jekyll-feed
