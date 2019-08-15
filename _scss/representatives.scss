@@ -8,8 +8,24 @@
   .representative {
     color: white;
     .image {
-      background: white;
+      background-position: center;
+      background-size: cover;
       height: 180px;
+    }
+    .more {
+      position: relative;
+      padding-bottom: 5px;
+      &:hover {
+        text-decoration: none;
+      }
+      &::before {
+        content: "";
+        border-bottom: 1px solid $pirate-orange;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
     }
   }
 }

@@ -6,7 +6,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  if ($('.newsfeed-posts').length) {
+  if ($('body.posts-page').length) {
     const feeds = {{ site.data.newsfeed | jsonify }};
     generateFeeds(feeds, showNewsfeed);
   }

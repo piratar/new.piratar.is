@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  if ($('section.articles-page').length) {
-    let swiper = setupCarousel('section.articles-page', 2);
+  if ($('body.articles-page').length) {
+    let swiper = setupCarousel('section.representative-articles', 2);
     setupRepresentativeFilter();
 
     // Select category and representatives using query parameters
@@ -16,24 +16,25 @@ $(document).ready(function () {
   }
 });
 
-const filterCategory = (category) => {
-  if (category) {
-    $(".swiper-slide").not("[data-category='" + category + "']").addClass("non-swiper-slide").removeClass("swiper-slide").hide();
-    $(".swiper-wrapper [data-category='" + category + "']").removeClass("non-swiper-slide").addClass("swiper-slide").show();
-  } else {
-    $(".non-swiper-slide").removeClass("non-swiper-slide").addClass("swiper-slide").show();
-  }
-};
-const filterRepresentative = (representative, category) => {
-  if (representative) {
-    $(".swiper-slide").not("[data-representative='" + representative + "']").addClass("non-swiper-slide").removeClass("swiper-slide").hide();
-    $(".swiper-wrapper [data-representative='" + representative + "']").removeClass("non-swiper-slide").addClass("swiper-slide").show();
-  } else {
-    filterCategory(category);
-  }
-};
-
 const setupRepresentativeFilter = () => {
+  const filterCategory = (category) => {
+    if (category) {
+      $(".swiper-slide").not("[data-category='" + category + "']").addClass("non-swiper-slide").removeClass("swiper-slide").hide();
+      $(".swiper-wrapper [data-category='" + category + "']").removeClass("non-swiper-slide").addClass("swiper-slide").show();
+    } else {
+      $(".non-swiper-slide").removeClass("non-swiper-slide").addClass("swiper-slide").show();
+    }
+  };
+
+  const filterRepresentative = (representative, category) => {
+    if (representative) {
+      $(".swiper-slide").not("[data-representative='" + representative + "']").addClass("non-swiper-slide").removeClass("swiper-slide").hide();
+      $(".swiper-wrapper [data-representative='" + representative + "']").removeClass("non-swiper-slide").addClass("swiper-slide").show();
+    } else {
+      filterCategory(category);
+    }
+  };
+
   const updateQuery = (string) => {
     if (history.pushState) {
       var url = window.location.protocol + "//" + window.location.host + window.location.pathname + string;

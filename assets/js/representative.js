@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  if ($('.representative').length) {
+  if ($('body.representative-page').length) {
     setupCarousel('.representative-articles', 1);
   }
 });

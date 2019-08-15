@@ -25,6 +25,9 @@ a {
 }
 .cta {
   color: $pirate-orange;
+  &:hover {
+    color: $pirate-orange;
+  }
 }
 
 .btn:focus {

@@ -47,3 +47,4 @@ const formatTime = (start, end) => {
 {% include_relative newsfeed.js %}
 {% include_relative representative.js %}
 {% include_relative articles.js %}
+{% include_relative representatives.js %}
