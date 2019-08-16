@@ -40,13 +40,13 @@ class: representative-page
   {% if page.social %}
   <section class="social mt-4 d-flex justify-content-center">
     {% if page.social.twitter %}
-    <a class="twitter p-1" href="{{ page.social.twitter }}">Twitter</a>
+    <a class="icon icon-twitter mr-4" href="{{ page.social.twitter }}"><span class="sr-only">Twitter</span></a>
     {% endif %}
     {% if page.social.instagram %}
-    <a class="instagram p-1" href="{{ page.social.instagram }}">Instagram</a>
+    <a class="icon icon-instagram mr-4" href="{{ page.social.instagram }}"><span class="sr-only">Instagram</span></a>
     {% endif %}
     {% if page.social.facebook %}
-    <a class="facebook p-1" href="{{ page.social.facebook }}">Facebook</a>
+    <a class="icon icon-facebook" href="{{ page.social.facebook }}"><span class="sr-only">Facebook</span></i></a>
     {% endif %}
   </section>
   {% endif %}
