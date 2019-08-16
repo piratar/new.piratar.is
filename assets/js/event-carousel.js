@@ -1,7 +1,7 @@
 $(document).ready(function () {
   if ($("section.events").length) {
     let public_key = 'N24WDLHYCATEMYHRTZSU';
-    let organizer = '24900253141';
+    let organizer = '25096882982';
     getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, addEvents);
   }
 });
