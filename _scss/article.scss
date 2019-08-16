@@ -64,6 +64,24 @@ section.article {
       margin-bottom: 22px;
       font-style: italic;
     }
+    .content {
+      a {
+        color: inherit;
+        border-bottom: 1px solid $pirate-orange;
+        &:hover {
+          text-decoration: none;
+          color: $pirate-orange;
+        }
+      }
+      img {
+        max-width: 100%;
+      }
+      blockquote {
+        margin: 0 0 1rem 0;
+        border-left: 2px solid #dfdfdf;
+        padding-left: 15px;
+      }
+    }
   }
   .right {
     .news-card {

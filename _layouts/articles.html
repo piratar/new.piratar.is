@@ -38,7 +38,8 @@ class: articles-page
 <section class="container mt-5 representative-articles">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
-      {% for article in site.articles %}
+      {% assign articles = site.articles | sort: "date" | reverse %}
+      {% for article in articles %}
       <div class="swiper-slide news-card" data-category="{{ article.categories }}"
         data-representative="{{ article.representative }}">
         <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
