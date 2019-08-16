@@ -205,7 +205,7 @@ const renderSpreaker = (data, feed) => {
   var posts = [];
   const spreakerTpl = $('script[data-template="spreaker"]').text().split(/\$\{(.+?)\}/g);
   data.response.items.forEach(podcast => {
-    let date = new Date(podcast.published_at);
+    let date = new Date(podcast.published_at.substring(0, 10));
     let html = spreakerTpl.map(render({
       'title': podcast.title,
       'url': podcast.playback_url,
