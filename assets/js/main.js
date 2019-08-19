@@ -41,6 +41,17 @@ const formatTime = (start, end) => {
   return format(start) + ' - ' + format(end);
 }
 
+/**
+ * Updates the query parameter
+ * @param {String} query new query string
+ */
+const updateQuery = (string) => {
+  if (history.replaceState) {
+    var url = window.location.origin + window.location.pathname + string;
+    window.history.replaceState({ path: url }, '', url);
+  }
+}
+
 {% include_relative event-carousel.js %}
 {% include_relative cta-section.js %}
 {% include_relative search.js %}
@@ -48,3 +59,4 @@ const formatTime = (start, end) => {
 {% include_relative representative.js %}
 {% include_relative articles.js %}
 {% include_relative representatives.js %}
+{% include_relative article.js %}

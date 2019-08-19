@@ -4,7 +4,7 @@ $(document).ready(function () {
     // Select category using query parameters
     const urlParams = new URLSearchParams(window.location.search);
     let category = urlParams.get('category');
-    filterCategory(category);
+    $(".representative-filters a[data-category='" + category + "']").click();
   }
 });
 
@@ -19,12 +19,6 @@ const filterCategory = (category) => {
 
 const setupRepresentativesFilter = () => {
 
-  const updateQuery = (string) => {
-    if (history.pushState) {
-      var url = window.location.protocol + "//" + window.location.host + window.location.pathname + string;
-      window.history.pushState({ path: url }, '', url);
-    }
-  }
   $('.representative-filters a.category').click(function (e) {
     e.preventDefault();
     $this = $(this);

@@ -1,5 +1,4 @@
 .article-banner {
-  max-width: 1440px;
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +31,6 @@
 
 section.article {
   background-color: $pirate-white;
-  max-width: 1440px;
   color: $pirate-dark-black;
   .col {
     padding: 30px 40px;
@@ -112,8 +110,4 @@ section.article {
       }
     }
   }
-}
-
-section.other-articles {
-  max-width: 1440px;
 }

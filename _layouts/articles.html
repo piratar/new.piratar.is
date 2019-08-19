@@ -2,17 +2,19 @@
 layout: default
 class: articles-page
 ---
-<nav class="representative-filters">
+<nav class="representative-filters mt-5 container">
   <ul>
     <li class="active">
       <a href="#" class="underline category">{{ site.data.translations[page.lang].reps_all }}</a>
     </li>
     <li>
-      <a href="#" class="underline category" data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
+      <a href="#" class="underline category"
+        data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
       <div class="sub-menu">
         {% assign reps = site.pages | where:"layout","representative" | where:"category", "parliament"| where:"lang", page.lang %}
         <ul>
-          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
+          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a>
+          </li>
           {% for rep in reps %}
           <li><a href="#" class="underline representative"
               data-representative="{{ rep.representative }}">{{ rep.title }}</a></li>
@@ -21,11 +23,13 @@ class: articles-page
       </div>
     </li>
     <li>
-      <a href="#" class="underline category" data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
+      <a href="#" class="underline category"
+        data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
       <div class="sub-menu">
         {% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
         <ul>
-          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a></li>
+          <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a>
+          </li>
           {% for rep in reps %}
           <li><a href="#" class="underline representative"
               data-representative="{{ rep.representative }}">{{ rep.title }}</a></li>
@@ -35,7 +39,7 @@ class: articles-page
     </li>
   </ul>
 </nav>
-<section class="container mt-5 representative-articles">
+<section class="container-fluid mt-5 representative-articles">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
       {% assign articles = site.articles | sort: "date" | reverse %}

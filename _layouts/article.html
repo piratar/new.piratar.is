@@ -68,7 +68,7 @@ class: article-page
 </section>
 
 <section class="representative-articles other-articles mt-5 container-fluid">
-  <div class="swiper-container">
+  <div class="swiper-container container">
     <div class="swiper-wrapper">
       {% assign articles = site.articles | where:"category", page.category | where_exp:"article", "article.url != page.url" | sort: "date" | reverse %}
       {% for article in articles limit: 3 %}

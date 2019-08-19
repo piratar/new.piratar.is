@@ -1,5 +1,4 @@
 .representative-list {
-  max-width: 1440px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 360px);
   row-gap: 4rem;
@@ -14,7 +13,7 @@
     }
     .more {
       position: relative;
-      padding-bottom: 5px;
+      padding-bottom: 3px;
       &:hover {
         text-decoration: none;
       }

@@ -35,13 +35,6 @@ const setupRepresentativeFilter = () => {
     }
   };
 
-  const updateQuery = (string) => {
-    if (history.pushState) {
-      var url = window.location.protocol + "//" + window.location.host + window.location.pathname + string;
-      window.history.pushState({ path: url }, '', url);
-    }
-  }
-
   $('.representative-filters a.category').click(function (e) {
     e.preventDefault();
     $this = $(this);

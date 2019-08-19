@@ -3,7 +3,7 @@ layout: default
 class: representatives-page
 ---
 
-<nav class="representative-filters mt-5">
+<nav class="representative-filters mt-5 container">
   <ul>
     <li class="active">
       <a href="#" class="underline category">{{ site.data.translations[page.lang].reps_all }}</a>
@@ -18,7 +18,7 @@ class: representatives-page
     </li>
   </ul>
 </nav>
-<section class="representative-list container-fluid">
+<section class="representative-list container-fluid mb-5">
   {% assign reps = site.pages | where:"layout", "representative" | where:"lang", page.lang %}
   {% for rep in reps  %}
   <div class="representative" data-category="{{ rep.category }}">
@@ -32,4 +32,4 @@ class: representatives-page
     <a href="{{ rep.url }}" class="more cta underline">Meira</a>
   </div>
   {% endfor %}
-  </div>
+</section>

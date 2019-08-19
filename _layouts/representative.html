@@ -13,12 +13,10 @@ class: representative-page
       </div>
     </div>
   </section>
-  <section class="call-to-action container-fluid mt-5">
-    <div class="row h-100 justify-content-center align-items-center bottom-shadow">
+  <section class="call-to-action container-fluid">
       {% include cta-newsletter.html %}
-    </div>
   </section>
-  <section class="representative-articles mt-5">
+  <section class="representative-articles container-fluid mt-5">
     <div class="swiper-container container">
       <div class="swiper-wrapper">
         {% assign articles = site.articles | where:"category", page.category %}
@@ -38,7 +36,7 @@ class: representative-page
     </div>
   </section>
   {% if page.social %}
-  <section class="social mt-4 d-flex justify-content-center">
+  <section class="social container mt-4 d-flex justify-content-center">
     {% if page.social.twitter %}
     <a class="icon icon-twitter mr-4" href="{{ page.social.twitter }}"><span class="sr-only">Twitter</span></a>
     {% endif %}
