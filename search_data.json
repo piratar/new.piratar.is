@@ -1,7 +1,7 @@
 ---
 ---
-{% assign posts = site.posts | where:"lang", "is" %}
-{% assign pages = site.pages | where:"lang", "is" %}
+{% assign posts = site.posts %}
+{% assign pages = site.pages %}
 [   {% for post in posts %}
     {
         "title": "{{ post.title | xml_escape }}",
