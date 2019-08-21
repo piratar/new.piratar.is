@@ -1,0 +1,30 @@
+.representative-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 360px);
+  row-gap: 4rem;
+  justify-content: center;
+  column-gap: 6rem;
+  .representative {
+    color: white;
+    .image {
+      background-position: center;
+      background-size: cover;
+      height: 180px;
+    }
+    .more {
+      position: relative;
+      padding-bottom: 3px;
+      &:hover {
+        text-decoration: none;
+      }
+      &::before {
+        content: "";
+        border-bottom: 1px solid $pirate-orange;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  }
+}

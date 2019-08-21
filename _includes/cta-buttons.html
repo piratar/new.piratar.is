@@ -1,11 +1,9 @@
 <script type="text/template" data-template="cta-register">
-  <a class="btn btn-outline-* sign-up-btn" href="https://x.piratar.is/accounts/register/" target="_blank">
+  <a class="btn btn-outline-* sign-up-btn bottom-shadow w-100 mt-5 mb-5 container" href="https://x.piratar.is/accounts/register/" target="_blank">
     <h2 class="cta">{{ site.data.translations[page.lang].join_party }}</h2>
   </a>
 </script>
 
 <script type="text/template" data-template="cta-newsletter">
-  <a class="btn btn-outline-*" href="https://x.piratar.is/accounts/register/" target="_blank">
-    <h2 class="cta">{{ site.data.translations[page.lang].newsletter_signup }}</h2>
-  </a>
+  {% include cta-newsletter.html %}
 </script>

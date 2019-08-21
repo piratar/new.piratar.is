@@ -25,6 +25,9 @@ a {
 }
 .cta {
   color: $pirate-orange;
+  &:hover {
+    color: $pirate-orange;
+  }
 }
 
 .btn:focus {
@@ -47,4 +50,14 @@ a {
 
 .bottom-shadow {
   box-shadow: 0px 20px 30px -5px $pirate-dark-black;
+}
+
+section {
+  max-width: 1440px;
+}
+
+@media (min-width: 1850px) {
+  .container {
+    max-width: 1440px;
+  }
 }

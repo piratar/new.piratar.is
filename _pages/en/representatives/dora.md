@@ -1,6 +1,7 @@
 ---
 title: Dóra
 layout: representative
-lang: is
-category: dora
+lang: en
+category: municipal
+representative: dora
 ---

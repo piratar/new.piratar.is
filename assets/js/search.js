@@ -5,7 +5,7 @@ $(document).ready(function () {
     event.preventDefault();
     let string = $("#search-box").val();
     fuseSearch(string);
-    updateQuery(string);
+    updateQuery('?q=' + string);
   });
   // Search button clicked
   $('#desktop-nav-search, #mobile-nav-search').click(function () {
@@ -51,17 +51,6 @@ const fuseSearch = (string) => {
   }
 }
 
-/**
- * Updates the query parameter
- * @param {String} query new query string
- */
-const updateQuery = (query) => {
-  let queryParam = query ? '?q=' + query : '';
-  if (history.pushState) {
-    var url = window.location.protocol + "//" + window.location.host + window.location.pathname + queryParam;
-    window.history.pushState({ path: url }, '', url);
-  }
-}
 
 const fuseOptions = {
   shouldSort: true,

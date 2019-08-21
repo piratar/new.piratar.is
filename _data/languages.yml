@@ -1,8 +1,6 @@
 is:
   url: /
   title: English
-  searchUrl: /leit
 en:
   url: /en
   title: English
-  searchUrl: /en/search

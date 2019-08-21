@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  var $cta = $('section.call-to-action > div');
+  var $cta = $('section.cta-random');
   if ($cta.length) {
     const ctas = ['cta-register', 'cta-newsletter']
       .map((a) => ({ sort: Math.random(), value: a }))

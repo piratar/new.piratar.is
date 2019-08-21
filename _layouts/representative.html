@@ -1,11 +1,49 @@
 ---
 layout: default
+class: representative-page
 ---
 
-<div class="container" style="color:white;">
-  <h2>Greinar</h2>
-  {% assign articles = site.articles | where:"category", page.category %}
-  {% for article in articles %}
-  <a href="{{ article.url }}">{{ article.title }}</a>
-  {% endfor %}
-</div>
+<section class="profile container-fluid mt-5">
+  <div class="container">
+    <h2 class="title">{{ page.title }}</h2>
+    <h4 class="heading">{{ page.description }}</h4>
+    <div class="about">
+      {{ page.content }}
+    </div>
+  </div>
+</section>
+<section class="call-to-action container-fluid">
+    {% include cta-newsletter.html %}
+</section>
+<section class="representative-articles container-fluid mt-5">
+  <div class="swiper-container container">
+    <div class="swiper-wrapper">
+      {% assign articles = site.articles | where:"representative", page.representative %}
+      {% for article in articles limit: 3 %}
+      <div class="swiper-slide news-card">
+        <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
+          <div class="image" style="background-image: url('{{ article.image }}');"></div>
+          <div class="lower flex-column d-flex">
+            <span class="date">{{ article.date | date: "%d/%m/%y" }}</span>
+            <div class="title w-100">{{ article.title }}</div>
+            <p class="summary">{{ article.sub_heading }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% if page.social %}
+<section class="social container mt-4 d-flex justify-content-center">
+  {% if page.social.twitter %}
+  <a class="icon icon-twitter mr-4" href="{{ page.social.twitter }}"><span class="sr-only">Twitter</span></a>
+  {% endif %}
+  {% if page.social.instagram %}
+  <a class="icon icon-instagram mr-4" href="{{ page.social.instagram }}"><span class="sr-only">Instagram</span></a>
+  {% endif %}
+  {% if page.social.facebook %}
+  <a class="icon icon-facebook" href="{{ page.social.facebook }}"><span class="sr-only">Facebook</span></i></a>
+  {% endif %}
+</section>
+{% endif %}

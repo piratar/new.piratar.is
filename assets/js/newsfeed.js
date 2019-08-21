@@ -6,7 +6,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  if ($('.newsfeed-posts').length) {
+  if ($('body.posts-page').length) {
     const feeds = {{ site.data.newsfeed | jsonify }};
     generateFeeds(feeds, showNewsfeed);
   }
@@ -40,23 +40,6 @@ const appendSlides = (swiper, newsfeed, category) => {
   }
 };
 
-const setupNewsfeedCarousel = () => {
-  const selector = ".newsfeed-posts";
-  const nextEl = selector + ' .swiper-button-next';
-  const prevEl = selector + ' .swiper-button-prev';
-  let swiper = new Swiper(selector + ' .swiper-container', {
-    freeMode: true,
-    slidesPerView: 'auto',
-    slidesPerColumn: 2,
-    navigation: {
-      nextEl: nextEl,
-      prevEl: prevEl,
-    },
-  });
-  $(nextEl).css('display', '');
-  $(prevEl).css('display', '');
-  return swiper;
-}
 
 const generateFeeds = (feeds, callback) => {
   var newsfeed = [];
@@ -81,7 +64,7 @@ const generateFeeds = (feeds, callback) => {
 const sortNewsfeed = (newsfeed) => newsfeed.sort((a, b) => (a.date < b.date) ? 1 : -1);
 
 const showNewsfeed = (newsfeed) => {
-  const swiper = setupNewsfeedCarousel()
+  const swiper = setupCarousel('.newsfeed-posts', 2);
   appendSlides(swiper, newsfeed);
   setupFilter('.newsfeed-posts', swiper, newsfeed);
 };

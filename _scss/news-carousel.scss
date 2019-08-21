@@ -1,6 +1,5 @@
 .news {
   position: relative;
-  max-width: 1300px;
   .swiper-slide {
     background: $pirate-dark-black;
     color: $pirate-white;
@@ -9,6 +8,7 @@
     height: auto;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     overflow: hidden;
 
     @media (max-width: 420px) {
@@ -62,6 +62,13 @@
         box-shadow: 0 10px 20px 30px rgba(0, 0, 0, 0.87),inset 0px 60px 60px 10px rgba(0, 0, 0, 0.87);
       }
       .title {
+        h3 {
+          overflow: hidden;
+          font-size: 24px;
+          @media (max-width: 420px) {
+            font-size: 20px;
+          }
+        }
         &:after {
           content: "";
           display: block;
@@ -76,10 +83,7 @@
 }
 
 .news-filters {
-  font-family: refrigerator-deluxe, sans-serif;
   letter-spacing: 1.2px;
-  font-size: 18px;
-  font-weight: 300;
   color: $pirate-white;
   text-align: center;
   ul {

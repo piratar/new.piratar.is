@@ -1,0 +1,55 @@
+---
+label: Article
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: sub_heading
+  label: sub_heading
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  default: now
+- type: file
+  name: image
+  label: image
+- name: representative
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - dora
+    - thorhildur
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: representative
+- type: tag_list
+  name: tags
+  label: Tags
+- type: text
+  name: layout
+  label: layout
+  default: article
+  hidden: true
+- name: lang
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: documents
+      section: 
+      file: _data/languages.yml
+      path: 
+  label: Language

@@ -1,21 +1,35 @@
 ---
 layout: default
+class: representatives-page
 ---
 
-<div class="container">
-  <h2>Fulltrúar</h2>
-  {% for rep in site.representatives %}
-  <div class="representative">
-    <div class="name">
-      {{ rep.title }}
+<nav class="representative-filters mt-5 container">
+  <ul>
+    <li class="active">
+      <a href="#" class="underline category">{{ site.data.translations[page.lang].reps_all }}</a>
+    </li>
+    <li>
+      <a href="#" class="underline category"
+        data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
+    </li>
+    <li>
+      <a href="#" class="underline category"
+        data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
+    </li>
+  </ul>
+</nav>
+<section class="representative-list container-fluid mb-5">
+  {% assign reps = site.pages | where:"layout", "representative" | where:"lang", page.lang %}
+  {% for rep in reps  %}
+  <div class="representative" data-category="{{ rep.category }}">
+    <div class="image" style="background-image: url('{{ rep.banner_image }}');"></div>
+    <h4 class="title mt-4">{{ rep.title }}</h4>
+    <span class="description">{{ rep.description }}</span>
+    <div class="contact mt-2 mb-2 d-flex flex-column">
+      <a href="mailto:{{ rep.email }}" class="email">{{ rep.email }}</a>
+      <a href="tel:{{ rep.phone }}" class="phone">{{ rep.phone }}</a>
     </div>
+    <a href="{{ rep.url }}" class="more cta underline">Meira</a>
   </div>
   {% endfor %}
-</div>
-
-
-<style>
-  .representative {
-    color: white;
-  }
-</style>
+</section>
