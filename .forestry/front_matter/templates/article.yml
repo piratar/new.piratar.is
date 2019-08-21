@@ -19,20 +19,6 @@ fields:
 - type: file
   name: image
   label: image
-- name: category
-  type: select
-  default: []
-  config:
-    required: true
-    options:
-    - parliament
-    - municipal
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: category
 - name: representative
   type: select
   default: ''
@@ -47,9 +33,9 @@ fields:
       file: 
       path: 
   label: representative
-- type: list
-  name: related_posts
-  label: related_posts
+- type: tag_list
+  name: tags
+  label: Tags
 - type: text
   name: layout
   label: layout

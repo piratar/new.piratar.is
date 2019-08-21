@@ -23,6 +23,8 @@ is:
   reps_all: Allir
   reps_municipal: Sveitarstjórn
   reps_page: fulltruar
+  most_read: Mest lesið
+  new_material: Nýtt efni
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -48,6 +50,8 @@ en:
   reps_all: All
   reps_municipal: Local
   reps_page: representatives
+  most_read: Most read
+  new_material: Latest posts
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar

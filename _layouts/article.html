@@ -3,6 +3,8 @@ layout: default
 class: article-page
 ---
 {% assign repspage = site.data.languages.url | append: "/" | append: site.data.translations[page.lang].reps_page %}
+{% assign representative = site.pages | where: "layout", "representative" | where: "representative", page.representative %}
+{% assign category = representative[0].category %}
 <section class="article-banner" style="background-image: url('{{ page.image }}');">
   <div class="title-wrapper">
     <h1 class="title">
@@ -13,7 +15,7 @@ class: article-page
 <nav class="representative-filters mt-5">
   <ul>
     <li>
-      <a href="{{ repspage }}?category=parliament" class="underline category {% if page.category == 'parliament' %} active {% endif %}">{{ site.data.translations[page.lang].reps_parliament }}</a>
+      <a href="{{ repspage }}?category=parliament" class="underline category {% if category == 'parliament' %} active {% endif %}">{{ site.data.translations[page.lang].reps_parliament }}</a>
       <div class="sub-menu">
         {% assign reps = site.pages | where:"layout","representative" | where:"category", "parliament"| where:"lang", page.lang %}
         <ul>
@@ -23,7 +25,7 @@ class: article-page
         </ul>
       </div>
     </li>
-    <li {% if page.category == 'municipal' %} class="active" {% endif %}>
+    <li {% if category == 'municipal' %} class="active" {% endif %}>
       <a href="{{ repspage }}?category=municipal" class="underline category">{{ site.data.translations[page.lang].reps_municipal }}</a>
       <div class="sub-menu">
         {% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
@@ -40,7 +42,7 @@ class: article-page
   <div class="row">
     <div class="col col-small col-3 d-none d-lg-block">
       <div class="heading">
-        Mest lesið
+        {{ site.data.translations[page.lang].most_read }}
       </div>
       </div>
       <div class="col col-main col-12 col-lg-6">
@@ -52,7 +54,7 @@ class: article-page
       </div>
       <div class="col col-small right col-3 d-none d-lg-block">
         <div class="heading">
-          Nýtt efni
+          {{ site.data.translations[page.lang].new_material }}
         </div>
         {% assign posts = site.posts | concat: site.articles | where_exp:"posts", "post.url != page.url" | sort: "date" | reverse %}
         {% for post in posts limit: 3%}
@@ -70,7 +72,7 @@ class: article-page
 <section class="representative-articles other-articles mt-5 container-fluid">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
-      {% assign articles = site.articles | where:"category", page.category | where_exp:"article", "article.url != page.url" | sort: "date" | reverse %}
+      {% assign articles = site.articles | where:"representative", page.representative | where_exp:"article", "article.url != page.url" | sort: "date" | reverse %}
       {% for article in articles limit: 3 %}
       <div class="swiper-slide news-card">
         <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">

@@ -19,7 +19,7 @@ class: representative-page
   <section class="representative-articles container-fluid mt-5">
     <div class="swiper-container container">
       <div class="swiper-wrapper">
-        {% assign articles = site.articles | where:"category", page.category %}
+        {% assign articles = site.articles | where:"representative", page.representative %}
         {% for article in articles limit: 3 %}
         <div class="swiper-slide news-card">
           <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">

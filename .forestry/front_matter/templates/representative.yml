@@ -1,0 +1,70 @@
+---
+label: Representative
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: layout
+  label: layout
+  default: representative
+  config:
+    required: false
+  hidden: true
+- name: lang
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: documents
+      section: 
+      file: _data/languages.yml
+      path: 
+  label: Language
+- type: text
+  name: representative
+  label: representative
+- name: category
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - municipal
+    - parliament
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: category
+- type: text
+  name: description
+  label: description
+- type: file
+  name: banner_image
+  label: banner_image
+- type: text
+  name: phone
+  label: phone
+- type: text
+  name: email
+  label: email
+- type: field_group
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: facebook
+    label: facebook
+  - type: text
+    name: twitter
+    label: twitter
+  - type: text
+    name: instagram
+    label: instagram
