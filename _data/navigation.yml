@@ -2,24 +2,44 @@ menu:
   'is':
     - title: Stefnan
       sub:
-        - title: Viðburðir
-          url: /vidburdir
-        - title: Fréttir
-          url: /frettir
-        - title: Beint
-          url: /beint
-        - title: Hlaðvarp
-          url: /hladvarp
+        - title: Áherslumál
+          url: /aherslumal
+        - title: Píratakóðinn
+          url: /piratakodinn
+        - title: Framtíðarsýn
+          url: /framtidarsyn
+        - title: Stefnumál og mótun
+          url: /stefnumal-og-motun
     - title: Fólkið
       sub:
         - title: Þingflokkur
           url: /thingflokkur
+        - title: Sveitar- og borgarstjórn
+          url: /sveitar-og-borgarstjorn
+        - title: Starfsfólk
+          url: /starfsfolk
+        - title: Framkvæmdaráð
+          url: /framkvaemdarad
     - title: Um Pírata
       sub:
-        - title: Stefna
-          url: /stefna
+        - title: Lög Píratar
+          url: /log-pirata
+        - title: Hafa samband
+          url: /hafa-samband
+        - title: Tortúga
+          url: /tortuga
+        - title: Kynningarefni
+          url: /kynningarefni
+        - title: Fréttaveita
+          url: /frettaveita
     - title: Taka þátt
       sub:
+        - title: Grasrótarinn
+          url: /grasrotarinn
+        - title: Skrá í flokk
+          url: /skra-i-flokk
+        - title: Styrkja Pírata
+          url: /styrkja-pirata
         - title: Bóka viðburð
           url: /boka-vidburd
   'en':

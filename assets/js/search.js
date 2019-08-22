@@ -37,7 +37,7 @@ const openSearchOverlay = () => {
 const closeSearchOverlay = () => {
   $('#search-container').addClass('d-none');
   $('body').removeClass('overflow-hidden');
-  updateQuery();
+  updateQuery('');
 }
 
 const fuseSearch = (string) => {

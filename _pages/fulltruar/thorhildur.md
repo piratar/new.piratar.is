@@ -1,5 +1,5 @@
 ---
-title: Þórhildur Sunna
+title: Þórhildur Sunna Ævarsdóttir
 layout: representative
 lang: is
 category: parliament
