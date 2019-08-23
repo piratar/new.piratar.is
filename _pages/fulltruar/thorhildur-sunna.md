@@ -3,9 +3,9 @@ title: Þórhildur Sunna Ævarsdóttir
 layout: representative
 lang: is
 category: parliament
-representative: thorhildur
 banner_image: /assets/img/thorhildur_banner.jpg
 description: Þingmaður Pírata
+representative: þórhildur-sunna
 phone: 845-1311
 email: thorhildursunna@althingi.is
 ---

@@ -25,8 +25,15 @@ fields:
   config:
     required: true
     options:
-    - dora
-    - thorhildur
+    - björn-leví
+    - dóra-björt
+    - halldóra-mogensen
+    - helgi-hrafn
+    - jón-þór
+    - sigurbjörg-erla
+    - sigurborg-ósk
+    - smári-mccarthy
+    - þórhildur-sunna
     source:
       type: simple
       section: 

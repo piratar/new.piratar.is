@@ -1,10 +1,12 @@
 ---
 title: Smári McCarthy
 layout: representative
-lang: is
+lang: en
 category: parliament
-representative: smari
-description: Þingmaður Pírata
+email: smarim@althingi.is
+representative: smári-mccarthy
+social:
+  twitter: https://twitter.com/smarimc
 ---
 
 Smári McCarthy hefur undanfarin ár fyrst og fremst unnið í upplýsingafrelsis- og lýðræðismálum út um allar trissur. Smári er fyrrum tæknistjóri hjá Organized Crime and Corruption Reporting Project.
