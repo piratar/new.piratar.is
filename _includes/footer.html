@@ -13,27 +13,29 @@
             <p>{{ site.data.translations[page.lang].account_number}}: 1161-26-4612</p>
           </div>
         </div>
-        <div class="row col-md-8 col-sm-12 col-lg-9 mt-4">
-          {% for link in site.data.navigation.footer.[page.lang] %}
-          <div class="nav-col col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-            <h3 class="nav-title">{{ link.title}}</h3>
-            <ul class="nav">
-              {% for child in link.sub %}
-              <li>
-                <a href="{{ child.url }}" {% if child.cta %} class="cta" {% endif %}>{{ child.title }}</a>
-              </li>
-              {% endfor %}
-              {% if link.email %}
-              <li>
-                <a href="mailto:{{ link.email }}" class="cta">Hafa samband</a>
-              </li>
-              {% endif %}
-            </ul>
+        <div class="col-md-8 col-sm-12 col-lg-9 mt-4">
+          <div class="row">
+            {% for link in site.data.navigation.footer.[page.lang] %}
+            <div class="nav-col col-xl-3 col-lg-4 col-sm-6 col-xs-12">
+              <h3 class="nav-title">{{ link.title}}</h3>
+              <ul class="nav">
+                {% for child in link.sub %}
+                <li>
+                  <a href="{{ child.url }}" {% if child.cta %} class="cta" {% endif %}>{{ child.title }}</a>
+                </li>
+                {% endfor %}
+                {% if link.email %}
+                <li>
+                  <a href="mailto:{{ link.email }}" class="cta">Hafa samband</a>
+                </li>
+                {% endif %}
+              </ul>
+            </div>
+            {% endfor %}
           </div>
-          {% endfor %}
         </div>
       </div>
-      </div>
+    </div>
   </nav>
   <nav class="row-small">
     <div class="container">
