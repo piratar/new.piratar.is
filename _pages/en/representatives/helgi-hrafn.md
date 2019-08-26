@@ -4,5 +4,5 @@ layout: representative
 lang: en
 category: parliament
 description: Þingmaður Pírata
-author: Helgi Hrafn Gunnarsson
+representative: Helgi Hrafn Gunnarsson
 ---

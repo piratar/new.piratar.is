@@ -12,6 +12,22 @@ collections:
   articles:
     output: true
     permalink: /fulltruar/greinar/:path/
+defaults:
+  -
+    scope:
+      path: "_pages"
+    values:
+      lang: is
+  -
+    scope:
+      path: _pages/en
+    values:
+      lang: en
+  -
+    scope:
+      path: _pages/pl
+    values:
+      lang: pl
 plugins:
   - jekyll-sitemap
   - jekyll-feed

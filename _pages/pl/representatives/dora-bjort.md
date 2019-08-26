@@ -1,7 +1,7 @@
 ---
 title: Dóra Björt Guðjónsdóttir
 layout: representative
-lang: en
+lang: pl
 category: municipal
 representative: Dóra Björt Guðjónsdóttir
 ---

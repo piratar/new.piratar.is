@@ -1,8 +1,8 @@
 ---
-title: Halldóra Mogensen
+title: Helgi Hrafn Gunnarsson
 layout: representative
-lang: en
+lang: pl
 category: parliament
 description: Þingmaður Pírata
-representative: Halldóra Mogensen
+representative: Helgi Hrafn Gunnarsson
 ---

@@ -1,8 +1,8 @@
 ---
-title: Halldóra Mogensen
+title: Björn Leví Gunnarsson
 layout: representative
-lang: en
+lang: pl
 category: parliament
 description: Þingmaður Pírata
-representative: Halldóra Mogensen
+representative: björn-leví
 ---
