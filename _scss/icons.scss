@@ -61,5 +61,16 @@
     &.icon-gear {
       background-image: url("/assets/img/gear-icon.svg");
     }
+    &.icon-spotify {
+      background-image: url("/assets/img/spotify_icon.png");
+    }
+    &.icon-soundcloud {
+      background-image: url("/assets/img/soundcloud_icon.png");
+      width: 34px;
+      margin-bottom: -5px;
+    }
+    &.icon-apple-podcasts {
+      background-image: url("/assets/img/apple-podcast_icon.png")
+    }
 
 }

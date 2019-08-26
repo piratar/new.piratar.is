@@ -10,7 +10,7 @@
           <div class="row title">
             <h3 class="w-100 text-uppercase">${title}</h3>
           </div>
-          <span class="row summary">${summary}</span>
+          <span class="row summary box-shadow">${summary}</span>
         </div>
       </a>
     </div>
@@ -26,13 +26,13 @@
           <div class="row title">
             <h3 class="w-100 text-uppercase">${title}</h3>
           </div>
-          <span class="row summary">${summary}</span>
+          <span class="row summary box-shadow">${summary}</span>
         </div>
       </a>
     </div>
   </script>
   <script type="text/template" data-template="spreaker">
-    <div class="swiper-slide podcast" data-category="podcast">
+    <div class="swiper-slide podcast" data-category="podcast" style="background-image:url('${image}');">
       <div class="news-card d-flex flex-column justify-content-between">
         <div class="row upper">
           <div class="category">{{ site.data.translations[page.lang].podcast }}</div>
@@ -42,10 +42,22 @@
           <div class="row title">
             <h3 class="w-100 text-uppercase">${title}</h3>
           </div>
-          <div class="row listen">
-            <a href="https://open.spotify.com/show/0PkvH07P8HqmuU58GcRwqt" target="_blank"><img height="22" src="/assets/img/spotify_icon.png" alt="Spotify"/></a>
-            <a href="https://podcasts.apple.com/is/podcast/píratar-kosningar-2018/id1367226465" target="_blank"><img height="22" src="/assets/img/podcast_icon.png" alt="Apple Podcast"/></a>
-            <a href="https://soundcloud.com/podcastpirata" target="_blank"><img class="soundcloud-icon" height="26" src="/assets/img/soundcloud-icon.png" alt="Soundcloud"/> </a>
+          <div class="row listen box-shadow align-items-end">
+            <a href="https://open.spotify.com/show/0PkvH07P8HqmuU58GcRwqt" title="Spotify" target="_blank">
+              <div class="icon icon-spotify">
+                <span class="sr-only">Spotify</span>
+              </div>
+            </a>
+            <a href="https://podcasts.apple.com/is/podcast/píratar-kosningar-2018/id1367226465" title="Apple Podcasts" target="_blank">
+              <div class="icon icon-apple-podcasts">
+                <span class="sr-only">Apple Podcasts</span>
+              </div>
+            </a>
+            <a href="https://soundcloud.com/podcastpirata" title="Soundcloud" target="_blank">
+              <div class="icon icon-soundcloud">
+                <span class="sr-only">Soundcloud</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>

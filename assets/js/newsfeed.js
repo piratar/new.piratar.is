@@ -194,7 +194,7 @@ const renderSpreaker = (data, feed) => {
       'url': podcast.playback_url,
       'date': formatDateWithYear(date),
       'category': feed.title,
-      'image': feed.image,
+      'image': podcast.image_original_url || feed.image,
     })).join('')
     posts.push({ 'date': podcast.published_at, 'html': html, 'category': 'podcast' });
   });
