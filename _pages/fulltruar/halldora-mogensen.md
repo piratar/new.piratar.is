@@ -4,6 +4,7 @@ layout: representative
 lang: is
 category: parliament
 description: Þingmaður Pírata
+banner_image: /assets/img/halldora-mogensen.jpg
 representative: halldóra-mogensen
 ---
 Ég heiti Halldóra Mogensen og er þingkona Pírata i Reykjavíkurkjördæmi Norður.

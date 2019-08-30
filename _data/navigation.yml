@@ -13,9 +13,9 @@ menu:
     - title: Fólkið
       sub:
         - title: Þingflokkur
-          url: /thingflokkur
+          url: /fulltruar?category=parliament
         - title: Sveitar- og borgarstjórn
-          url: /sveitar-og-borgarstjorn
+          url: /fulltruar?category=municipal
         - title: Starfsfólk
           url: /starfsfolk
         - title: Framkvæmdaráð
@@ -37,11 +37,11 @@ menu:
         - title: Grasrótarinn
           url: /grasrotarinn
         - title: Skrá í flokk
-          url: /skra-i-flokk
+          url: https://x.piratar.is/accounts/register/
         - title: Styrkja Pírata
           url: /styrkja-pirata
         - title: Bóka viðburð
-          url: /boka-vidburd
+          url: /tortuga/boka-vidburd
   'en':
     - title: News
       sub:
@@ -145,7 +145,7 @@ footer:
         - title: Stofna aðildarfélag
           url: /adildarfelog/stofna-adildarfelag
         - title: Kosningakerfi Pírata
-          url: //x.piratar.is
+          url: https://x.piratar.is
           cta: true
     - title: Tortúga og rekstur
       sub:

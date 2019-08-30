@@ -1,53 +1,69 @@
 {% assign url = page.url | remove:'index.html' %}
 {% if page.banner_image %}
 <header class="site-header desktop-banner" style="background-image:url('{{ page.banner_image }}');">
-{% else %}
-<header class="site-header">
-{% endif %}
-  <nav class="navbar p-0">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="{{ site.data.languages[page.lang].url }}">
-        <img src="{{ "/assets/img/logo.png" | absolute_url }}" alt="Píratar">
-      </a>
-      <div class="navbar-mobile-right">
+  {% else %}
+  <header class="site-header">
+    {% endif %}
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{{ site.data.languages[page.lang].url }}">
+          <img src="{{ "/assets/img/logo.png" | absolute_url }}" alt="Píratar">
+        </a>
+        <div class="navbar-mobile-right">
           <button type="button" class="btn icon icon-search" id="desktop-nav-search">
             <span class="sr-only">Search</span>
           </button>
           <button class="navbar-toggler collapsed btn" type="button" data-toggle="collapse" data-target="#navbar"
-          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <div class="navbar-collapse" id="navbar">
-        <div class="nav-options">
-          <div class="nav-upper d-flex">
-            <ul class="navbar-nav lang-nav">
-              {% for language in site.data.languages%}
-              <li class="nav-item">
-                <a href="{{ language[1].url }}"
-                  class="nav-link text-uppercase {% if language[0] == page.lang %} active {% endif %}">
-                  {{ language[0] }}
-                </a>
-              </li>
-              {% endfor %}
-            </ul>
-            <button class="navbar-toggler collapsed btn" type="button" data-toggle="collapse" data-target="#navbar"
-              aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="icon-bar dark"></span>
-              <span class="icon-bar dark"></span>
-              <span class="icon-bar dark"></span>
-            </button>
-          </div>
-          <div class="nav-lower">
-            <ul class="navbar-nav icon-nav">
-              <li class="nav-item"><a class="nav-link" href="x.piratar.is" target="_blank"><div class="icon icon-home"></div><span>x.piratar.is</span></a></li>
-              <li class="nav-item"><a class="nav-link" href="/hladvarp" target="_blank"><div class="icon icon-podcast"></div><span>Hlaðvarp</span></a></li>
-              <li class="nav-item"><a class="nav-link" href="/events" target="_blank"><div class="icon icon-events"></div><span>Viðburðir</span></a></li>
-              <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/groups/Pirataspjallid"><div class="icon icon-speech"></div><span>Pírataspjallið</span></a></li>
-            </ul>
-            <ul class="navbar-nav main-nav">
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse" id="navbar">
+          <div class="nav-options">
+            <div class="nav-upper d-flex">
+              <ul class="navbar-nav lang-nav">
+                {% for language in site.data.languages%}
+                <li class="nav-item">
+                  <a href="{{ language[1].url }}"
+                    class="nav-link text-uppercase {% if language[0] == page.lang %} active {% endif %}">
+                    {{ language[0] }}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+              <button class="navbar-toggler collapsed btn" type="button" data-toggle="collapse" data-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar dark"></span>
+                <span class="icon-bar dark"></span>
+                <span class="icon-bar dark"></span>
+              </button>
+            </div>
+            <div class="nav-lower">
+              <ul class="navbar-nav icon-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://x.piratar.is" target="_blank">
+                    <div class="icon icon-home"></div><span>x.piratar.is</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/hladvarp" target="_blank">
+                    <div class="icon icon-podcast"></div><span>Hlaðvarp</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/events" target="_blank">
+                    <div class="icon icon-events"></div><span>Viðburðir</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/groups/Pirataspjallid">
+                    <div class="icon icon-speech"></div><span>Pírataspjallið</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="navbar-nav main-nav">
                 {% for link in site.data.navigation.menu.[page.lang] %}
                 {% if link.sub %}
                 <li class="nav-item">
@@ -72,15 +88,17 @@
                 {% endfor %}
               </ul>
               <ul class="navbar-nav icon-nav">
-                <li class="nav-item"><a class="nav-link" href="/stillingar" target="_blank"><div class="icon icon-gear"></div><span>Stillingar</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="/stillingar" target="_blank">
+                    <div class="icon icon-gear"></div><span>{{ site.data.translations[page.lang].preferences }}</span>
+                  </a></li>
               </ul>
+            </div>
           </div>
         </div>
+        {% include search-overlay.html %}
       </div>
-      {% include search-overlay.html %}
-    </div>
-  </nav>
-</header>
-{% if page.banner_image %}
-<div class="mobile-banner" style="background-image:url('{{ page.banner_image }}');"></div>
-{% endif %}
+    </nav>
+  </header>
+  {% if page.banner_image %}
+  <div class="mobile-banner" style="background-image:url('{{ page.banner_image }}');"></div>
+  {% endif %}

@@ -5,6 +5,7 @@ lang: en
 category: parliament
 email: smarim@althingi.is
 representative: smári-mccarthy
+banner_image: /assets/img/smari-mccarthy.jpg
 social:
   twitter: https://twitter.com/smarimc
 ---

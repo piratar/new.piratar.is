@@ -13,12 +13,13 @@ class: representative-page
   </div>
 </section>
 <section class="call-to-action container-fluid">
-    {% include cta-newsletter.html %}
+  {% include cta-newsletter.html %}
 </section>
+{% assign articles = site.articles | where:"representative", page.representative %}
+{% if articles.size > 0 %}
 <section class="representative-articles container-fluid mt-5">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
-      {% assign articles = site.articles | where:"representative", page.representative %}
       {% for article in articles limit: 3 %}
       <div class="swiper-slide news-card">
         <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
@@ -33,7 +34,13 @@ class: representative-page
       {% endfor %}
     </div>
   </div>
+  {% assign all_articles = site.pages | where: "layout", "articles" | where: "lang", page.lang %}
+  <div class="container">
+    <a href="{{ all_articles[0].url | append: "?category=" | append: page.category | append: "&representative=" | append: page.representative }}"
+      class="float-right see-all">{{ site.data.translations[page.lang].see_all_articles }}</a>
+  </div>
 </section>
+{% endif %}
 {% if page.social %}
 <section class="social container mt-4 d-flex justify-content-center">
   {% if page.social.twitter %}

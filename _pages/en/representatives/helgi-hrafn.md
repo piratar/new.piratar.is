@@ -4,5 +4,6 @@ layout: representative
 lang: en
 category: parliament
 description: Þingmaður Pírata
-representative: Helgi Hrafn Gunnarsson
+banner_image: /assets/img/helgi-hrafn.jpg
+representative: helgi-hrafn
 ---
