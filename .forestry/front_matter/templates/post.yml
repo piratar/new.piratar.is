@@ -18,8 +18,8 @@ fields:
   name: tags
   label: tags
 - type: file
-  name: banner_image
-  label: banner_image
+  name: image
+  label: image
 - type: text
   name: layout
   label: layout

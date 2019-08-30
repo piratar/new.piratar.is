@@ -28,6 +28,24 @@ defaults:
       path: _pages/pl
     values:
       lang: pl
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      banner: true
+  -
+    scope:
+      path: ""
+      type: articles
+    values:
+      banner: true
+  -
+    scope:
+      path: ""
+      layout: representative
+    values:
+      banner: true
 plugins:
   - jekyll-sitemap
   - jekyll-feed

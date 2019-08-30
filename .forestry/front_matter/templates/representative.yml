@@ -47,8 +47,8 @@ fields:
   name: description
   label: description
 - type: file
-  name: banner_image
-  label: banner_image
+  name: image
+  label: image
 - type: text
   name: phone
   label: phone

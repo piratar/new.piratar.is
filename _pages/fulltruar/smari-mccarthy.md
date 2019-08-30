@@ -6,7 +6,7 @@ category: parliament
 description: Þingmaður Pírata
 representative: smári-mccarthy
 email: smarim@althingi.is
-banner_image: /assets/img/smari-mccarthy.jpg
+image: /assets/img/smari-mccarthy.jpg
 social:
   twitter: https://twitter.com/smarimc
 ---
