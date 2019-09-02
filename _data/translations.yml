@@ -26,6 +26,7 @@ is:
   new_material: Nýtt efni
   see_all_articles: Sjá allar greinar
   preferences: Stillingar
+  attachments: Viðhengi
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -54,6 +55,7 @@ en:
   new_material: Latest posts
   see_all_articles: See all articles
   preferences: Preferences
+  attachments: Attachments
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar

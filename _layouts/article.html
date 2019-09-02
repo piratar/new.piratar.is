@@ -38,49 +38,8 @@ class: article-page
     </li>
   </ul>
 </nav>
-{% assign posts = site.posts | concat: site.articles | where_exp:"posts", "post.url != page.url" | sort: "date" | reverse %}
-<section class="article container-fluid">
-  <div class="row">
-    <div class="col col-small col-3 d-none d-lg-block">
-      <div class="heading">
-        {{ site.data.translations[page.lang].editors_picks }}
-      </div>
-      {% for pick in site.data.editors_picks limit: 3 %}
-      {% assign post = posts | where: "path", pick %}
-      {% assign post = post[0] %}
-      {% if post %}
-      <div class="news-card">
-        <a href="{{ post.url }}" class="d-flex flex-column justify-content-between">
-          <div class="image" style="background-image: url('{{ post.image }}');"></div>
-          <div class="title w-100">{{ post.title }}</div>
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
-    </div>
-    <div class="col col-main col-12 col-lg-6">
-      <h1 class="title">{{ page.title }}</h1>
-      <div class="sub-heading">
-        {{ page.sub_heading }}
-      </div>
-      <div class="content">{{ page.content }}</div>
-    </div>
-    <div class="col col-small right col-3 d-none d-lg-block">
-      <div class="heading">
-        {{ site.data.translations[page.lang].new_material }}
-      </div>
-      {% assign posts = site.posts | concat: site.articles | where_exp:"posts", "post.url != page.url" | sort: "date" | reverse %}
-      {% for post in posts limit: 3%}
-      <div class="news-card">
-        <a href="{{ post.url }}" class="d-flex flex-column justify-content-between">
-          <div class="image" style="background-image: url('{{ post.image }}');"></div>
-          <div class="title w-100">{{ post.title }}</div>
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
+
+{% include article-content.html %}
 
 <section class="representative-articles other-articles mt-5 container-fluid">
   <div class="swiper-container container">
