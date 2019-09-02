@@ -4,16 +4,16 @@
   {% else %}
   <header class="site-header">
     {% endif %}
-    <nav class="navbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="{{ site.data.languages[page.lang].url }}">
+    <nav class="navbar pt-3">
+      <div class="container-fluid align-items-start">
+        <a class="navbar-brand pl-0" href="{{ site.data.languages[page.lang].url }}">
           <img src="{{ "/assets/img/logo.png" | absolute_url }}" alt="Píratar">
         </a>
-        <div class="navbar-mobile-right">
+        <div class="navbar-right pr-0">
           <button type="button" class="btn icon icon-search" id="desktop-nav-search">
             <span class="sr-only">Search</span>
           </button>
-          <button class="navbar-toggler collapsed btn" type="button" data-toggle="collapse" data-target="#navbar"
+          <button class="navbar-toggler collapsed btn p-0" type="button" data-toggle="collapse" data-target="#navbar"
             aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
