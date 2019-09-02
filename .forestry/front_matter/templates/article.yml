@@ -60,3 +60,10 @@ fields:
       file: _data/languages.yml
       path: 
   label: Language
+- name: files
+  type: image_gallery
+  config: {}
+  label: files
+  hidden: false
+pages:
+- _articles/opnunarræða-evu-pandoru-baldursdóttur-á-aðalfundi-pírata.md
