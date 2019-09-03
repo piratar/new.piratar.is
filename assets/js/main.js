@@ -60,3 +60,4 @@ const updateQuery = (string) => {
 {% include_relative articles.js %}
 {% include_relative representatives.js %}
 {% include_relative article.js %}
+{% include_relative cookie-consent.js %}
