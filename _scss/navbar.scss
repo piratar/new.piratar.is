@@ -24,20 +24,17 @@
     transform: translateX(0);
   }
 }
-.desktop-banner {
-  height: 450px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-.mobile-banner {
-  display: none;
-}
+
 .navbar {
   .navbar-brand {
     img {
       height: 40px;
     }
+  }
+  .sticky {
+    position: sticky;
+    top: 5px;
+    float: right;
   }
   .nav-upper {
     justify-content: space-between;
