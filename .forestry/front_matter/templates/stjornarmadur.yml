@@ -1,0 +1,25 @@
+---
+label: Stjórnarmaður
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: 
+      file: _data/administration.yml
+      path: Administration
+  label: Category
+- type: text
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description

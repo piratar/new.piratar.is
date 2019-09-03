@@ -7,21 +7,32 @@ sections:
 - type: directory
   path: _articles
   label: Articles
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - article
 - type: directory
   path: _pages
   label: Pages
   create: all
   match: "**/*"
+- type: jekyll-posts
+  label: Posts
+  create: documents
+  templates:
+  - post
+- type: directory
+  path: _administration
+  label: Stjórnarmenn
+  create: documents
+  match: "**/*"
+  templates:
+  - stjornarmadur
 - type: directory
   path: _data
   label: Configuration
   create: all
   match: "**/*"
-- type: jekyll-posts
-  label: Posts
-  create: all
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
