@@ -1,0 +1,16 @@
+.not-found {
+  padding-bottom: 60px;
+  padding-top: 60px;
+  h2 {
+    font-size: 56px;
+    color: $pirate-white;
+  }
+  a {
+    color: $pirate-white;
+    border-bottom: 1px solid $pirate-orange;
+    &:hover {
+      text-decoration: none;
+      color: $pirate-orange;
+    }
+  }
+}
