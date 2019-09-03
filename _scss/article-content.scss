@@ -32,14 +32,6 @@ section.article {
       font-style: italic;
     }
     .content {
-      a {
-        color: inherit;
-        border-bottom: 1px solid $pirate-orange;
-        &:hover {
-          text-decoration: none;
-          color: $pirate-orange;
-        }
-      }
       img {
         max-width: 100%;
       }
@@ -50,41 +42,52 @@ section.article {
       }
     }
     .attachements {
-			border-top: 1px solid #d8d8d8;
-			margin-top: 2rem;
-			display: flex;
-			flex-flow: column;
-      a {
-        color: $pirate-blue;	
-      }
+      border-top: 1px solid #d8d8d8;
+      margin-top: 2rem;
+      display: flex;
+      flex-flow: column;
+      p {
+        color: $pirate-gray; 
+       }
     }
-  }
-  .col-small {
-    .news-card {
-      margin-bottom: 22px;
-      .date {
-        margin-top: 0.5em;
-        font-size: 14px;
-      }
-      .image {
-        height: 150px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-      }
-      .title {
-        font-size: 14px;
-        font-weight: 500;
-      }
+    .content,
+    .attachements {
       a {
-        color: $pirate-dark-black;
+        color: inherit;
+        border-bottom: 1px solid $pirate-orange;
         &:hover {
           text-decoration: none;
+          color: $pirate-orange;
         }
       }
-      @media (max-width: 420px) {
-        margin: 0em 20px 10px 0;
-        max-width: 330px;
+    }
+    .col-small {
+      .news-card {
+        margin-bottom: 22px;
+        .date {
+          margin-top: 0.5em;
+          font-size: 14px;
+        }
+        .image {
+          height: 150px;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        .title {
+          font-size: 14px;
+          font-weight: 500;
+        }
+        a {
+          color: $pirate-dark-black;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+        @media (max-width: 420px) {
+          margin: 0em 20px 10px 0;
+          max-width: 330px;
+        }
       }
     }
   }

@@ -23,23 +23,27 @@
       <div class="sub-heading">
         {{ page.sub_heading }}
       </div>
-			<div class="content">{{ page.content }}</div>
-			{% if page.files.size > 0 %}
-			<div class="attachements pt-2">
-				<p class="m-0">{{ site.data.translations[page.lang].attachments }}: </p>
-				{% for file in page.files %}
-				{% assign name = file | remove: "/uploads/"%}
-				<a href="{{ file }}" target="_blank">{{ name }}</a>
-				{% endfor %}
-			</div>
-			{% endif %}
+      <div class="content">{{ page.content }}</div>
+      {% if page.files.size > 0 %}
+      <div class="attachements pt-2">
+        <p class="m-0">{{ site.data.translations[page.lang].attachments }}: </p>
+        <ul class="list-unstyled">
+          {% for file in page.files %}
+          {% assign name = file | remove: "/uploads/"%}
+          <li class="pb-1">
+            <a href="{{ file }}" target="_blank">{{ name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
     </div>
     <div class="col col-small right col-3 d-none d-lg-block">
       <div class="heading">
         {{ site.data.translations[page.lang].new_material }}
       </div>
       {% assign new_posts = posts | sort: "date" | reverse %}
-			{% for post in posts limit: 3%}
+      {% for post in posts limit: 3%}
       <div class="news-card">
         <a href="{{ post.url }}" class="d-flex flex-column justify-content-between">
           <div class="image" style="background-image: url('{{ post.image }}');"></div>
