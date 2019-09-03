@@ -5,23 +5,28 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
-- type: list
-  name: related_posts
-  label: related_posts
 - type: text
   name: sub_heading
   label: sub_heading
-- type: list
+- type: datetime
+  name: date
+  label: date
+  default: now
+- type: tag_list
   name: tags
-  label: tags
+  label: Tags
 - type: file
   name: image
   label: image
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
+- name: files
+  type: image_gallery
+  config: {}
+  label: files
+  hidden: false
 pages:
 - _posts/2019-07-01-titill.md
