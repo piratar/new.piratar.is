@@ -48,18 +48,6 @@ fields:
   label: layout
   default: article
   hidden: true
-- name: lang
-  type: select
-  default: []
-  config:
-    required: true
-    options: []
-    source:
-      type: documents
-      section: 
-      file: _data/languages.yml
-      path: 
-  label: Language
 - name: files
   type: image_gallery
   config: {}

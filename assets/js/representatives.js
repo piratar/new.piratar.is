@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  if ($('body.representatives-page').length) {
+  if ($('body.representatives-page, body.administration-page').length) {
     setupRepresentativesFilter();
     // Select category using query parameters
     const urlParams = new URLSearchParams(window.location.search);
@@ -8,17 +8,15 @@ $(document).ready(function () {
   }
 });
 
-const filterCategory = (category) => {
-  if (category) {
-    $(".representative").not("[data-category='" + category + "']").hide();
-    $(".representative[data-category='" + category + "']").show();
-  } else {
-    $(".representative").show();
-  }
-}
-
 const setupRepresentativesFilter = () => {
-
+  const filterCategory = (category) => {
+    if (category) {
+      $(".representative").not("[data-category='" + category + "']").hide();
+      $(".representative[data-category='" + category + "']").show();
+    } else {
+      $(".representative").show();
+    }
+  }
   $('.representative-filters a.category').click(function (e) {
     e.preventDefault();
     $this = $(this);

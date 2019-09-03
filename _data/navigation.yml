@@ -18,8 +18,8 @@ menu:
           url: /fulltruar?category=municipal
         - title: Starfsfólk
           url: /starfsfolk
-        - title: Framkvæmdaráð
-          url: /framkvaemdarad
+        - title: Stjórn Píratar
+          url: /stjorn-pirata
     - title: Um Pírata
       sub:
         - title: Lög Píratar
@@ -82,13 +82,13 @@ footer:
       email: stjorn@piratar.is
       sub:
         - title: Trúnaðarráð
-          url: /trunadarrad
+          url: /stjornir-piratar?category=trunadarrad
         - title: Framkvæmdaráð
-          url: /framkvaemdarad
+          url: /stjornir-piratar?category=framkvaemdarad
         - title: Upplýsingaráð
-          url: /upplysingarad
-        - title: Úrksurðarnefnd
-          url: /urskurdarnefnd
+          url: /stjornir-piratar?category=upplysingarad
+        - title: Úrskurðarnefnd
+          url: /stjornir-piratar?category=urskurdarnefnd
     - title: Kynningarefni
       email: kynningarefni@piratar.is
       sub:
@@ -168,10 +168,17 @@ footer:
           url: /live
         - title: Podcasts
           url: /podcast
-    - title: Our people
+    - title: Administration
+      email: stjorn@piratar.is
       sub:
-        - title: Þingflokkur
-          url: /thingflokkur
+        - title: Trúnaðarráð
+          url: /stjornir-piratar?category=trunadarrad
+        - title: Framkvæmdaráð
+          url: /stjornir-piratar?category=framkvaemdarad
+        - title: Upplýsingaráð
+          url: /stjornir-piratar?category=upplysingarad
+        - title: Úrskurðarnefnd
+          url: /stjornir-piratar?category=urskurdarnefnd
     - title: About us
       sub:
         - title: Policy

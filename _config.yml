@@ -12,6 +12,8 @@ collections:
   articles:
     output: true
     permalink: /fulltruar/greinar/:path/
+  administration:
+    output: true
 defaults:
   -
     scope:
