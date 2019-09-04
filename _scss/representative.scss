@@ -14,5 +14,11 @@
         column-count: 3;
       }
     }
+    @media (max-width: 991px) {
+      padding: 20px;
+      .title {
+        font-size: 2.5rem;
+      }
+    }
   }
 }

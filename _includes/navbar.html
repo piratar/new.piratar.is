@@ -1,6 +1,6 @@
 {% assign url = page.url | remove:'index.html' %}
 {% if page.image and page.banner %}
-<header class="site-header desktop-banner" style="background-image:url('{{ page.image }}');">
+<header class="site-header header-banner" style="background-image:url('{{ page.image }}');">
   {% else %}
   <header class="site-header">
     {% endif %}
@@ -101,6 +101,3 @@
       </div>
     </nav>
   </header>
-  {% if page.image and page.banner %}
-  <div class="mobile-banner" style="background-image:url('{{ page.image }}');"></div>
-  {% endif %}

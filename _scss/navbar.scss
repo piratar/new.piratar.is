@@ -1,4 +1,3 @@
-@import "colors";
 // Desktop
 #navbar {
   position: fixed;
@@ -24,6 +23,13 @@
   &.show {
     transform: translateX(0);
   }
+}
+
+.header-banner {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar {
@@ -146,6 +152,9 @@
 
 // Mobile
 @media (max-width: 991px) {
+  .header-banner {
+    height: 275px;
+  }
   .navbar {
     padding-left: 0;
     padding-right: 0;
