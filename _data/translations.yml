@@ -3,6 +3,9 @@ is:
   add_to_calendar: Setja í dagatal
   register_event: Skrá mig á viðburð
   newsletter_signup: Skrá mig á póstlista
+  donate: Styrkja flokkinn
+  found_association: Stofna aðildarfélag
+  democracy_system: Kosningakerfi Pírata
   join_party: Skrá mig í flokkinn
   no_results: Því miður fundust engar niðurstöður.
   search_placeholder: Leitaðu!
@@ -39,6 +42,9 @@ en:
   register_event: Register
   newsletter_signup: Subscribe to newsletter
   join_party: Join the party
+  donate: Donate
+  found_association: Found an association
+  democracy_system: Direct democracy system
   no_results: Sadly, we found no results.
   search_placeholder: Type your search.
   podcast: Podcast

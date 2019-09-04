@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var $cta = $('section.cta-random');
   if ($cta.length) {
-    const ctas = ['cta-register', 'cta-newsletter']
+    const ctas = ['cta-register', 'cta-newsletter', 'cta-donate', 'cta-association', 'cta-vote']
       .map((a) => ({ sort: Math.random(), value: a }))
       .sort((a, b) => a.sort - b.sort)
       .map((a) => a.value)

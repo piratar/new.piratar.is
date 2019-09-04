@@ -12,9 +12,9 @@ class: representative-page
     </div>
   </div>
 </section>
-<section class="call-to-action container-fluid">
-  {% include cta-newsletter.html %}
-</section>
+
+{% include cta-section.html %}
+
 {% assign articles = site.articles | where:"representative", page.representative %}
 {% if articles.size > 0 %}
 <section class="representative-articles container-fluid mt-5">
@@ -54,3 +54,5 @@ class: representative-page
   {% endif %}
 </section>
 {% endif %}
+
+{% include cta-buttons.html %}
