@@ -116,7 +116,7 @@ defaults:
     values:
       lang: en
 facebook:
-  app_id: 1234567
+  app_id: 2425179654215087
 plugins:
   - jekyll-sitemap
   - jekyll-feed
