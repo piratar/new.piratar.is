@@ -85,8 +85,6 @@ footer:
           url: /stjornir-piratar?category=trunadarrad
         - title: Framkvæmdaráð
           url: /stjornir-piratar?category=framkvaemdarad
-        - title: Upplýsingaráð
-          url: /stjornir-piratar?category=upplysingarad
         - title: Úrskurðarnefnd
           url: /stjornir-piratar?category=urskurdarnefnd
     - title: Kynningarefni
@@ -175,8 +173,6 @@ footer:
           url: /stjornir-piratar?category=trunadarrad
         - title: Framkvæmdaráð
           url: /stjornir-piratar?category=framkvaemdarad
-        - title: Upplýsingaráð
-          url: /stjornir-piratar?category=upplysingarad
         - title: Úrskurðarnefnd
           url: /stjornir-piratar?category=urskurdarnefnd
     - title: About us

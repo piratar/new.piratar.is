@@ -1,8 +1,20 @@
 $(document).ready(function () {
+  let public_key = 'N24WDLHYCATEMYHRTZSU';
+  let organizer = '25096882982';
   if ($("section.events").length) {
-    let public_key = 'N24WDLHYCATEMYHRTZSU';
-    let organizer = '25096882982';
-    getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, addEvents);
+    const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
+    const eventSwiper = setupCarousel('.events');
+    getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, (event) => {
+      eventSwiper.appendSlide(eventTpl.map(render(event)).join(''));
+      createWidget(event.id);
+    });
+  }
+  else if ($('body.events-page').length) {
+    let eventListing = $('section.event-listing');
+    const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
+    getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, (event) => {
+      eventListing.append(eventTpl.map(render(event)).join(''))
+    });
   }
 });
 
@@ -17,35 +29,34 @@ const getEvents = (url, token, organizer, callback) => {
       'expand': 'venue',
     },
     success: function (data) {
-      callback(data.events);
+      addEvents(data.events, callback);
     }
   });
 }
 
-const addEvents = (events) => {
-  const eventSwiper = setupCarousel('.events');
+const addEvents = (events, callback) => {
   const language = document.documentElement.lang;
-  const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
   for (let event of events) {
     let start = new Date(event.start.local);
     let end = new Date(event.end.local)
     let time = formatTime(start, end);
     let date = formatDate(start);
+    let dateLong = formatDateLong(start, language);
     let day = start.toLocaleDateString(language, { weekday: 'long' }).slice(0, 3);
     let title = event.name.text;
     let description = event.description.text;
     let location = event.venue.name;
     let item = {
-      id: event.id, start: start, end: end, time: time, date: date,
+      id: event.id, start: start, end: end, time: time, date: date, dateLong: dateLong,
       day: day, title: title, description: description, location: location,
     };
     item['ical'] = calendarGenerators.ical(item);
     item['gcal'] = calendarGenerators.google(item);
     item['outlook'] = calendarGenerators.outlook(item);
-    eventSwiper.appendSlide(eventTpl.map(render(item)).join(''));
-    createWidget(event.id);
+    callback(item)
   }
 }
+
 
 const createWidget = (id) => {
   window.EBWidgets.createWidget({
@@ -54,6 +65,11 @@ const createWidget = (id) => {
     modalTriggerElementId: 'register-' + id,
     modal: true,
   });
+}
+
+const formatDateLong = (date, lang) => {
+  var options = { year: 'numeric', month: 'long', day: 'numeric' };
+  return date.toLocaleDateString(lang, options);
 }
 
 const formatCalTime = (date) =>

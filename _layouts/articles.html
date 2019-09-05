@@ -36,15 +36,15 @@ class: articles-page
           {% endfor %}
         </ul>
       </div>
-    </li>
-  </ul>
+    </div>
 </nav>
 <section class="container-fluid mt-5 representative-articles">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
       {% assign articles = site.articles | sort: "date" | reverse %}
       {% for article in articles %}
-      <div class="swiper-slide news-card" data-category="{{ article.categories }}"
+      {% assign rep = site.pages | where: "layout", "representative" | where: "representative", article.representative %}
+      <div class="swiper-slide news-card" data-category="{{ rep[0].category }}"
         data-representative="{{ article.representative }}">
         <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
           <div class="image" style="background-image: url('{{ article.image }}');"></div>
