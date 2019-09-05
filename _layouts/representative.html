@@ -35,9 +35,9 @@ class: representative-page
     </div>
   </div>
   {% assign all_articles = site.pages | where: "layout", "articles" | where: "lang", page.lang %}
-  <div class="container">
+  <div class="container text-center">
     <a href="{{ all_articles[0].url | append: "?category=" | append: page.category | append: "&representative=" | append: page.representative }}"
-      class="float-right see-all">{{ site.data.translations[page.lang].see_all_articles }}</a>
+      class="see-all">{{ site.data.translations[page.lang].see_all_articles }}</a>
   </div>
 </section>
 {% endif %}

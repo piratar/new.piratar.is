@@ -15,6 +15,8 @@ is:
   articles: Greinar
   post: Tilkynning
   posts: Tilkynningar
+  events: Viðburðir
+  pirate_chat: Málefnaspjall
   all_categories: Allt
   previous_posts: Nýrra efni
   next_posts: Eldra efni
@@ -53,6 +55,8 @@ en:
   articles: Articles
   post: Announcement
   posts: Announcements
+  events: Events
+  pirate_chat: spjall.piratar.is
   all_categories: Everything
   previous_posts: Previous
   next_posts: Next

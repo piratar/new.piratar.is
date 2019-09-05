@@ -1,31 +1,17 @@
-.article-banner {
-  height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  .title-wrapper {
+.article-page {
+  .swiper-slide {
+    background: $pirate-dark-black;
     color: $pirate-white;
-    align-self: end;
-    padding: 40px;
-    text-transform: uppercase;
-    width: 100%;
-    box-shadow: inset 0px -160px 90px -90px black;
-    background: linear-gradient(0deg, black 0, transparent 100%);
-    margin: 0;
-    @media (max-width: 991px) {
-      padding: 26px;
-      box-shadow: none;
-    }
-  }
-  .title {
-    width: 60%;
-    @media (max-width: 991px) {
-      width: 90%;
-      font-size: 28px;
+    max-width: 355px;
+    margin-right: 25px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    @media (max-width: 420px) {
+      margin-right: 10px;
+      max-width: 300px;
     }
   }
 }
-

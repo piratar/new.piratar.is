@@ -41,25 +41,34 @@ class: article-page
 
 {% include article-content.html %}
 
+{% assign articles = site.articles | where:"representative", page.representative | where_exp:"article", "article.url != page.url" | sort: "date" | reverse %}
+{% if articles.size > 0 %}
 <section class="representative-articles other-articles mt-5 container-fluid">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
       {% assign articles = site.articles | where:"representative", page.representative | where_exp:"article", "article.url != page.url" | sort: "date" | reverse %}
       {% for article in articles limit: 3 %}
-      <div class="swiper-slide news-card">
-        <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
-          <div class="image" style="background-image: url('{{ article.image }}');"></div>
-          <div class="lower flex-column d-flex">
-            <span class="date">{{ article.date | date: "%d/%m/%y" }}</span>
-            <div class="title w-100">{{ article.title }}</div>
-            <p class="summary">{{ article.sub_heading }}</p>
-          </div>
-        </a>
-      </div>
+      <div class="swiper-slide" style="background-image:url('{{ article.image }}');">
+          <a href="{{ article.url }}" class="news-card-overlay d-flex flex-column justify-content-end">
+            <div class="lower flex-column d-flex">
+              <span class="row date"> {{ article.date | date: "%d/%m/%y" }}</span>
+              <div class="row title">
+                <h3 class="w-100 text-uppercase"> {{ article.title }}</h3>
+              </div>
+              <span class="row summary box-shadow">{{ article.sub_heading }}</span>
+            </div>
+          </a>
+        </div>
       {% endfor %}
     </div>
   </div>
+{% assign all_articles = site.pages | where: "layout", "articles" | where: "lang", page.lang %}
+  <div class="container text-center">
+    <a href="{{ all_articles[0].url | append: "?category=" | append: category | append: "&representative=" | append: page.representative }}"
+      class="see-all">{{ site.data.translations[page.lang].see_all_articles }}</a>
+  </div>
 </section>
+{% endif %}
 
 {% include cta-section.html %}
 
