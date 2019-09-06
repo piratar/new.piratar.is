@@ -5,12 +5,11 @@
         <div class="nav-col col-md-4 col-sm-12 col-lg-3">
           <img class="footer-logo" height="65" src="/assets/img/logo-gray.png" alt="Píratar" aria-label="logo"/>
           <div class="info">
-            <p class="address">Píratar, Síðumúla 23</p>
-            <p>(Selmúlamegin), 108 Reykjavík</p>
-            <p>{{ site.data.translations[page.lang].telephone}} <a class="cta" href="tel:415-0121">415-0210</a></p>
-            <p>{{ site.data.translations[page.lang].email}}: <a class="cta" href="mailto:piratar@piratar.is">piratar@piratar.is</a></p>
-            <p>{{ site.data.translations[page.lang].id_number}}: 461212-0690</p>
-            <p>{{ site.data.translations[page.lang].account_number}}: 1161-26-4612</p>
+            <p class="address">Píratar, {{ site.data.piratar.address }}</p>
+            <p>{{ site.data.translations[page.lang].telephone}} <a class="cta" href="tel:{{ site.data.piratar.phone }}">{{ site.data.piratar.phone }}</a></p>
+            <p>{{ site.data.translations[page.lang].email}}: <a class="cta" href="mailto:{{ site.data.piratar.email }}">{{ site.data.piratar.email }}</a></p>
+            <p>{{ site.data.translations[page.lang].id_number}}: {{ site.data.piratar.kennitala }} </p>
+            <p>{{ site.data.translations[page.lang].account_number}}: {{ site.data.piratar.reikningsnumer }}</p>
           </div>
         </div>
         <div class="col-md-8 col-sm-12 col-lg-9 mt-4">

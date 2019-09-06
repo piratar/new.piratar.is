@@ -37,6 +37,10 @@ is:
   framkvaemdarad: Framkvæmdaráð
   trunadarrad: Trúnaðarráð
   urskurdarnefnd: Úrskurðarnefnd
+  bank_transfer: Millifærsla
+  one_time_donation: Eingreiðslustyrkur
+  monthly_donation: Mánaðarlegur styrkur
+  other_amount: Frjálst framlag
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -75,6 +79,10 @@ en:
   framkvaemdarad: '[Framkvæmdaráð]'
   trunadarrad: '[Trúnaðarráð]'
   urskurdarnefnd: '[Úrskurðarnefnd]'
+  bank_transfer: Bank transfer
+  one_time_donation: Single donation
+  monthly_donation: Monthly donation
+  other_amount: Other amount
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
