@@ -35,11 +35,11 @@ menu:
     - title: Taka þátt
       sub:
         - title: Grasrótarinn
-          url: /grasrotarinn
+          url: https://x.piratar.is/polity/1/tasks/
         - title: Skrá í flokk
           url: https://x.piratar.is/accounts/register/
         - title: Styrkja Pírata
-          url: /styrkja-pirata
+          url: /styrkja
         - title: Bóka viðburð
           url: /tortuga/boka-vidburd
   'en':
