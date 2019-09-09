@@ -2,43 +2,7 @@
 layout: default
 class: article-page
 ---
-{% assign representatives_page = site.pages | where: "layout", "representatives" | where: "lang", page.lang %}
-{% assign representatives_page_url = representatives_page[0].url %}
-{% assign representative = site.pages | where: "layout", "representative" | where: "representative", page.representative %}
-{% assign category = representative[0].category %}
-<nav class="representative-filters mt-5">
-  <ul>
-    <li>
-      <a href="{{ representatives_page_url }}?category=parliament"
-        class="underline category {% if category == 'parliament' %} active {% endif %}">{{ site.data.translations[page.lang].reps_parliament }}</a>
-      <div class="sub-menu">
-        {% assign reps = site.pages | where:"layout","representative" | where:"category", "parliament"| where:"lang", page.lang %}
-        <ul>
-          {% for rep in reps %}
-          <li><a href="{{ rep.url }}"
-              class="underline representative {% if page.representative == rep.representative %}active{% endif %}">{{ rep.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-    <li {% if category == 'municipal' %} class="active" {% endif %}>
-      <a href="{{ representatives_page_url
-       }}?category=municipal" class="underline category">{{ site.data.translations[page.lang].reps_municipal }}</a>
-      <div class="sub-menu">
-        {% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
-        <ul>
-          {% for rep in reps %}
-          <li>
-            <a href="{{ rep.url }}" class="underline representative {% if page.representative == rep.representative %}active{% endif %}">{{ rep.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-  </ul>
-</nav>
-
+{% include representative-filters.html %}
 {% include article-content.html %}
 
 {% assign articles = site.articles | where:"representative", page.representative | where_exp:"article", "article.url != page.url" | sort: "date" | reverse %}
@@ -63,10 +27,8 @@ class: article-page
     </div>
   </div>
 {% assign all_articles = site.pages | where: "layout", "articles" | where: "lang", page.lang %}
-  <div class="container text-center">
-    <a href="{{ all_articles[0].url | append: "?category=" | append: category | append: "&representative=" | append: page.representative }}"
-      class="see-all">{{ site.data.translations[page.lang].see_all_articles }}</a>
-  </div>
+{% assign all_articles = all_articles[0].url | append: "?category=" | append: category | append: "&representative=" | append: page.representative %}
+{% include see-all-articles.html url=all_articles_url %}
 </section>
 {% endif %}
 
