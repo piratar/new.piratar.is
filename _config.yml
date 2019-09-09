@@ -4,9 +4,12 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
-include: ["_pages"]
+include: ["_pages", _pages-is]
 collections:
   pages:
+    output: true
+    permalink: /:path
+  pages-is:
     output: true
     permalink: /:path
   articles:
@@ -19,7 +22,7 @@ collections:
 defaults:
   -
     scope:
-      path: "_pages"
+      path: "_pages-is"
     values:
       lang: is
   -
