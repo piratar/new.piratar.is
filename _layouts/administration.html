@@ -16,8 +16,7 @@ class: administration-page
   </ul>
 </nav>
 <section class="representative-list container-fluid mb-5">
-  {% assign reps = site.administration %}
-  {% for rep in reps  %}
+  {% for rep in site.administration %}
   <div class="representative" data-category="{{ rep.category }}">
     <div class="image" style="background-image: url('{{ rep.image }}');"></div>
     <h4 class="title mt-4">{{ rep.title }}</h4>

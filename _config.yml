@@ -14,6 +14,8 @@ collections:
     permalink: /fulltruar/greinar/:path/
   administration:
     output: true
+  associations:
+    output: true
 defaults:
   -
     scope:
@@ -48,6 +50,19 @@ defaults:
       layout: representative
     values:
       banner: true
+  -
+    scope:
+      path: "_associations"
+    values:
+      layout: association
+      lang: is
+      permalink: /adildarfelog/:path/
+  -
+    scope:
+      path: "_associations/en"
+    values:
+      permalink: /en/assoications/:path/
+      lang: en
 plugins:
   - jekyll-sitemap
   - jekyll-feed
