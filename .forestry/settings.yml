@@ -22,6 +22,11 @@ sections:
   templates:
   - post
 - type: directory
+  path: _associtations
+  label: Aðildarfélög
+  create: all
+  match: "**/*"
+- type: directory
   path: _administration
   label: Stjórnarmenn
   create: documents
