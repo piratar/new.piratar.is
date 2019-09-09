@@ -22,7 +22,7 @@ sections:
   templates:
   - post
 - type: directory
-  path: _associtations
+  path: _associations
   label: Aðildarfélög
   create: all
   match: "**/*"
