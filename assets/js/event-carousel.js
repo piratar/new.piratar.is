@@ -29,7 +29,9 @@ const getEvents = (url, token, organizer, callback) => {
       'expand': 'venue',
     },
     success: function (data) {
-      addEvents(data.events, callback);
+      let events = data.events;
+      events.sort((e1, e2) => (e1.start.local > e2.start.local))
+      addEvents(events, callback);
     }
   });
 }
