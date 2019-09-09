@@ -1,7 +1,7 @@
 ---
 ---
 {% assign posts = site.posts %}
-{% assign pages = site.pages %}
+{% assign pages = site.pages-is | concat: site.pages-en | concat: site.pages-pl %}
 [   {% for post in posts %}
     {
         "title": "{{ post.title | xml_escape }}",

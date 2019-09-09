@@ -4,14 +4,17 @@ baseurl:
 sass:
   sass_dir: _scss
   style: compressed
-include: ["_pages", _pages-is]
+include: ["_pages-en", _pages-is, _pages-pl]
 collections:
-  pages:
+  pages-en:
     output: true
-    permalink: /:path
+    permalink: /en/:path
   pages-is:
     output: true
     permalink: /:path
+  pages-pl:
+    output: true
+    permalink: /pl/:path
   articles:
     output: true
     permalink: /fulltruar/greinar/:path/
@@ -37,12 +40,12 @@ defaults:
       lang: is
   -
     scope:
-      path: _pages/en
+      path: "_pages-en"
     values:
       lang: en
   -
     scope:
-      path: _pages/pl
+      path: _pages-pl
     values:
       lang: pl
   -
