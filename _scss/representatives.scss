@@ -1,10 +1,10 @@
-.representative-list {
+.representative-list, .list-items {
   display: grid;
   grid-template-columns: repeat(auto-fill, 360px);
   row-gap: 4rem;
   justify-content: center;
   column-gap: 6rem;
-  .representative {
+  .representative, .item {
     color: white;
     .image {
       background-position: center;
@@ -13,7 +13,6 @@
     }
     .more {
       position: relative;
-      padding-bottom: 3px;
       &:hover {
         text-decoration: none;
       }

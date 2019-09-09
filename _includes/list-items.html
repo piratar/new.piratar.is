@@ -3,8 +3,8 @@
   <div class="item" {% if item.category %} data-category="{{ item.category }}" {% endif %}>
     <div class="image" style="background-image: url('{{ item.image }}');"></div>
     <h4 class="title mt-4">{{ item.title }}</h4>
-    <span class="description">{{ item.description }}</span>
-    <a href="{{ item.url }}" class="more cta underline">Meira</a>
+    <p class="description w-100">{{ item.description }}</p>
+    <a href="{{ item.url }}" class="more cta underline">{{ site.data.translations[page.lang].see_more }}</a>
   </div>
   {% endfor %}
 </section>

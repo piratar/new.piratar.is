@@ -41,6 +41,7 @@ is:
   one_time_donation: Eingreiðslustyrkur
   monthly_donation: Mánaðarlegur styrkur
   other_amount: Frjálst framlag
+  see_more: Meira
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -83,6 +84,7 @@ en:
   one_time_donation: Single donation
   monthly_donation: Monthly donation
   other_amount: Other amount
+  see_more: See more
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
