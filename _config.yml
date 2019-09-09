@@ -16,6 +16,16 @@ collections:
     output: true
   associations:
     output: true
+  staff:
+    output: true
+social:
+  name: Píratar
+  links:
+    - https://www.facebook.com/Piratar.Island/
+    - https://www.instagram.com/piratar/
+    - https://www.youtube.com/channel/UCf7lFaEt5uRGC33iEmjVT8g
+    - https://twitter.com/piratepartyis
+    - https://github.com/piratar
 defaults:
   -
     scope:
@@ -38,12 +48,14 @@ defaults:
       type: posts
     values:
       banner: true
+      lang: is
   -
     scope:
       path: ""
       type: articles
     values:
       banner: true
+      lang: is
   -
     scope:
       path: ""
@@ -64,6 +76,17 @@ defaults:
       permalink: /en/assoications/:path/
       lang: en
       layout: association
+  -
+    scope:
+      path: "_staff"
+    values:
+      lang: is
+      category: staff
+  -
+    scope:
+      path: "_staff/en"
+    values:
+      lang: en
 plugins:
   - jekyll-sitemap
   - jekyll-feed

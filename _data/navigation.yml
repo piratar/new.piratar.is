@@ -13,11 +13,11 @@ menu:
     - title: Fólkið
       sub:
         - title: Þingflokkur
-          url: /fulltruar?category=parliament
+          url: /folkid?category=parliament
         - title: Sveitar- og borgarstjórn
-          url: /fulltruar?category=municipal
+          url: /folkid?category=municipal
         - title: Starfsfólk
-          url: /starfsfolk
+          url: /folkid?category=staff
         - title: Stjórn Píratar
           url: /stjorn-pirata
     - title: Um Pírata
@@ -72,21 +72,21 @@ footer:
       sub:
         - title: Grasrót
           url: /grasrot
-        - title: Starfsmenn
-          url: /starfsmenn
+        - title: Starfsfólk
+          url: /folkid?category=staff
         - title: Þingflokkur
-          url: /fulltruar?category=parliament
+          url: /folkid?category=parliament
         - title: Sveitarstjórn
-          url: /fulltruar?category=municipal
+          url: /folkid?category=municipal
     - title: Stjórn Pírata
       email: stjorn@piratar.is
       sub:
         - title: Trúnaðarráð
-          url: /stjornir-piratar?category=trunadarrad
+          url: /stjorn-pirata?category=trunadarrad
         - title: Framkvæmdaráð
-          url: /stjornir-piratar?category=framkvaemdarad
+          url: /stjorn-pirata?category=framkvaemdarad
         - title: Úrskurðarnefnd
-          url: /stjornir-piratar?category=urskurdarnefnd
+          url: /stjorn-pirata?category=urskurdarnefnd
     - title: Kynningarefni
       email: kynningarefni@piratar.is
       sub:
@@ -170,11 +170,11 @@ footer:
       email: stjorn@piratar.is
       sub:
         - title: Trúnaðarráð
-          url: /stjornir-piratar?category=trunadarrad
+          url: /stjorn-pirata?category=trunadarrad
         - title: Framkvæmdaráð
-          url: /stjornir-piratar?category=framkvaemdarad
+          url: /stjorn-pirata?category=framkvaemdarad
         - title: Úrskurðarnefnd
-          url: /stjornir-piratar?category=urskurdarnefnd
+          url: /stjorn-pirata?category=urskurdarnefnd
     - title: About us
       sub:
         - title: Policy

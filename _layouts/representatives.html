@@ -16,11 +16,17 @@ class: representatives-page
       <a href="#" class="underline category"
         data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
     </li>
+    <li>
+      <a href="#" class="underline category"
+        data-category="staff">{{ site.data.translations[page.lang].reps_staff }}</a>
+    </li>
   </ul>
 </nav>
 <section class="representative-list container-fluid mb-5">
   {% assign reps = site.pages | where:"layout", "representative" | where:"lang", page.lang %}
-  {% for rep in reps  %}
+  {% assign staff = site.staff | where:"lang", page.lang %}
+  {% assign people = reps | concat: staff | sort: 'title' %}
+  {% for rep in people %}
   <div class="representative" data-category="{{ rep.category }}">
     <div class="image" style="background-image: url('{{ rep.image }}');"></div>
     <h4 class="title mt-4">{{ rep.title }}</h4>
