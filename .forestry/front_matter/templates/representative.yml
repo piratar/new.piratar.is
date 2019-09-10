@@ -46,6 +46,12 @@ fields:
 - type: text
   name: description
   label: description
+- name: details
+  type: text
+  config:
+    required: false
+  label: details
+  description: Kjördæmi
 - type: file
   name: image
   label: image
