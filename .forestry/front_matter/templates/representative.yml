@@ -14,18 +14,6 @@ fields:
   config:
     required: false
   hidden: true
-- name: lang
-  type: select
-  default: []
-  config:
-    required: true
-    options: []
-    source:
-      type: documents
-      section: 
-      file: _data/languages.yml
-      path: 
-  label: Language
 - type: text
   name: representative
   label: representative
