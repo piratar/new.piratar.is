@@ -37,12 +37,24 @@ sections:
   create: all
   match: "**/*"
 - type: directory
+  path: _representatives
+  label: Fulltrúar
+  create: documents
+  match: "**/*"
+  templates:
+  - representative
+- type: directory
   path: _administration
-  label: Stjórnarmenn
+  label: Stjórn
   create: documents
   match: "**/*"
   templates:
   - stjornarmadur
+- type: directory
+  path: _staff
+  label: Starfsfólk
+  create: all
+  match: "**/*"
 - type: directory
   path: _data
   label: Configuration
