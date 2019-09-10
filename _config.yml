@@ -24,14 +24,6 @@ collections:
     output: true
   staff:
     output: true
-social:
-  name: Píratar
-  links:
-    - https://www.facebook.com/Piratar.Island/
-    - https://www.instagram.com/piratar/
-    - https://www.youtube.com/channel/UCf7lFaEt5uRGC33iEmjVT8g
-    - https://twitter.com/piratepartyis
-    - https://github.com/piratar
 defaults:
   -
     scope:

@@ -26,23 +26,23 @@
       width: 23px;
       margin-right: 0;
     }
-    &.icon-facebook {
-      background-image: url("/assets/img/facebook-icon.svg");
+    &.icon-facebook-shadow {
+      background-image: url("/assets/img/facebook-shadow-icon.svg");
       height: 32px;
       width: 32px;
     }
-    &.icon-instagram {
-      background-image: url("/assets/img/instagram-icon.svg");
+    &.icon-instagram-shadow {
+      background-image: url("/assets/img/instagram-shadow-icon.svg");
       height: 32px;
       width: 32px;
     }
-    &.icon-twitter {
-      background-image: url("/assets/img/twitter-icon.svg");
+    &.icon-twitter-shadow {
+      background-image: url("/assets/img/twitter-shaodw-icon.svg");
       height: 32px;
       width: 32px;
     }
-    &.icon-youtube {
-      background-image: url("/assets/img/youtube-icon.svg");
+    &.icon-youtube-shadow {
+      background-image: url("/assets/img/youtube-shadow-icon.svg");
       height: 32px;
       width: 32px;
     }
@@ -80,5 +80,35 @@
       margin-right: 20px;
       height: 20px;
       width: 20px;
+    }
+    &.icon-github {
+      background-image: url("/assets/img/github-icon.svg");
+      height: 32px;
+      width: 32px;
+    }
+    &.icon-facebook {
+      background-image: url("/assets/img/facebook-icon.svg");
+      height: 32px;
+      width: 32px;
+    }
+    &.icon-twitter {
+      background-image: url("/assets/img/twitter-icon.svg");
+      height: 32px;
+      width: 32px;
+    }
+    &.icon-instagram {
+      background-image: url("/assets/img/instagram-icon.svg");
+      height: 32px;
+      width: 32px;
+    }
+    &.icon-instagram {
+      background-image: url("/assets/img/instagram-icon.svg");
+      height: 32px;
+      width: 32px;
+    }
+    &.icon-youtube {
+      background-image: url("/assets/img/youtube-icon.svg");
+      height: 32px;
+      width: 32px;
     }
 }

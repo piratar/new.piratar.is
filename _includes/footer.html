@@ -38,6 +38,24 @@
   </nav>
   <nav class="row-small">
     <div class="container">
+      <div class="row justify-content-center">
+        {% assign social = site.data.piratar.social %}
+        {% if social.facebook %}
+        <a href="{{ social.facebook }}" class="icon icon-facebook mx-2"><span class="sr-only">Facebook</span></a>
+        {% endif %}
+        {% if social.instagram %}
+        <a href="{{ social.instagram }}" class="icon icon-instagram mx-2"><span class="sr-only">Instagram</span></a>
+        {% endif %}
+        {% if social.youtube %}
+        <a href="{{ social.youtube }}" class="icon icon-youtube mx-2"><span class="sr-only">Youtube</span></a>
+        {% endif %}
+        {% if social.twitter %}
+        <a href="{{ social.twitter }}" class="icon icon-twitter mx-2"><span class="sr-only">Twitter</span></a>
+        {% endif %}
+        {% if social.github %}
+        <a href="{{ social.github }}" class="icon icon-github mx-2"><span class="sr-only">Github</span></a>
+        {% endif %}
+      </div>
       <div class="row justify-content-end">
         <div class="nav-col">
           <small class="copyright">© {{ 'now' | date: "%Y" }} Píratar Ísland</small>
