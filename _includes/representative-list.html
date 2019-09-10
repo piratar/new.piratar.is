@@ -1,0 +1,22 @@
+<section class="representative-list container-fluid mb-5">
+	{% for rep in include.list %}
+	<div class="representative" data-category="{{ rep.category }}">
+		{% if rep.see_more %}<a href="{{ rep.url }}">{% endif %}
+			<div class="image" style="background-image: url('{{ rep.image }}');"></div>
+			{% if rep.see_more %}</a>{% endif %}
+		<h4 class="title mt-4">{{ rep.title }}</h4>
+		<p class="description mb-0">{{ rep.description }}</p>
+		<p class="details mb-0">{{ rep.details }}</p>
+		<div class="contact mt-3 mb-2 d-flex flex-column">
+			{% if rep.email %}
+			<a href="mailto:{{ rep.email }}" class="d-flex email"><div class="icon icon-email align-self-center mr-3"></div>{{ rep.email }}</a>
+			{% endif %}
+			{% if rep.phone %}
+			<a href="tel:{{ rep.phone }}" class="d-flex phone"><div class="icon icon-phone align-self-center mr-3"></div>{{ rep.phone }}</a>
+			{% endif %}
+		</div>
+		{% if rep.see_more %}<a href="{{ rep.url }}"
+			class="more cta underline">{{ site.data.translations[page.lang].see_more }}</a>{% endif %}
+	</div>
+	{% endfor %}
+</section>

@@ -65,6 +65,7 @@ defaults:
       lang: is
       permalink: /folkid/:title/
       representatives_page: /folkid
+      see_more: true
   -
     scope:
       path: "_representatives/en"

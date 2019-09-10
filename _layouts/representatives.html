@@ -22,23 +22,7 @@ class: representatives-page
     </li>
   </ul>
 </nav>
-<section class="representative-list container-fluid mb-5">
-  {% assign reps = site.representatives | where:"lang", page.lang %}
-  {% assign staff = site.staff | where:"lang", page.lang %}
-  {% assign people = reps | concat: staff | sort: 'title' %}
-  {% for rep in people %}
-  <div class="representative" data-category="{{ rep.category }}">
-    {% unless rep.category == "staff" %}<a href="{{ rep.url }}">{% endunless %}
-    <div class="image" style="background-image: url('{{ rep.image }}');"></div>
-    {% unless rep.category == "staff" %}</a>{% endunless %}
-    <h4 class="title mt-4">{{ rep.title }}</h4>
-    <p class="description mb-0">{{ rep.description }}</p>
-    <p class="details mb-0">{{ rep.details }}</p>
-    <div class="contact mt-3 mb-2 d-flex flex-column">
-      <a href="mailto:{{ rep.email }}" class="email">{{ rep.email }}</a>
-      <a href="tel:{{ rep.phone }}" class="phone">{{ rep.phone }}</a>
-    </div>
-    {% unless rep.category == "staff" %}<a href="{{ rep.url }}" class="more cta underline">Meira</a>{% endunless %}
-  </div>
-  {% endfor %}
-</section>
+{% assign reps = site.representatives | where:"lang", page.lang %}
+{% assign staff = site.staff | where:"lang", page.lang %}
+{% assign people = reps | concat: staff | sort: 'title' %}
+{% include representative-list.html list=people %}

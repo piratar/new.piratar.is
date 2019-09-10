@@ -15,17 +15,4 @@ class: administration-page
 		{% endfor %}
   </ul>
 </nav>
-<section class="representative-list container-fluid mb-5">
-  {% for rep in site.administration %}
-  <div class="representative" data-category="{{ rep.category }}">
-    <div class="image" style="background-image: url('{{ rep.image }}');"></div>
-    <h4 class="title mt-4">{{ rep.title }}</h4>
-    <span class="description">{{ rep.description }}</span>
-    <div class="contact mt-3 mb-2 d-flex flex-column">
-      <a href="mailto:{{ rep.email }}" class="email">{{ rep.email }}</a>
-      <a href="tel:{{ rep.phone }}" class="phone">{{ rep.phone }}</a>
-    </div>
-    <a href="{{ rep.url }}" class="more cta underline">Meira</a>
-  </div>
-  {% endfor %}
-</section>
+{% include representative-list.html list=site.administration %}

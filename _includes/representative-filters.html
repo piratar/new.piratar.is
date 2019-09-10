@@ -1,9 +1,10 @@
 {% assign representative = site.representatives | where: "representative", page.representative | where: "lang", page.lang %}
-{% assign category = representative[0].category %}
+{% assign representative = representative[0] %}
+{% assign category = representative.category %}
 <nav class="representative-filters mt-5">
 	<ul>
 		<li {% if category == 'parliament' %} class="active" {% endif %}>
-			<a href="{{ page.representatives_page }}?category=parliament"
+			<a href="{{ representative.representatives_page }}?category=parliament"
 				class="underline category">{{ site.data.translations[page.lang].reps_parliament }}</a>
 			<div class="sub-menu">
 				{% assign reps = site.representatives | where:"category", "parliament"| where:"lang", page.lang %}
@@ -17,7 +18,7 @@
 			</div>
 		</li>
 		<li {% if category == 'municipal' %} class="active" {% endif %}>
-			<a href="{{ page.representatives_page }}?category=municipal" class="underline category">{{ site.data.translations[page.lang].reps_municipal }}</a>
+			<a href="{{ representative.representatives_page }}?category=municipal" class="underline category">{{ site.data.translations[page.lang].reps_municipal }}</a>
 			<div class="sub-menu">
 				{% assign reps = site.representatives | where: "category", "municipal" | where: "lang", page.lang %}
 				<ul>
@@ -31,7 +32,7 @@
 			</div>
 		</li>
 		<li>
-			<a href="{{ page.representatives_page }}?category=staff" class="underline category">{{ site.data.translations[page.lang].reps_staff }}</a>
+			<a href="{{ representative.representatives_page }}?category=staff" class="underline category">{{ site.data.translations[page.lang].reps_staff }}</a>
 		</li>
 	</ul>
 </nav>
