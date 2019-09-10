@@ -17,7 +17,9 @@ collections:
     permalink: /pl/:path
   articles:
     output: true
-    permalink: /fulltruar/greinar/:path/
+    permalink: /folkid/greinar/:path/
+  representatives:
+    output: true
   administration:
     output: true
   associations:
@@ -56,22 +58,43 @@ defaults:
       lang: is
   -
     scope:
-      path: ""
-      layout: representative
+      path: "_representatives"
     values:
+      layout: representative
       banner: true
+      lang: is
+      permalink: /folkid/:title/
+      representatives_page: /folkid
+  -
+    scope:
+      path: "_representatives/en"
+    values:
+      layout: representative
+      banner: true
+      lang: en
+      permalink: /en/representatives/:path/
+      representatives_page: /pl/representatives
+  -
+    scope:
+      path: "_representatives/pl"
+    values:
+      layout: representative
+      banner: true
+      lang: pl
+      permalink: /pl/representatives/:path/
+      representatives_page: /pl/representatives
   -
     scope:
       path: "_associations"
     values:
       layout: association
       lang: is
-      permalink: /adildarfelog/:path/
+      permalink: /adildarfelog/:title/
   -
     scope:
       path: "_associations/en"
     values:
-      permalink: /en/assoications/:path/
+      permalink: /en/assoications/:title/
       lang: en
       layout: association
   -

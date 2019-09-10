@@ -5,11 +5,14 @@
   justify-content: center;
   column-gap: 6rem;
   .representative, .item {
-    color: white;
+    color: $pirate-white;
     .image {
       background-position: center;
       background-size: cover;
       height: 180px;
+    }
+    .contact {
+      font-weight: 600;
     }
     .more {
       position: relative;

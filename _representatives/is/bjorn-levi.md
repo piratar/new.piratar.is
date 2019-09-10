@@ -4,6 +4,7 @@ layout: representative
 lang: is
 category: parliament
 description: Þingmaður Pírata
+details: Reykjavíkurkjördæmi suður
 image: /assets/img/bjorn-levi.png
 representative: björn-leví 
 ---

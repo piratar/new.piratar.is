@@ -11,7 +11,7 @@ class: articles-page
       <a href="#" class="underline category"
         data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
       <div class="sub-menu">
-        {% assign reps = site.pages | where:"layout","representative" | where:"category", "parliament"| where:"lang", page.lang %}
+        {% assign reps = site.representatives | where:"category", "parliament"| where:"lang", page.lang %}
         <ul>
           <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a>
           </li>
@@ -26,7 +26,7 @@ class: articles-page
       <a href="#" class="underline category"
         data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
       <div class="sub-menu">
-        {% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
+        {% assign reps = site.representatives | where: "category", "municipal" | where: "lang", page.lang %}
         <ul>
           <li><a href="#" class="underline active representative">{{ site.data.translations[page.lang].reps_all }}</a>
           </li>
@@ -38,7 +38,7 @@ class: articles-page
       </div>
     </div>
 </nav>
-<section class="container-fluid mt-5 representative-articles">
+<section class="container-fluid mt-5 representative-articles news">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
       {% assign articles = site.articles | sort: "date" | reverse %}
@@ -46,7 +46,7 @@ class: articles-page
       {% assign rep = site.pages | where: "layout", "representative" | where: "representative", article.representative %}
       <div class="swiper-slide" data-category="{{ rep[0].category }}" style="background-image: url('{{ article.image }}');"
         data-representative="{{ article.representative }}">
-        <a href="{{ article.url }}" class="d-flex news-card-overlay flex-column justify-content-between">
+        <a href="{{ article.url }}" class="d-flex news-card-overlay flex-column justify-content-end">
           <div class="lower flex-column d-flex">
             <span class="date">{{ article.date | date: "%d/%m/%y" }}</span>
             <div class="title w-100">{{ article.title }}</div>

@@ -4,6 +4,7 @@ layout: representative
 lang: is
 category: parliament
 description: Þingmaður Pírata
+details: Suðurkjördæmi
 representative: smári-mccarthy
 email: smarim@althingi.is
 image: /assets/img/smari-mccarthy.jpg

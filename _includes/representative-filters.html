@@ -1,14 +1,12 @@
-{% assign representatives_page = site.pages | where: "layout", "representatives" | where: "lang", page.lang %}
-{% assign representatives_page_url = representatives_page[0].url %}
-{% assign representative = site.pages | where: "layout", "representative" | where: "representative", page.representative %}
+{% assign representative = site.representatives | where: "representative", page.representative | where: "lang", page.lang %}
 {% assign category = representative[0].category %}
 <nav class="representative-filters mt-5">
 	<ul>
 		<li {% if category == 'parliament' %} class="active" {% endif %}>
-			<a href="{{ representatives_page_url }}?category=parliament"
+			<a href="{{ page.representatives_page }}?category=parliament"
 				class="underline category">{{ site.data.translations[page.lang].reps_parliament }}</a>
 			<div class="sub-menu">
-				{% assign reps = site.pages | where:"layout","representative" | where:"category", "parliament"| where:"lang", page.lang %}
+				{% assign reps = site.representatives | where:"category", "parliament"| where:"lang", page.lang %}
 				<ul>
 					{% for rep in reps %}
 					<li><a href="{{ rep.url }}"
@@ -19,10 +17,9 @@
 			</div>
 		</li>
 		<li {% if category == 'municipal' %} class="active" {% endif %}>
-			<a href="{{ representatives_page_url
-				 }}?category=municipal" class="underline category">{{ site.data.translations[page.lang].reps_municipal }}</a>
+			<a href="{{ page.representatives_page }}?category=municipal" class="underline category">{{ site.data.translations[page.lang].reps_municipal }}</a>
 			<div class="sub-menu">
-				{% assign reps = site.pages | where: "layout","representative" | where: "category", "municipal" | where: "lang", page.lang %}
+				{% assign reps = site.representatives | where: "category", "municipal" | where: "lang", page.lang %}
 				<ul>
 					{% for rep in reps %}
 					<li>
@@ -32,6 +29,9 @@
 					{% endfor %}
 				</ul>
 			</div>
+		</li>
+		<li>
+			<a href="{{ page.representatives_page }}?category=staff" class="underline category">{{ site.data.translations[page.lang].reps_staff }}</a>
 		</li>
 	</ul>
 </nav>
