@@ -1,0 +1,30 @@
+---
+label: CTA Buttons
+hide_body: true
+fields:
+- type: field_group_list
+  name: is
+  label: is
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: template
+    label: template
+- type: field_group_list
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: template
+    label: template
