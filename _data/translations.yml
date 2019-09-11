@@ -43,6 +43,8 @@ is:
   monthly_donation: Mánaðarlegur styrkur
   other_amount: Frjálst framlag
   see_more: Meira
+  about_pirates: Um Pírata
+  policy: Stefna
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -87,6 +89,8 @@ en:
   monthly_donation: Monthly donation
   other_amount: Other amount
   see_more: See more
+  about_pirates: About
+  policy: Policies
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar

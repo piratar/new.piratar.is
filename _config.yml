@@ -44,6 +44,18 @@ defaults:
       lang: pl
   -
     scope:
+      path: _pages-is/um-pirata
+    values:
+      category: about
+      layout: about
+  -
+    scope:
+      path: _pages-is/stefna
+    values:
+      category: policy
+      layout: about
+  -
+    scope:
       path: ""
       type: posts
     values:
