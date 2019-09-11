@@ -1,6 +1,10 @@
 -
+  video: true
+  text: Þetta er fínt myndband sem við tókum af þyrlu sem átti að vera nett [HALLO HÉR](/folkid)
+-
   image: '/assets/img/hero1.png'
   url: '/policy'
+  text: HALLO HÉR
 -
   image: '/assets/img/hero1.png'
   url: '/policy'

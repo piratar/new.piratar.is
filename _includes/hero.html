@@ -1,17 +1,33 @@
-<section class="hero">
+<section class="hero container-fluid p-0 mw-100 w-100">
   <div class="swiper-container">
     <div class="swiper-wrapper">
       {% for hero in site.data.hero %}
-        {% if hero.url %}
-        <a href="{{ hero.url }}" class="swiper-slide" style="background-image: url('{{ hero.image }}');">
-        {% else %}
-        <div class="swiper-slide" style="background-image: url('{{ hero.image }}');">
+      {% if hero.video %}
+      <div class="swiper-slide video">
+        <video src="http://techslides.com/demos/sample-videos/small.mp4" autoplay muted></video>
+        {% if hero.text %}
+          <div class="overlay-text">
+            <h1>{{ hero.text | markdownify }}</h1>
+          </div>
         {% endif %}
+      </div>
+      {% else %}
+        {% if hero.url %}
+        <a href="{{ hero.url }}" class="swiper-slide image" style="background-image: url('{{ hero.image }}');">
+        {% else %}
+        <div class="swiper-slide image" style="background-image: url('{{ hero.image }}');">
+        {% endif %}
+          {% if hero.text %}
+          <div class="overlay-text">
+            <h1>{{ hero.text | markdownify }}</h1>
+          </div>
+          {% endif %}
         {% if hero.url %}
         </a>
         {% else %}
         </div>
         {% endif %}
+      {% endif %}
       {% endfor %}
     </div>
   </div>
