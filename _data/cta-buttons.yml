@@ -1,32 +1,30 @@
+---
 is:
-  - title: Styrkja
-    url: /styrkja
-    template: cta-donate
-  - title: Skrá mig í flokkinn
-    url: https://x.piratar.is/accounts/register/
-    template: cta-register
-  - title: Stofna aðildarfélag
-    url: /adildarfelog/stofna
-    template: cta-assocation
-  - title: Kosningakerfi
-    url: https://x.piratar.is/accounts/register/
-    template: cta-vote
-  - title: Skrá mig á póstlista
-    url: https://x.piratar.is/accounts/register/
-    template: cta-newsletter
+- title: Styrkja Pírata
+  url: "/styrkja"
+  template: cta-donate
+- title: Skrá mig í Pírata
+  url: https://x.piratar.is/accounts/register/
+  template: cta-register
+- title: Kosningakerfi
+  url: https://x.piratar.is/accounts/register/
+  template: cta-vote
+- title: Skrá mig á póstlista
+  url: https://x.piratar.is/accounts/register/
+  template: cta-newsletter
 en:
-  - title: Donate
-    url: /en/donate
-    template: cta-donate
-  - title: Join the party
-    url: https://x.piratar.is/accounts/register/
-    template: cta-register
-  - title: Found an association
-    url: /en/association/found
-    template: cta-assocation
-  - title: Direct democracy system
-    url: https://x.piratar.is/accounts/register/
-    template: cta-vote
-  - title: Sign up for newsletter
-    url: https://x.piratar.is/accounts/register/
-    template: cta-newsletter
+- title: Donate
+  url: "/en/donate"
+  template: cta-donate
+- title: Join the party
+  url: https://x.piratar.is/accounts/register/
+  template: cta-register
+- title: Found an association
+  url: "/en/association/found"
+  template: cta-assocation
+- title: Direct democracy system
+  url: https://x.piratar.is/accounts/register/
+  template: cta-vote
+- title: Sign up for newsletter
+  url: https://x.piratar.is/accounts/register/
+  template: cta-newsletter
