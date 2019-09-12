@@ -6,24 +6,53 @@ fields:
   name: Hero
   label: Hero
   fields:
-  - type: file
-    name: image
-    label: image
-  - name: video
+  - name: file
     type: file
     config:
       maxSize: 250
+    label: file
+  - name: video
+    type: boolean
     label: video
+    default: false
   - type: field_group
     name: text
     label: text
     fields:
-    - type: text
-      name: color
+    - name: color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - ligth
+        - dark
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
       label: color
-    - type: text
-      name: position
+    - name: position
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - left
+        - right
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
       label: position
-    - type: text
-      name: text
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
       label: text
