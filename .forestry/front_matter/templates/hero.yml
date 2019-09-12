@@ -1,0 +1,24 @@
+---
+label: Hero
+hide_body: true
+fields:
+- type: field_group_list
+  name: Hero
+  label: Hero
+  fields:
+  - type: file
+    name: image
+    label: image
+  - type: field_group
+    name: text
+    label: text
+    fields:
+    - type: text
+      name: color
+      label: color
+    - type: text
+      name: position
+      label: position
+    - type: text
+      name: text
+      label: text
