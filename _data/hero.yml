@@ -1,0 +1,12 @@
+-
+  image: '/assets/img/hero1.png'
+  text:
+    color: light
+    position: right
+    text: Velkomin á nýja heimasíðu Pírata
+-
+  video: '/uploads/copter.mp4'
+  text:
+    color: dark
+    position: left
+    text: Þetta er myndband af [þyrlu](/folkid)

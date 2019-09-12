@@ -1,2 +1,26 @@
-<section class="hero container">
+<section class="hero container-fluid p-0 mw-100 w-100">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      {% for hero in site.data.hero %}
+      {% if hero.video %}
+      <div class="swiper-slide video">
+        <video src="http://techslides.com/demos/sample-videos/small.mp4" autoplay muted></video>
+        {% if hero.text %}
+          <div class="overlay-text {{ hero.text.position }} {{ hero.text.color }}">
+            <h1>{{ hero.text.text | markdownify }}</h1>
+          </div>
+        {% endif %}
+      </div>
+      {% else %}
+      <div class="swiper-slide image" style="background-image: url('{{ hero.image }}');">
+        {% if hero.text %}
+        <div class="overlay-text {{ hero.text.position }} {{ hero.text.color }}">
+          <h1>{{ hero.text.text | markdownify }}</h1>
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </section>
