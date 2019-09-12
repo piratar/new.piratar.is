@@ -2,6 +2,10 @@
 
 {% include navbar.html %}
 
+{% if page.banner and page.image %}
+{% include banner-image.html %}
+{% endif %}
+
 {{ content }}
 
 {% include cookie-consent.html %}

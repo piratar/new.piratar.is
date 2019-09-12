@@ -1,4 +1,7 @@
 // Desktop
+header {
+  height: 56px;
+}
 #navbar {
   position: fixed;
   top: 0;
@@ -25,7 +28,7 @@
   }
 }
 
-.header-banner {
+.banner-image {
   height: 450px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -159,7 +162,7 @@
 
 // Mobile
 @media (max-width: 991px) {
-  .header-banner {
+  .banner-image {
     height: 275px;
   }
   .navbar {

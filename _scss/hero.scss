@@ -2,32 +2,59 @@
   .swiper-slide {
     video {
       width: 100%;
-      max-height: 40vw;
+      height: 35vw;
       object-fit: fill;
+      @media (max-width: 420px) {
+        height: 40vh;
+      }
     }
     &.image {
       width: 100%;
       background-size: 100% 100%;
       background-repeat: no-repeat;
       background-position: center;
-      height: 40vw;
+      height: 35vw;
+      @media (max-width: 420px) {
+        height: 40vh;
+      }
     }
     .overlay-text {
-      margin-top: 56px;
       width: 35%;
-      padding: 50px;
-      padding-top: 10vh;
+      padding: 3%;
+      padding-top: 5%;
       position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
       display: flex;
+      &.right {
+        margin-left: auto;
+        direction: rtl;
+      }
+      &.dark {
+        color: $pirate-dark-black;
+        a:hover {
+          color: $pirate-dark-black;
+        }
+      }
+      h1 {
+        font-size: 52px;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+      }
       a {
         color: $pirate-orange;
-        text-decoration: underline;
         &:hover {
           color: $pirate-white;
+        }
+      }
+      @media (max-width: 991px) {
+        width: 50%;
+        h1 {
+          text-transform: uppercase;
+          font-size: 1.5rem;
+          font-weight: 900;
         }
       }
     }
