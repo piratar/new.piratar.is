@@ -9,6 +9,11 @@ fields:
   - type: file
     name: image
     label: image
+  - name: video
+    type: file
+    config:
+      maxSize: 250
+    label: video
   - type: field_group
     name: text
     label: text
