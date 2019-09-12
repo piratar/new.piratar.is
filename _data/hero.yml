@@ -1,11 +1,13 @@
 -
-  image: '/assets/img/hero1.png'
+  file: '/assets/img/hero1.png'
+  video: false
   text:
     color: light
     position: right
     text: Velkomin á nýja heimasíðu Pírata
 -
-  video: '/uploads/copter.mp4'
+  file: '/uploads/copter.mp4'
+  video: true
   text:
     color: dark
     position: left
