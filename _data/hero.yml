@@ -8,13 +8,14 @@ slides:
     color: light
     position: right
     text: Velkomin á nýja heimasíðu Pírata
-  label: ''
+  label: Hero 1
   poster: ''
-- file: "/uploads/copter.mp4"
+- file: "/uploads/Píratar - Heiðarleiki (2).mp4"
   video: true
-  poster: "/assets/img/hero1.png"
+  poster: "/uploads/Screenshot 2019-09-13 at 17.24.12.png"
   text:
-    color: dark
+    color: left
     position: left
-    text: Þetta er myndband af [þyrlu](/folkid)
-  label: ''
+    text: <p>Dóra talar um heiðarleika sjá nánar <a href="https://new.piratar.is/folkid/greinar/2019-08-01-s/"
+      title="Starfshópur um skipulagsbreytingar hefur störf">hér</a></p>
+  label: Hero 2
