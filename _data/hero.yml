@@ -9,6 +9,7 @@ slides:
       text: Velkomin á nýja heimasíðu Pírata
   - file: '/uploads/copter.mp4'
     video: true
+    poster: '/assets/img/hero1.png'
     text:
       color: dark
       position: left
