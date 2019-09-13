@@ -35,10 +35,7 @@ fields:
     name: text
     label: text
     fields:
-    - type: text
-      name: position
-      label: position
-    - name: color
+    - name: position
       type: select
       default: []
       config:
@@ -46,6 +43,20 @@ fields:
         options:
         - left
         - right
+        source:
+          type: simple
+          section:
+          file:
+          path: 
+      label: position
+    - name: color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - dark
+        - light
         source:
           type: simple
           section: 
