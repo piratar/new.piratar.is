@@ -1,14 +1,15 @@
--
-  file: '/assets/img/hero1.png'
-  video: false
-  text:
-    color: light
-    position: right
-    text: Velkomin á nýja heimasíðu Pírata
--
-  file: '/uploads/copter.mp4'
-  video: true
-  text:
-    color: dark
-    position: left
-    text: Þetta er myndband af [þyrlu](/folkid)
+loop: true
+delay: 7500
+slides:
+  - file: '/assets/img/hero1.png'
+    video: false
+    text:
+      color: light
+      position: right
+      text: Velkomin á nýja heimasíðu Pírata
+  - file: '/uploads/copter.mp4'
+    video: true
+    text:
+      color: dark
+      position: left
+      text: Þetta er myndband af [þyrlu](/folkid)

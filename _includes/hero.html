@@ -1,10 +1,10 @@
 <section class="hero container-fluid p-0 mw-100 w-100">
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      {% for hero in site.data.hero %}
+      {% for hero in site.data.hero.slides %}
       {% if hero.video %}
       <div class="swiper-slide video">
-        <video src="{{ hero.file }}" autoplay muted></video>
+        <video src="{{ hero.file }}" muted></video>
         {% if hero.text %}
           <div class="overlay-text {{ hero.text.position }} {{ hero.text.color }}">
             <h1>{{ hero.text.text | markdownify }}</h1>
