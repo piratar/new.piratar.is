@@ -12,6 +12,11 @@ fields:
   name: slides
   label: slides
   fields:
+  - name: label
+    type: text
+    config:
+      required: false
+    label: label
   - type: file
     name: file
     label: file
@@ -56,3 +61,5 @@ fields:
         schema:
           format: html-blocks
       label: text
+  config:
+    labelField: label
