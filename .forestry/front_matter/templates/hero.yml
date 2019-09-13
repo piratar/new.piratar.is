@@ -18,16 +18,41 @@ fields:
   - type: boolean
     name: video
     label: video
+  - name: poster
+    type: file
+    config:
+      maxSize: 250
+    label: poster
+    showOnly:
+      field: video
+      value: true
   - type: field_group
     name: text
     label: text
     fields:
     - type: text
-      name: color
-      label: color
-    - type: text
       name: position
       label: position
-    - type: text
-      name: text
+    - name: color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - left
+        - right
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: color
+    - name: text
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: html-blocks
       label: text
