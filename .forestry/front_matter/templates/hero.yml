@@ -63,3 +63,5 @@ fields:
       label: text
   config:
     labelField: label
+pages:
+- _data/hero.yml
