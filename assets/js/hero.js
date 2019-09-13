@@ -34,4 +34,7 @@ function setupHeroCarousel() {
       delay: {{ site.data.hero.delay }},
     },
   });
+  swiper.on('slideChange', function() {
+    $('section.hero video').trigger('pause');
+  });
 }
