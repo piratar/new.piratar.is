@@ -1,0 +1,33 @@
+---
+label: Hero
+hide_body: true
+fields:
+- type: boolean
+  name: loop
+  label: loop
+- type: number
+  name: delay
+  label: delay
+- type: field_group_list
+  name: slides
+  label: slides
+  fields:
+  - type: file
+    name: file
+    label: file
+  - type: boolean
+    name: video
+    label: video
+  - type: field_group
+    name: text
+    label: text
+    fields:
+    - type: text
+      name: color
+      label: color
+    - type: text
+      name: position
+      label: position
+    - type: text
+      name: text
+      label: text
