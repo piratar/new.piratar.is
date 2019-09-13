@@ -2,6 +2,14 @@
 loop: true
 delay: 7500
 slides:
+- label: ''
+  file: "/uploads/0CD6E0CDAA7A3563B0900E942B9A1CFD0F16060955DFADB54CA051456392E59C_713x0.jpg"
+  video: false
+  poster: ''
+  text:
+    position: Left
+    color: left
+    text: <p>Þingmenn fræðast um notagildi núvitundar <a href="" title="">hér</a></p>
 - file: "/assets/img/hero1.png"
   video: false
   text:
