@@ -21,6 +21,8 @@ sections:
   label: Pages - IS
   create: all
   match: "**/*"
+  templates:
+  - um-pirata-sida
 - type: directory
   path: _pages-en
   label: Pages - EN
