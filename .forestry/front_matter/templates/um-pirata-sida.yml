@@ -5,12 +5,26 @@ fields:
 - type: text
   name: title
   label: title
-- type: text
-  name: layout
-  label: layout
-- type: text
-  name: category
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - about
+    - policy
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: category
 - type: number
   name: weight
   label: weight
+  description: Nr. hvað síðan á að birtast í filter
