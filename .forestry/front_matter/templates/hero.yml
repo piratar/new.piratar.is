@@ -45,8 +45,8 @@ fields:
         - right
         source:
           type: simple
-          section:
-          file:
+          section: 
+          file: 
           path: 
       label: position
     - name: color
