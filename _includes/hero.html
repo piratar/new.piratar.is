@@ -9,10 +9,10 @@
           <img src="{{ hero.poster }}"/>
         </video>
         <div class="play-button-container d-flex justify-content-center align-items-center">
-            <button class="play-button">Play</button>
+            <button type="button" class="btn icon icon-play"><span class="sr-only">Play</span></button>
         </div>
         {% if hero.text %}
-          <div class="overlay-text {{ hero.text.position }} {{ hero.text.color }}">
+          <div class="overlay-text container {{ hero.text.position }} {{ hero.text.color }}">
             <h1>{{ hero.text.text | markdownify }}</h1>
           </div>
         {% endif %}
@@ -20,7 +20,7 @@
       {% else %}
       <div class="swiper-slide image" style="background-image: url('{{ hero.file }}');">
         {% if hero.text %}
-        <div class="overlay-text {{ hero.text.position }} {{ hero.text.color }}">
+        <div class="overlay-text container {{ hero.text.position }} {{ hero.text.color }}">
           <h1>{{ hero.text.text | markdownify }}</h1>
         </div>
         {% endif %}
