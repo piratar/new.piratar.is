@@ -34,4 +34,5 @@ fields:
   label: files
   hidden: false
 pages:
+- _posts/titill.md
 - _posts/2019-07-01-titill.md
