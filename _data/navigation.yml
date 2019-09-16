@@ -131,6 +131,8 @@ footer:
       url: "/skraning"
     - title: Styrkja Pírata
       url: "/styrkja"
+    - title: Taktu þátt í starfinu
+      url: "/takathatt"
     - title: Skrá á póstlista
       url: "/postlisti"
     - title: Kosningakerfi Pírata
