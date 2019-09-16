@@ -64,6 +64,11 @@ menu:
       url: "/en/book-event"
 footer:
   is:
+  - title: Um Pírata
+    email: piratar@piratar.is
+    sub:
+    - title: Grasrót Pírata
+      url: "/um-pirata/grasrot"
   - title: Fólkið
     email: piratar@piratar.is
     sub:
