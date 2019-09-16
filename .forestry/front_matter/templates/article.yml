@@ -71,9 +71,9 @@ fields:
         required: false
       label: caption
     config:
-      min:
-      max:
-      labelField:
+      min: 
+      max: 
+      labelField: 
     label: videos
   - name: images
     type: field_group_list
@@ -89,9 +89,9 @@ fields:
         required: false
       label: caption
     config:
-      min:
-      max:
-      labelField:
+      min: 
+      max: 
+      labelField: 
     label: images
   label: Media in content
 pages:

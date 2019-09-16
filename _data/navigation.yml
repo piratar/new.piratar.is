@@ -142,6 +142,8 @@ footer:
       cta: true
   - title: Tortúga og rekstur
     sub:
+    - title: Bóka viðburð í Tortúga
+      url: "/tortuga/boka-vidburd"
     - title: Fundir og viðburðir
       url: "/fundir"
     - title: Ársreikningar og opið bókhald
