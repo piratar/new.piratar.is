@@ -1,0 +1,10 @@
+{% if page.content-media.videos[include.index] %} 
+{% assign figure = page.content-media.videos[include.index] %}
+{% if figure.video %}
+<figure><video src="{{ figure.video }}" controls></video>
+	{% if figure.caption %}
+	<figcaption>{{ figure.caption }}</figcaption>
+	{% endif %}
+</figure>
+{% endif %}
+{% endif %}

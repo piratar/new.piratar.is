@@ -1,0 +1,10 @@
+{% if page.content-media.images[include.index] %}
+{% assign figure = page.content-media.images[include.index] %}
+{% if figure.image %}
+<figure><img src="{{ figure.image }}"/>
+	{% if figure.caption %}
+	<figcaption>{{ figure.caption }}</figcaption>
+	{% endif %}
+</figure>
+{% endif %}
+{% endif %}
