@@ -23,6 +23,11 @@ fields:
   label: layout
   default: post
   hidden: true
+- name: videos
+  type: image_gallery
+  config: {}
+  label: videos
+  hidden: false
 - name: files
   type: image_gallery
   config: {}
