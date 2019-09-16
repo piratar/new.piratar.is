@@ -133,8 +133,6 @@ footer:
       url: "/styrkja"
     - title: Skrá á póstlista
       url: "/postlisti"
-    - title: Stofna aðildarfélag
-      url: "/adildarfelog/stofna-adildarfelag"
     - title: Kosningakerfi Pírata
       url: https://x.piratar.is
       cta: true
