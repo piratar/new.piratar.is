@@ -87,18 +87,14 @@ footer:
     - url: "/log"
       title: Lög Pírata
   - title: Kynningarefni
-    email: kynningarefni@piratar.is
+    email: berglind@piratar.is
     sub:
     - title: Hönnunarstaðall
       url: "/honnunarstadall"
-    - title: Lógó og grafík
-      url: "/logo-og-grafik"
     - title: Fréttatilkynningar
       url: "/frettatilkynningar"
     - title: Auglýsingar og styrkir
       url: "/auglysingar-og-styrkir"
-    - title: Hlaðvarpið
-      url: "/hladvarp"
   - title: Aðildarfélög
     sub:
     - title: Reykjavík
