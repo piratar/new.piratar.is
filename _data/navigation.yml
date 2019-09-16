@@ -21,8 +21,8 @@ menu:
       url: "/folkid?category=staff"
   - title: Um Pírata
     sub:
-    - title: Lög Píratar
-      url: "/log-pirata"
+    - title: Afhverju Píratar?
+      url: "/afhverju"
     - title: Hafa samband
       url: "/hafa-samband"
     - title: Tortúga
