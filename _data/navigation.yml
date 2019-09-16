@@ -125,6 +125,8 @@ footer:
       url: "/stefnumotun"
   - title: Taka þátt
     sub:
+    - title: Bóka viðburð í Tortuga
+      url: "/tortuga-boka"
     - title: Grasrótarinn
       url: "/grasrotarinn"
     - title: Skrá mig í Pírata
