@@ -1,185 +1,188 @@
+---
 menu:
-  'is':
-    - title: Stefnan
-      sub:
-        - title: Áherslumál
-          url: /aherslumal
-        - title: Píratakóðinn
-          url: /piratakodinn
-        - title: Framtíðarsýn
-          url: /framtidarsyn
-        - title: Stefnumál og mótun
-          url: /stefnumal-og-motun
-    - title: Fólkið
-      sub:
-        - title: Þingflokkur
-          url: /folkid?category=parliament
-        - title: Sveitar- og borgarstjórn
-          url: /folkid?category=municipal
-        - title: Starfsfólk
-          url: /folkid?category=staff
-        - title: Stjórn Píratar
-          url: /stjorn-pirata
-    - title: Um Pírata
-      sub:
-        - title: Lög Píratar
-          url: /log-pirata
-        - title: Hafa samband
-          url: /hafa-samband
-        - title: Tortúga
-          url: /tortuga
-        - title: Kynningarefni
-          url: /kynningarefni
-        - title: Fréttaveita
-          url: /frettaveita
-    - title: Taka þátt
-      sub:
-        - title: Grasrótarinn
-          url: https://x.piratar.is/polity/1/tasks/
-        - title: Skrá í flokk
-          url: https://x.piratar.is/accounts/register/
-        - title: Styrkja Pírata
-          url: /styrkja
-        - title: Bóka viðburð
-          url: /tortuga/boka-vidburd
-  'en':
-    - title: News
-      sub:
-        - title: Events
-          url: /en/events
-        - title: News
-          url: /en/posts
-        - title: Live
-          url: /en/live
-        - title: Podcasts
-          url: /en/podcast
-    - title: Our people
-      sub:
-        - title: Þingflokkur
-          url: /en/thingflokkur
-    - title: About us
-      sub:
-        - title: Policy
-          url: /en/stefna
-    - title: Participate
-      sub:
-        - title: Book an event
-          url: /en/book-event
-footer:
-  'is':
-    - title: Fólkið
-      email: folkid@piratar.is
-      sub:
-        - title: Grasrót
-          url: /grasrot
-        - title: Starfsfólk
-          url: /folkid?category=staff
-        - title: Þingflokkur
-          url: /folkid?category=parliament
-        - title: Sveitarstjórn
-          url: /folkid?category=municipal
-    - title: Stjórn Pírata
-      email: stjorn@piratar.is
-      sub:
-        - title: Trúnaðarráð
-          url: /stjorn-pirata?category=trunadarrad
-        - title: Framkvæmdaráð
-          url: /stjorn-pirata?category=framkvaemdarad
-        - title: Úrskurðarnefnd
-          url: /stjorn-pirata?category=urskurdarnefnd
+  is:
+  - title: Stefnan
+    sub:
+    - title: Málefnin
+      url: "/stefna/malefnin"
+    - title: Áherslumál
+      url: "/aherslumal"
+    - title: Píratakóðinn
+      url: "/piratakodinn"
+    - title: Framtíðarsýn
+      url: "/framtidarsyn"
+    - title: Stefnumál og mótun
+      url: "/stefnumal-og-motun"
+  - title: Fólkið
+    sub:
+    - title: Þingflokkur
+      url: "/folkid?category=parliament"
+    - title: Sveitar- og borgarstjórn
+      url: "/folkid?category=municipal"
+    - title: Starfsfólk
+      url: "/folkid?category=staff"
+    - title: Stjórn Píratar
+      url: "/stjorn-pirata"
+  - title: Um Pírata
+    sub:
+    - title: Lög Píratar
+      url: "/log-pirata"
+    - title: Hafa samband
+      url: "/hafa-samband"
+    - title: Tortúga
+      url: "/tortuga"
     - title: Kynningarefni
-      email: kynningarefni@piratar.is
-      sub:
-        - title: Hönnunarstaðall
-          url: /honnunarstadall
-        - title: Lógó og grafík
-          url: /logo-og-grafik
-        - title: Fréttatilkynningar
-          url: /frettatilkynningar
-        - title: Auglýsingar og styrkir
-          url: /auglysingar-og-styrkir
-        - title: Hlaðvarpið
-          url: /hladvarp
-    - title: Aðildarfélög
-      sub:
-        - title: Reykjavík
-          url: /adildarfelog/reykjavik
-        - title: Hinsegin Píratar
-          url: /adildarfelog/hinsegin-piratar
-        - title: Píratar 60+
-          url: /adildarfelog/piratar-60-plus
-        - title: Hafnarfjörður
-          url: /adildarfelog/hafnarfjordur
-        - title: Seltjarnarnes
-          url: /adildarfelog/seltjarnes
-        - title: Kópavogur
-          url: /adildarfelog/kopavogur
-        - title: Vesturland
-          url: /adildarfelog/vesturland
-        - title: Vestfirðir
-          url: /adildarfelog/vestfirðir
-        - title: Reykjanesbær
-          url: /adildarfelog/reykjanesbaer
-    - title: Stefna og lög
-      sub:
-        - title: Grunnstefna og Píratakóðinn
-          url: /grunnstefna
-        - title: Lög Pírata
-          url: /log
-        - title: Málefnin
-          url: /malefnin
-        - title: Framtíðarsýn
-          url: /framtidarsyn
-        - title: Stefnumótun
-          url: /stefnumotun
-    - title: Taka þátt
-      sub:
-        - title: Skráning í flokkinn
-          url: /skraning
-        - title: Styrkja flokkinn
-          url: /styrkja
-        - title: Skrá á póstlista
-          url: /postlisti
-        - title: Stofna aðildarfélag
-          url: /adildarfelog/stofna-adildarfelag
-        - title: Kosningakerfi Pírata
-          url: https://x.piratar.is
-          cta: true
-    - title: Tortúga og rekstur
-      sub:
-        - title: Fundir og viðburðir
-          url: /fundir
-        - title: Nýliðar og nýliðaskráning
-          url: /nylidar
-        - title: Ársreikningar og bókhald
-          url: /arsreikningar-og-bokhald
-        - title: Fundagerðir
-          url: /fundagerdir
-  'en':
+      url: "/kynningarefni"
+    - title: Fréttaveita
+      url: "/frettaveita"
+  - title: Taka þátt
+    sub:
+    - title: Grasrótarinn
+      url: https://x.piratar.is/polity/1/tasks/
+    - title: Skrá í flokk
+      url: https://x.piratar.is/accounts/register/
+    - title: Styrkja Pírata
+      url: "/styrkja"
+    - title: Bóka viðburð
+      url: "/tortuga/boka-vidburd"
+  en:
+  - title: News
+    sub:
+    - title: Events
+      url: "/en/events"
     - title: News
-      sub:
-        - title: Events
-          url: /events
-        - title: News
-          url: /posts
-        - title: Live
-          url: /live
-        - title: Podcasts
-          url: /podcast
-    - title: Administration
-      email: stjorn@piratar.is
-      sub:
-        - title: Trúnaðarráð
-          url: /stjorn-pirata?category=trunadarrad
-        - title: Framkvæmdaráð
-          url: /stjorn-pirata?category=framkvaemdarad
-        - title: Úrskurðarnefnd
-          url: /stjorn-pirata?category=urskurdarnefnd
-    - title: About us
-      sub:
-        - title: Policy
-          url: /stefna
-    - title: Participate
-      sub:
-        - title: Book an event
-          url: /book-event
+      url: "/en/posts"
+    - title: Live
+      url: "/en/live"
+    - title: Podcasts
+      url: "/en/podcast"
+  - title: Our people
+    sub:
+    - title: Þingflokkur
+      url: "/en/thingflokkur"
+  - title: About us
+    sub:
+    - title: Policy
+      url: "/en/stefna"
+  - title: Participate
+    sub:
+    - title: Book an event
+      url: "/en/book-event"
+footer:
+  is:
+  - title: Fólkið
+    email: folkid@piratar.is
+    sub:
+    - title: Grasrót
+      url: "/grasrot"
+    - title: Starfsfólk
+      url: "/folkid?category=staff"
+    - title: Þingflokkur
+      url: "/folkid?category=parliament"
+    - title: Sveitarstjórn
+      url: "/folkid?category=municipal"
+  - title: Stjórn Pírata
+    email: stjorn@piratar.is
+    sub:
+    - title: Trúnaðarráð
+      url: "/stjorn-pirata?category=trunadarrad"
+    - title: Framkvæmdaráð
+      url: "/stjorn-pirata?category=framkvaemdarad"
+    - title: Úrskurðarnefnd
+      url: "/stjorn-pirata?category=urskurdarnefnd"
+  - title: Kynningarefni
+    email: kynningarefni@piratar.is
+    sub:
+    - title: Hönnunarstaðall
+      url: "/honnunarstadall"
+    - title: Lógó og grafík
+      url: "/logo-og-grafik"
+    - title: Fréttatilkynningar
+      url: "/frettatilkynningar"
+    - title: Auglýsingar og styrkir
+      url: "/auglysingar-og-styrkir"
+    - title: Hlaðvarpið
+      url: "/hladvarp"
+  - title: Aðildarfélög
+    sub:
+    - title: Reykjavík
+      url: "/adildarfelog/reykjavik"
+    - title: Hinsegin Píratar
+      url: "/adildarfelog/hinsegin-piratar"
+    - title: Píratar 60+
+      url: "/adildarfelog/piratar-60-plus"
+    - title: Hafnarfjörður
+      url: "/adildarfelog/hafnarfjordur"
+    - title: Seltjarnarnes
+      url: "/adildarfelog/seltjarnes"
+    - title: Kópavogur
+      url: "/adildarfelog/kopavogur"
+    - title: Vesturland
+      url: "/adildarfelog/vesturland"
+    - title: Vestfirðir
+      url: "/adildarfelog/vestfirðir"
+    - title: Reykjanesbær
+      url: "/adildarfelog/reykjanesbaer"
+  - title: Stefna og lög
+    sub:
+    - title: Grunnstefna og Píratakóðinn
+      url: "/grunnstefna"
+    - title: Lög Pírata
+      url: "/log"
+    - title: Málefnin
+      url: "/malefnin"
+    - title: Framtíðarsýn
+      url: "/framtidarsyn"
+    - title: Stefnumótun
+      url: "/stefnumotun"
+  - title: Taka þátt
+    sub:
+    - title: Skráning í flokkinn
+      url: "/skraning"
+    - title: Styrkja flokkinn
+      url: "/styrkja"
+    - title: Skrá á póstlista
+      url: "/postlisti"
+    - title: Stofna aðildarfélag
+      url: "/adildarfelog/stofna-adildarfelag"
+    - title: Kosningakerfi Pírata
+      url: https://x.piratar.is
+      cta: true
+  - title: Tortúga og rekstur
+    sub:
+    - title: Fundir og viðburðir
+      url: "/fundir"
+    - title: Nýliðar og nýliðaskráning
+      url: "/nylidar"
+    - title: Ársreikningar og bókhald
+      url: "/arsreikningar-og-bokhald"
+    - title: Fundagerðir
+      url: "/fundagerdir"
+  en:
+  - title: News
+    sub:
+    - title: Events
+      url: "/events"
+    - title: News
+      url: "/posts"
+    - title: Live
+      url: "/live"
+    - title: Podcasts
+      url: "/podcast"
+  - title: Administration
+    email: stjorn@piratar.is
+    sub:
+    - title: Trúnaðarráð
+      url: "/stjorn-pirata?category=trunadarrad"
+    - title: Framkvæmdaráð
+      url: "/stjorn-pirata?category=framkvaemdarad"
+    - title: Úrskurðarnefnd
+      url: "/stjorn-pirata?category=urskurdarnefnd"
+  - title: About us
+    sub:
+    - title: Policy
+      url: "/stefna"
+  - title: Participate
+    sub:
+    - title: Book an event
+      url: "/book-event"
