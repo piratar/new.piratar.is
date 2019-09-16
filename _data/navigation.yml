@@ -11,8 +11,6 @@ menu:
       url: "/framtidarsyn"
     - title: Stefnumótun
       url: "/stefnumotun"
-    - title: Stefnumál og mótun
-      url: "/stefnumal-og-motun"
   - title: Fólkið
     sub:
     - title: Þingflokkur
@@ -21,8 +19,6 @@ menu:
       url: "/folkid?category=municipal"
     - title: Starfsfólk
       url: "/folkid?category=staff"
-    - title: Stjórn Píratar
-      url: "/stjorn-pirata"
   - title: Um Pírata
     sub:
     - title: Lög Píratar
