@@ -39,8 +39,6 @@ menu:
       url: "/styrkja"
     - title: Taktu þátt í starfinu
       url: "/takathatt"
-    - title: Bóka viðburð
-      url: "/tortuga/boka-vidburd"
   en:
   - title: News
     sub:
