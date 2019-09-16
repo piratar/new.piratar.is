@@ -5,8 +5,8 @@ menu:
     sub:
     - title: Málefnin
       url: "/stefna/malefnin"
-    - title: Áherslumál
-      url: "/aherslumal"
+    - title: Grunnstefna Pírata
+      url: "/grunnstefna"
     - title: Píratakóðinn
       url: "/piratakodinn"
     - title: Framtíðarsýn
