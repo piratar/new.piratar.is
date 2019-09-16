@@ -27,8 +27,8 @@ menu:
       url: "/log"
     - title: Kosningarkerfið (x.piratar.is)
       url: "/kosningarkerfid"
-    - title: Kynningarefni
-      url: "/kynningarefni"
+    - title: Piratar.is og Github
+      url: "/um-piratar.is"
     - title: Fréttaveita
       url: "/frettaveita"
   - title: Taka þátt
