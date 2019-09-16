@@ -2,23 +2,24 @@
 layout: default
 class: events-page
 ---
+<link href="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.css" rel="stylesheet" />
+<link href="https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.css" rel="stylesheet" />
+<link href="https://unpkg.com/@fullcalendar/list@4.3.0/main.css" rel="stylesheet" />
+<script src="https://unpkg.com/@fullcalendar/core@4.3.1/main.min.js"></script>
+<script src="https://unpkg.com/@fullcalendar/daygrid@4.3.0/main.min.js"></script>
+<script src="https://unpkg.com/@fullcalendar/list@4.3.0/main.js"></script>
+{% if page.lang == 'is' %}
+<script src="https://unpkg.com/@fullcalendar/core@4.3.1/locales/is.js"></script>
+{% elsif page.lang == 'pl' %}
+<script src="https://unpkg.com/@fullcalendar/core@4.3.1/locales/pl.js"></script>
+{% endif %}
 
-<section class="container-fluid event-listing">
-	<h2>Viðburðir framundan</h2>
+<section class="container event-listing">
+	<div id="calendar" class="mt-5">
+	</div>
 </section>
 
-<script type="text/template" data-template="event">
-	<div class="event my-3" id="slide-${id}">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="date">${dateLong}</div>
-				<div class="time">${time}</div>
-			</div>
-			<div class="col-md-9">
-				<h3 class="title">${title}</h3>
-				<div class="description">${description}</div>
-			</div>
-		</div>
-	</div>
-</script>
+{% include event-carousel.html %}
 
+{% include cta-section.html %}
+{% include cta-buttons.html %}
