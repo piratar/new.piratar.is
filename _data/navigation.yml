@@ -67,10 +67,8 @@ menu:
 footer:
   is:
   - title: Fólkið
-    email: folkid@piratar.is
+    email: piratar@piratar.is
     sub:
-    - title: Grasrót
-      url: "/grasrot"
     - title: Starfsfólk
       url: "/folkid?category=staff"
     - title: Þingflokkur
