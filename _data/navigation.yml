@@ -113,10 +113,10 @@ footer:
       url: "/adildarfelog/vestfirðir"
     - title: Reykjanesbær
       url: "/adildarfelog/reykjanesbaer"
-  - title: Stefna og lög
+  - title: 'Stefna '
     sub:
-    - title: Grunnstefna og Píratakóðinn
-      url: "/grunnstefna"
+    - title: Málefnin
+      url: "/malefnin"
     - title: Lög Pírata
       url: "/log"
     - title: Málefnin
