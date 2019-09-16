@@ -84,6 +84,8 @@ footer:
       url: "/stjorn-pirata?category=framkvaemdarad"
     - title: Úrskurðarnefnd
       url: "/stjorn-pirata?category=urskurdarnefnd"
+    - url: "/log"
+      title: Lög Pírata
   - title: Kynningarefni
     email: kynningarefni@piratar.is
     sub:
