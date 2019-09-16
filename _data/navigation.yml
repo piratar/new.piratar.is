@@ -125,8 +125,6 @@ footer:
       url: "/stefnumotun"
   - title: Taka þátt
     sub:
-    - title: Bóka viðburð í Tortuga
-      url: "/tortuga-boka"
     - title: Grasrótarinn
       url: "/grasrotarinn"
     - title: Skrá mig í Pírata
@@ -137,6 +135,8 @@ footer:
       url: "/takathatt"
     - title: Skrá á póstlista
       url: "/postlisti"
+    - title: Bóka viðburð í Tortuga
+      url: "/tortuga-boka"
     - title: Kosningakerfi Pírata
       url: https://x.piratar.is
       cta: true
