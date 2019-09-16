@@ -29,13 +29,11 @@ menu:
       url: "/kosningarkerfid"
     - title: Piratar.is og Github
       url: "/um-piratar.is"
-    - title: Fréttaveita
-      url: "/frettaveita"
   - title: Taka þátt
     sub:
     - title: Grasrótarinn
       url: https://x.piratar.is/polity/1/tasks/
-    - title: Skrá í flokk
+    - title: Skrá mig í Pírta
       url: https://x.piratar.is/accounts/register/
     - title: Styrkja Pírata
       url: "/styrkja"
