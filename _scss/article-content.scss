@@ -32,8 +32,15 @@ section.article {
       font-style: italic;
     }
     .content {
-      img {
+      figure {
+        margin-bottom: 1.2rem;
+      }
+      img, video {
         max-width: 100%;
+      }
+      figcaption {
+        font-size: 0.9rem;
+        color: $pirate-gray;
       }
       blockquote {
         margin: 0 0 1rem 0;
