@@ -150,6 +150,7 @@ footer:
       url: "/arsreikningar-og-bokhald"
     - title: Fundagerðir
       url: "/fundagerdir"
+    email: piratar@piratar.is
   en:
   - title: News
     sub:
