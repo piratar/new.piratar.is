@@ -33,6 +33,47 @@ fields:
   config: {}
   label: files
   hidden: false
+- name: content-media
+  type: field_group
+  config: {}
+  fields:
+  - name: videos
+    type: field_group_list
+    fields:
+    - name: video
+      type: file
+      config:
+        maxSize: 250
+      label: video
+    - name: caption
+      type: text
+      config:
+        required: false
+      label: caption
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: videos
+  - name: images
+    type: field_group_list
+    fields:
+    - name: image
+      type: file
+      config:
+        maxSize: 250
+      label: image
+    - name: caption
+      type: text
+      config:
+        required: false
+      label: caption
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: images
+  label: Media in content
 pages:
 - _posts/2019-09-16-titill.md
 - _posts/2019-07-01-titill.md
