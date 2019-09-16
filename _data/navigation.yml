@@ -97,10 +97,8 @@ footer:
       url: "/auglysingar-og-styrkir"
   - title: Aðildarfélög
     sub:
-    - title: Reykjavík
+    - title: Reykjavík - PÍR
       url: "/adildarfelog/reykjavik"
-    - title: Hinsegin Píratar
-      url: "/adildarfelog/hinsegin-piratar"
     - title: Píratar 60+
       url: "/adildarfelog/piratar-60-plus"
     - title: Hafnarfjörður
