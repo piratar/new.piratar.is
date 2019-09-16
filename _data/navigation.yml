@@ -138,9 +138,7 @@ footer:
     sub:
     - title: Fundir og viðburðir
       url: "/fundir"
-    - title: Nýliðar og nýliðaskráning
-      url: "/nylidar"
-    - title: Ársreikningar og bókhald
+    - title: Ársreikningar og opið bókhald
       url: "/arsreikningar-og-bokhald"
     - title: Fundagerðir
       url: "/fundagerdir"
