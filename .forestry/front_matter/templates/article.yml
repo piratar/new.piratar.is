@@ -9,9 +9,10 @@ fields:
     required: true
 - type: text
   name: sub_heading
-  label: sub_heading
   config:
     required: true
+  description: Birtist efst í grein og í preview
+  label: Undirfyrirsögn
 - type: datetime
   name: date
   label: date
@@ -51,8 +52,9 @@ fields:
 - name: files
   type: image_gallery
   config: {}
-  label: files
+  label: Viðhengi
   hidden: false
+  description: Birtist neðst í grein
 - name: content-media
   type: field_group
   config: {}
@@ -94,5 +96,6 @@ fields:
       labelField: 
     label: images
   label: Media in content
+  description: Myndir og myndbönd í texta
 pages:
 - _articles/votlendið-og-hálfa-jörðin.md
