@@ -1,0 +1,170 @@
+---
+label: Burger menu
+hide_body: true
+fields:
+- type: field_group
+  name: is
+  label: is
+  fields:
+  - type: field_group
+    name: upper
+    label: upper
+    fields:
+    - type: field_group
+      name: democracy
+      label: democracy
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+    - type: field_group
+      name: podcasts
+      label: podcasts
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+    - type: field_group
+      name: events
+      label: events
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+    - type: field_group
+      name: chat
+      label: chat
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+  - type: field_group
+    name: lower
+    label: lower
+    fields:
+    - type: field_group
+      name: preferences
+      label: preferences
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: field_group_list
+      name: sub
+      label: sub
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: field_group
+    name: upper
+    label: upper
+    fields:
+    - type: field_group
+      name: democracy
+      label: democracy
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+    - type: field_group
+      name: podcasts
+      label: podcasts
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+    - type: field_group
+      name: events
+      label: events
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+    - type: field_group
+      name: chat
+      label: chat
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+  - type: field_group
+    name: lower
+    label: lower
+    fields:
+    - type: field_group
+      name: preferences
+      label: preferences
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+  - type: field_group_list
+    name: main
+    label: main
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: field_group_list
+      name: sub
+      label: sub
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
+pages:
+- _data/burger-menu.yml

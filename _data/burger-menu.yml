@@ -1,0 +1,107 @@
+---
+is:
+  upper:
+    democracy:
+      title: x.piratar.is
+      url: https://x.piratar.is
+    podcasts:
+      title: Hlaðvarp
+      url: "/hladvarp"
+    events:
+      title: Viðburðir
+      url: "/vidburdir"
+    chat:
+      title: Málefnaspjall
+      url: https://spjall.piratar.is
+  lower:
+    preferences:
+      title: Stillingar
+      url: "/stillingar"
+  main:
+  - title: Stefnan
+    url: ''
+    sub:
+    - title: Málefnin
+      url: "/stefna/malefnin"
+    - title: Grunnstefna Pírata
+      url: "/grunnstefna"
+    - title: Framtíðarsýn
+      url: "/framtidarsyn"
+    - title: Stefnumótun
+      url: "/stefnumotun"
+  - title: Fólkið
+    url: ''
+    sub:
+    - title: Þingflokkur
+      url: "/folkid?category=parliament"
+    - title: Sveitar- og borgarstjórn
+      url: "/folkid?category=municipal"
+    - title: Starfsfólk
+      url: "/folkid?category=staff"
+  - title: Um Pírata
+    url: ''
+    sub:
+    - title: Afhverju Píratar?
+      url: "/afhverju"
+    - title: Lög Pírata
+      url: "/log"
+    - title: Kosningarkerfið (x.piratar.is)
+      url: "/kosningarkerfid"
+    - title: Piratar.is og Github
+      url: "/um-piratar.is"
+  - title: Taka þátt
+    url: ''
+    sub:
+    - title: Grasrótarinn
+      url: https://x.piratar.is/polity/1/tasks/
+    - title: Skrá mig í Pírata
+      url: https://x.piratar.is/accounts/register/
+    - title: Styrkja Pírata
+      url: "/styrkja"
+    - title: Taktu þátt í starfinu
+      url: "/takathatt"
+en:
+  upper:
+    democracy:
+      title: x.piratar.is
+      url: https://x.piratar.is
+    podcasts:
+      title: Podcasts
+      url: "/en/podcasts"
+    events:
+      title: Events
+      url: "/en/events"
+    chat:
+      title: spjall.piratar.is
+      url: https://spjall.piratar.is
+  lower:
+    preferences:
+      title: Stillingar
+      url: "/stillingar"
+  main:
+  - title: News
+    url: ''
+    sub:
+    - title: Events
+      url: "/en/events"
+    - title: News
+      url: "/en/posts"
+    - title: Live
+      url: "/en/live"
+    - title: Podcasts
+      url: "/en/podcast"
+  - title: Our people
+    url: ''
+    sub:
+    - title: Þingflokkur
+      url: "/en/thingflokkur"
+  - title: About us
+    url: ''
+    sub:
+    - title: Policy
+      url: "/en/stefna"
+  - title: Participate
+    url: ''
+    sub:
+    - title: Book an event
+      url: "/en/book-event"

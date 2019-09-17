@@ -14,9 +14,9 @@
         </div>
         <div class="col-md-8 col-sm-12 col-lg-9 mt-4">
           <div class="row">
-            {% for link in site.data.navigation.footer.[page.lang] %}
+            {% for link in site.data.footer.[page.lang] %}
             <div class="nav-col col-xl-3 col-lg-4 col-sm-6 col-xs-12">
-              <h3 class="nav-title">{{ link.title}}</h3>
+              <a href="{{ link.url }}"><h3 class="nav-title">{{ link.title}}</h3></a>
               <ul class="nav">
                 {% for child in link.sub %}
                 <li>
@@ -25,7 +25,7 @@
                 {% endfor %}
                 {% if link.email %}
                 <li>
-                  <a href="mailto:{{ link.email }}" class="cta">Hafa samband</a>
+                  <a href="mailto:{{ link.email }}" class="cta">{{ link.email }}</a>
                 </li>
                 {% endif %}
               </ul>

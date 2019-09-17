@@ -1,0 +1,142 @@
+---
+is:
+- title: Um Pírata
+  url: ''
+  email: piratar@piratar.is
+  sub:
+  - title: Grasrót Pírata
+    url: "/um-pirata/grasrot"
+  - title: Afhverju Píratar?
+    url: ''
+  - title: Um kosningarkerfið x.pirtara.is
+    url: ''
+- title: Fólkið
+  url: ''
+  email: piratar@piratar.is
+  sub:
+  - title: Starfsfólk
+    url: "/folkid?category=staff"
+  - title: Þingflokkur
+    url: "/folkid?category=parliament"
+  - title: Sveitarstjórn
+    url: "/folkid?category=municipal"
+- title: Stjórn Pírata
+  url: ''
+  email: framkvaemdarad@piratar.is
+  sub:
+  - title: Trúnaðarráð
+    url: "/stjorn-pirata?category=trunadarrad"
+  - title: Framkvæmdaráð
+    url: "/stjorn-pirata?category=framkvaemdarad"
+  - title: Úrskurðarnefnd
+    url: "/stjorn-pirata?category=urskurdarnefnd"
+  - url: "/log"
+    title: Lög Pírata
+- title: Kynningarefni
+  url: ''
+  email: berglind@piratar.is
+  sub:
+  - title: Hönnunarstaðall
+    url: "/honnunarstadall"
+  - title: Fréttatilkynningar
+    url: "/frettatilkynningar"
+  - title: Auglýsingar og styrkir
+    url: "/auglysingar-og-styrkir"
+- title: Aðildarfélög
+  email: ''
+  url: ''
+  sub:
+  - title: Reykjavík - PÍR
+    url: "/adildarfelog/reykjavik"
+  - title: Píratar 60+
+    url: "/adildarfelog/piratar-60-plus"
+  - title: Hafnarfjörður
+    url: "/adildarfelog/hafnarfjordur"
+  - title: Seltjarnarnes
+    url: "/adildarfelog/seltjarnes"
+  - title: Kópavogur
+    url: "/adildarfelog/kopavogur"
+  - title: Vesturland
+    url: "/adildarfelog/vesturland"
+  - title: Vestfirðir
+    url: "/adildarfelog/vestfirðir"
+  - title: Reykjanesbær
+    url: "/adildarfelog/reykjanesbaer"
+- title: Stefnan
+  url: ''
+  email: ''
+  sub:
+  - title: Málefnin
+    url: "/malefnin"
+  - title: Grunnstefna Pírata
+    url: "/grunnstefna"
+  - title: Framtíðarsýn
+    url: "/framtidarsyn"
+  - title: Stefnumótun
+    url: "/stefnumotun"
+- title: Taka þátt
+  url: ''
+  email: ''
+  sub:
+  - title: Grasrótarinn
+    url: "/grasrotarinn"
+  - title: Skrá mig í Pírata
+    url: "/skraning"
+  - title: Styrkja Pírata
+    url: "/styrkja"
+  - title: Taktu þátt í starfinu
+    url: "/takathatt"
+  - title: Skrá mig á póstlista
+    url: "/postlisti"
+  - title: Bóka viðburð í Tortuga
+    url: "/tortuga-boka"
+  - title: Kosningakerfi Pírata
+    url: https://x.piratar.is
+    cta: true
+- title: Tortúga og rekstur
+  url: ''
+  email: piratar@piratar.is
+  sub:
+  - title: Bóka viðburð í Tortúga
+    url: "/tortuga/boka-vidburd"
+  - title: Fundir og viðburðir
+    url: "/fundir"
+  - title: Ársreikningar og opið bókhald
+    url: "/arsreikningar-og-bokhald"
+  - title: Fundagerðir
+    url: "/fundagerdir"
+en:
+- title: News
+  url: ''
+  email: ''
+  sub:
+  - title: Events
+    url: "/events"
+  - title: News
+    url: "/posts"
+  - title: Live
+    url: "/live"
+  - title: Podcasts
+    url: "/podcast"
+- title: Administration
+  url: ''
+  email: stjorn@piratar.is
+  sub:
+  - title: Trúnaðarráð
+    url: "/stjorn-pirata?category=trunadarrad"
+  - title: Framkvæmdaráð
+    url: "/stjorn-pirata?category=framkvaemdarad"
+  - title: Úrskurðarnefnd
+    url: "/stjorn-pirata?category=urskurdarnefnd"
+- title: About us
+  url: ''
+  email: ''
+  sub:
+  - title: Policy
+    url: "/stefna"
+- title: Participate
+  url: ''
+  email: ''
+  sub:
+  - title: Book an event
+    url: "/book-event"

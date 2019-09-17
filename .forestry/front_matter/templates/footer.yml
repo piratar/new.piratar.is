@@ -1,0 +1,52 @@
+---
+label: Footer
+hide_body: true
+fields:
+- type: field_group_list
+  name: is
+  label: is
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: email
+    label: email
+  - type: field_group_list
+    name: sub
+    label: sub
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+- type: field_group_list
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: email
+    label: email
+  - type: field_group_list
+    name: sub
+    label: sub
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+pages:
+- _data/footer.yml

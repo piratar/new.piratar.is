@@ -37,35 +37,36 @@
             </ul>
           </div>
           <div class="nav-lower">
+            {% assign upper = site.data.burger-menu.[page.lang].upper %}
             <ul class="navbar-nav icon-nav">
               <li class="nav-item">
-                <a class="nav-link" href="https://x.piratar.is" target="_blank">
-                  <div class="icon icon-home"></div><span>x.piratar.is</span>
+                <a class="nav-link" href="{{ upper.democracy.url }}" target="_blank">
+                  <div class="icon icon-home"></div><span>{{ upper.democracy.title }}</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/hladvarp" target="_blank">
-                  <div class="icon icon-podcast"></div><span>{{ site.data.translations[page.lang].podcast }}</span>
+                <a class="nav-link" href="{{ upper.podcasts.url }}" target="_blank">
+                  <div class="icon icon-podcast"></div><span>{{ upper.podcasts.title }}</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/events" target="_blank">
-                  <div class="icon icon-events"></div><span>{{ site.data.translations[page.lang].events }}</span>
+                <a class="nav-link" href="{{ upper.events.url }}" target="_blank">
+                  <div class="icon icon-events"></div><span>{{ upper.events.title}}</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://spjall.piratar.is">
-                  <div class="icon icon-speech"></div><span>{{ site.data.translations[page.lang].pirate_chat }}</span>
+                <a class="nav-link" href="{{ upper.chat.url }}">
+                  <div class="icon icon-speech"></div><span>{{ upper.chat.title }}</span>
                 </a>
               </li>
             </ul>
             <ul class="navbar-nav main-nav">
-              {% for link in site.data.navigation.menu.[page.lang] %}
+              {% for link in site.data.burger-menu.[page.lang].main %}
               {% if link.sub %}
               <li class="nav-item">
-                <h4 class="nav-title">
-                  {{ link.title }}
-                </h4>
+                <a href="{{ link.url | absoulute_url }}">
+                  <h4 class="nav-title">{{ link.title }}</h4>
+                </a>
                 <div class="submenu p-0">
                   {% for child in link.sub %}
                   <a href="{{ child.url | absolute_url }}" class="submenu-item">
@@ -83,9 +84,10 @@
               {% endif %}
               {% endfor %}
             </ul>
+            {% assign lower = site.data.burger-menu.[page.lang].lower %}
             <ul class="navbar-nav icon-nav">
-              <li class="nav-item"><a class="nav-link" href="/stillingar" target="_blank">
-                  <div class="icon icon-gear"></div><span>{{ site.data.translations[page.lang].preferences }}</span>
+              <li class="nav-item"><a class="nav-link" href="{{ lower.preferences.url }}" target="_blank">
+                  <div class="icon icon-gear"></div><span>{{ lower.preferences.title }}</span>
                 </a>
               </li>
             </ul>
