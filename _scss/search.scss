@@ -1,9 +1,9 @@
 #search-container {
-  background: $pirate-dark-black;
-  color: white;
+  background: $pirate-black;
+  color: $pirate-white;
   left: 0;
   position: fixed;
-  top: 0;
+  top: 56px;
   bottom: 0;
   width: 100%;
   z-index: 100;
@@ -16,11 +16,9 @@
 
 #exit-search {
   .svg-close {
-    height: 35px;
-    width: 35px;
-    @media (max-width: 991px) {
-      height: 26px;
-    }
+    height: 22px;
+    width: 22px;
+    margin-right: 0;
   }
 }
 

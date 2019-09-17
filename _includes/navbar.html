@@ -11,9 +11,12 @@
       <a class="main-logo pl-0" href="{{ site.data.languages[page.lang].url }}">
         <img src="{{ "/assets/img/logo.png" | absolute_url }}" alt="Píratar">
       </a>
-      <button type="button" class="btn icon icon-search p-0" id="desktop-nav-search">
-        <span class="sr-only">Search</span>
-      </button>
+      <div class="search">
+        <button type="button" class="btn icon icon-search p-0" id="desktop-nav-search">
+            <span class="sr-only">Search</span>
+          </button>
+          <a id="exit-search" style="display: none;" href="#"><div class="icon icon-close svg-close"></div></a>
+      </div>
       <div class="navbar-collapse" id="navbar">
         <div class="nav-options">
           <div class="sticky">
@@ -94,7 +97,7 @@
           </div>
         </div>
       </div>
-      {% include search-overlay.html %}
     </div>
   </nav>
 </header>
+{% include search-overlay.html %}
