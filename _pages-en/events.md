@@ -1,4 +1,5 @@
 ---
-title: events
+title: Events
 layout: events
+category: events
 ---
