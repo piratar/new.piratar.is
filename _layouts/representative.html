@@ -15,7 +15,19 @@ class: representative-page
   </div>
 </section>
 
-{% include cta-section.html %}
+{% if page.social %}
+<section class="social container mt-4 d-flex justify-content-center">
+  {% if page.social.twitter %}
+  <a class="icon icon-twitter-shadow mr-4" href="{{ page.social.twitter }}"><span class="sr-only">Twitter</span></a>
+  {% endif %}
+  {% if page.social.instagram %}
+  <a class="icon icon-instagram-shadow mr-4" href="{{ page.social.instagram }}"><span class="sr-only">Instagram</span></a>
+  {% endif %}
+  {% if page.social.facebook %}
+  <a class="icon icon-facebook-shadow" href="{{ page.social.facebook }}"><span class="sr-only">Facebook</span></i></a>
+  {% endif %}
+</section>
+{% endif %}
 
 {% assign articles = site.articles | where:"representative", page.representative %}
 {% if articles.size > 0 %}
@@ -40,18 +52,6 @@ class: representative-page
   {% include see-all-articles.html url=all_articles_url %}
 </section>
 {% endif %}
-{% if page.social %}
-<section class="social container mt-4 d-flex justify-content-center">
-  {% if page.social.twitter %}
-  <a class="icon icon-twitter-shadow mr-4" href="{{ page.social.twitter }}"><span class="sr-only">Twitter</span></a>
-  {% endif %}
-  {% if page.social.instagram %}
-  <a class="icon icon-instagram-shadow mr-4" href="{{ page.social.instagram }}"><span class="sr-only">Instagram</span></a>
-  {% endif %}
-  {% if page.social.facebook %}
-  <a class="icon icon-facebook-shadow" href="{{ page.social.facebook }}"><span class="sr-only">Facebook</span></i></a>
-  {% endif %}
-</section>
-{% endif %}
+{% include cta-section.html %}
 
 {% include cta-buttons.html %}
