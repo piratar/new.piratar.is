@@ -13,4 +13,3 @@ content-media:
 published: false
 
 ---
-{% include content-video.html index=0 %}
