@@ -10,7 +10,6 @@ files: []
 content-media:
   videos: []
   images: []
-published: false
 
 ---
 Framræst votlendi er það kallað þegar grafnir eru skurðir til að vatn renni úr jarðveginum þar sem votlendi er, til þess að hægt sé að nota landið í eitthvað sem bændum þykir gagnlegt. Slíkir skurðir hafa verið grafnir út um allt land, oft til að búa til beitarland eða ræktunarland, en þó er einhverra hluta vegna um 85% alls lands sem hefur verið framræst ónotað.
