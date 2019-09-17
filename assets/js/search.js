@@ -32,12 +32,16 @@ const openSearchOverlay = () => {
   $('#search-container').removeClass('d-none');
   $('body').addClass('overflow-hidden');
   $('#search-box').focus();
+  $('#desktop-nav-search').hide();
+  $('#exit-search').show();
 }
 
 const closeSearchOverlay = () => {
   $('#search-container').addClass('d-none');
   $('body').removeClass('overflow-hidden');
   updateQuery('');
+  $('#desktop-nav-search').show();
+  $('#exit-search').hide();
 }
 
 const fuseSearch = (string) => {
