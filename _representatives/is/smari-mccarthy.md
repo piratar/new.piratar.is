@@ -7,11 +7,11 @@ description: Þingmaður Pírata
 details: Suðurkjördæmi
 representative: smári-mccarthy
 email: smarim@althingi.is
-image: /assets/img/smari-mccarthy.jpg
+image: "/assets/img/smari-mccarthy.jpg"
 social:
   twitter: https://twitter.com/smarimc
----
 
+---
 Smári McCarthy hefur undanfarin ár fyrst og fremst unnið í upplýsingafrelsis- og lýðræðismálum út um allar trissur. Smári er fyrrum tæknistjóri hjá Organized Crime and Corruption Reporting Project.
 
 Hefur þróað ýmsan frjálsan hugbúnað, meðal annars kosningakerfið Wasa2il sem var tilnefnt til Prix Ars Electronica verðlaunanna 2013.
@@ -23,5 +23,3 @@ Meðal birtra fræðigreina eru “Cloud Computing: Legal Issues in Centralized 
 Hefur verið fyrirlesari á ótal ráðstefnum á borð við Internet At Liberty, e-STAS, FSCONS, Oekonux 4, SHARE2, SHARE Beirut, Living On The Edge, SKUB 2012, Democracía Digital de Andalucia, Me Craft/You Industry Symposium, Free Culture Forum 2010, Internet, Law and Politics 2011, Re:publica 2011 og TEDx Reykjavík 2009.
 
 Hefur verið gestafyrirlesari við ýmsa háskóla á borð við Berkman Center við Harvard, London City University og Universidad Rey Juan Carlos í Madrid. Hefur verið í “faculty” hjá International School of Digital Transformation við University of Texas í Austin og hjá Center of Investigative Journalism.
-
-Honum finnst hann eyða of miklum hluta lífs síns á flugvöllum, en erfir það ekki við neinn annan en sjálfan sig.
