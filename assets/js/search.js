@@ -84,13 +84,21 @@ const displayResults = (results) => {
 }
 
 const resultHtml = (result) => {
-  let string = '<a class="result" href="' + result.url + '">';
+  let string = '<a class="result" href="' + result.url + '"><div class="result-info">';
   if (result.date) {
-    string += '<p class="result-date">' + result.date + '</p>';
+    string += '<span class="result-date">' + result.date + '</span>';
   }
-  string += '<p class="result-title">' + result.title + '</p><p class="result-description">'
+  if (result.type) {
+    string += '<span class="result-type">' + result.type + '</span>'
+  }
+  if (result.language) {
+    string += '<span class="result-language"' + result.language + '</span>'
+  }
+  string += '</div><p class="result-title">' + result.title + '</p><p class="result-description">'
     + trimString(result.content, 130) + '</p></a>';
   return string;
 }
+
+
 
 const trimString = (string, length) => string.length > length ? string.substring(0, length) + '...' : string;
