@@ -1,8 +1,7 @@
 ---
 title: Píratar í Reykjavík
 image: ''
-category:
-- svaedisbundin
+category: svaedisbundin
 description: Aðildarfélag Pírata í Reykjavík
 
 ---
