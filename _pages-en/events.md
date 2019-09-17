@@ -1,6 +1,5 @@
 ---
-title: Viðburðir
+title: Events
 layout: events
-lang: is
 category: events
 ---

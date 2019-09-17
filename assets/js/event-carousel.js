@@ -1,19 +1,39 @@
 $(document).ready(function () {
   let public_key = 'N24WDLHYCATEMYHRTZSU';
   let organizer = '25096882982';
-  if ($("section.events").length) {
+  if ($('body.events-page').length) {
     const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
     const eventSwiper = setupCarousel('.events');
-    getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, (event) => {
-      eventSwiper.appendSlide(eventTpl.map(render(event)).join(''));
-      createWidget(event.id);
+    let calendarEl = document.getElementById('calendar');
+    getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, (events) => {
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        plugins: [ 'dayGrid', 'list' ],
+        header: {
+          left:   '',
+          center: 'prev title next',
+          right:  'dayGridMonth, listMonth'
+        },
+        locale: document.documentElement.lang,
+        defaultView: $(window).width() < 992 ? 'listMonth' : 'dayGridMonth',
+        events: events,
+        aspectRatio: 1.5,
+        contentHeight: 'auto',
+      });
+      calendar.render();
+      for (let event of events ) {
+        eventSwiper.appendSlide(eventTpl.map(render(event)).join(''));
+        createWidget(event.id);
+      }
     });
   }
-  else if ($('body.events-page').length) {
-    let eventListing = $('section.event-listing');
+  else if ($("section.events").length) {
     const eventTpl = $('script[data-template="event"]').text().split(/\$\{(.+?)\}/g);
-    getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, (event) => {
-      eventListing.append(eventTpl.map(render(event)).join(''))
+    const eventSwiper = setupCarousel('.events');
+    getEvents('https://www.eventbriteapi.com/v3/events/search/', public_key, organizer, (events) => {
+      for (let event of events ) {
+        eventSwiper.appendSlide(eventTpl.map(render(event)).join(''));
+        createWidget(event.id);
+      }
     });
   }
 });
@@ -38,6 +58,7 @@ const getEvents = (url, token, organizer, callback) => {
 
 const addEvents = (events, callback) => {
   const language = document.documentElement.lang;
+  let items = [];
   for (let event of events) {
     let start = new Date(event.start.local);
     let end = new Date(event.end.local)
@@ -50,13 +71,14 @@ const addEvents = (events, callback) => {
     let location = event.venue.name;
     let item = {
       id: event.id, start: start, end: end, time: time, date: date, dateLong: dateLong,
-      day: day, title: title, description: description, location: location,
+      day: day, title: title, description: description, location: location, url: event.url,
     };
     item['ical'] = calendarGenerators.ical(item);
     item['gcal'] = calendarGenerators.google(item);
     item['outlook'] = calendarGenerators.outlook(item);
-    callback(item)
+    items.push(item);
   }
+  callback(items);
 }
 
 
