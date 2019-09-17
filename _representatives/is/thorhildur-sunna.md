@@ -3,13 +3,17 @@ title: Þórhildur Sunna Ævarsdóttir
 layout: representative
 lang: is
 category: parliament
-image: /assets/img/thorhildur_banner.jpg
+image: "/assets/img/thorhildur_banner.jpg"
 description: Þingmaður Pírata
 representative: þórhildur-sunna
-phone: 845-1311
+phone: ''
 email: thorhildursunna@althingi.is
----
+details: Reykjavíkurkjördæmi suður
+social:
+  twitter: https://twitter.com/sunnago
+  facebook: https://www.facebook.com/sunnapirati/
 
+---
 Ég er 29 ára lögfræðingur, blaðamaður og Pírati. Lögfræðina lærði ég í fjórum háskólum víðsvegar um Evrópu (Þýskalandi, Grikklandi og Hollandi), þar sem ég sérhæfði mig í alþjóðalögum, Evrópulögum, mannréttindum og alþjóðlegum refsirétti. Frá því að ég útskrifaðist með mastersgráðu frá háskólanum í Utrecht árið 2013 hef ég búið hér heima og aðallega unnið sem blaðamaður og við ritstörf tengd mannréttindum.
 
 Pírötum kynntist ég í janúar 2015 í gegnum Smára McCarthy, sem bauð mér í kaffibolla eftir að hafa lesið nokkrar greinar eftir mig. Kaffibollinn breyttist reyndar í bjór og síðan í matarboð til Evu Þuríðardóttur og fleiri valinkunnra Pírata og eftir það var ekki aftur snúið. Ég var komin heim. Eftir því sem ég sótti fleiri fundi á vegum Pírata kynntist ég fleira fólki sem hafði sömu hugsjónir og ég sjálf. Úr varð að ég bauð mig fram í framkvæmdaráð Pírata. Píratar sýndu mér það traust að kjósa mig í ráðið og sat ég í því sem alþjóðafulltrúi þar til nýtt framkvæmdaráð tók við í júní síðastliðnum. Sú reynsla var mér dýrmæt og lærdómsrík og nýtist vel í núverandi stöðu minni sem nefndarmaður í úrskurðanefnd Pírata.
