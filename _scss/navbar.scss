@@ -27,14 +27,6 @@ header {
       transform: translateX(0);
     }
   }
-
-  .banner-image {
-    height: 450px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
   .navbar {
     position: fixed;
     top: 0;
@@ -159,15 +151,22 @@ header {
       }
     }
   }
+}
 
-  // Mobile
-  @media (max-width: 991px) {
-    .banner-image {
-      height: 275px;
-    }
-    .navbar {
-      padding-left: 0;
-      padding-right: 0;
-    }
+.banner-image {
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+// Mobile
+@media (max-width: 991px) {
+  .banner-image {
+    height: 275px;
+  }
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
