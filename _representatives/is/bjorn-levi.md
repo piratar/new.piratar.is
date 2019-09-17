@@ -7,7 +7,7 @@ description: Þingmaður Pírata
 details: Reykjavíkurkjördæmi suður
 image: "/assets/img/bjorn-levi.png"
 representative: björn-leví
-email: bjornlevij@althingi.is
+email: bjornlevi@althingi.is
 social:
   facebook: https://www.facebook.com/BjornLeviGunnarsson/
   twitter: https://twitter.com/_bjornlevi_
