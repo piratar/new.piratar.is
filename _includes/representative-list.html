@@ -8,10 +8,10 @@
 		<p class="description mb-0">{{ rep.description }}</p>
 		<p class="details mb-0">{{ rep.details }}</p>
 		<div class="contact mt-3 mb-2 d-flex flex-column">
-			{% if rep.email %}
+			{% if rep.email and rep.email != '' %}
 			<a href="mailto:{{ rep.email }}" class="d-flex email"><div class="icon icon-email align-self-center mr-3"></div>{{ rep.email }}</a>
 			{% endif %}
-			{% if rep.phone %}
+			{% if rep.phone and rep.phone != '' %}
 			<a href="tel:{{ rep.phone }}" class="d-flex phone"><div class="icon icon-phone align-self-center mr-3"></div>{{ rep.phone }}</a>
 			{% endif %}
 		</div>
