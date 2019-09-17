@@ -67,17 +67,17 @@ fields:
       type: file
       config:
         maxSize: 250
-      label: video
+      label: Myndband
     - name: caption
       type: text
       config:
         required: false
-      label: caption
+      label: Texti með myndbandi
     config:
       min: 
       max: 
       labelField: 
-    label: videos
+    label: Myndbönd
   - name: images
     type: field_group_list
     fields:
@@ -85,18 +85,17 @@ fields:
       type: file
       config:
         maxSize: 250
-      label: image
+      label: Mynd
     - name: caption
       type: text
       config:
         required: false
-      label: caption
+      label: Texti með mynd
     config:
       min: 
       max: 
       labelField: 
-    label: images
-  label: Media in content
-  description: Myndir og myndbönd í texta
+    label: Myndir
+  label: Myndir og myndbönd í texta
 pages:
 - _articles/votlendið-og-hálfa-jörðin.md
