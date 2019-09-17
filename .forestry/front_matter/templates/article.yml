@@ -4,7 +4,7 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titill
   config:
     required: true
 - type: text
@@ -15,11 +15,12 @@ fields:
   label: Undirfyrirsögn
 - type: datetime
   name: date
-  label: date
+  label: Dagsetning
   default: now
 - type: file
   name: image
-  label: image
+  label: Mynd
+  description: Birtist fyrir ofan grein og í preview
 - name: representative
   type: select
   default: ''
@@ -40,7 +41,7 @@ fields:
       section: 
       file: 
       path: 
-  label: representative
+  label: Fulltrúi
 - type: tag_list
   name: tags
   label: Tags
