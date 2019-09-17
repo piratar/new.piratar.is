@@ -40,9 +40,15 @@
     margin: 1.25em 0;
   }
 }
-.result-date {
+.result-info {
   font-size: 14px;
   color: $pirate-gray;
+  span:after {
+    content: ' | ';
+  }
+  span:last-child:after {
+    content: '';
+  }
 }
 .result-title {
   font-size: 20px;
