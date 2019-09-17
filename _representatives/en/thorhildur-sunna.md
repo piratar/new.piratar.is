@@ -6,7 +6,7 @@ category: parliament
 representative: þórhildur-sunna
 details: Reykjavíkurkjördæmi suður
 description: Þingmaður Pírata
-email: "+354 845 1311"
+email: thorhildursunna@althingi.is
 social:
   facebook: https://www.facebook.com/sunnapirati/
   twitter: https://twitter.com/sunnago
