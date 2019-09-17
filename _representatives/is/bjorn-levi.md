@@ -5,8 +5,13 @@ lang: is
 category: parliament
 description: Þingmaður Pírata
 details: Reykjavíkurkjördæmi suður
-image: /assets/img/bjorn-levi.png
-representative: björn-leví 
+image: "/assets/img/bjorn-levi.png"
+representative: björn-leví
+email: bjornlevij@althingi.is
+social:
+  facebook: https://www.facebook.com/BjornLeviGunnarsson/
+  twitter: https://twitter.com/_bjornlevi_
+
 ---
 Áður en ég tók til starfa á Alþingi Íslendinga þá vann ég sem hugbúnaðarsérfræðingur hjá Menntamálastofnun. Menntun mín er á sviði upplýsingatækni í námi (online social learning) — það þýðir að ég skoða hvernig samskipti fólks á netinu hafa áhrif á nám. Ég er menntaður í kerfisgreiningu og hvernig/af hverju þau virka eða ekki. Ég berst gegn notkun rökvillna í stjórnmálum sem og annars staðar. Ég tek þátt í stjórnmálum af því að ég lít á þau sem kerfi sem virkar ekki og sem ég vil laga. Ég lít á þingið og stjórnkerfið sem þjónustutæki en ekki stjórntæki. Lýðræði kemur frá fólkinu en ekki til fólksins.
 
