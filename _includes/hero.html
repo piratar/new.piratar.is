@@ -4,12 +4,9 @@
       {% for hero in site.data.hero.slides %}
       {% if hero.video %}
       <div class="swiper-slide video">
-        <video src="{{ hero.file }}" preload="none" playsinline poster="{{ hero.poster }}">
+        <video src="{{ hero.file }}" preload="none" controls playsinline poster="{{ hero.poster }}">
           <img src="{{ hero.poster }}"/>
         </video>
-        <div class="play-button-container d-flex justify-content-center align-items-center">
-            <button type="button" class="btn play-button icon icon-play"><span class="sr-only">Play</span></button>
-        </div>
         {% if hero.text %}
           <div class="overlay-text container {{ hero.text.position }} {{ hero.text.color }}">
             <h1>{{ hero.text.text | markdownify }}</h1>
