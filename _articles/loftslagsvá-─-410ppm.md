@@ -1,8 +1,9 @@
 ---
-date: 2019-09-18 16:23:24 +0000
+date: 2019-01-31 16:23:24 +0000
 layout: article
 title: Loftslagsvá ─ 410ppm
-sub_heading: vavav
+sub_heading: Ný skýrsla Milliríkjanefndar Sameinuðu þjóðanna um loftslagsbreytingar
+  er hryllingslestur.
 image: "/uploads/211B6597.jpg"
 representative: smári-mccarthy
 tags: []
