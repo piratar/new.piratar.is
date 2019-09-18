@@ -12,7 +12,6 @@ content-media:
   images:
   - caption: Loftslagsvá
     image: "/uploads/Untitled (2)-2.png"
-published: false
 
 ---
 Spurningin er löngu hætt að vera hvort loftslagsbreytingar séu raunverulegar (já), og jafnvel hætt að vera hvort að stjórnmálamenn skilji almennt loftslagsbreytingar (nei), og er orðin hvort stjórnmálin séu með raunhæfa áætlun til að bjarga mannkyninu og lífvænleika plánetunnar okkar (sjáum til...).
