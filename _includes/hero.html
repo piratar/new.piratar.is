@@ -4,8 +4,8 @@
       {% for hero in site.data.hero.slides %}
       {% if hero.video %}
       <div class="swiper-slide video">
-        <video src="{{ hero.file }}" preload="none" playsinline poster="{{ hero.poster }}">
-          <img src="{{ hero.poster }}"/>
+        <video src="{{ hero.file }}" preload="none" playsinline poster="{{ hero.poster }}">
+          <img src="{{ hero.poster }}"/>
         </video>
         <div class="play-button-container d-flex justify-content-center align-items-center">
             <button type="button" class="btn play-button icon icon-play"><span class="sr-only">Play</span></button>

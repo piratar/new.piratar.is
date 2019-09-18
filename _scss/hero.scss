@@ -58,10 +58,10 @@
         line-height: 1;
         font-weight: 700;
         letter-spacing: -0.02em;
-        pointer-events: auto;
         max-width: 40%;
       }
       a {
+        pointer-events: auto;
         color: $pirate-orange;
         &:hover {
           color: $pirate-white;
