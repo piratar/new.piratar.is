@@ -8,9 +8,36 @@ class: representative-page
 <section class="profile container-fluid mt-lg-5 mb-5">
   <div class="container">
     <h2 class="title">{{ page.title }}</h2>
-    <h4 class="heading">{{ page.description }}</h4>
-    <div class="about">
-      {{ page.content }}
+    <div class="row mt-3">
+      <div class="col-xs-12 col-sm-9">
+        <h4 class="heading">{{ page.description }}</h4>
+        <div class="about">
+          {{ page.content }}
+        </div>
+      </div>
+      <div class="rep-info col-xs-12 col-sm-3 d-flex flex-column">
+        {% if page.roles %}
+        <div class="roles">
+          <h4 class="heading mb-4">Hlutverk og nefndir</h4>
+          <ul>
+          {% for role in page.roles %}
+          <li class="role my-3">
+            {% if role.url %}
+            <a href="{{ role.url }}" target="_blank">
+            {% endif %}
+            {{ role.title }}
+            {% if role.url %}
+            </a>
+            {% endif %}
+          </li>
+          {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
+        {% if page.external %}
+        <a href="{{ page.external }}" target="_blank" class="more-info">Sjá nánar á vef Alþingis</a>
+        {% endif %}
+      </div>
     </div>
   </div>
 </section>

@@ -5,20 +5,42 @@
     margin-left: auto;
     margin-right: auto;
     padding: 40px;
-     .title {
+    .title {
       font-size: 56px;
       color: $pirate-gray;
     }
     .about {
-      margin-top: 26px;
       @media (min-width: 992px) {
-        column-count: 3;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+        -webkit-column-gap: 2.5rem;
+        -moz-column-gap: 2.5rem;
+        column-gap: 2.5rem;
+        border-right: 1px solid #d8d8d8;
+        padding-right: 2.5rem;
+      }
+    }
+    .rep-info {
+      ul {
+        color: $pirate-orange;
+        a {
+          color: $pirate-gray;
+        }
+      }
+      a.more-info {
+        color: $pirate-orange;
+        font-weight: 600;
       }
     }
     @media (max-width: 991px) {
       padding: 20px;
       .title {
         font-size: 2.5rem;
+      }
+      .roles {
+        border-top: 1px solid #d8d8d8;
+        padding: 1rem 0;
       }
     }
   }
