@@ -98,5 +98,6 @@ fields:
     label: Myndir
   label: Myndir og myndbönd í texta
 pages:
+- _articles/excelágóði-og-flæðiságóði.md
 - _articles/smættunarárátta.md
 - _articles/votlendið-og-hálfa-jörðin.md
