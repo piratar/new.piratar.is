@@ -7,12 +7,18 @@ description: Þingmaður Pírata
 details: Suðurkjördæmi
 representative: smári-mccarthy
 email: smarim@althingi.is
-image: "/assets/img/smari-mccarthy.jpg"
+image: "/uploads/211B6597.jpg"
 social:
   twitter: https://twitter.com/smarimc
 
 ---
-Smári McCarthy hefur undanfarin ár fyrst og fremst unnið í upplýsingafrelsis- og lýðræðismálum út um allar trissur. Smári er fyrrum tæknistjóri hjá Organized Crime and Corruption Reporting Project.
+Smári McCarthy tók þátt í að stofna Pírata árið 2012 og hefur verið þingmaður suðurkjördæmis síðan 2016. Tækni upphaflega starfssvið Smára 
+
+Ljúfmenni verður pirraður. Kemur úr ópólitískri fjölskyldu og fer í tæknimálin. Áttar sig á þvi hverjar pólitískar afleiðingar tækni geta orðið. Fékk hann til að hugsa pólitískt. Stjórnmálamenn illa upplýsitir í tæknimálum og til að útfæra reglur og lagaumhverfi í kringum tæknina. Eftir hrun vildi Smári nýta tækni til að láta stjórnmál virka betur. Pirringur leiti til þess að Smári tók þátt í að stofan Pírata árið 2012.
+
+Vann fyrir þingsetu í lobbýisma í kringum bættu umhverfi fjölmiðla og tjáningarfrelsi. Rannsóknarblaðamennsku. Spennufíkill.
+
+hefur undanfarin ár fyrst og fremst unnið í upplýsingafrelsis- og lýðræðismálum út um allar trissur. Smári er fyrrum tæknistjóri hjá Organized Crime and Corruption Reporting Project.
 
 Hefur þróað ýmsan frjálsan hugbúnað, meðal annars kosningakerfið Wasa2il sem var tilnefnt til Prix Ars Electronica verðlaunanna 2013.
 
