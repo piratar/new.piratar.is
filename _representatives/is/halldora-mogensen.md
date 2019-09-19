@@ -8,6 +8,10 @@ image: "/assets/img/halldora-mogensen.jpg"
 representative: halldóra-mogensen
 email: halldoram@althingi.is
 details: Reykjavíkurkjördæmi norður
+external: https://www.althingi.is/altext/cv/is/?nfaerslunr=1218
+roles:
+  - title: Velferðarnefnd
+    url: https://www.althingi.is/thingnefndir/fastanefndir/velferdarnefnd/
 social:
   facebook: https://www.facebook.com/profile.php?id=100009752916877
   twitter: https://twitter.com/Halldoramog
