@@ -26,7 +26,14 @@ class: article-page
       {% endfor %}
     </div>
   </div>
-{% assign all_articles = site.pages | where: "layout", "articles" | where: "lang", page.lang %}
+  {% if page.lang == 'en' %}
+{% assign all_pages = site.pages-en %}
+{% elsif page.lang == 'pl' %}
+{% assign all_pages = site.pages-pl %}
+{% else %}
+{% assign all_pages = site.pages-is %}
+{% endif %}
+{% assign all_articles = all_pages | where: "layout", "articles" %}
 {% assign all_articles = all_articles[0].url | append: "?category=" | append: category | append: "&representative=" | append: page.representative %}
 {% include see-all-articles.html url=all_articles_url %}
 </section>

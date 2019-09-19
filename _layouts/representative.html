@@ -31,6 +31,15 @@ class: representative-page
 
 {% assign articles = site.articles | where:"representative", page.representative %}
 {% if articles.size > 0 %}
+
+{% if page.lang == 'en' %}
+{% assign all_pages = site.pages-en %}
+{% elsif page.lang == 'pl' %}
+{% assign all_pages = site.pages-pl %}
+{% else %}
+{% assign all_pages = site.pages-is %}
+{% endif %}
+
 <section class="representative-articles container-fluid mt-5 news">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
@@ -47,7 +56,7 @@ class: representative-page
       {% endfor %}
     </div>
   </div>
-  {% assign all_articles = site.pages | where: "layout", "articles" | where: "lang", page.lang %}
+  {% assign all_articles = all_pages | where: "layout", "articles" %}
   {% assign all_articles_url = all_articles[0].url | append: "?category=" | append: page.category | append: "&representative=" | append: page.representative %}
   {% include see-all-articles.html url=all_articles_url %}
 </section>
