@@ -44,12 +44,12 @@ class: articles-page
       {% assign articles = site.articles | sort: "date" | reverse %}
       {% for article in articles %}
       {% assign rep = site.pages | where: "layout", "representative" | where: "representative", article.representative %}
-      <div class="swiper-slide" data-category="{{ rep[0].category }}" style="background-image: url('{{ article.image }}');"
+      <div class="swiper-slide mb-4" data-category="{{ rep[0].category }}" style="background-image: url('{{ article.image }}');"
         data-representative="{{ article.representative }}">
         <a href="{{ article.url }}" class="d-flex news-card-overlay flex-column justify-content-end">
           <div class="lower flex-column d-flex">
             <span class="date">{{ article.date | date: "%d/%m/%y" }}</span>
-            <div class="title w-100">{{ article.title }}</div>
+            <div class="title w-100"><h3>{{ article.title }}</h3></div>
             <p class="summary">{{ article.sub_heading }}</p>
           </div>
         </a>
