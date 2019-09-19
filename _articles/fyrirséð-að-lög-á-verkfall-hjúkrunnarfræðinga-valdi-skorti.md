@@ -10,7 +10,6 @@ files: []
 content-media:
   videos: []
   images: []
-published: false
 
 ---
 **Langflestir landsmenn vilja þjóðarsátt um hærri laun og aðbúnað heilbrigðisstarfsfólk, og** [**hafa viljað það um árabil samkvæmt könnunum Gallups**](http://blog.piratar.is/thingflokkur/wp-content/uploads/sites/23/2014/12/Sko%C3%B0annak%C3%B6nnun-fyrir-%C3%BEingflokk-P%C3%ADrata.pdf)**.**
