@@ -18,6 +18,6 @@ content-media:
   
 **En stjórnarskrá íslenska lýðveldisins er skýr í [59. grein](https://www.althingi.is/lagas/nuna/1944033.html#G59): **"_Skipun dómsvaldsins verður eigi ákveðin nema með lögum._"**  
   
-**Mannréttindadómsstóll Evrópu** [**hefur í dag staðfest að þetta**](https://hudoc.echr.coe.int/eng-press#{%22itemid%22:\[%22003-6352361-8314784%22\]})**.** Og áður hafði Hæstiréttur Íslands dæmt að hún hafi brotið lög við skipun á fjórum dómurum, en tveir eru persónulega tengdir henni.
+**Mannréttindadómsstóll Evrópu** [**hefur í dag staðfest að þetta**](https://hudoc.echr.coe.int/eng-press#%20)**.** Og áður hafði Hæstiréttur Íslands dæmt að hún hafi brotið lög við skipun á fjórum dómurum, en tveir eru persónulega tengdir henni.
 
 **Ráðherra dómsmála braut lög og stjórnarskrá við skipan dómara** og ætti að segja af sér.
