@@ -98,6 +98,7 @@ fields:
     label: Myndir
   label: Myndir og myndbönd í texta
 pages:
+- _articles/réttindi-barna-hafin-yfir-vafa.md
 - _articles/dómsmálaráðherra-klessukeyrði-landsrétt-fyrir-vini-sína.md
 - _articles/fyrirséð-að-lög-á-verkfall-hjúkrunnarfræðinga-valdi-skorti.md
 - _articles/trúverðugleiki-stofnanna.md
