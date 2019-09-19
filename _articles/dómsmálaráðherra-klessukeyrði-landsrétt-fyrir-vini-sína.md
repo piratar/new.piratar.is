@@ -23,5 +23,3 @@ content-media:
 **Ráðherra dómsmála braut lög og stjórnarskrá við skipan dómara** og ætti að segja af sér.
 
 [Birtist á bloggsíðu Jón þórs 12. mars 2019.](https://jonthorolafsson.blog.is)
-
-    
