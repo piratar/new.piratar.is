@@ -1,8 +1,7 @@
 ---
 date: 2019-03-07 14:19:36 +0000
 layout: article
-title: Jón Þór Ólafsson FORSÍÐAGESTABÓKRSS RSSJón Þór Ólafsson - Hausmynd Hegðun Bjarna
-  Ben í kjaramálum síðustu ár
+title: Hegðun Bjarna Ben í kjaramálum síðustu ár
 sub_heading: Hræsni?
 image: "/uploads/211B6528.jpg"
 representative: jón-þór
