@@ -1,5 +1,5 @@
 ---
-date: 2019-03-12 17:34:54 +0000
+date: 2019-03-12T17:34:54.000+00:00
 layout: article
 title: Dómsmálaráðherra klessukeyrði Landsrétt fyrir vini sína
 sub_heading: Braut lög og stjórnarskrá við skipan dómara
@@ -23,3 +23,5 @@ content-media:
 **Ráðherra dómsmála braut lög og stjórnarskrá við skipan dómara** og ætti að segja af sér.
 
 [Birtist á bloggsíðu Jón þórs 12. mars 2019.](https://jonthorolafsson.blog.is)
+
+    <p><iframe allow="autoplay; fullscreen" allowfullscreen="" allowtransparency="" frameborder="0" scrolling="no" seamless="" src="//althingi.netvarp.is/player/?type=vod&amp;width=512&amp;height=288&amp;icons=yes&amp;file=20180306T162504&amp;start=1350&amp;duration=326&amp;autoplay=true" style="border: 0; overflow: hidden; width: 100%; height: 250px;" type="text/html"></iframe></p>
