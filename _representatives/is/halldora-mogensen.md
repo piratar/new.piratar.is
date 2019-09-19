@@ -11,6 +11,8 @@ details: Reykjavíkurkjördæmi norður
 social:
   facebook: https://www.facebook.com/profile.php?id=100009752916877
   twitter: https://twitter.com/Halldoramog
+roles:
+- title: Velferðarnefnd
 
 ---
 Ég heiti Halldóra Mogensen og er þingkona Pírata i Reykjavíkurkjördæmi Norður.
