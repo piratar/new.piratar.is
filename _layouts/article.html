@@ -26,12 +26,12 @@ class: article-page
       {% endfor %}
     </div>
   </div>
-  {% if page.lang == 'en' %}
-{% assign all_pages = site.pages-en %}
+{% if page.lang == 'en' %}
+  {% assign all_pages = site.pages-en %}
 {% elsif page.lang == 'pl' %}
-{% assign all_pages = site.pages-pl %}
+  {% assign all_pages = site.pages-pl %}
 {% else %}
-{% assign all_pages = site.pages-is %}
+  {% assign all_pages = site.pages-is %}
 {% endif %}
 {% assign all_articles = all_pages | where: "layout", "articles" %}
 {% assign all_articles = all_articles[0].url | append: "?category=" | append: category | append: "&representative=" | append: page.representative %}

@@ -9,6 +9,12 @@ section.article {
         font-size: 18px;
         margin-bottom: 20px;
         font-weight: 600;
+        a {
+          color: $pirate-dark-black;
+          &:hover {
+            text-decoration: none;
+          }
+        }
       }
     }
   }
