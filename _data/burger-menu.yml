@@ -19,7 +19,7 @@ is:
       url: "/stillingar"
   main:
   - title: Stefnan
-    url: ''
+    url: "/stefna/malefnin"
     sub:
     - title: Málefnin
       url: "/stefna/malefnin"
