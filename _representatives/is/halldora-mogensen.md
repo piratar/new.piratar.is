@@ -10,11 +10,11 @@ email: halldoram@althingi.is
 details: Reykjavíkurkjördæmi norður
 external: https://www.althingi.is/altext/cv/is/?nfaerslunr=1218
 roles:
-  - title: Velferðarnefnd
-    url: https://www.althingi.is/thingnefndir/fastanefndir/velferdarnefnd/
+- title: Velferðarnefnd
 social:
   facebook: https://www.facebook.com/profile.php?id=100009752916877
   twitter: https://twitter.com/Halldoramog
+  instagram: https://www.instagram.com/halldoramogensen/?hl=en
 
 ---
 Ég heiti Halldóra Mogensen og er þingkona Pírata i Reykjavíkurkjördæmi Norður.

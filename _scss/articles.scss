@@ -55,3 +55,38 @@
     }
   }
 }
+
+@media (max-width: 991px) {
+  .representative-filters {
+    text-align: left;
+    margin-bottom: 3rem;
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    li {
+      &.active {
+        .category {
+          border-bottom: 2px solid $pirate-orange;
+          &::before {
+            display: none !important;
+          }
+        }
+        .representative.active {
+          border-bottom: 1px solid $pirate-orange;
+          &::before {
+            display: none !important;
+          }
+        }
+      }
+    }
+    .sub-menu {
+      position: relative;
+      margin: 0.25rem 0;
+      li {
+        margin: 0.25rem 0;
+      }
+    }
+  }
+}

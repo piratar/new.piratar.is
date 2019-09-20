@@ -5,7 +5,6 @@
       height: 35vw;
       object-fit: cover;
       position: relative;
-      cursor: pointer;
       @media (max-width: 420px) {
         height: 40vh;
       }
@@ -18,17 +17,6 @@
       height: 35vw;
       @media (max-width: 420px) {
         height: 40vh;
-      }
-    }
-    .play-button-container {
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      pointer-events: none;
-      .play-button {
-
       }
     }
     .overlay-text {
@@ -58,10 +46,10 @@
         line-height: 1;
         font-weight: 700;
         letter-spacing: -0.02em;
-        pointer-events: auto;
         max-width: 40%;
       }
       a {
+        pointer-events: auto;
         color: $pirate-orange;
         &:hover {
           color: $pirate-white;

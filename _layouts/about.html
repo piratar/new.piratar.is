@@ -9,6 +9,7 @@ class: about-page
 {% else %}
 {% assign all_pages = site.pages-is %}
 {% endif %}
+
 {% assign about_pages = all_pages | where: "category", "about" | sort: "weight" %}
 {% assign policy_pages = all_pages | where: "category", "policy" | sort: "weight" %}
 <nav class="representative-filters mt-5">

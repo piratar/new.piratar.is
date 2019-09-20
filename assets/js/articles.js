@@ -40,6 +40,9 @@ const setupRepresentativeFilter = () => {
     $this = $(this);
     if (!$this.hasClass('active')) {
       $('.representative-filters > ul > li.active').removeClass('active');
+      let reps = $('.representative-filters .representative');
+      reps.removeClass('active');
+      $this.siblings('.sub-menu').find('.representative').first().addClass('active');
       $this.parent().addClass('active');
       let category = $this.data('category');
       let query = category ? '?category=' + category : '';

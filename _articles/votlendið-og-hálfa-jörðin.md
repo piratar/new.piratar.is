@@ -62,3 +62,5 @@ Ef íslenskir ráðamenn hefðu til í sér snefil af pólitískum kjarki, þá 
 Sumsé, bændur myndu skipta út hluta af landinu sínu fyrir peninga, ásamt því að fá stuðning ríkisins við að tvöfalda framleiðni sína með betri innviðum og nýrri tækni. Ætla má að einhverjir færist úr bændastétt og vissulega mun meðalstærð bújarða minnka ─ en gögn allsstaðar að úr heiminum sýna að minni bújarðir skila að jafnaði meiri framleiðni per hektara. Ætla má að bændur komi vel út úr þessari áætlun, ásamt áðurnefndum jákvæðum áhrifum fyrir náttúruna.
 
 Hvað kostar þessi áætlun? Marga milljarða. En ljóst er að þetta er töluvert ódýrara en að gera ekkert í málinu, því eins og áður sagði: Jörðinni er skítsama hvað kostar að gera við skemmdirnar.
+
+[Greinin birtist á Kjarnanum 26. mars 2019.](https://kjarninn.is/skodun/2019-03-26-votlendid-og-halfa-jordin/)

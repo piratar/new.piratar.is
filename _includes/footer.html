@@ -5,7 +5,7 @@
         <div class="nav-col col-md-4 col-sm-12 col-lg-3">
           <img class="footer-logo" height="65" src="/assets/img/logo-gray.png" alt="Píratar" aria-label="logo"/>
           <div class="info">
-            <p class="address">Píratar, {{ site.data.piratar.address }}</p>
+            <p class="address">Píratar, {{ site.data.piratar.address }}</p>
             <p>{{ site.data.translations[page.lang].telephone}} <a class="cta" href="tel:{{ site.data.piratar.phone }}">{{ site.data.piratar.phone }}</a></p>
             <p>{{ site.data.translations[page.lang].email}}: <a class="cta" href="mailto:{{ site.data.piratar.email }}">{{ site.data.piratar.email }}</a></p>
             <p>{{ site.data.translations[page.lang].id_number}}: {{ site.data.piratar.kennitala }} </p>
@@ -25,7 +25,7 @@
                 {% endfor %}
                 {% if link.email %}
                 <li>
-                  <a href="mailto:{{ link.email }}" class="cta">{{ link.email }}</a>
+                  <a href="mailto:{{ link.email }}" class="cta">{{ link.email }}</a>
                 </li>
                 {% endif %}
               </ul>

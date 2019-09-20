@@ -23,17 +23,21 @@ class: representative-page
         <div class="roles">
           <h3 class="heading mb-4">{{ site.data.translations[page.lang].roles }}</h3>
           <ul>
-          {% for role in page.roles %}
-          <li class="role my-3">
-            {% if role.url %}
-            <a href="{{ role.url }}" target="_blank">
-            {% endif %}
-            {{ role.title }}
-            {% if role.url %}
-            </a>
-            {% endif %}
-          </li>
-          {% endfor %}
+            {% for role in page.roles %}
+            <li class="role my-sm-4 my-2">
+              {% if role.url %}
+              <a href="{{ role.url }}" target="_blank">
+                {% else %}
+                <span>
+                  {% endif %}
+                  {{ role.title }}
+                  {% if role.url %}
+              </a>
+              {% else %}
+              </span>
+              {% endif %}
+            </li>
+            {% endfor %}
           </ul>
         </div>
         {% endif %}
@@ -83,15 +87,26 @@ class: representative-page
 
 {% assign articles = site.articles | where:"representative", page.representative %}
 {% if articles.size > 0 %}
+
+{% if page.lang == 'en' %}
+{% assign all_pages = site.pages-en %}
+{% elsif page.lang == 'pl' %}
+{% assign all_pages = site.pages-pl %}
+{% else %}
+{% assign all_pages = site.pages-is %}
+{% endif %}
+
 <section class="representative-articles container-fluid mt-5 news">
   <div class="swiper-container container">
     <div class="swiper-wrapper">
       {% for article in articles limit: 3 %}
       <div class="swiper-slide" style="background-image: url('{{ article.image }}');">
-        <a href="{{ article.url }}"  class="d-flex news-card-overlay flex-column justify-content-end">
+        <a href="{{ article.url }}" class="d-flex news-card-overlay flex-column justify-content-end">
           <div class="lower flex-column d-flex">
             <span class="date">{{ article.date | date: "%d/%m/%y" }}</span>
-            <div class="title w-100">{{ article.title }}</div>
+            <div class="title w-100">
+              <h3>{{ article.title }}</h3>
+            </div>
             <p class="summary">{{ article.sub_heading }}</p>
           </div>
         </a>
@@ -99,7 +114,7 @@ class: representative-page
       {% endfor %}
     </div>
   </div>
-  {% assign all_articles = site.pages | where: "layout", "articles" | where: "lang", page.lang %}
+  {% assign all_articles = all_pages | where: "layout", "articles" %}
   {% assign all_articles_url = all_articles[0].url | append: "?category=" | append: page.category | append: "&representative=" | append: page.representative %}
   {% include see-all-articles.html url=all_articles_url %}
 </section>
