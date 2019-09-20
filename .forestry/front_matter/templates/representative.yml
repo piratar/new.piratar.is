@@ -18,6 +18,7 @@ fields:
 - type: text
   name: representative
   label: representative
+  description: Notað til að tengja fulltrúa við greinar
 - name: category
   type: select
   default: ''
@@ -49,7 +50,12 @@ fields:
   label: phone
 - type: text
   name: email
-  label: email
+  label: Netfang
+- name: external
+  type: text
+  config:
+    required: false
+  label: Svæði fulltrúa á vef Alþingis / sveitarfélags
 - name: roles
   type: field_group_list
   fields:
@@ -71,7 +77,7 @@ fields:
   label: Hlutverk og nefndir
 - type: field_group
   name: social
-  label: social
+  label: Samfélagsmiðlar
   fields:
   - type: text
     name: facebook
