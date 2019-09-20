@@ -45,6 +45,8 @@ is:
   see_more: Meira
   about_pirates: Um Pírata
   policy: Stefna
+  see_details: Nánar
+  roles: Hlutverk og nefndir
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -91,6 +93,8 @@ en:
   see_more: See more
   about_pirates: About
   policy: Policies
+  see_details: Nánar
+  roles: Hlutverk og nefndir
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar

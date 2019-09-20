@@ -4,10 +4,17 @@
     color: $pirate-black;
     margin-left: auto;
     margin-right: auto;
-    padding: 40px;
     .title {
       font-size: 56px;
       color: $pirate-gray;
+    }
+    .heading {
+      span:after {
+        content: " - ";
+      }
+      span:last-child:after {
+        content: "";
+      }
     }
     .about {
       @media (min-width: 992px) {
@@ -24,17 +31,22 @@
     .rep-info {
       ul {
         color: $pirate-orange;
-        a {
-          color: $pirate-gray;
+        li {
+          span {
+            color: $pirate-gray;
+          }
+          a {
+            color: $pirate-gray;
+          }
         }
       }
       a.more-info {
         color: $pirate-orange;
+        text-decoration: underline;
         font-weight: 600;
       }
     }
     @media (max-width: 991px) {
-      padding: 20px;
       .title {
         font-size: 2.5rem;
       }
@@ -42,6 +54,14 @@
         border-top: 1px solid #d8d8d8;
         padding: 1rem 0;
       }
+    }
+  }
+  .rep-contact {
+    .col-3:first-child {
+      border-right: 1px solid $pirate-gray;
+    }
+    .col-3:only-child {
+      border-right: none;
     }
   }
 }
