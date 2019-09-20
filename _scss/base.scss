@@ -60,7 +60,7 @@ strong {
 }
 
 .bottom-shadow {
-  box-shadow: 0px 20px 30px -5px $pirate-dark-black;
+  box-shadow: 0px 20px 30px -5px #000;
   &:focus {
     box-shadow: inherit
   }

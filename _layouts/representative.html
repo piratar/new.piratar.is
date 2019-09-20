@@ -5,20 +5,23 @@ class: representative-page
 
 {% include representative-filters.html %}
 
-<section class="profile container-fluid mt-lg-5 mb-5">
+<section class="profile container-fluid p-2 p-lg-5">
   <div class="container">
-    <h2 class="title">{{ page.title }}</h2>
-    <div class="row mt-3">
-      <div class="col-xs-12 col-sm-9">
-        <h4 class="heading">{{ page.description }}</h4>
-        <div class="about">
+    <h1 class="title font-weight-bold mt-3 mt-lg-4">{{ page.title }}</h1>
+    <h4 class="heading">
+      <span>{{ page.description }}</span>
+      <span>{{ page.details }}</span>
+    </h4>
+    <div class="row mt-3 mt-lg-5">
+      <div class="col-xs-12 col-lg-9">
+        <div class="about content">
           {{ page.content }}
         </div>
       </div>
-      <div class="rep-info col-xs-12 col-sm-3 d-flex flex-column">
+      <div class="rep-info col-xs-12 col-lg-3 d-flex mb-2 mb-lg-0 flex-column">
         {% if page.roles %}
         <div class="roles">
-          <h4 class="heading mb-4">Hlutverk og nefndir</h4>
+          <h3 class="heading mb-4">{{ site.data.translations[page.lang].roles }}</h3>
           <ul>
           {% for role in page.roles %}
           <li class="role my-3">
@@ -35,26 +38,48 @@ class: representative-page
         </div>
         {% endif %}
         {% if page.external %}
-        <a href="{{ page.external }}" target="_blank" class="more-info">Sjá nánar á vef Alþingis</a>
+        <a href="{{ page.external }}" target="_blank"
+          class="more-info mt-2 mt-lg-5 d-flex">{{ site.data.translations[page.lang].see_details }}<div
+            class="icon icon-arrow-right ml-3"></div></a>
         {% endif %}
       </div>
     </div>
   </div>
 </section>
 
-{% if page.social %}
-<section class="social container mt-4 d-flex justify-content-center">
-  {% if page.social.twitter %}
-  <a class="icon icon-twitter-shadow mr-4" href="{{ page.social.twitter }}"><span class="sr-only">Twitter</span></a>
-  {% endif %}
-  {% if page.social.instagram %}
-  <a class="icon icon-instagram-shadow mr-4" href="{{ page.social.instagram }}"><span class="sr-only">Instagram</span></a>
-  {% endif %}
-  {% if page.social.facebook %}
-  <a class="icon icon-facebook-shadow" href="{{ page.social.facebook }}"><span class="sr-only">Facebook</span></i></a>
-  {% endif %}
+<section class="rep-contact container mt-5">
+  <div class="row justify-content-center">
+    {% if page.social %}
+    <div class="col-12 col-lg-3 p-4 d-flex flex-column justify-content-center">
+      <h4 class="text-center mb-3">Fylgstu með</h4>
+      <div class="icons d-flex justify-content-center">
+        {% if page.social.twitter %}
+        <a class="icon icon-twitter-orange mx-3" href="{{ page.social.twitter }}"><span
+            class="sr-only">Twitter</span></a>
+        {% endif %}
+        {% if page.social.instagram %}
+        <a class="icon icon-instagram-orange mx-3" href="{{ page.social.instagram }}"><span
+            class="sr-only">Instagram</span></a>
+        {% endif %}
+        {% if page.social.facebook %}
+        <a class="icon icon-facebook-orange mx-3" href="{{ page.social.facebook }}"><span
+            class="sr-only">Facebook</span></i></a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+    {% if page.email and page.email != '' %}
+    <div class="col-12 col-lg-3 p-4 d-flex flex-column justify-content-center">
+      <h4 class="text-center mb-3">Hafðu samband</h4>
+      <div class="d-flex justify-content-center">
+        <a href="mailto:{{ page.email }}" class="email">
+          <div class="icon icon-email-orange align-self-center"></div>
+        </a>
+      </div>
+    </div>
+    {% endif %}
+  </div>
 </section>
-{% endif %}
 
 {% assign articles = site.articles | where:"representative", page.representative %}
 {% if articles.size > 0 %}

@@ -1,11 +1,11 @@
 .footer {
-  color: $pirate-gray;
+  color: $pirate-light-gray;
   .container-fluid {
     max-width: 1440px;
   }
   .main-footer {
     padding: 80px 0;
-    background-color: $pirate-dark-black;
+    background-color: black;
     .info {
       p {
         line-height: 24px;
@@ -31,7 +31,7 @@
         }
       }
       a {
-        color: $pirate-gray;
+        color: $pirate-light-gray;
         &:hover {
           color: $pirate-white;
           text-decoration: none;
