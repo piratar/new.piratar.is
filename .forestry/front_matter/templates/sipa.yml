@@ -13,19 +13,6 @@ fields:
   name: menu
   label: menu
   fields:
-  - name: menus
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: documents
-        section: configuration
-        file: _data/menus.yml
-        path: 
-    label: menus
-    description: Menu sem birtast á síðunni - í réttri röð
   - name: current
     type: select
     default: []
@@ -41,3 +28,14 @@ fields:
   - type: number
     name: weight
     label: weight
+  - name: menus
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: documents
+        section: configuration
+        file: _data/menus.yml
+    label: menus
