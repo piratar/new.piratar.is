@@ -22,17 +22,21 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - um-pirata-sida
+  - sipa
 - type: directory
   path: _pages-en
   label: Pages - EN
   create: all
   match: "**/*"
+  templates:
+  - sipa
 - type: directory
   path: _pages-pl
   label: Pages - PL
   create: all
   match: "**/*"
+  templates:
+  - sipa
 - type: directory
   path: _associations
   label: Aðildarfélög
