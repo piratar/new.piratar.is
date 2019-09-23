@@ -8,12 +8,42 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: field_group
-  name: menu
-  label: menu
+- name: menu
+  type: field_group
+  config: {}
   fields:
-  - name: menu
-    type: include
-    config: {}
-    template: menu
-    label: menu
+  - name: menus
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: documents
+        section: configuration
+        file: _data/menus.yml
+        path: ''
+    label: menus
+  - name: current
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: configuration
+        file: _data/menus.yml
+        path: 
+    label: current
+  - name: weight
+    type: number
+    label: weight
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  label: menu
