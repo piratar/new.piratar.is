@@ -30,5 +30,5 @@ fields:
   label: weight
   description: Nr. hvað síðan á að birtast í filter
 pages:
-- _pages-is/stefna/stefnumótun.md
 - _pages-is/stefna/framtidarsyn.md
+- _pages-is/stefna/stefnumótun.md
