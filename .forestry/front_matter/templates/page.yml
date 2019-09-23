@@ -12,12 +12,8 @@ fields:
   name: menu
   label: menu
   fields:
-  - type: text
-    name: current
-    label: current
-  - type: list
-    name: menus
-    label: menus
-  - type: number
-    name: weight
-    label: weight
+  - name: menu
+    type: include
+    config: {}
+    template: menu
+    label: menu
