@@ -8,16 +8,11 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: field_group
-  name: menu
-  label: menu
-  fields:
-  - type: text
-    name: current
-    label: current
-  - type: list
-    name: menus
-    label: menus
-  - type: number
-    name: weight
-    label: weight
+- name: blocks
+  type: blocks
+  label: blocks
+  template_types:
+  - menu
+  config:
+    min: 
+    max: 
