@@ -1,6 +1,6 @@
 ---
-label: Sípa
-hide_body: true
+label: Síða
+hide_body: false
 fields:
 - type: text
   name: title
@@ -8,16 +8,36 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: page
 - type: field_group
   name: menu
   label: menu
   fields:
-  - type: text
-    name: current
-    label: current
-  - type: list
-    name: menus
+  - name: menus
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: configuration
+        file: _data/menus.yml
+        path: 
     label: menus
+    description: Menu sem birtast á síðunni - í réttri röð
+  - name: current
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: configuration
+        file: _data/menus.yml
+        path: 
+    label: current
   - type: number
     name: weight
     label: weight
