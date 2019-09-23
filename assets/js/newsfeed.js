@@ -12,7 +12,7 @@ $(document).ready(function () {
   }
 });
 
-const setupFilter = (selector, swiper, newsfeed) => {
+const setupFilter = (selector, swiper, container, newsfeed) => {
   $('.news-filters').show();
   $(selector + ' .news-filters a.underline').click(function (e) {
     e.preventDefault();
@@ -20,26 +20,37 @@ const setupFilter = (selector, swiper, newsfeed) => {
     if (!$this.hasClass('active')) {
       $(selector + ' .news-filters a.underline.active').removeClass('active');
       $this.addClass('active');
-      $(selector + ' .swiper-wrapper').empty();
-      appendSlides(swiper, newsfeed, $this.data('category'));
+      if (swiper) {
+        $(selector + ' .swiper-wrapper').empty();
+      } else {
+        container.empty();
+      }
+      appendSlides(swiper, container, newsfeed, $this.data('category'));
     }
   })
 };
 
-const appendSlides = (swiper, newsfeed, category) => {
+const appendSlides = (swiper, container, newsfeed, category) => {
   if (category) {
     newsfeed.forEach(n => {
       if (n.category === category) {
-        swiper.appendSlide(n.html);
+        appendSlide(swiper, container, n.html);
       }
     });
   } else {
     newsfeed.forEach(n => {
-      swiper.appendSlide(n.html);
+      appendSlide(swiper, container, n.html);
     });
   }
 };
 
+const appendSlide = (swiper, container, html) => {
+  if (swiper) {
+    swiper.appendSlide(tml);
+  } else {
+    container.append(html);
+  }
+}
 
 const generateFeeds = (feeds, callback) => {
   var newsfeed = [];
@@ -64,15 +75,15 @@ const generateFeeds = (feeds, callback) => {
 const sortNewsfeed = (newsfeed) => newsfeed.sort((a, b) => (a.date < b.date) ? 1 : -1);
 
 const showNewsfeed = (newsfeed) => {
-  const swiper = setupCarousel('.newsfeed-posts', 2);
-  appendSlides(swiper, newsfeed);
-  setupFilter('.newsfeed-posts', swiper, newsfeed);
+  let container = $('.newsfeed-container');
+  appendSlides(null, container, newsfeed);
+  setupFilter('.newsfeed-posts', null, container, newsfeed);
 };
 
 const showNewsfeedCarousel = (newsfeed) => {
   const newsSwiper = setupCarousel('.news');
-  appendSlides(newsSwiper, newsfeed);
-  setupFilter('section.news', newsSwiper, newsfeed);
+  appendSlides(newsSwiper, null, newsfeed);
+  setupFilter('section.news', newsSwiper, null, newsfeed);
 };
 
 /**

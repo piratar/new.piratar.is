@@ -1,6 +1,5 @@
 $(document).ready(function () {
   if ($('body.articles-page').length) {
-    let swiper = setupCarousel('section.representative-articles', 2);
     setupRepresentativeFilter();
 
     // Select category and representatives using query parameters
@@ -19,17 +18,17 @@ $(document).ready(function () {
 const setupRepresentativeFilter = () => {
   const filterCategory = (category) => {
     if (category) {
-      $(".swiper-slide").not("[data-category='" + category + "']").addClass("non-swiper-slide").removeClass("swiper-slide").hide();
-      $(".swiper-wrapper [data-category='" + category + "']").removeClass("non-swiper-slide").addClass("swiper-slide").show();
+      $(".news-card").not("[data-category='" + category + "']").addClass("non-news-card").removeClass("news-card").hide();
+      $(".representative-articles [data-category='" + category + "']").removeClass("non-news-card").addClass("news-card").show();
     } else {
-      $(".non-swiper-slide").removeClass("non-swiper-slide").addClass("swiper-slide").show();
+      $(".non-news-card").removeClass("non-news-card").addClass("news-card").show();
     }
   };
 
   const filterRepresentative = (representative, category) => {
     if (representative) {
-      $(".swiper-slide").not("[data-representative='" + representative + "']").addClass("non-swiper-slide").removeClass("swiper-slide").hide();
-      $(".swiper-wrapper [data-representative='" + representative + "']").removeClass("non-swiper-slide").addClass("swiper-slide").show();
+      $(".news-card").not("[data-representative='" + representative + "']").addClass("non-news-card").removeClass("news-card").hide();
+      $(".representative-articles [data-representative='" + representative + "']").removeClass("non-news-card").addClass("news-card").show();
     } else {
       filterCategory(category);
     }
