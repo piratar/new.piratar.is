@@ -32,28 +32,19 @@ defaults:
       path: "_pages-is"
     values:
       lang: is
+      layout: page
   -
     scope:
       path: "_pages-en"
     values:
       lang: en
+      layout: page
   -
     scope:
       path: _pages-pl
     values:
       lang: pl
-  -
-    scope:
-      path: _pages-is/um-pirata
-    values:
-      category: about
-      layout: about
-  -
-    scope:
-      path: _pages-is/stefna
-    values:
-      category: policy
-      layout: about
+      layout: page
   -
     scope:
       path: ""

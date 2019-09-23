@@ -1,6 +1,11 @@
 ---
 title: Málefnin
-weight: 1
+menu:
+  current: policies
+  menus:
+    - about-pirates
+    - policies
+  weight: 1
 ---
 
 Málefnin...

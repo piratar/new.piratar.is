@@ -1,6 +1,11 @@
 ---
 title: Af hverju Píratar?
-layout: about
+layout: page
 category: about
-weight: 2
+menu:
+  current: about-pirates
+  menus:
+    - about-pirates
+    - policies
+  weight: 2
 ---

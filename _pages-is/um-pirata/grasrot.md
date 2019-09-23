@@ -1,7 +1,12 @@
 ---
 title: Grasrót Pírata
-layout: about
-weight: 1
+layout: page
+menu:
+  current: about-pirates
+  menus:
+    - about-pirates
+    - policies
+  weight: 1
 ---
 
 Grasrót ...
