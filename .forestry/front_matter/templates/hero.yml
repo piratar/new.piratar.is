@@ -43,6 +43,7 @@ fields:
         options:
         - left
         - right
+        - center
         source:
           type: simple
           section: 

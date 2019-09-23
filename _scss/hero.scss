@@ -35,6 +35,9 @@
         justify-content: flex-end;
         text-align: right;
       }
+      &.center {
+        justify-content: center;
+      }
       &.dark {
         color: $pirate-dark-black;
         a:hover {
@@ -51,6 +54,7 @@
       a {
         pointer-events: auto;
         color: $pirate-orange;
+        text-decoration: underline;
         &:hover {
           color: $pirate-white;
         }
