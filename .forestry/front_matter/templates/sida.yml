@@ -8,11 +8,8 @@ fields:
 - type: text
   name: layout
   label: layout
-- name: blocks
-  type: blocks
-  label: blocks
-  template_types:
-  - menu
-  config:
-    min: 
-    max: 
+- name: menu
+  type: include
+  config: {}
+  template: menu
+  label: menu
