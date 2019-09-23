@@ -1,0 +1,32 @@
+{% if page.menu.menus.size > 0 %}
+{% if page.lang == 'en' %}
+{% assign all_pages = site.pages-en %}
+{% elsif page.lang == 'pl' %}
+{% assign all_pages = site.pages-pl %}
+{% else %}
+{% assign all_pages = site.pages-is %}
+{% endif %}
+
+<nav class="representative-filters mt-5">
+	<ul>
+		{% for menu in page.menu.menus %}
+		{% assign menu_pages = all_pages | where_exp: "item", "item.menu.current == menu" | sort: "menu.weight" %}
+		<li {% if page.menu.current == menu %} class="active" {% endif %}>
+			<a href="{{ menu_pages[0].url }}" class="underline category">{{ site.data.menus[menu][page.lang] }}</a>
+			{% if page.menu.current == menu and menu_pages.size > 0 %}
+			<div class="sub-menu">
+				<ul>
+					{% for p in menu_pages %}
+					<li>
+						<a href="{{ p.url }}"
+							class="underline representative {% if p.id == page.id %}active{% endif %}">{{ p.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endif %}
+		</li>
+		{% endfor %}
+	</ul>
+</nav>
+{% endif %}

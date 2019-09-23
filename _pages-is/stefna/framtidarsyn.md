@@ -8,12 +8,4 @@ menu:
   - about-pirates
   - policies
   weight: 3
-blocks:
-- template: menu
-  current: policies
-  weight: '3'
-  menus:
-  - policies
-  - about-pirates
-
 ---
