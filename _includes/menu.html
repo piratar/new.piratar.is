@@ -12,8 +12,9 @@
 		{% for menu in page.menu.menus %}
 		{% assign menu_pages = all_pages | where_exp: "item", "item.menu.current == menu" | sort: "menu.weight" %}
 		<li {% if page.menu.current == menu %} class="active" {% endif %}>
-			<a href="{{ menu_pages[0].url }}" class="underline category">{{ site.data.menus[menu][page.lang] }}</a>
-			{% if page.menu.current == menu and menu_pages.size > 0 %}
+			{% assign menu_translation = site.data.menus.translations | where: "key", menu %}
+			<a href="{{ menu_pages[0].url }}" class="underline category">{{ menu_translation[0].[page.lang] }}</a>
+			{% if page.menu.current == menu and menu_pages.size > 1 %}
 			<div class="sub-menu">
 				<ul>
 					{% for p in menu_pages %}

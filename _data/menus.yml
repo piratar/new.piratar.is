@@ -1,12 +1,18 @@
-about-pirates:
-  is: Um Pírata
-  en: About us
-policies:
-  en: Policies
-  is: Stefna
-events:
-  en: Events
-  is: Viðburðir
-tortuga:
-  en: Tortuga
-  is: Tortúga
+list: [about-pirates, policies, events, tortuga]
+translations:
+  - 
+    key: about-pirates
+    is: Um Pírata
+    en: About us
+  - 
+    key: policies
+    en: Policies
+    is: Stefna
+  - 
+    key: events
+    en: Events
+    is: Viðburðir
+  - 
+    key: tortuga
+    en: Tortuga
+    is: Tortúga
