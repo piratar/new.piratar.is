@@ -22,7 +22,7 @@ fields:
         type: documents
         section: configuration
         file: _data/menus.yml
-        path: ''
+        path: list
     label: menus
   - name: current
     type: select
@@ -34,7 +34,7 @@ fields:
         type: documents
         section: configuration
         file: _data/menus.yml
-        path: 
+        path: list
     label: current
   - name: weight
     type: number
