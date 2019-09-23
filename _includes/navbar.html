@@ -87,6 +87,9 @@
               {% endif %}
               {% endfor %}
             </ul>
+            {% comment %}
+            Preferences are not ready and will not be displayed in menu
+
             {% assign lower = site.data.burger-menu.[page.lang].lower %}
             <ul class="navbar-nav icon-nav">
               <li class="nav-item"><a class="nav-link" href="{{ lower.preferences.url }}" target="_blank">
@@ -94,6 +97,7 @@
                 </a>
               </li>
             </ul>
+            {% endcomment %}
           </div>
         </div>
       </div>
