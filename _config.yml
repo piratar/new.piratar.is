@@ -95,6 +95,7 @@ defaults:
     values:
       layout: association
       lang: is
+      banner: true
       permalink: /adildarfelog/:title/
   -
     scope:

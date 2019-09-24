@@ -1,0 +1,47 @@
+---
+layout: default
+class: association-page
+---
+<nav class="representative-filters mt-5">
+	<ul>
+		<li class="active" >
+			<a href="/adildarfelog" class="underline category">Aðildarfélög</a>
+			<div class="sub-menu">
+				{% assign associations = site.associations | where: "lang", page.lang %}
+				<ul>
+					{% for association in associations%}
+					<li><a href="{{ association.url }}"
+							class="underline representative {% if page.id == association.id %}active{% endif %}">{{ association.title }}</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</li>
+	</ul>
+</nav>
+<section class="profile container p-2 p-lg-5">
+	<div class="container">
+		<h1 class="title font-weight-bold mt-3 mt-lg-4">{{ page.title }}</h1>
+		<h4 class="heading">
+			{% if page.description %}
+			<span>{{ page.description }}</span>
+			{% endif %}
+			{% if page.details %}
+			<span>{{ page.details }}</span>
+			{% endif %}
+		</h4>
+		<div class="row mt-3 mt-lg-5">
+			<div class="col-xs-12 col-lg-9">
+				<div class="about content">
+					{{ page.content }}
+				</div>
+			</div>
+			<div class="info col-xs-12 col-lg-3 d-flex mb-2 mb-lg-0 flex-column">
+			</div>
+		</div>
+	</div>
+</section>
+
+{% include cta-section.html %}
+
+{% include cta-buttons.html %}

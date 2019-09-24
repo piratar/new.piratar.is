@@ -9,8 +9,12 @@ class: representative-page
   <div class="container">
     <h1 class="title font-weight-bold mt-3 mt-lg-4">{{ page.title }}</h1>
     <h4 class="heading">
-      <span>{{ page.description }}</span>
-      <span>{{ page.details }}</span>
+        {% if page.description %}
+        <span>{{ page.description }}</span>
+        {% endif %}
+        {% if page.details %}
+        <span>{{ page.details }}</span>
+        {% endif %}
     </h4>
     <div class="row mt-3 mt-lg-5">
       <div class="col-xs-12 col-lg-9">
