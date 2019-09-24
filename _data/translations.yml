@@ -47,6 +47,7 @@ is:
   policy: Stefna
   see_details: Nánar
   roles: Hlutverk og nefndir
+  see_newsfeed: Sjá allt efni
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -95,10 +96,53 @@ en:
   policy: Policies
   see_details: Nánar
   roles: Hlutverk og nefndir
+  see_newsfeed: Go to newsfeed
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
   register_event: Register
   newsletter_signup: Subscribe to newsletter
   join_party: Join the party
-  more_info: More info
+  donate: Donate
+  found_association: Found an association
+  democracy_system: Direct democracy system
+  no_results: Sadly, we found no results.
+  search_placeholder: Type your search.
+  podcast: Podcast
+  podcasts: Podcasts
+  article: Article
+  articles: Articles
+  post: Announcement
+  posts: Announcements
+  events: Events
+  pirate_chat: spjall.piratar.is
+  all_categories: Everything
+  previous_posts: Previous
+  next_posts: Next
+  id_number: ID Number
+  account_number: Bank account
+  email: Email
+  telephone: Phone number
+  reps_parliament: Parliamentary
+  reps_all: All
+  reps_municipal: Local
+  reps_staff: Staff
+  editors_picks: Editor's picks
+  new_material: Latest posts
+  see_all_articles: See all articles
+  preferences: Preferences
+  attachments: Attachments
+  cookie_consent: This site uses cookies
+  framkvaemdarad: '[Framkvæmdaráð]'
+  trunadarrad: '[Trúnaðarráð]'
+  urskurdarnefnd: '[Úrskurðarnefnd]'
+  bank_transfer: Bank transfer
+  one_time_donation: Single donation
+  monthly_donation: Monthly donation
+  other_amount: Other amount
+  see_more: See more
+  about_pirates: About
+  policy: Policies
+  see_details: Nánar
+  roles: Hlutverk og nefndir
+  see_newsfeed: Go to newsfeed
