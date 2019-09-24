@@ -114,7 +114,8 @@ const renderPosts = (feed) => {
 const renderArticles = (feed) => {
   var articles = [];
   const postTpl = $('script[data-template="article"]').text().split(/\$\{(.+?)\}/g);
-  {% for article in site.articles | limit: feed.limit %}
+  {% assign articles = site.articles | concat: site.external-articles | sort: "date" | reverse %}
+  {% for article in articles | limit: feed.limit %}
   var item = {
     'title': '{{ article.title }}',
     'date': '{{ article.date | date: "%d/%m/%y" }}',
@@ -124,7 +125,11 @@ const renderArticles = (feed) => {
     {% else %}
     'image': feed.image,
     {% endif %}
+    {% if article.external_url %}
+    'url': '{{ article.external_url }}',
+    {% else %}
     'url': '{{ article.url }}',
+    {% endif %}
     'category': feed.title,
   };
   var html = postTpl.map(render(item)).join('');

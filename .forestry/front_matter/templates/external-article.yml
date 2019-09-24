@@ -1,0 +1,47 @@
+---
+label: Grein frá fjölmiðli
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Titill
+  config:
+    required: true
+- type: text
+  name: sub_heading
+  config:
+    required: true
+  description: Birtist efst í grein og í preview
+  label: Undirfyrirsögn
+- type: datetime
+  name: date
+  label: Dagsetning
+  default: now
+- type: text
+  name: external_url
+  lable: Slóð á greinina
+- type: file
+  name: image
+  label: Mynd
+  description: Birtist fyrir ofan grein og í preview
+- name: representative
+  type: select
+  default: ''
+  config:
+    required: true
+    options:
+    - björn-leví
+    - dóra-björt
+    - halldóra-mogensen
+    - helgi-hrafn
+    - jón-þór
+    - sigurbjörg-erla
+    - sigurborg-ósk
+    - smári-mccarthy
+    - þórhildur-sunna
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Fulltrúi
