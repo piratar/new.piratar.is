@@ -25,7 +25,9 @@ collections:
   associations:
     output: true
   staff:
-    output: true
+    output: false
+  external-articles:
+    output: false
 defaults:
   -
     scope:

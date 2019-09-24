@@ -40,11 +40,13 @@ class: articles-page
   </ul>
 </nav>
 <section class="container mt-5 representative-articles d-flex flex-wrap justify-content-between">
-  {% assign articles = site.articles | sort: "date" | reverse %}
+  {% assign articles = site.articles | concat: site.external-articles | sort: "date" | reverse %}
   {% for article in articles %}
   {% assign rep = site.representatives | where: "representative", article.representative %}
-  <div class="swiper-slide news-card article" data-category="{{ rep[0].category }}" data-representative="{{ article.representative }}" >
-    <a href="{{ article.url }}" class="d-flex flex-column justify-content-between">
+  <div class="swiper-slide news-card article" data-category="{{ rep[0].category }}"
+    data-representative="{{ article.representative }}">
+    <a {% if article.external_url %} href="{{ article.external_url }}" target="_blank" {% else %}
+      href=" {{ article.url }}" {% endif %} class="d-flex flex-column justify-content-between">
       <div class="image" style="background-image: url('{{ article.image }}');"></div>
       <div class="lower flex-column d-flex">
         <span class="date">{{ article.date | date: "%d/%m/%y" }}</span>
@@ -54,5 +56,4 @@ class: articles-page
     </a>
   </div>
   {% endfor %}
-
 </section>

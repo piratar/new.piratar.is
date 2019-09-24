@@ -25,6 +25,9 @@
       margin: 0em 20px 10px 0;
       max-width: 330px;
     }
+    @media (min-width: 1850px ) {
+      max-width: 400px;
+    }
   }
   .swiper-button-below {
     position: relative;
