@@ -9,7 +9,9 @@ tags: []
 files: []
 content-media:
   videos: []
-  images: []
+  images:
+  - image: "/uploads/211B6528.jpg"
+    caption: Texti texti texti
 published: false
 
 ---
@@ -26,3 +28,5 @@ published: false
 _Italic_
 
 \*Hallo*
+
+{% include content-image.html index=0 %}
