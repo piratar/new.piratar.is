@@ -18,11 +18,11 @@ published: false
 * Listi
 * Listi
 
-1. Listi 
+1. Listi
 2. Listi
 
 **Bold**
 
 _Italic_
 
-\* Hallo *
+\*Hallo*
