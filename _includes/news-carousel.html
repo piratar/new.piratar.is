@@ -77,7 +77,15 @@
   </div>
   <div class="swiper-button-next" style="display: none"></div>
   <div class="swiper-button-prev" style="display: none"></div>
-  <div class="container text-center mt-4">
-    <a href="/frettaveita" class="see-all">{{ site.data.translations[page.lang].see_newsfeed }}</a>
-  </div>
+  {% if page.lang == 'en' %}
+  {% assign all_pages = site.pages-en %}
+  {% elsif page.lang == 'pl' %}
+  {% assign all_pages = site.pages-pl %}
+  {% else %}
+  {% assign all_pages = site.pages-is %}
+  {% endif %}
+  {% assign newsfeed = all_pages | where: "layout", "posts" %}
+  {% assign url = newsfeed[0].url %}
+  {% assign text = site.data.translations[page.lang].see_newsfeed %}
+  {% include see-all-articles.html url=url text=text %}
 </section>

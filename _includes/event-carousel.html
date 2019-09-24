@@ -53,5 +53,16 @@
   </div>
   <div class="swiper-button-next" style="display: none"></div>
   <div class="swiper-button-prev" style="display: none"></div>
+  {% if page.lang == 'en' %}
+  {% assign all_pages = site.pages-en %}
+  {% elsif page.lang == 'pl' %}
+  {% assign all_pages = site.pages-pl %}
+  {% else %}
+  {% assign all_pages = site.pages-is %}
+  {% endif %}
+  {% assign all_events = all_pages | where: "layout", "events" %}
+  {% assign all_events_url = all_events[0].url %}
+  {% assign all_events_text = site.data.translations[page.lang].see_all_events %}
+  {% include see-all-articles.html url=all_events_url text=all_events_text %}
 </section>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>

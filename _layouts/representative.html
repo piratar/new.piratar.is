@@ -116,7 +116,8 @@ class: representative-page
   </div>
   {% assign all_articles = all_pages | where: "layout", "articles" %}
   {% assign all_articles_url = all_articles[0].url | append: "?category=" | append: page.category | append: "&representative=" | append: page.representative %}
-  {% include see-all-articles.html url=all_articles_url %}
+  {% assign all_articles_text = site.data.translations[page.lang].see_all_articles %}
+  {% include see-all-articles.html url=all_articles_url text=all_articles_text %}
 </section>
 {% endif %}
 {% include cta-section.html %}

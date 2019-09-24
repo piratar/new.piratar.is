@@ -48,6 +48,7 @@ is:
   see_details: Nánar
   roles: Hlutverk og nefndir
   see_newsfeed: Sjá allt efni
+  see_all_events: Sjá alla viðburði
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -97,6 +98,7 @@ en:
   see_details: Nánar
   roles: Hlutverk og nefndir
   see_newsfeed: Go to newsfeed
+  see_all_events: All events
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -146,3 +148,4 @@ pl:
   see_details: Nánar
   roles: Hlutverk og nefndir
   see_newsfeed: Go to newsfeed
+  see_all_events: All events
