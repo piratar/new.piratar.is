@@ -20,6 +20,7 @@ fields:
 - type: text
   name: external_url
   lable: Slóð á greinina
+  label: Slóð á grein
 - type: file
   name: image
   label: Mynd
