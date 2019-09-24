@@ -46,7 +46,7 @@ const appendSlides = (swiper, container, newsfeed, category) => {
 
 const appendSlide = (swiper, container, html) => {
   if (swiper) {
-    swiper.appendSlide(tml);
+    swiper.appendSlide(html);
   } else {
     container.append(html);
   }
