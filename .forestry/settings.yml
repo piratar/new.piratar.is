@@ -5,6 +5,13 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: directory
+  path: _external-articles
+  label: Greinar úr fjölmiðlum
+  create: all
+  match: "**/*"
+  templates:
+  - external-article
+- type: directory
   path: _articles
   label: Articles
   create: documents
