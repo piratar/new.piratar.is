@@ -98,7 +98,6 @@ fields:
     label: Myndir
   label: Myndir og myndbönd í texta
 pages:
-- _articles/titil.md
 - _articles/réttindi-barna-hafin-yfir-vafa.md
 - _articles/jón-þór-ólafsson-forsíðagestabókrss-rssjón-þór-ólafsson-hausmynd-hegðun-bjarna-ben-í-kjaramálum-síðustu-ár.md
 - _articles/dómsmálaráðherra-klessukeyrði-landsrétt-fyrir-vini-sína.md
