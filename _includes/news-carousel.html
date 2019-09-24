@@ -40,7 +40,9 @@
         <div class="lower flex-column d-flex">
           <span class="row date">${date}</span>
           <div class="row title">
-            <h3 class="w-100 text-uppercase">${title}</h3>
+            <a href="{{ site.data.piratar.social.podcast }}" target="_blank">
+              <h3 class="w-100 text-uppercase">${title}</h3>
+            </a>
           </div>
           <div class="row listen box-shadow my-2 align-items-end">
             <a href="https://open.spotify.com/show/0PkvH07P8HqmuU58GcRwqt" title="Spotify" target="_blank">
@@ -66,8 +68,10 @@
   <nav class="news-filters" style="display: none;">
     <ul>
       <li><a href="#" class="underline active">{{ site.data.translations[page.lang].all_categories }}</a></li>
-      <li><a href="#" class="underline" data-category="podcast">{{ site.data.translations[page.lang].podcasts }}</a></li>
-      <li><a href="#" class="underline" data-category="article">{{ site.data.translations[page.lang].articles }}</a> </li>
+      <li><a href="#" class="underline" data-category="podcast">{{ site.data.translations[page.lang].podcasts }}</a>
+      </li>
+      <li><a href="#" class="underline" data-category="article">{{ site.data.translations[page.lang].articles }}</a>
+      </li>
       <li><a href="#" class="underline" data-category="post">{{ site.data.translations[page.lang].posts }}</a></li>
     </ul>
   </nav>
