@@ -26,3 +26,5 @@ fields:
     label: url
   config:
     labelField: amount
+pages:
+- _data/donations.yml
