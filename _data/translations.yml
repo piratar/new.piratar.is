@@ -50,6 +50,11 @@ is:
   see_newsfeed: Sjá allt efni
   see_all_events: Sjá alla viðburði
   follow_us: Fylgstu með
+  donation_title: Viltu styrkja starf Pírata?
+  donation_info: Stuðningur í formi frjálsra framlaga skiptir Pírata miklu máli. Ef þú vilt og getur séð af smá upphæð til að styrkja okkar mikilvæga starf yrðum við afar þakklát.
+  donation_process_title: Ferlið er einfalt!
+  donation_process_text: Veldu upphæð sem hentar þér og hvort þú viljir greiða í eitt skipti eða mánaðarlega. Gakktu frá styrknum á greiðslusíðu.
+  donation_transaction_text: Einnig er hægt að millifæra frjáls framlög á reikning Pírata.
 en:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -101,6 +106,11 @@ en:
   see_newsfeed: Go to newsfeed
   see_all_events: All events
   follow_us: Follow us
+  donation_title: Viltu styrkja starf Pírata?
+  donation_info: Stuðningur í formi frjálsra framlaga skiptir Pírata miklu máli. Ef þú vilt og getur séð af smá upphæð til að styrkja okkar mikilvæga starf yrðum við afar þakklát.
+  donation_process_title: Ferlið er einfalt!
+  donation_process_text: Veldu upphæð sem hentar þér og hvort þú viljir greiða í eitt skipti eða mánaðarlega. Gakktu frá styrknum á greiðslusíðu.
+  donation_transaction_text: Einnig er hægt að millifæra frjáls framlög á reikning Pírata.
 pl:
   share_event: Share with a friend
   add_to_calendar: Add to calendar
@@ -152,3 +162,8 @@ pl:
   see_newsfeed: Go to newsfeed
   see_all_events: All events
   follow_us: Follow us
+  donation_title: Viltu styrkja starf Pírata?
+  donation_info: Stuðningur í formi frjálsra framlaga skiptir Pírata miklu máli. Ef þú vilt og getur séð af smá upphæð til að styrkja okkar mikilvæga starf yrðum við afar þakklát.
+  donation_process_title: Ferlið er einfalt!
+  donation_process_text: Veldu upphæð sem hentar þér og hvort þú viljir greiða í eitt skipti eða mánaðarlega. Gakktu frá styrknum á greiðslusíðu.
+  donation_transaction_text: Einnig er hægt að millifæra frjáls framlög á reikning Pírata.

@@ -8,17 +8,14 @@ class: donate-page
 <section class="donate container ">
 	<div class="row mt-3 mt-lg-5 justify-content-center">
 		<div class="donate-text p-4 text-center col-xs-12 col-lg-7">
-			<h2>Viltu styrkja starf Pírata?</h2>
-			<p>Stuðningur í formi frjálsra framlaga skiptir Pírata miklu máli. Ef þú vilt og getur séð af smá upphæð til að
-				styrkja
-				okkar mikilvæga starf yrðum við afar þakklát.</p>
+			<h2>{{ site.data.translations[page.lang].donation_title }}</h2>
+			<p>{{ site.data.translations[page.lang].donation_info }}</p>
 		</div>
 	</div>
 	<div class="row mt-3 mt-lg-5 justify-content-center">
 		<div class="white-background p-4 text-center col-xs-12 col-lg-7">
-			<h2>Ferlið er einfalt!</h2>
-			<p>Veldu upphæð sem hentar þér og hvort þú viljir greiða í eitt skipti eða mánaðarlega. Gakktu frá styrknum á
-				greiðslusíðu.</p>
+			<h2>{{ site.data.translations[page.lang].donation_process_title }}</h2>
+			<p>{{ site.data.translations[page.lang].donation_process_text }}</p>
 			<p class="icon icon-arrow-down mx-auto mt-4"></p>
 		</div>
 	</div>
@@ -56,9 +53,8 @@ class: donate-page
 	</div>
 	<div class="row mt-5 justify-content-center">
 		<div class="col-xs-12 col-lg-7 text-center">
-			<p>Einnig er hægt að millifæra frjáls framlög á reikning Pírata.</p>
-			<p><strong>{{ site.data.translations[page.lang].account_number }}:</strong> {{ site.data.piratar.reikningsnumer }}
-			</p>
+			<p>{{ site.data.translations[page.lang].donation_transaction_text }}</p>
+			<p><strong>{{ site.data.translations[page.lang].account_number }}:</strong> {{ site.data.piratar.reikningsnumer }}</p>
 			<p><strong>{{ site.data.translations[page.lang].id_number }}:</strong> {{ site.data.piratar.kennitala }}</p>
 		</div>
 	</div>
