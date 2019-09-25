@@ -22,14 +22,10 @@ a {
     color: $pirate-gray;
   }
   &.cta-btn {
-    font-family: refrigerator-deluxe, sans-serif;
-    box-shadow: 5px 8px 8px -5px $pirate-dark-black;
-    padding: .8rem 1.4rem;
-    color: $pirate-orange;
-    font-size: 1.2rem;
-    margin: 0.5rem;
+    border: 1px solid $pirate-gray;
+    padding: 20px 20px;
     &:hover {
-      box-shadow: 5px 8px 8px -2px $pirate-dark-black, -5px -8px 8px -2px $pirate-dark-black;
+      border-color: $pirate-orange;
       text-decoration: none;
     }
   }
@@ -57,6 +53,10 @@ strong {
       }
     }
   }
+}
+.white-background {
+  background-color: $pirate-white;
+  color: $pirate-black;
 }
 
 .bottom-shadow {

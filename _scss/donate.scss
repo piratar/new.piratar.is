@@ -1,0 +1,14 @@
+.donate-page {
+  .title {
+		span {
+			border-bottom: 2px solid $pirate-orange;
+		}
+  }
+  .amounts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    @media (max-width: 420px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
