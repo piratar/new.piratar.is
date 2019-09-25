@@ -7,18 +7,22 @@ fields:
   label: single
   fields:
   - type: text
-    name: url
-    label: url
-  - type: text
     name: amount
     label: amount
+  - type: text
+    name: url
+    label: url
+  config:
+    labelField: amount
 - type: field_group_list
   name: monthly
   label: monthly
   fields:
   - type: text
-    name: url
-    label: url
-  - type: text
     name: amount
     label: amount
+  - type: text
+    name: url
+    label: url
+  config:
+    labelField: amount
