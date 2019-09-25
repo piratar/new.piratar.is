@@ -2,11 +2,7 @@ $(document).ready(function () {
   if ($('section.news').length) {
     const feeds = {{ site.data.newsfeed | jsonify }};
     generateFeeds(feeds, showNewsfeedCarousel);
-  }
-});
-
-$(document).ready(function () {
-  if ($('body.posts-page').length) {
+  } else if ($('body.posts-page').length) {
     const feeds = {{ site.data.newsfeed | jsonify }};
     generateFeeds(feeds, showNewsfeed);
   }
@@ -22,15 +18,20 @@ const setupFilter = (selector, swiper, container, newsfeed) => {
       $this.addClass('active');
       if (swiper) {
         $(selector + ' .swiper-wrapper').empty();
+        let limit = 20;
       } else {
         container.empty();
+        let limit = false;
       }
-      appendSlides(swiper, container, newsfeed, $this.data('category'));
+      appendSlides(swiper, container, newsfeed, $this.data('category'), limit);
     }
   })
 };
 
-const appendSlides = (swiper, container, newsfeed, category) => {
+const appendSlides = (swiper, container, newsfeed, category, limit=false) => {
+  if (limit) {
+    newsfeed = newsfeed.slice(0, limit);
+  }
   if (category) {
     newsfeed.forEach(n => {
       if (n.category === category) {
@@ -76,13 +77,13 @@ const sortNewsfeed = (newsfeed) => newsfeed.sort((a, b) => (a.date < b.date) ? 1
 
 const showNewsfeed = (newsfeed) => {
   let container = $('.newsfeed-container');
-  appendSlides(null, container, newsfeed);
+  appendSlides(null, container, newsfeed, null, false);
   setupFilter('.newsfeed-posts', null, container, newsfeed);
 };
 
 const showNewsfeedCarousel = (newsfeed) => {
   const newsSwiper = setupCarousel('.news');
-  appendSlides(newsSwiper, null, newsfeed);
+  appendSlides(newsSwiper, null, newsfeed, null, 20);
   setupFilter('section.news', newsSwiper, null, newsfeed);
 };
 
@@ -92,7 +93,8 @@ const showNewsfeedCarousel = (newsfeed) => {
 const renderPosts = (feed) => {
   var posts = [];
   const postTpl = $('script[data-template="post"]').text().split(/\$\{(.+?)\}/g);
-  {% for post in site.posts | limit: feed.limit %}
+
+  {% for post in site.posts %}
   var item = {
     'title': '{{ post.title }}',
     'date': '{{ post.date | date: "%d/%m/%y" }}',
@@ -143,7 +145,7 @@ const renderArticles = (feed) => {
  */
 var feedGenerator = {
   wordpress: function (feed, callback) {
-    getFeed(feed, { 'per_page': feed.limit }, data => {
+    getFeed(feed, {}, data => {
       feed.loaded = true;
       if (data) {
         callback(renderWp(data, feed));
@@ -153,7 +155,7 @@ var feedGenerator = {
     });
   },
   spreaker: function (feed, callback) {
-    getFeed(feed, { 'limit': feed.limit }, data => {
+    getFeed(feed, {}, data => {
       feed.loaded = true;
       if (data) {
         callback(renderSpreaker(data, feed));
@@ -210,7 +212,7 @@ const renderSpreaker = (data, feed) => {
       'url': podcast.playback_url,
       'date': formatDateWithYear(date),
       'category': feed.title,
-      'image': podcast.image_original_url || feed.image,
+      'image': podcast.image_original_url || feed.image,
     })).join('')
     posts.push({ 'date': podcast.published_at, 'html': html, 'category': 'podcast' });
   });
