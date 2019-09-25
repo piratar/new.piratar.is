@@ -8,13 +8,13 @@ class: donate-page
 <section class="donate container ">
 	<div class="row mt-3 mt-lg-5 justify-content-center">
 		<div class="donate-text p-4 text-center col-xs-12 col-lg-7">
-			<h2>{{ site.data.translations[page.lang].donation_title }}</h2>
-			<p>{{ site.data.translations[page.lang].donation_info }}</p>
+			<h2>{{ site.data.translations[page.lang].donation_title }}</h2>
+			<p>{{ site.data.translations[page.lang].donation_info }}</p>
 		</div>
 	</div>
 	<div class="row mt-3 mt-lg-5 justify-content-center">
 		<div class="white-background p-4 text-center col-xs-12 col-lg-7">
-			<h2>{{ site.data.translations[page.lang].donation_process_title }}</h2>
+			<h2>{{ site.data.translations[page.lang].donation_process_title }}</h2>
 			<p>{{ site.data.translations[page.lang].donation_process_text }}</p>
 			<p class="icon icon-arrow-down mx-auto mt-4"></p>
 		</div>
@@ -24,7 +24,7 @@ class: donate-page
 			<h4>{{ site.data.translations[page.lang].monthly_donation }}</h4>
 			<div class="amounts mt-3 text-center">
 				{% for d in site.data.donations.monthly %}
-				<a class="cta-btn" href="{{ d.url }}" target="_blank">{{ d.amount }}</a>
+				<a class="cta-btn" href="{{ d.url }}" target="_blank">{{ d.amount }}</a>
 				{% endfor %}
 			</div>
 		</div>
@@ -34,14 +34,14 @@ class: donate-page
 			<h4>{{ site.data.translations[page.lang].one_time_donation }}</h4>
 			<div class="amounts mt-3 text-center">
 				{% for d in site.data.donations.single %}
-				<a class="cta-btn" href="{{ d.url }}" target="_blank">{% if d.amount == 'other' %}{{ site.data.translations.[page.lang].other_amount}}{% else %}{{ d.amount }}{% endif %}</a>
+				<a class="cta-btn" href="{{ d.url }}" target="_blank">{% if d.amount == 'other' %}{{ site.data.translations[page.lang].other_amount }}{% else %}{{ d.amount }}{% endif %}</a>
 				{% endfor %}
 			</div>
 		</div>
 	</div>
 	<div class="row mt-5 justify-content-center">
 		<div class="col-xs-12 col-lg-7 text-center">
-			<p>{{ site.data.translations[page.lang].donation_transaction_text }}</p>
+			<p>{{ site.data.translations[page.lang].donation_transaction_text }}</p>
 			<p><strong>{{ site.data.translations[page.lang].account_number }}:</strong> {{ site.data.piratar.reikningsnumer }}
 			</p>
 			<p><strong>{{ site.data.translations[page.lang].id_number }}:</strong> {{ site.data.piratar.kennitala }}</p>
