@@ -1,0 +1,37 @@
+---
+
+single:
+  - url: ''
+    amount: 1.000 kr
+  - url: ''
+    amount: 3.000 kr
+  - url: ''
+    amount: 5.000 kr
+  - url: ''
+    amount: 10.000 kr
+  - url: ''
+    amount: 20.000 kr
+  - url: ''
+    amount: 50.000 kr
+  - url: ''
+    amount: 100.000 kr
+  - url: ''
+    amount: other
+monthly:
+  - url: ''
+    amount: 500 kr
+  - url: 'https://konto.is/piratar/b4fc826c1ece6851ad5d4cc081190a1c'
+    amount: 1.000 kr
+  - url: ''
+    amount: 1.500 kr
+  - url: ''
+    amount: 2.500 kr
+  - url: 'https://konto.is/piratar/53aa043fd9239bc1e6b3a67e6a3eb39f'
+    amount: 3.000 kr
+  - url: 'https://konto.is/piratar/f0b6b962f07b9745b54b2fa3e512aee0'
+    amount: 5.000 kr
+  - url: ''
+    amount: 7.500 kr
+  - url: ''
+    amount: 10.000 kr
+---

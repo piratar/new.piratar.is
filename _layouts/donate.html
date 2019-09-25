@@ -22,39 +22,28 @@ class: donate-page
 	<div class="row mt-5 justify-content-center">
 		<div class="col-xs-12 col-lg-7">
 			<h4>{{ site.data.translations[page.lang].monthly_donation }}</h4>
-			<div class="amounts text-center">
-				<a class="cta-btn" href="" target="_blank">500 kr</a>
-				<a class="cta-btn" href="https://konto.is/piratar/b4fc826c1ece6851ad5d4cc081190a1c" target="_blank">1.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">1.500 kr</a>
-				<a class="cta-btn" href="" target="_blank">2.000 kr</a>
-				<a class="cta-btn" href="https://konto.is/piratar/53aa043fd9239bc1e6b3a67e6a3eb39f" target="_blank">3.000 kr</a>
-				<a class="cta-btn" href="https://konto.is/piratar/f0b6b962f07b9745b54b2fa3e512aee0" target="_blank">5.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">7.500 kr</a>
-				<a class="cta-btn" href="https://konto.is/piratar/9e6ee0540a805af20e2aa558519a2375" target="_blank">10.000
-					kr</a>
+			<div class="amounts mt-3 text-center">
+				{% for d in site.data.donations.monthly %}
+				<a class="cta-btn" href="{{ d.url }}" target="_blank">{{ d.amount }}</a>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
 	<div class="row mt-5 justify-content-center">
 		<div class="col-xs-12 col-lg-7">
 			<h4>{{ site.data.translations[page.lang].one_time_donation }}</h4>
-			<div class="amounts text-center">
-				<a class="cta-btn" href="" target="_blank">1.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">3.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">5.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">10.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">20.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">50.000 kr</a>
-				<a class="cta-btn" href="" target="_blank">100.000 kr</a>
-				<a class="cta-btn" href="https://konto.is/piratar/a4044de55c66af8f848ac461774fc753"
-					target="_blank">{{ site.data.translations[page.lang].other_amount }}</a>
+			<div class="amounts mt-3 text-center">
+				{% for d in site.data.donations.single %}
+				<a class="cta-btn" href="{{ d.url }}" target="_blank">{% if d.amount == 'other' %}{{ site.data.translations.[page.lang].other_amount}}{% else %}{{ d.amount }}{% endif %}</a>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
 	<div class="row mt-5 justify-content-center">
 		<div class="col-xs-12 col-lg-7 text-center">
 			<p>{{ site.data.translations[page.lang].donation_transaction_text }}</p>
-			<p><strong>{{ site.data.translations[page.lang].account_number }}:</strong> {{ site.data.piratar.reikningsnumer }}</p>
+			<p><strong>{{ site.data.translations[page.lang].account_number }}:</strong> {{ site.data.piratar.reikningsnumer }}
+			</p>
 			<p><strong>{{ site.data.translations[page.lang].id_number }}:</strong> {{ site.data.piratar.kennitala }}</p>
 		</div>
 	</div>
