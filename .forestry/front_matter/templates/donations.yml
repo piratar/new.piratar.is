@@ -1,0 +1,24 @@
+---
+label: Donations
+hide_body: true
+fields:
+- type: field_group_list
+  name: single
+  label: single
+  fields:
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: amount
+    label: amount
+- type: field_group_list
+  name: monthly
+  label: monthly
+  fields:
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: amount
+    label: amount
