@@ -3,7 +3,7 @@ date: 2019-03-12T17:34:54.000+00:00
 layout: article
 title: Dómsmálaráðherra klessukeyrði Landsrétt fyrir vini sína
 sub_heading: Braut lög og stjórnarskrá við skipan dómara
-image: "/uploads/211B6528.jpg"
+image: "/uploads/IMG_8954[1].JPG"
 representative: jón-þór
 tags: []
 files: []
