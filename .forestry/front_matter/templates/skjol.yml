@@ -1,0 +1,23 @@
+---
+label: Skjöl
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: field_group_list
+  name: files
+  label: files
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: file
+    name: file
+    label: file
+  - type: text
+    name: description
+    label: description
