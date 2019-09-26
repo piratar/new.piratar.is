@@ -42,6 +42,10 @@ fields:
     required: false
   label: details
   description: Kjördæmi
+- type: text
+  name: info-text
+  label: info-text
+  description: Stuttur gamansamur texti um fulltrúa
 - type: file
   name: image
   label: image

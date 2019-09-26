@@ -77,17 +77,20 @@ section.article {
     }
   }
   .col-small {
+    .image {
+      height: 150px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .description {
+      font-style: italic;
+    }
     .news-card {
       margin-bottom: 22px;
       .date {
         margin-top: 0.5em;
         font-size: 14px;
-      }
-      .image {
-        height: 150px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
       }
       .title {
         font-size: 14px;

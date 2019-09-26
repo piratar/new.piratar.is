@@ -36,15 +36,52 @@
       {% endif %}
     </div>
     <div class="col col-small col-3">
-    {% if page.representative %}
-    {% assign rep = site.representatives | where: "representative", page.representative | where: "lang", page.lang %}
-      <div class="heading">
-        <a href="{{ rep[0].url }}">{{ rep[0].title }}</a>
+      {% if page.representative %}
+      {% assign rep = site.representatives | where: "representative", page.representative | where: "lang", page.lang %}
+      <div class="mb-3">
+        <div class="heading">
+          <a href="{{ rep[0].url }}">{{ rep[0].title }}</a>
+        </div>
+        <div class="image" style="background-image: url('{{ rep[0].image }}');"></div>
+        {% if rep[0].info-text %}
+        <div class="description mt-2">
+          {{ rep[0].info-text }}
+        </div>
+        {% endif %}
       </div>
-      <div class="description">
-        {{ rep[0].description }}
+      <div class="row py-1 py-lg-2 justify-content-center">
+        {% if rep[0].social %}
+        {% assign social = rep[0].social %}
+        <div class="col-12 p-4 d-flex flex-column justify-content-center">
+          <h5 class="text-center mb-3">{{ site.data.translations[page.lang].follow_representative }}</h4>
+            <div class="icons d-flex justify-content-center">
+              {% if social.twitter %}
+              <a class="icon icon-twitter-orange mx-3" href="{{ social.twitter }}"><span
+                  class="sr-only">Twitter</span></a>
+              {% endif %}
+              {% if social.instagram %}
+              <a class="icon icon-instagram-orange mx-3" href="{{ social.instagram }}"><span
+                  class="sr-only">Instagram</span></a>
+              {% endif %}
+              {% if social.facebook %}
+              <a class="icon icon-facebook-orange mx-3" href="{{ social.facebook }}"><span
+                  class="sr-only">Facebook</span></i></a>
+              {% endif %}
+            </div>
+        </div>
+        {% endif %}
+        {% if rep[0].email and rep[0].email != '' %}
+        <div class="col-12 p-4 d-flex flex-column justify-content-center">
+          <h5 class="text-center mb-3">{{ site.data.translations[page.lang].contact_representative }}</h4>
+            <div class="d-flex justify-content-center">
+              <a href="mailto:{{ rep[0].email }}" class="email">
+                <div class="icon icon-email-orange align-self-center"></div>
+              </a>
+            </div>
+        </div>
+        {% endif %}
       </div>
+      {% endif %}
     </div>
-    {% endif %}
   </div>
 </section>
