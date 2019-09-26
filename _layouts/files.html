@@ -12,14 +12,14 @@ class: files-page
 		{% endif %}
 		<div class="files mb-2">
 			{% for file in page.files %}
-			{% if file.title %}
+			{% if file.title and file.title != '' %}
 			{% assign title = file.title %}
 			{% else %}
 			{% assign title = file.file | remove: "/uploads/" %}
 			{% endif %}
 			<div class="file py-3">
 				<a href="{{ file.file }}" target="_blank">{{ title }}</a>
-				{% if file.description %}
+				{% if file.description and file.description != '' %}
 				<p class="description">{{ file.description }}</p>
 				{% endif %}
 			</div>
