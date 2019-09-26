@@ -3,21 +3,25 @@ label: Skjöl
 hide_body: true
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
   label: title
+- type: text
+  name: layout
+  label: layout
+  default: files
+  hidden: true
 - type: field_group_list
   name: files
   label: files
   fields:
-  - type: text
-    name: title
-    label: title
   - type: file
     name: file
-    label: file
+    label: Skjal
+  - type: text
+    name: title
+    label: Titill
+    description: Nafn skjalsins er notað ef enginn titill
   - type: text
     name: description
-    label: description
+    label: Skýring
+    description: Nánari skýring á skjali - ekki nauðsynleg
