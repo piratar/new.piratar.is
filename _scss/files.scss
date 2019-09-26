@@ -1,0 +1,13 @@
+.files-page {
+	.files {
+		.file {
+			a {
+				font-size: 1.5rem;
+			}
+			.description {
+				color: $pirate-light-gray;
+				font-style: italic;
+			}
+		}
+	}
+}
