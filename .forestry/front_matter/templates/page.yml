@@ -1,6 +1,7 @@
 ---
 label: Page
-hide_body: true
+hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
@@ -8,6 +9,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: page
+  hidden: true
 - name: menu
   type: field_group
   config: {}
