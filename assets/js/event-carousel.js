@@ -69,9 +69,10 @@ const addEvents = (events, callback) => {
     let title = event.name.text;
     let description = event.description.text;
     let location = event.venue.name;
+    let url = event.url;
     let item = {
       id: event.id, start: start, end: end, time: time, date: date, dateLong: dateLong,
-      day: day, title: title, description: description, location: location, url: event.url,
+      day: day, title: title, description: description, location: location, url: url,
     };
     item['ical'] = calendarGenerators.ical(item);
     item['gcal'] = calendarGenerators.google(item);

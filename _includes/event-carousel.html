@@ -20,10 +20,11 @@
           </div>
           <div class="share mt-3">
             <div class="row messenger">
-              <button href="" class="btn btn-outline-* msg-btn icon-btn">                
+              <a href="http://www.facebook.com/dialog/send?app_id={{ site.facebook.app_id }}&link=${url}
+              &amp;redirect_uri={{ page.url | absolute_url }}" target="_blank" class="btn btn-outline-* msg-btn icon-btn">
                 <div class="icon icon-messenger"></div>
                 <span>{{ site.data.translations[page.lang].share_event }}</span>
-              </button>
+              </a>
             </div>
             <div class="row dropup calendar mt-2">
               <button id="calendarDropdown" type="button" class="btn btn-outline-* justify-content-between cal-btn icon-btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
