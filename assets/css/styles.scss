@@ -1,6 +1,15 @@
 --- 
 ---
-@import "colors";
+$pirate-purple: {{ site.data.colors.purple }};
+$pirate-orange: {{ site.data.colors.orange }};
+$pirate-white: {{ site.data.colors.white }};
+$pirate-light-black: {{ site.data.colors.light-black }};
+$pirate-black: {{ site.data.colors.black }};
+$pirate-dark-black: {{ site.data.colors.dark-black }};
+$pirate-gray: {{ site.data.colors.gray }};
+$pirate-light-gray: {{ site.data.colors.light-gray }};;
+$pirate-caribbean-blue: {{ site.data.colors.caribbean-blue }};
+$pirate-blue: {{ site.data.colors.blue }};
 @import "base";
 @import "icons";
 @import "navbar";
