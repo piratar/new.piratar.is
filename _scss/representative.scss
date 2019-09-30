@@ -31,9 +31,11 @@
       -webkit-column-gap: 2.5rem;
       -moz-column-gap: 2.5rem;
       column-gap: 2.5rem;
-      border-right: 1px solid #d8d8d8;
       padding-right: 2.5rem;
     }
+  }
+  .rep-text {
+    border-right: 1px solid #d8d8d8;
   }
   .rep-info {
     ul {
@@ -41,12 +43,12 @@
       li {
         span {
           color: $pirate-gray;
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           font-weight: 300;
         }
         a {
           color: $pirate-gray;
-          font-size: 1.5rem;
+          font-size: 1.2rem;
           font-weight: 300;
         }
       }
