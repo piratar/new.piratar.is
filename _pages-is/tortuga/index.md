@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Tortúga
 lang: is
 category: tortuga

@@ -6,11 +6,20 @@ fields:
 - type: text
   name: title
   label: title
+- type: boolean
+  name: show-title
+  label: Birta titil
 - type: text
   name: layout
   label: layout
   default: page
   hidden: true
+- name: files
+  type: image_gallery
+  config: {}
+  label: Viðhengi
+  hidden: false
+  description: Birtist neðst í grein
 - name: menu
   type: field_group
   config: {}

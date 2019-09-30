@@ -5,8 +5,25 @@ class: page
 
 <section class="container-fluid main-content mt-2 mb-3">
 	<div class="container">
+		{% if page.show-title %}
 		{% include page-title.html title=page.title %}
-		{{ content }}
+		{% endif %}
+		<div class="content">
+			{{ content }}
+		</div>
+		{% if page.files.size > 0 %}
+		<div class="attachements pt-2">
+			<p class="m-0">{{ site.data.translations[page.lang].attachments }}: </p>
+			<ul class="list-unstyled">
+				{% for file in page.files %}
+				{% assign name = file | remove: "/uploads/"%}
+				<li class="pb-1">
+					<a href="{{ file }}" target="_blank">{{ name }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endif %}
 	</div>
 </section>
 

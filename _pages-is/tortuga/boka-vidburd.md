@@ -1,6 +1,6 @@
 ---
 title: Bóka viðburð
-layout: default
+layout: page
 lang: is
 menu:
   current: tortuga

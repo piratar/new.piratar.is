@@ -38,43 +38,6 @@ section.article {
       font-style: italic;
       font-size: 1.2rem;
     }
-    .content {
-      figure {
-        margin-bottom: 1.2rem;
-      }
-      img, video {
-        max-width: 100%;
-      }
-      figcaption {
-        font-size: 0.9rem;
-        color: $pirate-gray;
-      }
-      blockquote {
-        margin: 0 0 1rem 0;
-        border-left: 2px solid #dfdfdf;
-        padding-left: 15px;
-      }
-    }
-    .attachements {
-      border-top: 1px solid #d8d8d8;
-      margin-top: 2rem;
-      display: flex;
-      flex-flow: column;
-      p {
-        color: $pirate-gray;
-      }
-    }
-    .content,
-    .attachements {
-      a {
-        color: inherit;
-        border-bottom: 1px solid $pirate-orange;
-        &:hover {
-          text-decoration: none;
-          color: $pirate-orange;
-        }
-      }
-    }
   }
   .col-small {
     .image {
@@ -106,6 +69,45 @@ section.article {
         margin: 0em 20px 10px 0;
         max-width: 330px;
       }
+    }
+  }
+}
+
+.content {
+  figure {
+    margin-bottom: 1.2rem;
+  }
+  img,
+  video {
+    max-width: 100%;
+  }
+  figcaption {
+    font-size: 0.9rem;
+    color: $pirate-gray;
+  }
+  blockquote {
+    margin: 0 0 1rem 0;
+    border-left: 2px solid #dfdfdf;
+    padding-left: 15px;
+  }
+}
+.attachements {
+  border-top: 1px solid #d8d8d8;
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: column;
+  p {
+    color: $pirate-gray;
+  }
+}
+.content,
+.attachements {
+  a {
+    color: inherit;
+    border-bottom: 1px solid $pirate-orange;
+    &:hover {
+      text-decoration: none;
+      color: $pirate-orange;
     }
   }
 }
