@@ -103,7 +103,7 @@ is:
   - title: Hönnunarstaðall
     url: "/honnunarstadall"
   - title: Fundagerðir
-    url: "/fundagerdir"
+    url: https://github.com/piratar/fundargerdir
   - title: Fyrir fjölmiðla
     url: "/fjolmidlar"
 en:
