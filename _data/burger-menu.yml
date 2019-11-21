@@ -34,10 +34,10 @@ is:
       url: "/folkid?category=parliament"
     - title: Sveitar- og borgarstjórn
       url: "/folkid?category=municipal"
-    - title: Starfsfólk
-      url: "/folkid?category=staff"
     - url: framkvaemdarad
       title: Framkvæmdaráð
+    - title: Starfsfólk
+      url: "/folkid?category=staff"
   - title: Um Pírata
     url: ''
     sub:
