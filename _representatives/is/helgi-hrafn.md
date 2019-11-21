@@ -4,7 +4,7 @@ layout: representative
 lang: is
 category: parliament
 description: Þingmaður Pírata
-image: "/assets/img/helgi-hrafn.jpg"
+image: "/uploads/helgi-headshot.jpg"
 representative: helgi-hrafn
 details: Reykjavíkurkjördæmi norður
 email: helgihrafn@althingi.is
