@@ -3,7 +3,7 @@ title: Þórhildur Sunna Ævarsdóttir
 layout: representative
 lang: is
 category: parliament
-image: "/assets/img/thorhildur_banner.jpg"
+image: "/uploads/ThorhildurSunna-headshot.jpg"
 description: Þingmaður Pírata
 representative: þórhildur-sunna
 phone: ''
