@@ -30,22 +30,16 @@ Ný stjórnarskrá Íslands:
 * [Frumvarp frá stjórnlagaráði](http://stjornlagarad.is/other_files/stjornlagarad/Frumvarp_med_skyringum.pdf) (pdf)
 * [Framhaldsnefndarálit meirihluta stjórn­skip­un­ar- og eft­ir­lits­nefnd­ar](http://www.althingi.is/altext/141/s/1111.html) um frum­varp til stjórn­ar­skip­un­ar­laga um stjórn­ar­skrá lýðveld­is­ins Íslands.
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
-
 ### Stjórnarskrá á mannamáli
 
 Núgildandi stjórnarskrá er óskýr og úrelt. Þrískipting valdsins, völd forseta og pólitísk ábyrgð eru illa skilgreind og ótrygg. Stjórnskipan landsins byggist á túlkunum, hefð og jafnvel hentistefnu stjórnvalda og við þurfum stjórnarskrá sem fólk skilur og tryggir pólitíska ábyrgð.
 
 * [Stefna Pírata um stjórnskipunarlög](https://x.piratar.is/polity/1/document/35/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
-
 ### Efnum loforðið frá lýðveldisstofnun
 
 Þjóðinni hefur verið lofað nýrri stjórnarskrá frá árinu 1944. Nú eigum við nýja stjórnarskrá.Ný stjórnarskrá er tilbúin. Virðum niðurstöðuna úr þjóðaratkvæðagreiðslunni 20. október 2012 og klárum málið.  
 [Stefna Pírata um stjórnskipunarlög](https://x.piratar.is/polity/1/document/35/)
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
 
 ## 2. Ísland meðal þjóða
 
@@ -55,15 +49,11 @@ Efnum svikin loforð og hættum að taka ákvarðanir með leynilegum bréfum. P
 
 [Stefna Pírata í kosningu um ESB viðræður](https://x.piratar.is/issue/173/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
-
 ### Tökum betur á móti innflytjendum, flóttamönnum og hælisleitendum
 
 Landamæri þjóða eru manngerð fyrirbæri sem koma oft í veg fyrir sjálfræði fólks og jafnræði á milli fólks af ólíkum uppruna, trúarbrögðum eða stöðu að öðru leyti. Mannúð og mannréttindi eiga að gilda um alla einstaklinga, óháð landamærum, og okkur ber siðferðisleg skylda til að hjálpa fólki í neyð. Píratar vilja að Ísland taki á móti fleiri flóttamönnum og hælisleitendum og taki almennt betur á móti fólki sem vill setjast hér að. Við viljum samræma íslenska innflytjendastefnu með það að markmiði að jafnræðis sé gætt gagnvart öllum erlendum ríkisborgurum og leitað eftir þátttöku þeirra í ákvarðanatöku sem snertir þá.  
   
 [Almenn stefna Pírata um útlendinga](https://x.piratar.is/polity/1/document/287/)
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
 
 ## 3. Virkt lýðræði
 
@@ -78,13 +68,11 @@ Innleiðum málskotsrétt og frumkvæðisrétt þjóðarinnar. Almenningur þarf
 Stefna Pírata: [https://x.piratar.is/polity/1/document/35/](https://x.piratar.is/polity/1/document/35/ "https://x.piratar.is/polity/1/document/35/")  
 Ný stjórnarskrá: [http://www.stjornlagarad.is/starfid/frumvarp/grein/item35354/](http://www.stjornlagarad.is/starfid/frumvarp/grein/item35354/ "http://www.stjornlagarad.is/starfid/frumvarp/grein/item35354/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
+Frumvarp þingflokks Pírata á 149. þingi: [https://www.althingi.is/thingstorf/thingmalalistar-eftir-thingum/ferill//?ltg=149&mnr=501](https://www.althingi.is/thingstorf/thingmalalistar-eftir-thingum/ferill//?ltg=149&mnr=501 "https://www.althingi.is/thingstorf/thingmalalistar-eftir-thingum/ferill//?ltg=149&mnr=501")
 
 ### Opið og öflugt Alþingi
 
 Alþingi nýtur afar lítils trausts meðal landsmanna og það er ein brýnasta áskorun íslenskra stjórnmála. Píratar hafa ýmsar tillögur að úrbótum á störfum þingsins sem hægt er að innleiða strax. Þeirra á meðal er að ráðherrar séu ekki þingmenn á sama tíma, að fundir fastanefnda þingsins verði að jafnaði opnir, að þingmál lifi á milli þinga í stað þess að falla niður eins og nú er og að forseti Alþingis hafi dagskrárvald í reynd, geti vísað vanbúnum málum til baka í ráðuneytin og neitað að taka þau á dagskrá. Sömuleiðis að sett verði á fót sérstök lagaskrifstofa Alþingis sem og ný þverpólitísk þingmannanefnd (Framtíðarnefndin) þar sem unnið verði markvisst að langtímamarkmiðum og stefnum.
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
 
 ### Eflum vitund um lýðræði og þjóðfélagsmál með þjálfun í gagnrýnni hugsun
 
@@ -92,13 +80,9 @@ Lýðræði gerist ekki sjálfkrafa. Samfélagssáttmálinn byggist á samtali, 
 
 * [Grunnstefna Pírata](http://piratar.is/stefna/grunnstefna/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
-
 ### Veitum stjórnvöldum meira aðhald
 
 Valdi fylgir ábyrgð. Grunnurinn að góðu samfélagi er skiljanleg stjórnarskrá þar sem allir geta skilið rétt sinn og ábyrgð valdhafa. Óháðir fjölmiðlar eru nauðsynlegur hluti þess að fylgjast með valdinu. Gagnsæ stjórnsýsla er nauðsynleg til þess að fjölmiðlar og almenningur geti sinnt lýðræðislegu hlutverki sínu.
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp3)
 
 ### Lýðræðið þarf að iðka á milli kosninga
 
@@ -106,8 +90,6 @@ Lýðræði er miklu meira en kosningar, það snýst um stjórnarfar og tækif�
 
 Stefna Pírata:  
 Ný stjórnarskrá: “Með lögum skal tryggja almenningi aðgang að undirbúningi ákvarðana sem hafa umtalsverð áhrif á umhverfi og náttúru svo og heimild til að leita til hlutlausra úrskurðaraðila.”
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp3)
 
 ## 4. Gagnsæi og upplýsingafrelsi
 
@@ -118,13 +100,10 @@ Ný stjórnarskrá: “Með lögum skal tryggja almenningi aðgang að undirbún
 Gagnsæi er nauðsynleg forsenda fyrir ábyrgð og fyrir upplýstri þátttöku almennings í lýðræðinu. Til að fyrirbyggja spillingu þarf ábyrgðin að vera skýr og upplýsingar um ákvarðanir aðgengilegar öllum. Valdeflum einstaklinga með betra aðgengi og betri upplýsingum. Upplýsingar þurfa að vera aðgengilegar og skiljanlegar, þ.e. bæði á mannamáli og á opnu, tölvutæku sniði.  
 Ný stjórnarskrá: “Upplýsingar og gögn í fórum stjórnvalda skulu vera tiltæk án undandráttar og skal með lögum tryggja aðgang almennings að þeim.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp3)
-
 ### Lögfestum samning SÞ gegn spillingu
 
   
-Vinnum gegn spillingu og notum til þess alþjóðlega viðurkenndar og sannreyndar lausnir. Með aðild Íslands að samningi Sameinuðu þjóðanna gegn spillingu fyrir 6 árum samþykkti Alþingi að slíkar lausnir skyldi setja í lög – það þarf að klára.  
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp3)
+Vinnum gegn spillingu og notum til þess alþjóðlega viðurkenndar og sannreyndar lausnir. Með aðild Íslands að samningi Sameinuðu þjóðanna gegn spillingu fyrir 6 árum samþykkti Alþingi að slíkar lausnir skyldi setja í lög – það þarf að klára.
 
 ### Nútímaleg vernd höfundaréttar
 
@@ -136,8 +115,6 @@ Endurskoða og samræma þarf löggjöf um höfundarétt innan evrópska efnahag
 
 * [Höfundarréttarstefna Pírata](https://x.piratar.is/polity/1/document/290/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
-
 ### Upplýsingafrelsi – Upplýsingar eru forsenda upplýsingar
 
 Forsenda heilbrigðs lýðræðis er aðgengi almennings að upplýsingum og réttur okkar til að safna og skiptast á upplýsingum án afskipta stjórnvalda. Stjórnvöld eiga að beita upplýsingatækni í mun ríkari mæli til að koma gögnum á framfæri, sinna þjónustu og hafa samráð við borgarana.
@@ -147,15 +124,11 @@ Forsenda heilbrigðs lýðræðis er aðgengi almennings að upplýsingum og ré
 Í nýrri stjórnarskrá segir:  
 “Öllum er frjálst að leita eftir, taka við, safna og miðla upplýsingum og hugmyndum.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
-
 ### Netfrelsi – Friðhelgi einkalífsins gildi líka á netinu
 
 Tryggjum friðhelgi einkalífs alls staðar. Afnemum gagnageymd og heimildir til að safna og selja persónuupplýsingar einstaklinga. Fólk ráði sjálft með hvaða hætti það birtist samfélaginu.  
   
 Beitum okkur gegn ritskoðun og brotum gegn friðhelgi einkalífs, t.d. almennu rafrænu eftirliti. Áfram verði þó hægt að beita sértækum aðgerðum gegn einstaklingum, með dómsúrskurði, þegar rökstuddur grunur er um lögbrot, sérstaklega þegar kemur að barnavernd.
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
 
 ### Tjáningarfrelsi
 
@@ -164,8 +137,6 @@ Stjórnvöld skulu stefna að því að Ísland verði leiðandi aðili í vernd
 Stefna Pírata: [https://x.piratar.is/issue/66/](https://x.piratar.is/issue/66/ "https://x.piratar.is/issue/66/")  
   
 Ný stjórnarskrá: “Með lögum skal tryggja aðstæður til opinnar og upplýstrar umræðu. Óheimilt er að takmarka aðgang að netinu og upplýsingatækni nema að uppfylltum skilyrðum 29. gr.”
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
 
 ### Klárum IMMI (Icelandic Modern Media Initiative)
 
@@ -178,10 +149,6 @@ Almennt er stefnt að því að gera öll skjöl aðgengileg öllum á netinu og
 Stefna Pírata: [https://x.piratar.is/issue/66/](https://x.piratar.is/issue/66/ "https://x.piratar.is/issue/66/")
 
 Þingsályktun um IMMI: [https://immi.is/thingsalyktunin/](https://immi.is/thingsalyktunin/ "https://immi.is/thingsalyktunin/")
-
-Frumvörp í ferli: [https://www.menntamalaraduneyti.is/frettir/forsidugreinar/kynning-a-fjorum-frumvorpum-um-tjaningar-og-upplysingafrelsi](https://www.menntamalaraduneyti.is/frettir/forsidugreinar/kynning-a-fjorum-frumvorpum-um-tjaningar-og-upplysingafrelsi "https://www.menntamalaraduneyti.is/frettir/forsidugreinar/kynning-a-fjorum-frumvorpum-um-tjaningar-og-upplysingafrelsi")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
 
 ## 5. Sjávarútvegsmál
 
@@ -196,23 +163,17 @@ Frumvörp í ferli: [https://www.menntamalaraduneyti.is/frettir/forsidugreinar/k
 Í nýrri stjórnarskrá segir:  
 “Auðlindir í náttúru Íslands, sem ekki eru í einkaeigu, eru sameiginleg og ævarandi eign þjóðarinnar. Enginn getur fengið auðlindirnar, eða réttindi tengd þeim, til eignar eða varanlegra afnota og aldrei má selja þær eða veðsetja.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
-
 ### Allur afli á markað
 
 Allur afli skal fara á markað til að gera viðskipti með sjávarútvegsafurðir eðlilegri og bæta hag sjómanna, minni sjávarútvegsfyrirtækja og annarra fyrirtækja sem vinna með aukaafurðir. Þetta myndi stuðla að eðlilegri verðmyndun á afurðum, jafna möguleika fiskvinnslna í landinu og tryggja að arðurinn af auðlindinni sé ekki fluttur úr landi.
 
 Stefna Pírata:[ ](https://x.piratar.is/polity/1/document/15/)[https://x.piratar.is/polity/1/document/15/](https://x.piratar.is/polity/1/document/15/ "https://x.piratar.is/polity/1/document/15/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
-
 ### Frjálsar handfæraveiðar
 
 Handfæraveiðar verði frjálsar og gerðar aðgengilegar þeim sem kjósa að stunda þær til atvinnu. Tilgangurinn er að stuðla að nýliðun og sjálfbærri nýtingu sjávar ásamt kærkominni búbót fyrir gjörvallt landið. Kerfið verði einfaldað og sveigjanleiki aukinn til að auðvelda nýjum aðilum að stofna og reka útgerð. Handfæraveiðar skulu háðar skynsamlegum takmörkunum og fjölda leyfa á einstaklinga, lögaðila og eftir tegundum báta.
 
 * [Sjávarútvegsstefna Pírata](https://x.piratar.is/polity/1/document/15/)
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
 
 ## 6. Umhverfismál
 
@@ -227,8 +188,6 @@ Handfæraveiðar verði frjálsar og gerðar aðgengilegar þeim sem kjósa að 
 Í nýrri stjórnarskrá segir:  
 “Náttúra Íslands er undirstaða lífs í landinu. Öllum ber að virða hana og vernda. Í því felst að fjölbreytni lands og lífríkis sé viðhaldið og náttúruminjar, óbyggð víðerni, gróður og jarðvegur njóti verndar. Fyrri spjöll skulu bætt eftir föngum. Nýtingu náttúrugæða skal haga þannig að þau skerðist sem minnst til langframa og gildi náttúrunnar og hagsmunir komandi kynslóða séu virt.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
-
 ### Hálendisþjóðgarður – Verndum viðkvæma náttúru miðhálendisins
 
 Miðhálendið er ein dýrmætasta perla landsins. Þar má finna eldfjöll, jökla, vatnsmiklar ár og fossa, litrík háhitasvæði, víðfeðm hraun og svartar sandauðnir sem kallast á við viðkvæmar gróðurvinjar. Saman mynda þessi náttúrufyrirbæri stórbrotnar landslagsheildir á einum stærstu víðernum Evrópu. Þessa þjóðargersemi þarf að vernda til framtíðar.
@@ -237,8 +196,6 @@ Miðhálendið er ein dýrmætasta perla landsins. Þar má finna eldfjöll, jö
 
 Í nýrri stjórnarskrá segir:  
 “Með lögum skal tryggja að allir hafi aðgang að óspilltri náttúru.”
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
 
 ### Styðjum við rafbílavæðingu
 
