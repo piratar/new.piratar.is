@@ -34,20 +34,20 @@ is:
   sub:
   - title: Píratar í Reykjavík
     url: "/adildarfelog/reykjavik"
+  - title: Píratar í Norðvesturkjördæmi
+    url: "/"
+  - title: ''
+    url: ''
+  - title: ''
+    url: ''
+  - title: ''
+    url: ''
+  - title: ''
+    url: ''
+  - title: ''
+    url: ''
   - title: Píratar 60+
     url: "/adildarfelog/piratar-60-plus"
-  - title: Hafnarfjörður
-    url: "/adildarfelog/hafnarfjordur"
-  - title: Seltjarnarnes
-    url: "/adildarfelog/seltjarnes"
-  - title: Kópavogur
-    url: "/adildarfelog/kopavogur"
-  - title: Vesturland
-    url: "/adildarfelog/vesturland"
-  - title: Vestfirðir
-    url: "/adildarfelog/vestfirðir"
-  - title: Reykjanesbær
-    url: "/adildarfelog/reykjanesbaer"
 - title: Stefnan
   url: "/stefna"
   email: ''
