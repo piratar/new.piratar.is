@@ -27,7 +27,7 @@ is:
   - title: Úrskurðarnefnd
     url: "/stjorn-pirata?category=urskurdarnefnd"
   - title: Trúnaðarráð
-    url: "/folkid?category=trunadarrad"
+    url: "/stjorn-pirata?category=trunadarrad"
   - title: Starfsfólk
     url: "/folkid?category=staff"
 - title: Stefnumál
