@@ -22,8 +22,8 @@ is:
     url: "/folkid?category=municipal"
   - title: Framkvæmdaráð
     url: "/folkid?category=framkvaemdarad"
-  - title: ''
-    url: ''
+  - title: Úrskurðarnefnd
+    url: "/folkid?category=urskurdarnefnd"
   - title: ''
     url: ''
   - title: Starfsfólk
