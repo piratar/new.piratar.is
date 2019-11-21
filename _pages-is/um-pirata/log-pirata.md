@@ -7,7 +7,6 @@ menu:
 title: Lög Pírata
 show-title: true
 files: []
-published: false
 
 ---
 Lög Pírata á Íslandi eftir köflum:
