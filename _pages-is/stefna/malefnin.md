@@ -12,4 +12,8 @@ layout: page
 show-title: false
 
 ---
-Málefnin...
+# **Málefnin**
+
+## Rituð
+
+### 1. Gagnrýnin hugsun og upplýst stefna
