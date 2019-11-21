@@ -67,7 +67,7 @@ is:
   email: ''
   sub:
   - title: Málefnin
-    url: "/malefnin"
+    url: "/stefna/malefnin"
   - title: Grunnstefna Pírata
     url: "/stefna/grunnstefna"
   - title: Framtíðarsýn
