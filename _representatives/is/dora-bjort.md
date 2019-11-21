@@ -4,6 +4,7 @@ layout: representative
 lang: is
 category: municipal
 description: Borgarfulltrúi Pírata
-image: /assets/img/dora_banner.jpg
+image: "/uploads/Dora-headshot.jpg"
 representative: dóra-björt
+
 ---
