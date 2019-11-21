@@ -4,7 +4,8 @@ layout: page
 menu:
   current: about-pirates
   menus:
-    - about-pirates
-    - policies
+  - about-pirates
+  - policies
   weight: 2
+
 ---
