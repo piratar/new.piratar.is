@@ -6,11 +6,13 @@ fields:
   name: title
   label: title
 - type: text
-  name: image
-  label: image
-- type: text
   name: description
   label: description
 - type: text
   name: lang
   label: lang
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
