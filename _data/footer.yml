@@ -18,7 +18,7 @@ is:
   sub:
   - title: Þingflokkur Pírata
     url: "/folkid?category=parliament"
-  - title: Sveitarstjórn
+  - title: Fulltrúar í sveitastjórnum
     url: "/folkid?category=municipal"
   - title: Framkvæmdaráð
     url: "/folkid?category=framkvaemdarad"
