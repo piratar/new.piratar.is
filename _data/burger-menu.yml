@@ -21,14 +21,12 @@ is:
   - title: Stefnan
     url: "/stefna/malefnin"
     sub:
-    - title: Málefnin
-      url: "/stefna/malefnin"
     - title: Grunnstefna Pírata
       url: "/stefna/grunnstefna"
+    - title: Málefnin
+      url: "/stefna/malefnin"
     - title: Framtíðarsýn
       url: "/stefna/framtidarsyn"
-    - title: Stefnumótun
-      url: "/stefna/stefnumotun"
   - title: Fólkið
     url: ''
     sub:
@@ -38,6 +36,8 @@ is:
       url: "/folkid?category=municipal"
     - title: Starfsfólk
       url: "/folkid?category=staff"
+    - url: framkvaemdarad
+      title: Framkvæmdaráð
   - title: Um Pírata
     url: ''
     sub:
