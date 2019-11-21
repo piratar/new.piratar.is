@@ -24,8 +24,8 @@ is:
     url: "/folkid?category=framkvaemdarad"
   - title: Úrskurðarnefnd
     url: "/folkid?category=urskurdarnefnd"
-  - title: ''
-    url: ''
+  - title: Trúnaðarráð
+    url: "/folkid?category=trunadarrad"
   - title: Starfsfólk
     url: "/folkid?category=staff"
 - title: Stjórn Pírata
