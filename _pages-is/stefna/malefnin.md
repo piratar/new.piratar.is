@@ -12,9 +12,9 @@ layout: page
 show-title: false
 
 ---
-# **MÁLEFNIN**
+# MÁLEFNIN
 
-## HEILBRIGÐISMÁL
+## **HEILBRIGÐISMÁL**
 
 ### Heilbrigðismálin fyrst og fremst
 
@@ -25,7 +25,7 @@ Andleg heilsa er ekki síður mikilvæg en líkamleg. Andleg umönnun og sálfr�
 
 Í framtíðinni okkar er engum refsað fyrir að vera fíkill. Allir sem þurfa á hjálp að halda að eiga að fá viðeigandi aðstoð án tafar. Af því að heilbrigðisþjónustan snýst um fólk en ekki kerfi.  
 
-## HÚSNÆÐISMÁL
+## **HÚSNÆÐISMÁL**
 
 ### Byggjum fyrir framtíðina
 
@@ -37,7 +37,7 @@ Setjum öryggi og réttindi leigjenda í forgang.
 
 **Látum það ekki bíða lengur.**  
 
-## MENNTAMÁL
+## **MENNTAMÁL**
 
 #### Fyrirframgreidd námslán og einstaklingsmiðað nám
 
@@ -47,7 +47,7 @@ Námslán þurfa að greiðast fyrirfram, svo að námsfólk skuldi ekki yfirdr�
 
 Nám framtíðarinnar er einstaklingsmiðað, sveigjanlegt, skapandi og frjálst. Þannig búum við okkur undir störf 21. aldarinnar.  
 
-## PERSÓNUAFSLÁTTUR, SKERÐINGAR OG BORGARALAUN
+## **PERSÓNUAFSLÁTTUR, SKERÐINGAR OG BORGARALAUN**
 
 ### Hækkum persónuafslátt
 
@@ -63,13 +63,13 @@ Ríkið á ekki að segja eldri borgurum hvar, hvort og hvernig þeir eigi að v
 
 Skoðum leiðir til að tryggja öllum borgurum landsins skilyrðislausa grunnframfærslu í framtíð sem mun mótast af tækniþróun og sjálfvirknivæðingu. Allir eiga rétt á grundvallarlífsgæðum og tækifærum og það er á okkar ábyrgð að finna bestu leiðirnar til að tryggja öllum borgurum þessi sjálfsögðu réttindi.  
 
-## RÉTTINDI FÓLKS MEÐ FÖTLUN
+## **RÉTTINDI FÓLKS MEÐ FÖTLUN**
 
 ### Eflum NPA
 
 Hættum að tefja fyrir réttindum fólks með fötlun. Eflum notendastýrða persónulega aðstoð (NPA) og höldum áfram að vinna að úrbótum í málefnum fólks með fötlun og skerta starfsgetu.  
 
-## RÉTTLÆTI FYRIR ÞOLENDUR
+## **RÉTTLÆTI FYRIR ÞOLENDUR**
 
 ### Í framtíðinni okkar hafa þolendur rödd
 
@@ -77,7 +77,7 @@ Bætum meðferð kynferðisbrotamála í samráði við þolendur. Gefum þolend
 
 Aukum forvarnir með víðtækri fræðslu um upplýst samþykki og persónuréttindii allra. Eflum meðferðarúrræði fyrir gerendur og endurskoðum veitingu starfsréttinda með hagsmuni barna í huga.  
 
-## AUÐLINDIR ÍSLANDS
+## **AUÐLINDIR ÍSLANDS**
 
 ### Kvótann á uppboð og frjálsar handfæraveiðar
 
@@ -87,7 +87,7 @@ Aukum forvarnir með víðtækri fræðslu um upplýst samþykki og persónurét
 
 Við viljum gera langtímaáætlun um skipulag og uppbyggingu ferðamannaþjónustu. Í þeirri vinnu þarf virkt samtal við fólkið í nærsamfélaginu og að sjá til þess að tekjur af ferðamönnum fari í uppbyggingu um allt land. Hugsum lengra, hugsum til framtíðarinnar og framkvæmum svo.  
 
-## NÝSKÖPUN, SAMGÖNGUR OG ATVINNULÍF
+## **NÝSKÖPUN, SAMGÖNGUR OG ATVINNULÍF**
 
 ### Tengjum Ísland og fjármögnum samgönguáætlun
 
@@ -97,7 +97,7 @@ Til að atvinnulíf um allt land blómstri og allir njóti tækifæra þarf að 
 
 Píratar vilja gera nýskráningu fyrirtækja einfalda og ódýra. Stuðlum að nýsköpun með því að leyfa skuldabréfum í sprotafyrirtækjum að breytast í hlutafé. Þannig eflum við þá sem hugsa út fyrir boxið og finna ný sóknarfæri. Íslenskt hugvit er dýrmæt auðlind.  
 
-## STJÓRNSÝSLA, SJÓRNARSKRÁ OG BORGARRÉTTINDI
+## **STJÓRNSÝSLA, SJÓRNARSKRÁ OG BORGARRÉTTINDI**
 
 ### Borgararéttindi og tjáningarfrelsi
 
@@ -115,7 +115,7 @@ Stjórnsýsla á Íslandi þarfnast uppfærslu í takt við tímann. Núverandi 
 
 #### Samþykkjum nýja stjórnarskrá, útrýmum leyndarhyggju og leyfum almenningi að ráða för.  
 
-## UMHVERFISMÁL
+## **UMHVERFISMÁL**
 
 ### Ísland verði í fararbroddi í umhverfismálum
 
