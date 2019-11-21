@@ -45,8 +45,8 @@ is:
       url: "/afhverju"
     - title: Grasrót Pírata
       url: "/grasrot"
-    - title: Piratar.is og Github
-      url: "/um-piratar.is"
+    - title: Píratar fyrir byrjendur
+      url: "/um-pirata/byrjendur"
   - title: Taka þátt
     url: ''
     sub:
