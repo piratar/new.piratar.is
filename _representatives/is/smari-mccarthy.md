@@ -7,7 +7,7 @@ description: Þingmaður Pírata
 details: Suðurkjördæmi
 representative: smári-mccarthy
 email: smarim@althingi.is
-image: "/uploads/211B6597.jpg"
+image: "/uploads/Smári-headshot.jpg"
 social:
   twitter: https://twitter.com/smarimc
   facebook: https://www.facebook.com/smarimc
