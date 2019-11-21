@@ -49,7 +49,7 @@ is:
   - title: Fréttir og tilkynningar
     url: ''
   - title: Viðburðir
-    url: ''
+    url: "/fundir"
 - title: Aðildarfélögin
   email: ''
   url: ''
@@ -72,21 +72,23 @@ is:
   url: ''
   email: ''
   sub:
-  - title: Grasrótarinn
-    url: "/grasrotarinn"
   - title: Skrá mig í Pírata
     url: "/skraning"
+  - title: Skrá mig úr Pírötum
+    url: ''
   - title: Styrkja Pírata
     url: "/styrkja"
-  - title: Taktu þátt í starfinu
-    url: "/takathatt"
   - title: Skrá mig á póstlista
     url: "/postlisti"
-  - title: Bóka viðburð í Tortuga
-    url: "/tortuga-boka"
-  - title: Kosningakerfi Pírata
+  - title: x.piratar.is
     url: https://x.piratar.is
     cta: true
+  - title: Grasrótarinn
+    url: https://x.piratar.is/polity/1/tasks/
+  - title: Taktu þátt í starfinu
+    url: "/takathatt"
+  - title: Bóka viðburð í Tortuga
+    url: "/tortuga-boka"
 - title: Tortúga og rekstur
   url: ''
   email: piratar@piratar.is
