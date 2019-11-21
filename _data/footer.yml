@@ -42,10 +42,8 @@ is:
     url: "/adildarfelog/sudurkjordaemi"
   - title: Píratar í Suðvesturkjördæmi
     url: "/adildarfelog/sudvesturkjordaemi"
-  - title: ''
-    url: ''
-  - title: ''
-    url: ''
+  - title: Ungir Píratar
+    url: "/adildarfelog/ungir-piratar"
   - title: Píratar 60+
     url: "/adildarfelog/piratar-60-plus"
 - title: Stefnan
