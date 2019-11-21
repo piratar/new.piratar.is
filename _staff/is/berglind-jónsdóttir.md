@@ -1,7 +1,7 @@
 ---
-title: Berglind Jónsdóttir
+title: Elsa Kristjánsdóttir
 image: ''
-description: Starfsmaður Pírata
+description: Framkvæmdastjóri Pírata
 lang: is
 published: false
 
