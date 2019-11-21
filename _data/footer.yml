@@ -29,7 +29,7 @@ is:
   - title: Trúnaðarráð
     url: "/stjorn-pirata?category=trunadarrad"
   - title: Starfsfólk
-    url: "/stjorn-pirata?category=staff"
+    url: "/folkid?category=staff"
 - title: Stefnumál
   url: ''
   email: ''
