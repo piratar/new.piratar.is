@@ -60,7 +60,6 @@ fields:
       step: 
   label: menu
 pages:
-- _pages-is/um-pirata/log-pirata.md
 - _pages-is/um-pirata/af-hverju-piratar.md
 - _pages-is/stefna/stefnumótun.md
 - _pages-is/stefna/grunnstefna.md
