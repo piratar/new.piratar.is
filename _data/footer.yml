@@ -13,15 +13,21 @@ is:
   - title: Píratar fyrir byrjendur
     url: "/um-pirata/byrjendur"
 - title: Fólkið
-  url: ''
-  email: piratar@piratar.is
+  url: "/folkid"
+  email: ''
   sub:
-  - title: Starfsfólk
-    url: "/folkid?category=staff"
-  - title: Þingflokkur
+  - title: Þingflokkur Pírata
     url: "/folkid?category=parliament"
   - title: Sveitarstjórn
     url: "/folkid?category=municipal"
+  - title: Framkvæmdaráð
+    url: "/folkid?category=framkvaemdarad"
+  - title: ''
+    url: ''
+  - title: ''
+    url: ''
+  - title: Starfsfólk
+    url: "/folkid?category=staff"
 - title: Stjórn Pírata
   url: ''
   email: framkvaemdarad@piratar.is
