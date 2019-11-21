@@ -9,7 +9,7 @@ menu:
   - policies
   weight: 2
 layout: page
-show-title: false
+show-title: true
 files: []
 
 ---
