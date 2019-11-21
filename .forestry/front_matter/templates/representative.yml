@@ -92,3 +92,5 @@ fields:
   - type: text
     name: instagram
     label: instagram
+pages:
+- _staff/baldur-karl-magnússon.md
