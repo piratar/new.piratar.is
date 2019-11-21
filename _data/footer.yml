@@ -28,33 +28,11 @@ is:
     url: "/folkid?category=trunadarrad"
   - title: Starfsfólk
     url: "/folkid?category=staff"
-- title: Stjórn Pírata
-  url: ''
-  email: framkvaemdarad@piratar.is
-  sub:
-  - title: Trúnaðarráð
-    url: "/stjorn-pirata?category=trunadarrad"
-  - title: Framkvæmdaráð
-    url: "/stjorn-pirata?category=framkvaemdarad"
-  - title: Úrskurðarnefnd
-    url: "/stjorn-pirata?category=urskurdarnefnd"
-  - url: "/log"
-    title: Lög Pírata
-- title: Kynningarefni
-  url: ''
-  email: berglind@piratar.is
-  sub:
-  - title: Hönnunarstaðall
-    url: "/honnunarstadall"
-  - title: Fréttatilkynningar
-    url: "/frettatilkynningar"
-  - title: Auglýsingar og styrkir
-    url: "/auglysingar-og-styrkir"
-- title: Aðildarfélög
+- title: Aðildarfélögin
   email: ''
   url: ''
   sub:
-  - title: Reykjavík - PÍR
+  - title: Píratar í Reykjavík
     url: "/adildarfelog/reykjavik"
   - title: Píratar 60+
     url: "/adildarfelog/piratar-60-plus"
@@ -113,6 +91,28 @@ is:
     url: "/arsreikningar-og-bokhald"
   - title: Fundagerðir
     url: "/fundagerdir"
+- title: Stjórn Pírata
+  url: ''
+  email: framkvaemdarad@piratar.is
+  sub:
+  - title: Trúnaðarráð
+    url: "/stjorn-pirata?category=trunadarrad"
+  - title: Framkvæmdaráð
+    url: "/stjorn-pirata?category=framkvaemdarad"
+  - title: Úrskurðarnefnd
+    url: "/stjorn-pirata?category=urskurdarnefnd"
+  - url: "/log"
+    title: Lög Pírata
+- title: Kynningarefni
+  url: ''
+  email: berglind@piratar.is
+  sub:
+  - title: Hönnunarstaðall
+    url: "/honnunarstadall"
+  - title: Fréttatilkynningar
+    url: "/frettatilkynningar"
+  - title: Auglýsingar og styrkir
+    url: "/auglysingar-og-styrkir"
 en:
 - title: News
   url: ''
