@@ -11,7 +11,6 @@ menu:
 layout: page
 show-title: false
 files: []
-published: false
 
 ---
 # **Grunnstefna Pírata**
