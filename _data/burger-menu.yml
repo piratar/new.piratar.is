@@ -41,12 +41,10 @@ is:
   - title: Um Pírata
     url: ''
     sub:
-    - title: Afhverju Píratar?
+    - title: Af hverju Píratar?
       url: "/afhverju"
-    - title: Lög Pírata
-      url: "/log"
-    - title: Kosningarkerfið (x.piratar.is)
-      url: "/kosningarkerfid"
+    - title: Grasrót Pírata
+      url: "/grasrot"
     - title: Piratar.is og Github
       url: "/um-piratar.is"
   - title: Taka þátt
