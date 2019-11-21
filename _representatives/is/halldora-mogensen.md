@@ -22,14 +22,12 @@ social:
   instagram: https://www.instagram.com/halldoramogensen/?hl=en
 
 ---
-Halldóra Mogensen og er þingkona Pírata i Reykjavíkurkjördæmi Norður síðan 2016.
+Halldóra Mogensen er þingkona Pírata i Reykjavíkurkjördæmi Norður síðan 2016.
 
-Halldóra býr yfir djúpstæðri réttlætiskennd og löngun til að vera samfélaginu til gagns með jöfn tækifæri fyrir alla að leiðarljósi.
-
-Þetta er ástæða þess að Halldóra gekk í Pírata sumarið 2012 og tók virkan þátt í uppbyggingu hreyfingarinnar frá upphafi. Í grunngildum Pírata sér Halldóra leiðarvísi að því drauma samfélagi sem hún vill búa í.
+Hér er um að ræða þingmann með djúpstæða réttlætiskennd og löngun til að vera samfélaginu til gagns með jöfn tækifæri fyrir alla að leiðarljósi. Þetta er ástæða þess að Halldóra gekk til liðs við Pírata sumarið 2012 og tók virkan þátt í uppbyggingu hreyfingarinnar frá upphafi. Í grunngildum Pírata sér Halldóra leiðarvísi að því drauma samfélagi sem hún vill búa í.
 
 Halldóra er mikill talsmaður borgaralauna. Í skilyrðislausri grunnframfærslu sér hún það raunverulega frelsi sem felst í jöfnum tækifærum fyrir alla og  grunn að því að byggja upp lýðræðislegra samfélag, þar sem einstaklingar hafa bæði meiri tíma, sem og tækifæri til að vera raunverulegir þátttakendur í uppbyggingu nýs samfélags.
 
-Helstu baráttumál Halldóru snúast um að útrýma fátækt og skapa jöfn tækifæri til þess að einstaklingurinn geti verið raunverulega frjáls. Innleiðing nýju stjórnarskránnar er þar stórt atriði í átt að uppfærslu á stjórnkerfinu í tak við þau tækifæri sem tækniframfarir bjóða upp á. 
+Helstu baráttumál Halldóru snúast um að útrýma fátækt og skapa jöfn tækifæri til þess að einstaklingurinn geti verið raunverulega frjáls. Innleiðing nýju stjórnarskránnar er þar stórt atriði í átt að uppfærslu á stjórnkerfinu í tak við þau tækifæri sem tækniframfarir bjóða upp á.
 
 Halldóra leggur áherslu á að skoða hlutina heildrænt, hvernig hlutir tengjast svo hægt sé að ráðast á rót vandamála og finna góðar lausnir. Með aukinni aðkomu almennings að stefnumótun og ákvarðanatökum telur Halldóra að hægt sé að uppræta þá skammtímahugmyndafræði sem virðist ráða ríkjum í núverandi kerfi og leggja grunn að betri samfélagsmynd þar sem horft er til framtíðar.
