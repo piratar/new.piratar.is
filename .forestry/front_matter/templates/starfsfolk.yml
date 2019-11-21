@@ -17,15 +17,10 @@ fields:
     maxSize: 250
   label: image
 - name: email
-  type: number
-  label: Tölvupóstfang
-  description: ''
-  default: 0
-  required: true
+  type: text
   config:
-    min: 
-    max: 
-    step: 
+    required: false
+  label: email
 pages:
 - _staff/en/sunna-rós-víðisdóttir.md
 - _staff/en/róbert-ingi-douglas.md
