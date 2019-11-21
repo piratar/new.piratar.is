@@ -52,6 +52,8 @@ is:
     url: ''
   - title: Viðburðir
     url: "/fundir"
+  - title: Hlaðvarp Pírata
+    url: "/hladvarp"
 - title: Aðildarfélögin
   email: ''
   url: ''
