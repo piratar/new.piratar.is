@@ -3,9 +3,13 @@ title: Málefnin
 menu:
   current: policies
   menus:
-    - about-pirates
-    - policies
+  - about-pirates
+  - policies
   weight: 1
----
+files:
+- {}
+layout: page
+show-title: false
 
+---
 Málefnin...
