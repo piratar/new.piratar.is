@@ -6,6 +6,7 @@ menu:
   current: policies
   menus:
   - policies
+  - about-pirates
   weight: 2
 layout: page
 show-title: false
