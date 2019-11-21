@@ -17,6 +17,7 @@ fields:
     maxSize: 250
   label: image
 pages:
+- _staff/en/róbert-ingi-douglas.md
 - _staff/en/inga-dóra-guðmundsdóttir.md
 - _staff/en/eiríkur-rafn-rafnsson.md
 - _staff/en/baldur-karl-magnússon.md
