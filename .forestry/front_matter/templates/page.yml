@@ -60,6 +60,6 @@ fields:
       step: 
   label: menu
 pages:
+- _pages-is/stefna/malefnin.md
 - _pages-is/stefna/grunnstefna.md
 - _pages-is/stefna/framtidarsyn.md
-- _pages-is/stefna/malefnin.md
