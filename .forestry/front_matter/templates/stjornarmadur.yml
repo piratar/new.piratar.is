@@ -26,6 +26,7 @@ fields:
   name: description
   label: description
 pages:
+- _administration/herbert-snorrason.md
 - _administration/björn-þór-jóhannesson.md
 - _administration/unnar-þór-sæmundsson.md
 - _administration/úlfhildur-stefánsdóttir.md
