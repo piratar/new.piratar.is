@@ -12,6 +12,7 @@ details: Reykjavíkurkjördæmi suður
 social:
   twitter: https://twitter.com/sunnago
   facebook: https://www.facebook.com/sunnapirati/
+  instagram: https://www.instagram.com/nomad.sun/
 external: https://www.althingi.is/altext/cv/is/?nfaerslunr=1270
 roles:
 - title: Varaformaður þingflokks Pírata
@@ -21,13 +22,12 @@ roles:
 - title: Formaður nefndar um endurskoðun lögræðislaga
 
 ---
-FERILL:
+Þórhildur Sunna Ævarsdóttir er Alþingismaður Reykjavíkurkjördæmis suður síðan í kosningum 2017 en áður Suðvesturkjördæmis 2016–2017.
 
-Alþingismaður Suðvesturkjördæmis 2016–2017
+Þórhildur Sunna er **lögfræðingur, blaðamaður og Pírati**. Lögfræðina lærði hún í fjórum háskólum víðsvegar um Evrópu (Þýskalandi, Grikklandi og Hollandi), þar sem hún sérhæfði sig í alþjóðalögum, Evrópulögum, mannréttindum og alþjóðlegum refsirétti. Eftir útskrift úr mastersnámi með **frá háskólanum í Utrecht árið 2013** og þar til hún settist á þing fyrir Pírata, starfaði hún sem blaðamaður og við ritstörf tengd mannréttindum.
 
-* Reykjavíkurkjördæmis suður síðan 2017
-* Formaður þingflokks Pírata 2017–2019.
-* Allsherjar- og menntamálanefnd 2017–2018 og 2019,
-* Atvinnuveganefnd 2018–2019,
-* Stjórnskipunar- og eftirlitsnefnd 2019– x
-* Íslandsdeild Evrópuráðsþingsins 2017– 2019
+Pírötum kynntist Þórhildur Sunna í janúar 2015 í gegnum Smára McCarthy. Þar fann hún sig meðal fólks með sömu hugsjónir og framtíðarsýn. **Mannréttindi minnihlutahópa og jaðarsettra einstaklinga** eru henni sérstaklega hugleikin. Hún hefur einbeitt sér að réttindum flóttamanna, fatlaðs fólks, fanga og vímuefnanotenda, ásamt réttindum fólks með geðraskanir og geðfötlun. Markmiðið er að styrkja réttarstöðu og -vernd þessara hópa og besti staðurinn til þess er Alþingi Íslendinga.
+
+Líkt og allir Píratar telur Þórhildur Sunna augljóst ða breyta þurfi stjórnarskránni, st**jórnsýslulögum og lögum um opinbera starfsmenn** til þess að hægt sé að byggja upp gott réttarkerfi á Íslandi sem allir geta stólað á. Eins vill hún að stórefla þær stofnanir sem fara með eftirlitshlutverk gagnvart hinu opinbera. Gagnsæi og aðrar varnir gegn spillingu vill hún koma á fót með m.a. sjálfstæðu eftirliti með störfum lögreglu ásamt því að setja á fót sérstaka stofnun eða deild innan embættis ríkissaksóknara sem rannsakar spillingu og brot opinberra starfsmanna í starfi.
+
+Þórhildur Sunna telur mikilvægt að Ísland taki skýra afstöðu gegn stríði og standi þess í stað með friði og mannréttindum á alþjóðavettvangi.
