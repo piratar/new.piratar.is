@@ -17,5 +17,6 @@ fields:
     maxSize: 250
   label: image
 pages:
+- _staff/is/inga-dóra-guðmundsdóttir.md
 - _staff/is/baldur-karl-magnússon.md
 - _staff/is/eiríkur-rafn-rafnsson.md
