@@ -28,9 +28,21 @@ is:
     url: "/folkid?category=trunadarrad"
   - title: Starfsfólk
     url: "/folkid?category=staff"
+- title: Stefnumál
+  url: ''
+  email: ''
+  sub:
+  - title: Grunnstefna Pírata
+    url: "/stefna/grunnstefna"
+  - title: Málefnin
+    url: "/stefna/malefnin"
+  - title: Framtíðarsýn
+    url: "/stefna/framtidarsyn"
+  - title: Stefnumótun
+    url: "/stefna/stefnumotun"
 - title: Aðildarfélögin
   email: ''
-  url: "/adildarfelog"
+  url: ''
   sub:
   - title: Píratar í Reykjavík
     url: "/adildarfelog/reykjavik"
@@ -46,18 +58,6 @@ is:
     url: "/adildarfelog/ungir-piratar"
   - title: Píratar 60+
     url: "/adildarfelog/piratar-60-plus"
-- title: Stefnan
-  url: "/stefna"
-  email: ''
-  sub:
-  - title: Málefnin
-    url: "/stefna/malefnin"
-  - title: Grunnstefna Pírata
-    url: "/stefna/grunnstefna"
-  - title: Framtíðarsýn
-    url: "/stefna/framtidarsyn"
-  - title: Stefnumótun
-    url: "/stefna/stefnumotun"
 - title: Taka þátt
   url: ''
   email: ''
@@ -89,7 +89,7 @@ is:
     url: "/arsreikningar-og-bokhald"
   - title: Fundagerðir
     url: "/fundagerdir"
-- title: Stjórn Pírata
+- title: 'Stjórn Pírata - MÁ EYÐA, SAMEINAÐ FÓLKIÐ - '
   url: ''
   email: framkvaemdarad@piratar.is
   sub:
