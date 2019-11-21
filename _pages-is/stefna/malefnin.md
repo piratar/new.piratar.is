@@ -16,7 +16,7 @@ show-title: false
 
 ## HEILBRIGÐISMÁL
 
-#### Heilbrigðismálin fyrst og fremst
+### Heilbrigðismálin fyrst og fremst
 
 Framsýn stjórnvöld tryggja að allir fái bestu mögulegu heilbrigðisþjónustu þegar þörf krefur, óháð efnahag og óháð búsetu.  
 Andleg heilsa er ekki síður mikilvæg en líkamleg. Andleg umönnun og sálfræðiþjónusta er hluti af heilbrigðisþjónustunni.
@@ -27,7 +27,7 @@ Andleg heilsa er ekki síður mikilvæg en líkamleg. Andleg umönnun og sálfr�
 
 ## HÚSNÆÐISMÁL
 
-#### Byggjum fyrir framtíðina
+### Byggjum fyrir framtíðina
 
 Stjórnvöld þurfa að taka húsnæðismálin alvarlega.
 
@@ -49,29 +49,29 @@ Nám framtíðarinnar er einstaklingsmiðað, sveigjanlegt, skapandi og frjálst
 
 ## PERSÓNUAFSLÁTTUR, SKERÐINGAR OG BORGARALAUN
 
-#### Hækkum persónuafslátt
+### Hækkum persónuafslátt
 
 Sanngjarnasta leiðin til að lækka skatta er að hækka persónuafslátt. Píratar vilja hækka persónuafslátt strax á næsta ári um 7.000 kr. á mánuði. Takmarkið er að ná fram hækkun á afslættinum sem nemur 26.000 kr á kjörtímabilinu þannig að hann fylgi almennri launaþróun, og verður þá við lok kjörtímabilsins tæpar 78 þúsund krónur á mánuði. Það munar um minna.
 
-#### **Drögum úr skerðingu – allir mega vinna**
+### Drögum úr skerðingu – allir mega vinna
 
 Hækkun örorkulífeyris og afnám krónuskerðinga eru réttlætismál. Sama gildir um rétt aldraðra til að vinna án þess að missa áunnin réttindi. Nýtum reynslu og þekkingu í framtíðinni – þar sem hana vantar.
 
 Ríkið á ekki að segja eldri borgurum hvar, hvort og hvernig þeir eigi að vinna, lifa eða njóta í ellinni.
 
-#### Könnum borgaralaun til framtíðar
+### Könnum borgaralaun til framtíðar
 
 Skoðum leiðir til að tryggja öllum borgurum landsins skilyrðislausa grunnframfærslu í framtíð sem mun mótast af tækniþróun og sjálfvirknivæðingu. Allir eiga rétt á grundvallarlífsgæðum og tækifærum og það er á okkar ábyrgð að finna bestu leiðirnar til að tryggja öllum borgurum þessi sjálfsögðu réttindi.  
 
 ## RÉTTINDI FÓLKS MEÐ FÖTLUN
 
-#### Eflum NPA
+### Eflum NPA
 
 Hættum að tefja fyrir réttindum fólks með fötlun. Eflum notendastýrða persónulega aðstoð (NPA) og höldum áfram að vinna að úrbótum í málefnum fólks með fötlun og skerta starfsgetu.  
 
 ## RÉTTLÆTI FYRIR ÞOLENDUR
 
-#### Í framtíðinni okkar hafa þolendur rödd
+### Í framtíðinni okkar hafa þolendur rödd
 
 Bætum meðferð kynferðisbrotamála í samráði við þolendur. Gefum þolendum aukna aðkomu og aðild að kærumálum sínum og eflum sálrænan og félagslegan stuðning.
 
@@ -79,53 +79,53 @@ Aukum forvarnir með víðtækri fræðslu um upplýst samþykki og persónurét
 
 ## AUÐLINDIR ÍSLANDS
 
-#### Kvótann á uppboð og frjálsar handfæraveiðar
+### Kvótann á uppboð og frjálsar handfæraveiðar
 
 Í sjávarútvegsmálum er mikilvægt að samfélagið fái fullt gjald fyrir þessa verðmætu auðlind þjóðarinnar. Píratar vilja að stjórnvöld bjóði fiskveiðikvótann upp í skrefum, að allur afli fari á markað og að handfæraveiðar verði gefnar frjálsar, til að tryggja nýliðun í greininni og atvinnuöryggi um allt land.
 
-#### Nærum framtíð ferðaþjónustunnar
+### Nærum framtíð ferðaþjónustunnar
 
 Við viljum gera langtímaáætlun um skipulag og uppbyggingu ferðamannaþjónustu. Í þeirri vinnu þarf virkt samtal við fólkið í nærsamfélaginu og að sjá til þess að tekjur af ferðamönnum fari í uppbyggingu um allt land. Hugsum lengra, hugsum til framtíðarinnar og framkvæmum svo.  
 
 ## NÝSKÖPUN, SAMGÖNGUR OG ATVINNULÍF
 
-#### Tengjum Ísland og fjármögnum samgönguáætlun
+### Tengjum Ísland og fjármögnum samgönguáætlun
 
 Til að atvinnulíf um allt land blómstri og allir njóti tækifæra þarf að uppfæra tengingar. Tengjum Ísland með þriggja fasa rafmagni, betri samgöngum milli landshorna og virkri nettengingu um allt land. Píratar skilja að góð nettenging er grunnstoð fyrir atvinnulíf um allt land.
 
-#### Atvinnulíf framtíðarinnar
+### Atvinnulíf framtíðarinnar
 
 Píratar vilja gera nýskráningu fyrirtækja einfalda og ódýra. Stuðlum að nýsköpun með því að leyfa skuldabréfum í sprotafyrirtækjum að breytast í hlutafé. Þannig eflum við þá sem hugsa út fyrir boxið og finna ný sóknarfæri. Íslenskt hugvit er dýrmæt auðlind.  
 
 ## STJÓRNSÝSLA, SJÓRNARSKRÁ OG BORGARRÉTTINDI
 
-#### Borgararéttindi og tjáningarfrelsi
+### Borgararéttindi og tjáningarfrelsi
 
 Vald þarf aðhald. Píratar munu alltaf standa gegn þeirri algengu tilhneigingu stjórnvalda að takmarka borgaraleg réttindi. Borgararnir eiga skilið sterkan málsvara gegn stjórnlyndi og við erum reiðubúin að axla þá ábyrgð.
 
 Tryggjum rétt blaðamanna að upplýsingum og verndum þá gegn lögsóknum.
 
-#### Tryggjum gagnsærri stjórnsýslu
+### Tryggjum gagnsærri stjórnsýslu
 
 Þegar almenningur óskar eftir upplýsingum ber honum að fá þær. Stjórnsýslan á ekki að fela brúnegg eða valinkunnar undirskriftir heldur starfa með gagnsæi og heiðarleika að leiðarljósi.
 
-#### Nýja stjórnarskráin og betra stjórnkerfi
+### Nýja stjórnarskráin og betra stjórnkerfi
 
 Stjórnsýsla á Íslandi þarfnast uppfærslu í takt við tímann. Núverandi stjórnarskrá býður okkur upp á óstöðugt stjórnarfar þar sem ráðherrar fara sínu fram án samráðs við almenning.
 
-**Samþykkjum nýja stjórnarskrá, útrýmum leyndarhyggju og leyfum almenningi að ráða för.**  
+#### Samþykkjum nýja stjórnarskrá, útrýmum leyndarhyggju og leyfum almenningi að ráða för.  
 
 ## UMHVERFISMÁL
 
-#### Ísland verði í fararbroddi í umhverfismálum
+### Ísland verði í fararbroddi í umhverfismálum
 
 Á undanförnum áratugum hefur orðið ljóst að mannkynið er að ganga verulega á auðlindir jarðar og náttúru með fyrirsjáanlega hrikalegum afleiðingum fyrir komandi kynslóðir. Ábyrg umgengni við náttúruna og sjálfbær nýting auðlinda eru nauðsynleg forgangsmál. Tökum fullt tillit til alþjóðaviðmiða og samninga í umhverfismálum og leyfum náttúrunni að njóta vafans. Framfylgja skal megingildum sjálfbærrar þróunar í verki.
 
-#### Hálendisþjóðgarður – Verndum viðkvæma náttúru miðhálendisins
+### Hálendisþjóðgarður – Verndum viðkvæma náttúru miðhálendisins
 
 Miðhálendið er ein dýrmætasta perla landsins. Þar má finna eldfjöll, jökla, vatnsmiklar ár og fossa, litrík háhitasvæði, víðfeðm hraun og svartar sandauðnir sem kallast á við viðkvæmar gróðurvinjar. Saman mynda þessi náttúrufyrirbæri stórbrotnar landslagsheildir á einum stærstu víðernum Evrópu. Þessa þjóðargersemi þarf að vernda til framtíðar.
 
-#### Styðjum við rafbílavæðingu
+### Styðjum við rafbílavæðingu
 
 Píratar vilja stuðla að rafbílavæðingu Íslands, m.a. með því að huga að innviðum og með fjárhagslegum ívilnunum sem stefni að því að auka hlutfall rafbíla. Almenn orkumála- og umhverfisstefna ætti að innihalda markmið um rafbílavæðingu og gera nauðsynlegar ráðstafanir til að ná þeim markmiðum.  
 
