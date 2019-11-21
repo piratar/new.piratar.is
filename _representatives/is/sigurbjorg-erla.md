@@ -7,21 +7,23 @@ description: Bæjarfulltrúi í Kópavogi
 representative: sigurbjörg-erla
 image: "/uploads/Sigurbjörg-headshot (1).jpg"
 roles:
+- title: Stýrihópur um innleiðingu barnasáttmálans
+- title: Notendaráð fatlaðs fólks
 - title: Menntaráð Kópavogsbæjar
 - title: Velferðarráð Kópavogsbæjar
 - title: Skipulagsráð Kópavogsbæjar
+social:
+  instagram: https://www.instagram.com/sigurbjorge/
+  facebook: https://www.facebook.com/SigurbjorgErla/
+  twitter: https://twitter.com/SigurbjorgErla
+external: https://www.kopavogur.is/is/stjornsysla/baejarstjorn/baejarfulltruar/sigurbjorg-erla-egilsdottir
+email: sigurbjorg.erla@kopavogur.is
 
 ---
-Sigurbjörg Erla er fædd á Neskaupstað árið 1986 og ólst þar upp til 14 ára aldurs þegar hún flutti til Reykjavíkur með fjölskyldunni. 
+Sigurbjörg Erla er fædd á Neskaupstað árið 1986 og ólst þar upp til 14 ára aldurs þegar hún flutti til Reykjavíkur með fjölskyldunni.
 
-Sem stjórnmálamaður brennur Sigurbjörg fyrir gagnrýnni hugsun, auknu gagnsæi og beinna lýðræði. Vel upplýstar ákvarðanir í samráði við þá sem málin varða hefur hún ávallt að leiðarljósi.
+Sem stjórnmálamaður brennur Sigurbjörg fyrir gagnrýnni hugsun, auknu gagnsæi og beinna lýðræði. Vel upplýstar ákvarðanir í samráði við hlutaðeigandi aðila hefur hún ávallt að leiðarljósi.
 
-**Framtíðarstefna (staðan í bænum - væntingar)?**
+Lotslagsmál eru meðal þeirra áherslumála Sigurbjargar í bæjarstjórn. Hún hefur lagt til að mótuð verði stefna og aðgerðaáætlun í málaflokknum  Sú vinna er komin af stað en auk þess samþykkti bæjarstjórn að innleiða þrettánda heimsmarkmiðið, um aðgerðir í loftslagsmálum, í yfirmarkmið sín. Um mikilvægt skref er að ræða og ákveðin skuldbinding í sjálfu sér þar sem stöðugt þarf að hafa í huga hvaða áhrif ákvarðanir sem við tökum hafa á loftslagið. Auk þess hefur Sigurbjörg (eins og Píratar allir) lagt ríka áherslu á samráð við íbúa og hagsmunaaðila í allri ákvarðanatöku. Hún situr í notendaráði fatlaðs fólks og stýrihópi um innleiðingu barnasáttmálans sem miðar m.a. að því að valdefla börn og ungmenni.
 
-Hvaða áhrif hefur þú haft innan bæjarstjórnar? Ég hef haldið uppi áherslum á loftslagsmálin og lagt til að mótuð verði stefna og aðgerðaáætlun í þeim málum. Sú vinna er komin af stað og auk þess samþykkti bæjarstjórn að innleiða 13. Heimsmarkmiðið, um aðgerðir í loftslagsmálum, inn í yfirmarkmið sín. Það er mikilvægt skref og ákveðin skuldbinding í sjálfu sér en það þarf stöðugt að hafa í huga hvaða áhrif ákvarðanir sem við tökum hafa á loftslagið. Auk þess hef ég lagt ríka áherslu á samráð við íbúa og hagsmunaaðila í allri ákvarðanatöku, ég sit bæði í notendaráði fatlaðs fólks og stýrihóp um innleiðingu barnasáttmálans sem miðar m.a. að því að valdefla börn og ungmenni.
-
-Starfsferill/reynsla allt (áður en að þú fórst í pólitík)? Ég hef meira og minna verið í námi áður en ég byrjaði í bæjarstjórn. Ég
-
-Námsferill? Stúdentspróf frá MH, BS og cand.psych. í sálfræði frá HÍ og er að taka diplómu í opinberri stjórnsýslu frá HÍ núna.
-
-Afhverju fórst þú að hafa áhuga á stjórnmálum (sveitarstjórnarmálum)?
+Sigurbjörg er með stúdentspróf frá MH, BS og cand.psych. í sálfræði frá HÍ og er nú í námi í opinberri stjórnsýslu hjá HÍ..
