@@ -1,5 +1,5 @@
 ---
-title: Baldur Karl magnússon
+title: Baldur Karl Magnússon
 description: Starfsmaður þingflokks Pírata
 lang: is
 image: "/uploads/IMG_9026_quarter_square.jpg"
