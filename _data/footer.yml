@@ -30,7 +30,7 @@ is:
     url: "/folkid?category=staff"
 - title: Aðildarfélögin
   email: ''
-  url: ''
+  url: "/adildarfelog"
   sub:
   - title: Píratar í Reykjavík
     url: "/adildarfelog/reykjavik"
