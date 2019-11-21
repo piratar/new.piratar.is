@@ -14,7 +14,9 @@ show-title: false
 ---
 # MÁLEFNIN
 
-Píratar 
+Píratar móta sér stefnu í opnu ferli þar sem allir félagsmenn hafa möguleika á aðkomu. Allir félagsmenn geta átt frumkvæði að stofnun málefnahópa, haldið félagsfundi og tekið þátt í kosningu um samþykkt stefnu í kosningakerfi Pírata. Í aðdraganda alþingiskosninga hefur verið mótuð stefnuskrá fyrir stefnu flokksins á landsvísu.
+
+<br>
 
 ## **HEILBRIGÐISMÁL**
 
