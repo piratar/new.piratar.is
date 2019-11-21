@@ -5,7 +5,6 @@ description: Allar stefnur Pírata byggja á grunnstefnu Pírata þar sem gagnr�
 menu:
   current: policies
   menus:
-  - about-pirates
   - policies
   weight: 2
 layout: page
