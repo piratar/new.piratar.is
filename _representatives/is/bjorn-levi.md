@@ -5,7 +5,7 @@ lang: is
 category: parliament
 description: Þingmaður Pírata
 details: Reykjavíkurkjördæmi suður
-image: "/uploads/IMG_8954[1].JPG"
+image: "/uploads/IMG_8981.JPG"
 representative: björn-leví
 email: bjornlevi@althingi.is
 social:
