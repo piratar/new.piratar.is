@@ -17,6 +17,7 @@ fields:
     maxSize: 250
   label: image
 pages:
+- _staff/en/elsa-kristjánsdóttir.md
 - _staff/en/berglind-jónsdóttir.md
 - _staff/is/róbert-ingi-douglas.md
 - _staff/is/elsa-kristjánsdóttir.md
