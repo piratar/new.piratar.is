@@ -2,14 +2,16 @@
 is:
 - title: Um Pírata
   url: ''
-  email: piratar@piratar.is
+  email: ''
   sub:
+  - title: Af hverju Píratar?
+    url: "/um-pirata/af-hverju"
   - title: Grasrót Pírata
     url: "/um-pirata/grasrot"
-  - title: Afhverju Píratar?
-    url: ''
-  - title: Um kosningarkerfið x.piratar.is
-    url: ''
+  - title: Starfsemi og skipulag
+    url: "/um-pirata/starfsemi-skipulag"
+  - title: Píratar fyrir byrjendur
+    url: "/um-pirata/byrjendur"
 - title: Fólkið
   url: ''
   email: piratar@piratar.is
