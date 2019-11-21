@@ -17,6 +17,8 @@ roles:
 - title: Efnahags- og viðskiptanefnd 2016–2017 og 2018–, atvinnuveganefnd 2017–2018,
     utanríkismálanefnd 2017–.
 - title: Íslandsdeild þingmannanefnda EFTA og EES 2017– (formaður 2017–).
+info-text: Smári er þingmaðurinn fljúgandi, en hann er með einkaflugmannsréttindi
+  og líður hvergi betur en í háloftunum.
 
 ---
 Smári McCarthy tók þátt í að stofna Pírata árið 2012 og hefur verið þingmaður suðurkjördæmis síðan 2016. Tæknistjórn var starfssvið Smára fyrir  þingsetu, en tæknimál voru einmitt það ýtti Smára út í stjórnmálin þegar hann áttaði sig á hversu miklar afleiðingar tækniþróun mun hafa á samfélag og stjórnmál.
