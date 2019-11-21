@@ -19,7 +19,7 @@ files: []
 
 ##### Virðum vilja þjóðarinnar – klárum málið!
 
-### 21. aldar stjórnarskrá
+### **21. aldar stjórnarskrá**
 
 Samfélagið hefur þróast hraðar en stjórnkerfið, því er þörf á nýjum samfélagssáttmála á mannamáli.
 
@@ -30,13 +30,13 @@ Ný stjórnarskrá Íslands:
 * [Frumvarp frá stjórnlagaráði](http://stjornlagarad.is/other_files/stjornlagarad/Frumvarp_med_skyringum.pdf) (pdf)
 * [Framhaldsnefndarálit meirihluta stjórn­skip­un­ar- og eft­ir­lits­nefnd­ar](http://www.althingi.is/altext/141/s/1111.html) um frum­varp til stjórn­ar­skip­un­ar­laga um stjórn­ar­skrá lýðveld­is­ins Íslands.
 
-### Stjórnarskrá á mannamáli
+### **Stjórnarskrá á mannamáli**
 
 Núgildandi stjórnarskrá er óskýr og úrelt. Þrískipting valdsins, völd forseta og pólitísk ábyrgð eru illa skilgreind og ótrygg. Stjórnskipan landsins byggist á túlkunum, hefð og jafnvel hentistefnu stjórnvalda og við þurfum stjórnarskrá sem fólk skilur og tryggir pólitíska ábyrgð.
 
 * [Stefna Pírata um stjórnskipunarlög](https://x.piratar.is/polity/1/document/35/)
 
-### Efnum loforðið frá lýðveldisstofnun
+### **Efnum loforðið frá lýðveldisstofnun**
 
 Þjóðinni hefur verið lofað nýrri stjórnarskrá frá árinu 1944. Nú eigum við nýja stjórnarskrá.Ný stjórnarskrá er tilbúin. Virðum niðurstöðuna úr þjóðaratkvæðagreiðslunni 20. október 2012 og klárum málið.  
 [Stefna Pírata um stjórnskipunarlög](https://x.piratar.is/polity/1/document/35/)
@@ -51,8 +51,8 @@ Efnum svikin loforð og hættum að taka ákvarðanir með leynilegum bréfum. P
 
 ### Tökum betur á móti innflytjendum, flóttamönnum og hælisleitendum
 
-Landamæri þjóða eru manngerð fyrirbæri sem koma oft í veg fyrir sjálfræði fólks og jafnræði á milli fólks af ólíkum uppruna, trúarbrögðum eða stöðu að öðru leyti. Mannúð og mannréttindi eiga að gilda um alla einstaklinga, óháð landamærum, og okkur ber siðferðisleg skylda til að hjálpa fólki í neyð. Píratar vilja að Ísland taki á móti fleiri flóttamönnum og hælisleitendum og taki almennt betur á móti fólki sem vill setjast hér að. Við viljum samræma íslenska innflytjendastefnu með það að markmiði að jafnræðis sé gætt gagnvart öllum erlendum ríkisborgurum og leitað eftir þátttöku þeirra í ákvarðanatöku sem snertir þá.  
-  
+Landamæri þjóða eru manngerð fyrirbæri sem koma oft í veg fyrir sjálfræði fólks og jafnræði á milli fólks af ólíkum uppruna, trúarbrögðum eða stöðu að öðru leyti. Mannúð og mannréttindi eiga að gilda um alla einstaklinga, óháð landamærum, og okkur ber siðferðisleg skylda til að hjálpa fólki í neyð. Píratar vilja að Ísland taki á móti fleiri flóttamönnum og hælisleitendum og taki almennt betur á móti fólki sem vill setjast hér að. Við viljum samræma íslenska innflytjendastefnu með það að markmiði að jafnræðis sé gætt gagnvart öllum erlendum ríkisborgurum og leitað eftir þátttöku þeirra í ákvarðanatöku sem snertir þá.
+
 [Almenn stefna Pírata um útlendinga](https://x.piratar.is/polity/1/document/287/)
 
 ## 3. Virkt lýðræði
@@ -102,15 +102,14 @@ Ný stjórnarskrá: “Upplýsingar og gögn í fórum stjórnvalda skulu vera t
 
 ### Lögfestum samning SÞ gegn spillingu
 
-  
 Vinnum gegn spillingu og notum til þess alþjóðlega viðurkenndar og sannreyndar lausnir. Með aðild Íslands að samningi Sameinuðu þjóðanna gegn spillingu fyrir 6 árum samþykkti Alþingi að slíkar lausnir skyldi setja í lög – það þarf að klára.
 
 ### Nútímaleg vernd höfundaréttar
 
 Höfundar eiga rétt á að njóta ágóða af verkum sínum. Lög um höfundarétt þarf að endurskoða til að þau taki betur mið af þróun samfélagsins og upplýsingatækninnar, með það að markmiði að gera höfundum kleift að afla tekna af verkum sínum án þess að framfylgni laganna bitni á almannahagsmunum, borgararéttindum eða hefðbundnum ferlum réttarríkisins.
 
-Leita skal leiða til að styrkja rétt höfunda, sérstaklega gagnvart milliliðum, á sama tíma og tjáningarfrelsi, netfrelsi og friðhelgi einkalífs borgaranna er virt.  
-  
+Leita skal leiða til að styrkja rétt höfunda, sérstaklega gagnvart milliliðum, á sama tíma og tjáningarfrelsi, netfrelsi og friðhelgi einkalífs borgaranna er virt.
+
 Endurskoða og samræma þarf löggjöf um höfundarétt innan evrópska efnahagssvæðisins og á alþjóðavísu; svo sem lög um gildistíma höfundaréttar, sæmdarrétt, höfundarétt í almenningsrýmum (e. freedom of panorama), undanþágur vegna skopstælinga (e. freedom of parody), notkun hugverka í menntatilgangi, leyfi til gagnaúrvinnslu, stafræna útgáfu verka o.fl.
 
 * [Höfundarréttarstefna Pírata](https://x.piratar.is/polity/1/document/290/)
@@ -126,16 +125,16 @@ Forsenda heilbrigðs lýðræðis er aðgengi almennings að upplýsingum og ré
 
 ### Netfrelsi – Friðhelgi einkalífsins gildi líka á netinu
 
-Tryggjum friðhelgi einkalífs alls staðar. Afnemum gagnageymd og heimildir til að safna og selja persónuupplýsingar einstaklinga. Fólk ráði sjálft með hvaða hætti það birtist samfélaginu.  
-  
+Tryggjum friðhelgi einkalífs alls staðar. Afnemum gagnageymd og heimildir til að safna og selja persónuupplýsingar einstaklinga. Fólk ráði sjálft með hvaða hætti það birtist samfélaginu.
+
 Beitum okkur gegn ritskoðun og brotum gegn friðhelgi einkalífs, t.d. almennu rafrænu eftirliti. Áfram verði þó hægt að beita sértækum aðgerðum gegn einstaklingum, með dómsúrskurði, þegar rökstuddur grunur er um lögbrot, sérstaklega þegar kemur að barnavernd.
 
 ### Tjáningarfrelsi
 
 Stjórnvöld skulu stefna að því að Ísland verði leiðandi aðili í vernd upplýsinga- og tjáningarfrelsis á alþjóðavísu. Refsiréttarákvæði um meiðyrði falli niður og þau færð í einkarétt, með tilheyrandi niðurfellingu fangelsisrefsingar. Meiðyrðalöggjöf verði almennt endurskoðuð til að vernda betur tjáningarfrelsi hinna valdaminni í samfélaginu.
 
-Stefna Pírata: [https://x.piratar.is/issue/66/](https://x.piratar.is/issue/66/ "https://x.piratar.is/issue/66/")  
-  
+Stefna Pírata: [https://x.piratar.is/issue/66/](https://x.piratar.is/issue/66/ "https://x.piratar.is/issue/66/")
+
 Ný stjórnarskrá: “Með lögum skal tryggja aðstæður til opinnar og upplýstrar umræðu. Óheimilt er að takmarka aðgang að netinu og upplýsingatækni nema að uppfylltum skilyrðum 29. gr.”
 
 ### Klárum IMMI (Icelandic Modern Media Initiative)
@@ -279,21 +278,21 @@ Píratar vilja halda áfram þeirri uppbyggingu sem hafin er við Landspítalann
 
 ### Tryggjum öllum aðgengi að námi óháð efnahag og búsetu
 
-Aðgangur allra að menntun eru mikilvæg mannréttindi sem stuðla að jafnari tækifærum allra til að nýta hæfileika sína og ná markmiðum sínum. Vel menntaðir borgarar stuðla að upplýstara samfélagi. Píratar vilja tryggja landsmönnum réttindi til menntunar samkvæmt grein nýrrar stjórnarskrár.  
-  
+Aðgangur allra að menntun eru mikilvæg mannréttindi sem stuðla að jafnari tækifærum allra til að nýta hæfileika sína og ná markmiðum sínum. Vel menntaðir borgarar stuðla að upplýstara samfélagi. Píratar vilja tryggja landsmönnum réttindi til menntunar samkvæmt grein nýrrar stjórnarskrár.
+
 Ný stjórnarskrá: “Öllum skal í lögum tryggður réttur til almennrar menntunar og fræðslu við sitt hæfi. Öllum þeim sem skólaskylda nær til skal standa til boða menntun án endurgjalds.  
 Menntun skal miða að alhliða þroska hvers og eins, gagnrýninni hugsun og vitund um mannréttindi, lýðræðisleg réttindi og skyldur.”
 
 ### Leiðréttum grunnframfærslu LÍN
 
-Grunnframfærsla LÍN skal leiðrétt og miðuð við eðlilegar fjárþarfir fólks í námi. Stefnt skal að afnámi tekjuskerðingar námslána og því að LÍN veiti nemendum lán við upphaf náms, svo að þeir þurfi ekki að leita til einkaaðila á þeim tímapunkti. Leita þarf leiða til þess að hluti af námslánum verði styrkur.  
-  
+Grunnframfærsla LÍN skal leiðrétt og miðuð við eðlilegar fjárþarfir fólks í námi. Stefnt skal að afnámi tekjuskerðingar námslána og því að LÍN veiti nemendum lán við upphaf náms, svo að þeir þurfi ekki að leita til einkaaðila á þeim tímapunkti. Leita þarf leiða til þess að hluti af námslánum verði styrkur.
+
 Stefna Pírata: [https://x.piratar.is/issue/82/](https://x.piratar.is/issue/82/ "https://x.piratar.is/issue/82/") og [https://x.piratar.is/polity/1/document/11/](https://x.piratar.is/polity/1/document/11/ "https://x.piratar.is/polity/1/document/11/")
 
 ### Förum finnsku leiðina
 
-Tökum okkur finnska menntakerfið til fyrirmyndar í auknum mæli. Stefnum að fjölbreyttara námsmati, auknu jafnvægi á milli bóknáms, verknáms, listnáms og annarra greina, minna heimanámi, smærri bekkjum o.fl.  
-  
+Tökum okkur finnska menntakerfið til fyrirmyndar í auknum mæli. Stefnum að fjölbreyttara námsmati, auknu jafnvægi á milli bóknáms, verknáms, listnáms og annarra greina, minna heimanámi, smærri bekkjum o.fl.
+
 Stefna Pírata: [https://x.piratar.is/issue/73/](https://x.piratar.is/issue/73/ "https://x.piratar.is/issue/73/")
 
 ## 10. Velferðarmál
@@ -319,20 +318,20 @@ Ný stjórnarskrá: “Öllum skal með lögum tryggður réttur til lífsviður
 
 ### Einföldum framfærslukerfið
 
-Píratar vilja einfalda og straumlínulaga öll framfærslukerfin svo að réttindi allra borgara til lágmarksframfærslu og tækifæra séu virt með skilvirkum hætti. Viðmót þjónustustofnana miðist við þarfir notandans; ferlið sé einfaldað, komið í veg fyrir tvíverknað og eyðublaðaburð á milli stofnana. Leitast skal við að samræma félagsbætur, atvinnuleysisbætur, örorkubætur, barnabætur, fæðingarorlof, námslán og önnur stuðningskerfi hins opinbera til að einfalda yfirsýn og tryggja sömu réttindi milli ólíkra hópa.  
-  
+Píratar vilja einfalda og straumlínulaga öll framfærslukerfin svo að réttindi allra borgara til lágmarksframfærslu og tækifæra séu virt með skilvirkum hætti. Viðmót þjónustustofnana miðist við þarfir notandans; ferlið sé einfaldað, komið í veg fyrir tvíverknað og eyðublaðaburð á milli stofnana. Leitast skal við að samræma félagsbætur, atvinnuleysisbætur, örorkubætur, barnabætur, fæðingarorlof, námslán og önnur stuðningskerfi hins opinbera til að einfalda yfirsýn og tryggja sömu réttindi milli ólíkra hópa.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/11/](https://x.piratar.is/polity/1/document/11/ "https://x.piratar.is/polity/1/document/11/")
 
 ### Lýðræðislegir lífeyrissjóðir
 
-Lífeyrissjóðakerfið verði lýðræðisvætt. Stjórn lífeyrissjóða verði í höndum sjóðsfélaga, sem kjósi alla stjórnarmeðlimi í lýðræðislegum kosningum.  
-  
+Lífeyrissjóðakerfið verði lýðræðisvætt. Stjórn lífeyrissjóða verði í höndum sjóðsfélaga, sem kjósi alla stjórnarmeðlimi í lýðræðislegum kosningum.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/235/](https://x.piratar.is/polity/1/document/235/ "https://x.piratar.is/polity/1/document/235/")
 
 ### Skjól fyrir alla
 
-Á Íslandi er kalt og veðrasamt og það er öllum lífsnauðsynlegt að hafa þak yfir höfuðið. Öruggt húsaskjól eru mannréttindi sem tryggja ber öllum borgurum, hvort sem það er í gegnum eign, leigu eða úrræði á vegum hins opinbera. Píratar vilja styðja við leigjendasamtök og fjölbreytt úrval búsetukosta. Píratar vilja grípa til aðgerða til að bregðast við aukinni eftirspurn um húsnæði og standa vörð um réttindi bæði eigenda og leigjenda.  
-  
+Á Íslandi er kalt og veðrasamt og það er öllum lífsnauðsynlegt að hafa þak yfir höfuðið. Öruggt húsaskjól eru mannréttindi sem tryggja ber öllum borgurum, hvort sem það er í gegnum eign, leigu eða úrræði á vegum hins opinbera. Píratar vilja styðja við leigjendasamtök og fjölbreytt úrval búsetukosta. Píratar vilja grípa til aðgerða til að bregðast við aukinni eftirspurn um húsnæði og standa vörð um réttindi bæði eigenda og leigjenda.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/53/](https://x.piratar.is/polity/1/document/53/ "https://x.piratar.is/polity/1/document/53/") og [https://x.piratar.is/issue/41/](https://x.piratar.is/issue/41/ "https://x.piratar.is/issue/41/")
 
 Ný stjórnarskrá: “Öllum skal með lögum tryggður réttur til lífsviðurværis og félagslegs öryggis.”
@@ -344,8 +343,8 @@ Stefna Pírata: [https://x.piratar.is/polity/1/document/53/](https://x.piratar.i
 
 ### Styttum vinnudaginn
 
-Breyta skal lögbundinni vinnuviku úr 40 tímum í 35 tíma. Að tveimur árum liðnum skuli áhrifin af þeirri breytingu metin og ákvörðun tekin um framhaldið.  
-  
+Breyta skal lögbundinni vinnuviku úr 40 tímum í 35 tíma. Að tveimur árum liðnum skuli áhrifin af þeirri breytingu metin og ákvörðun tekin um framhaldið.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/34/](https://x.piratar.is/polity/1/document/34/ "https://x.piratar.is/polity/1/document/34/")
 
 ## 11. Landbúnaður
@@ -354,14 +353,14 @@ Stefna Pírata: [https://x.piratar.is/polity/1/document/34/](https://x.piratar.i
 
 ### Endurskoðum búvörusamninga hið fyrsta
 
-Stefna Pírata er að nýsamþykktir búvörusamningar skuli aflagðir og nýju landbúnaðarkerfi komið á. Stjórnvöld skuli leita leiða til endurskoðunar samninganna hið fyrsta, í samráði við bæði bændur og neytendur.  
-  
+Stefna Pírata er að nýsamþykktir búvörusamningar skuli aflagðir og nýju landbúnaðarkerfi komið á. Stjórnvöld skuli leita leiða til endurskoðunar samninganna hið fyrsta, í samráði við bæði bændur og neytendur.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/267/](https://x.piratar.is/polity/1/document/267/ "https://x.piratar.is/polity/1/document/267/")
 
 ### Afnemum tolla á landbúnaðarvörum í skrefum
 
-Tollar á matvæli og innflutningshömlur, aðrar en af heilbrigðisástæðum, lækki í áföngum og falli að lokum niður.  
-  
+Tollar á matvæli og innflutningshömlur, aðrar en af heilbrigðisástæðum, lækki í áföngum og falli að lokum niður.
+
 Stefna Pírata: [https://x.piratar.is/issue/286/](https://x.piratar.is/issue/286/ "https://x.piratar.is/issue/286/")
 
 ### Afnemum undanþágur matvælafyrirtækja frá samkeppnislögum
@@ -372,8 +371,8 @@ Stefna Pírata: [https://x.piratar.is/polity/1/document/267/](https://x.piratar.
 
 ### Skynsamlegur stuðningur gagnast bæði bændum og neytendum
 
-Virkir bændur sem viðhafa viðurkenndar starfsaðferðir eiga rétt á grunnstuðningi. Grunnstuðningi er ætlað að tryggja afkomuöryggi bænda. Stjórnvöldum ber að skilgreina hvað telst virkur bóndi og upphæð fulls grunnstuðnings. Viðurkenndar starfsaðferðir teljast varða fæðuöryggi, dýravelferð, velferð plantna, sjálfbæra landnýtingu, loftslagsvernd, vatnsvernd, ástand ræktaðs lands og fleira. Sérstakur stuðningur ætti að bjóðast ungum bændum og fyrir valkvæð verkefni sem stuðla að vernd loftslags og umhverfis, dýravelferð, vöruþróun, tækniþróun, upprunamerkingu o.fl.  
-  
+Virkir bændur sem viðhafa viðurkenndar starfsaðferðir eiga rétt á grunnstuðningi. Grunnstuðningi er ætlað að tryggja afkomuöryggi bænda. Stjórnvöldum ber að skilgreina hvað telst virkur bóndi og upphæð fulls grunnstuðnings. Viðurkenndar starfsaðferðir teljast varða fæðuöryggi, dýravelferð, velferð plantna, sjálfbæra landnýtingu, loftslagsvernd, vatnsvernd, ástand ræktaðs lands og fleira. Sérstakur stuðningur ætti að bjóðast ungum bændum og fyrir valkvæð verkefni sem stuðla að vernd loftslags og umhverfis, dýravelferð, vöruþróun, tækniþróun, upprunamerkingu o.fl.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/267/](https://x.piratar.is/polity/1/document/267/ "https://x.piratar.is/polity/1/document/267/")
 
 # 12. Eflum byggðir
@@ -384,16 +383,16 @@ Stefna Pírata: [https://x.piratar.is/polity/1/document/267/](https://x.piratar.
 
 Til þess að það sé raunverulega hægt að búa um allt land þarf grunnþjónusta að vera til staðar fyrir alla landsmenn og sveitarfélög þurfa aukið fjármagn til að geta sinnt sínum lögbundnu skyldum. Ákveðið hlutfall skatta af rekstri og störfum fyrirtækja skal renna beint til þess sveitarfélags þar sem starfsemi eða verslun fer fram. Tryggt skal að farið sé að lögum sem þegar eru í gildi um fjármögnun þeirra verkefna sem hafa verið færð frá ríki til sveitarfélaga. Ætíð skal gera ráð fyrir að breytingar séu gerðar í samráði við heimamenn og að ákvarðanavald sé í höndum nærsamfélagsins.
 
-Ný stjórnarskrá: “Á hendi sveitarfélaga skulu vera þeir þættir opinberrar þjónustu sem best þykir fyrir komið undir staðbundinni stjórn þeirra svo sem nánar skal kveðið á um í lögum.”  
-  
+Ný stjórnarskrá: “Á hendi sveitarfélaga skulu vera þeir þættir opinberrar þjónustu sem best þykir fyrir komið undir staðbundinni stjórn þeirra svo sem nánar skal kveðið á um í lögum.”
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/152/](https://x.piratar.is/polity/1/document/152/ "https://x.piratar.is/polity/1/document/152/")
 
 Ný stjórnarskrá: [http://www.stjornlagarad.is/starfid/frumvarp/grein/item35400/](http://www.stjornlagarad.is/starfid/frumvarp/grein/item35400/ "http://www.stjornlagarad.is/starfid/frumvarp/grein/item35400/")
 
 ### Almennilegar almenningssamgöngur
 
-Tryggðar verði viðunandi almenningssamgöngur til allra þéttbýlisstaða á landinu.  
-  
+Tryggðar verði viðunandi almenningssamgöngur til allra þéttbýlisstaða á landinu.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/238/](https://x.piratar.is/polity/1/document/238/ "https://x.piratar.is/polity/1/document/238/")
 
 [Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp12)
@@ -404,14 +403,14 @@ Stefna Pírata: [https://x.piratar.is/polity/1/document/238/](https://x.piratar.
 
 ### Ferðaþjónusta til framtíðar
 
-Ferðaþjónusta er orðin einn allra mikilvægasti atvinnuvegur landsins og auðsýnt að ferðamennskan auðgar mannlífið. Uppbygging ferðaþjónustunnar krefst skýrrar stefnumótunar, þar sem sjálfbærni og fagmennska eru höfð að leiðarljósi við uppbyggingu á þjónustu, samgöngum og aðbúnaði á viðkomustöðum ferðamanna. Tryggja þarf viðhald og uppbyggingu á innviðum landsins samhliða auknum ferðamannastraumi og dreifa álagi af viðkvæmum svæðum. Aukinn hluti hagnaðar vegna ferðaþjónustu á hverjum stað verði eftir í nærsamfélaginu. Framkvæmdir verði afturkræfar, falli að staðháttum og spilli ekki upplifun gesta eða réttindum komandi kynslóða.  
-  
+Ferðaþjónusta er orðin einn allra mikilvægasti atvinnuvegur landsins og auðsýnt að ferðamennskan auðgar mannlífið. Uppbygging ferðaþjónustunnar krefst skýrrar stefnumótunar, þar sem sjálfbærni og fagmennska eru höfð að leiðarljósi við uppbyggingu á þjónustu, samgöngum og aðbúnaði á viðkomustöðum ferðamanna. Tryggja þarf viðhald og uppbyggingu á innviðum landsins samhliða auknum ferðamannastraumi og dreifa álagi af viðkvæmum svæðum. Aukinn hluti hagnaðar vegna ferðaþjónustu á hverjum stað verði eftir í nærsamfélaginu. Framkvæmdir verði afturkræfar, falli að staðháttum og spilli ekki upplifun gesta eða réttindum komandi kynslóða.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/238/](https://x.piratar.is/polity/1/document/238/ "https://x.piratar.is/polity/1/document/238/")
 
 ### Gistináttagjaldið til sveitarfélaganna
 
-Gistináttagjald verði notað til að fjármagna betur uppbyggingu innviða í ferðaþjónustu. Gjaldið renni í auknum mæli til sveitarfélaga á starfssvæði gistiþjónustunnar og verði prósentuhlutfall af verði gistingar, frekar en föst upphæð.  
-  
+Gistináttagjald verði notað til að fjármagna betur uppbyggingu innviða í ferðaþjónustu. Gjaldið renni í auknum mæli til sveitarfélaga á starfssvæði gistiþjónustunnar og verði prósentuhlutfall af verði gistingar, frekar en föst upphæð.
+
 Stefna Pírata: [https://x.piratar.is/polity/1/document/238/](https://x.piratar.is/polity/1/document/238/ "https://x.piratar.is/polity/1/document/238/")
 
 ### Langtímaáætlun með öryggi og umhverfisvernd að leiðarljósi
