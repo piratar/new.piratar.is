@@ -23,7 +23,7 @@ is:
   - title: Fulltrúar í sveitastjórnum
     url: "/folkid?category=municipal"
   - title: Framkvæmdaráð
-    url: "/folkid?category=framkvaemdarad"
+    url: "/stjorn-pirata?category=framkvaemdarad"
   - title: Úrskurðarnefnd
     url: "/folkid?category=urskurdarnefnd"
   - title: Trúnaðarráð
