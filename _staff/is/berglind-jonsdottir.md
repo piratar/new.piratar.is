@@ -1,6 +1,7 @@
 ---
 title: Berglind Jónsdóttir
 image: ''
-description: Starfsmaður
+description: Starfsmaður Pírata
 lang: is
+
 ---
