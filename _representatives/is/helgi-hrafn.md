@@ -14,6 +14,8 @@ social:
   instagram: https://www.instagram.com/helgihg/
 external: https://www.althingi.is/altext/cv/is/?nfaerslunr=1166
 roles:
+- title: Allsherjar- og menntamálanefnd 2018 - 2019
+  url: https://www.althingi.is/thingnefndir/fastanefndir/allsherjar--og-menntamalanefnd/
 - title: Alþingismaður Reykjavíkurkjördæmis norður 2013–2016 og síðan 2017
 - title: 5. varaforseti Alþingis síðan 2019.
 
