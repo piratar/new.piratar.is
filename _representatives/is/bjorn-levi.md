@@ -11,12 +11,27 @@ email: bjornlevi@althingi.is
 social:
   facebook: https://www.facebook.com/BjornLeviGunnarsson/
   twitter: https://twitter.com/_bjornlevi_
+  instagram: https://www.instagram.com/bjorn_levi/
+info-text: 'Björn Leví Gunnarsson er sá þingmaður sem er hvað frægastur fyrir er orðinn
+  frægur fyrir að spyrja framkvæmdavaldið óþægilegra spurninga.  Á nýliðnu 149. þings
+  voru fyrirpsurnir þingmanna samtals 570. Flestar komu frá Birni Leví Gunnarssyni,
+  alls 81. '
+external: https://www.althingi.is/altext/cv/is/?nfaerslunr=1215
+roles:
+- title: Alþingismaður Reykjavíkurkjördæmis norður 2016–2017, alþingismaður Reykjavíkurkjördæmis
+    suður síðan 2017 (Píratar).
+- title: Íslandsdeild þingmannaráðstefnunnar um norðurskautsmál 2017–.
+  url: https://www.althingi.is/althjodastarf/islandsdeildir/thingmannaradstefnan-um-nordurskautsmal/
+- title: Fjárlaganefnd 2016–, kjörbréfanefnd 2016–.
+  url: https://www.althingi.is/thingnefndir/fastanefndir/fjarlaganefnd/
 
 ---
-Áður en ég tók til starfa á Alþingi Íslendinga þá vann ég sem hugbúnaðarsérfræðingur hjá Menntamálastofnun. Menntun mín er á sviði upplýsingatækni í námi (online social learning) — það þýðir að ég skoða hvernig samskipti fólks á netinu hafa áhrif á nám. Ég er menntaður í kerfisgreiningu og hvernig/af hverju þau virka eða ekki. Ég berst gegn notkun rökvillna í stjórnmálum sem og annars staðar. Ég tek þátt í stjórnmálum af því að ég lít á þau sem kerfi sem virkar ekki og sem ég vil laga. Ég lít á þingið og stjórnkerfið sem þjónustutæki en ekki stjórntæki. Lýðræði kemur frá fólkinu en ekki til fólksins.
+Björn Leví er með M.A. í tölvunarfræði, tveggja barna faðir, með óhemjandi áhuga á tölfræði. Hann hefur verið varaþingmaður og þingmaður Pírata, þekkir menntakerfið inn og út, og ákaft talað fyrir sanngjarnara kosningakerfi.
 
-Ég hef lifað og starfað út um allt. Ég hef búið á Norðurlandi, Vesturlandi, Suðurlandi, höfuðborgarsvæðinu og erlendis. Ég hef unnið í sveit, fiskvinnslu, byggingarvinnu, opinberri þjónustu, tölvuþjónustu, við gæðastjórnun í alþjóðlegu leikjafyrirtæki og kennt í leik- og grunnskóla.
+Áður en Björn Leví tók til starfa á Alþingi Íslendinga vann hann sem hugbúnaðarsérfræðingur hjá Menntamálastofnun. Björn er með mikla sérþekkingu á sviði upplýsingatækni í námi (online social learning), sem skoðar hvernig samskipti fólks á netinu hafa áhrif á nám. Björn er menntaður í kerfisgreiningu. Eitt af því sem mest truflar Björn Leví er notkun rökvillna í stjórnmálum en hann hefur óbilandi trú á beinu lýðræði. Lýðræði frá fólkinu en ekki til fólksins.. Björn Leví lítur á stjórnmálin sem bilað kerfi sem virkar ekki sem hann vill laga. Björn vill að Alþingi og stjórnkerfið sé þjónustutæki en ekki stjórntæki. 
 
-Markmið mitt í stjórnmálum er að búa til betra; sanngjarnara, heiðarlegra og mannlegra kerfi. Ég geri mér fulla grein fyrir því að slíkt kerfi verður aldrei tilbúið vegna þess að samfélagið þróast og breytist. En það er nákvæmlega ástæðan fyrir því að það þarf svo nauðsynlega á uppfærslu að halda í dag. Þær breytingar sem hafa orðið á samskiptum manna á milli með nýrri tækni til þess að tjá og skilja hafa haft gríðarleg áhrif á það hvernig samfélagið í heild hagar sér. Samfélagið býst við meiri ábyrgð, meiri upplýsingum, meiri samvinnu. Kerfið verður ekki sanngjarnara nema fólk beri ábyrgð. Kerfið verður ekki heiðarlegra nema með því að allir fái aðgang að upplýsingum. Kerfið verður ekki mannlegra nema með meiri samvinnu.
+Björn Leví hefur starfað um víðan völl. Hann hefur búið á Norðurlandi, Vesturlandi, Suðurlandi, höfuðborgarsvæðinu og erlendis. Hann hefur starfað  í sveit, fiskvinnslu, byggingarvinnu, opinberri þjónustu, tölvuþjónustu, við gæðastjórnun í alþjóðlegu leikjafyrirtæki og kennt í leik- og grunnskóla.
 
-Stjórnmál hafa hingað til snúist að miklu leyti til um völd. Nálgun Pírata er hins vegar valddreifing. Með valddreifingu næst samvinna. Upplýsingar eru líka valdatæki fyrir þá sem búa yfir þeim. Með dreifingu upplýsinga er völdum dreift. Valdbeiting er ekki sanngjörn. Vald spillir.
+Markmið Björns eru að búa til betra; sanngjarnara, heiðarlegra og mannlegra stjórnkerfi. Samfélög sem þróast og breytast þurfa uppfærslu að mati Björns.
+
+„Þær breytingar sem hafa orðið á samskiptum manna á milli með nýrri tækni til þess að tjá og skilja hafa haft gríðarleg áhrif á það hvernig samfélagið í heild hagar sér. Samfélagið býst við meiri ábyrgð, meiri upplýsingum, meiri samvinnu. Kerfið verður ekki sanngjarnara nema fólk beri ábyrgð. Kerfið verður ekki heiðarlegra nema með því að allir fái aðgang að upplýsingum. Kerfið verður ekki mannlegra nema með meiri samvinnu. Stjórnmál hafa hingað til snúist að miklu leyti til um völd. Nálgun Pírata er hins vegar valddreifing. Með valddreifingu næst samvinna. Upplýsingar eru líka valdatæki fyrir þá sem búa yfir þeim. Með dreifingu upplýsinga er völdum dreift. Valdbeiting er ekki sanngjörn. Vald spillir."
