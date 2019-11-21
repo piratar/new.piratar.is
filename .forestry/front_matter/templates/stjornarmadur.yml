@@ -26,5 +26,6 @@ fields:
   name: description
   label: description
 pages:
+- _administration/guðmundur-arnar-guðmundsson.md
 - _administration/björn-þór-jóhannesson.md
 - _administration/unnar-þór-sæmundsson.md
