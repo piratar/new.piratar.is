@@ -11,12 +11,19 @@ email: helgihrafn@althingi.is
 social:
   facebook: https://www.facebook.com/helgihg
   twitter: https://twitter.com/helgihg
+  instagram: https://www.instagram.com/helgihg/
+external: https://www.althingi.is/altext/cv/is/?nfaerslunr=1166
+roles:
+- title: Alþingismaður Reykjavíkurkjördæmis norður 2013–2016 og síðan 2017
+- title: 5. varaforseti Alþingis síðan 2019.
 
 ---
-Ég fæddist 22. október 1980 í Reykjavík. Hef starfað við forritun og kerfisstjórnun í næstum því 14 ár fyrir ýmis fyrirtæki og viðskiptavini. Áhugamaður um allt sem varðar mannskepnuna og hennar hætti, sérstaklega tungumál og trúarbrögð. Ég er mikið fyrir að prófa að búa í öðrum löndum og hef nú búið í þremur, þ.e. á Íslandi, Finnlandi og Kanada. – Þau koma til með að verða þó nokkuð mikið fleiri í framtíðinni, leyfi örlögin.
+Helgi Hrafn Gunnarsson er Alþingismaður Reykjavíkurkjördæmis norður. Fyrst á árunum 2013–2016 en settist aftur á þing árið 2017. 
 
-Ég hef dundað mér við að læra ýmislegt, þar á meðal hin ýmsu tungumál svosem þýsku, frönsku og klassíska arabísku, mannkynssögu, alþjóðastjórnmál (sérstaklega mið-austurlönd), eðlisfræði, einstaka stærðfræðiþraut og allt sem varðar mannkyn og vísindi.
+Helgi Hrafn er fæddur 22. október 1980 í Reykjavík. Hann hefur starfað við forritun og kerfisstjórnun í um 15 ár. Allt sem varðar mannskepnuna og hennar hætti kveikir hjá honum áhuga, en sérstaklega tungumál og trúarbrögð. 
 
-Ég er Pírati vegna þess að síðan sirka um aldamótin 2000 hefur ágangur ýmissa ríkisstjórna og stórfyrirtækja gegn upplýsingafrelsi gengið svo langt umfram velsæmis- og skynsemismörk að ekki verður lengur við unað.
+Helgi Hrafn hefur mikla námsþörf og eru tungumál ríkjandi áhugamál, en hann hefur m.a. lært þýsku, frönsku og klassíska arabísku, mannkynssögu, alþjóðastjórnmál, eðlisfræði, einstaka stærðfræðiþraut og allt sem varðar mannkyn og vísindi.
 
-Internetið er það besta sem hefur komið fyrir mannkyn síðan prentvélin var fundin upp, en nú er raunverulega hætta á því að þau tækifæri sem internetið býður upp á verði skemmd með nær algeru skilningsleysi núverandi yfirvalda á þessum nýja heimi, upplýsingaöldinni.
+Helgi Hrafn er Pírati vegna þess að honum finnst að síðan um aldamótin 2000 hefur ágangur ýmissa ríkisstjórna og stórfyrirtækja gegn upplýsingafrelsi gengið svo langt umfram velsæmis- og skynsemismörk að ekki verður lengur við unað.
+
+Internetið telur Helgi Hrafn það besta sem hefur komið fyrir mannkynið síðan prentvélin var fundin upp, en hann sér nú raunverulega hættu á því að þau tækifæri sem internetið býður upp á verði skemmd með nær algeru skilningsleysi núverandi yfirvalda á þessum nýja heimi, upplýsingaöldinni.
