@@ -1,8 +1,7 @@
 ---
-title: Berglind Jónsdóttir
+title: Baldur Karl Magnússon
 image: ''
-description: Starfsmaður Pírata
+description: Starfsmaður þingflokks Pírata
 lang: is
-published: false
 
 ---
