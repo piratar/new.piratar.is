@@ -203,15 +203,11 @@ Píratar vilja stuðla að rafbílavæðingu Íslands, m.a. með því að huga 
 
 * [Stefna Pírata í rafbílavæðingu](https://x.piratar.is/polity/1/document/200/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp7)
-
 ## 7. Efnahagsmál
 
 ### Upplýst nálgun
 
 Markmið efnahagsstefnu er að styðja við virka samkeppni, nýsköpun og hagvöxt sem staðið geta undir velferð og grunnstoðum samfélagsins. Píratar “trúa” hvorki á einkarekstur né opinberan rekstur, heldur vilja beita því sem best hefur reynst á hverju sviði fyrir sig.
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp7)
 
 ### Skattheimta standi undir grunnstoðum
 
@@ -219,15 +215,11 @@ Markmið efnahagsstefnu er að styðja við virka samkeppni, nýsköpun og hagv�
 
 * [Efnahagsstefna Pírata](https://x.piratar.is/issue/226/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp7)
-
 ### Bindum enda á skattaundanskot og þunna eiginfjármögnun
 
 Við viljum leita uppi fjársjóði Íslendinga í skattaskjólum og tryggja að alþjóðleg fyrirtæki sem starfa á Íslandi greiði skatta á Íslandi, með því að koma í veg fyrir að hagnaði þeirra sé komið úr landi sem vaxtagreiðslur til móðurfyrirtækis.
 
 * [Stefna Pírata um þunna fjármögnun](https://x.piratar.is/polity/1/document/181/)
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp7)
 
 ### Fjármál hins opinbera verði opin, tölvutæk, gagnsæ og sundurliðuð
 
@@ -236,15 +228,11 @@ Bókhald ríkissjóðs og ríkisstofnana skal gert aðgengilegt á tölvutæku f
 * [Stefna Pírata um ríkissjóð og skattheimtu](https://x.piratar.is/issue/58/)
 * [Efnahagsstefna Pírata](https://x.piratar.is/issue/226/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp7)
-
 ### Ábyrg efnahagsstjórn
 
 Alþingi á að setja langtímaáætlun í opinberri þjónustu og hvorki að skila afgangi né safna skuldum nema í samræmi við langtímaáætlanir. Til að tryggja hagsmuni almennings skulu ábyrgð, stöðugleiki, sjálfbærni og langtímamarkmið vera skýr í öllum efnahagsmálum.
 
 * [Efnahagsstefna Pírata](https://x.piratar.is/polity/1/document/207/)
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp7)
 
 ## 8. Heilbrigðismál
 
@@ -260,23 +248,18 @@ Við eigum öll rétt á fullnægjandi heilbrigðisþjónustu; jafnt aðgengi a�
 
 “Öllum skal með lögum tryggður réttur til að njóta andlegrar og líkamlegrar heilsu að hæsta marki sem unnt er, þ.m.t. réttur á heilnæmu umhverfi, fersku vatni og ómenguðu andrúmslofti. Öllum skal með lögum tryggður réttur til aðgengilegrar, viðeigandi og fullnægjandi heilbrigðisþjónustu.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp8)
-
 ### Átak í geðheilbrigðismálum – Þjónusta sálfræðinga verði hluti af sjúkratryggingum
 
 Geðheilbrigði er eitt brýnasta viðfangsefni okkar tíma og stjórnvöld þurfa að gera mun betur í að styðja við gjaldfrjálsa geðheilbrigðisþjónustu. Sérstaklega er mikilvægt að ungmenni með geðrænar raskanir fái viðeigandi og fullnægjandi aðstoð. Stefnt skal að því að þjónusta sálfræðinga verði hluti af sjúkratryggingum.
 
 * [Stefna Pírata um að þjónusta sérfræðinga verði hluti af sjúkratryggingum](https://x.piratar.is/issue/292/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp8)
-
 ### Afglæpavæðing vímuefna
 
 Refsistefnan hefur brugðist. Vímuefnamisnotkun er heilbrigðisvandamál sem þarf að leysa sem slíkt. Nálgumst fíkn sem heilsufarslegt og félagslegt vandamál frekar en sem glæp og veitum vímuefnaneytendum í vanda aðstoð í stað þess að refsa þeim.
 
 * [Fíkni- og vímuefnastefna Pírata](https://x.piratar.is/issue/38/)
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp8)
+* Frumvarp þingflokks Pírata um afglæpavæðingu neysluskammta: [https://www.althingi.is/thingstorf/thingmalalistar-eftir-thingum/ferill//?ltg=150&mnr=23](https://www.althingi.is/thingstorf/thingmalalistar-eftir-thingum/ferill//?ltg=150&mnr=23 "https://www.althingi.is/thingstorf/thingmalalistar-eftir-thingum/ferill//?ltg=150&mnr=23")
 
 ### Þjónusta tannlækna verði hluti af sjúkratryggingum
 
@@ -284,15 +267,11 @@ Tannheilsa er órjúfanlegur þáttur í heilsu einstaklinga og engin ástæða 
 
 * [Stefna Pírata um tannlækningar](https://x.piratar.is/issue/293/)
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp8)
-
 ### Nýr spítali á góðum stað til framtíðar
 
 Píratar vilja halda áfram þeirri uppbyggingu sem hafin er við Landspítalann við Hringbraut; viðhaldi, endurnýjun á tækjakosti og byggingu sjúkrahótels. Á sama tíma viljum við setja af stað faglega, óháða staðarvalsgreiningu á helstu mögulegum staðsetningum nýja Landspítalans á höfuðborgarsvæðinu. Þeirri úttekt ætti að vera lokið innan árs og ætti að taka mið af svæðisskipulagi höfuðborgarsvæðisins og þróun íslenskrar heilbrigðisþjónustu til framtíðar. Í kjölfarið verði landsmönnum falið að velja milli helstu valkosta í vandaðri viðhorfskönnun eða þjóðaratkvæðagreiðslu.
 
 * [Stefna Pírata um staðsetningarval nýs spítala](https://x.piratar.is/issue/215/)
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp7)
 
 ## 9. Menntamál
 
@@ -305,23 +284,17 @@ Aðgangur allra að menntun eru mikilvæg mannréttindi sem stuðla að jafnari 
 Ný stjórnarskrá: “Öllum skal í lögum tryggður réttur til almennrar menntunar og fræðslu við sitt hæfi. Öllum þeim sem skólaskylda nær til skal standa til boða menntun án endurgjalds.  
 Menntun skal miða að alhliða þroska hvers og eins, gagnrýninni hugsun og vitund um mannréttindi, lýðræðisleg réttindi og skyldur.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp8)
-
 ### Leiðréttum grunnframfærslu LÍN
 
 Grunnframfærsla LÍN skal leiðrétt og miðuð við eðlilegar fjárþarfir fólks í námi. Stefnt skal að afnámi tekjuskerðingar námslána og því að LÍN veiti nemendum lán við upphaf náms, svo að þeir þurfi ekki að leita til einkaaðila á þeim tímapunkti. Leita þarf leiða til þess að hluti af námslánum verði styrkur.  
   
 Stefna Pírata: [https://x.piratar.is/issue/82/](https://x.piratar.is/issue/82/ "https://x.piratar.is/issue/82/") og [https://x.piratar.is/polity/1/document/11/](https://x.piratar.is/polity/1/document/11/ "https://x.piratar.is/polity/1/document/11/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp8)
-
 ### Förum finnsku leiðina
 
 Tökum okkur finnska menntakerfið til fyrirmyndar í auknum mæli. Stefnum að fjölbreyttara námsmati, auknu jafnvægi á milli bóknáms, verknáms, listnáms og annarra greina, minna heimanámi, smærri bekkjum o.fl.  
   
 Stefna Pírata: [https://x.piratar.is/issue/73/](https://x.piratar.is/issue/73/ "https://x.piratar.is/issue/73/")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp9)
 
 ## 10. Velferðarmál
 
@@ -333,13 +306,9 @@ Afnemum öll skilyrði á borð við fyrirkomulag búsetuforms, hjúskaparstöð
 
 Stefna Pírata: [https://x.piratar.is/polity/1/document/196/](https://x.piratar.is/polity/1/document/196/ "https://x.piratar.is/polity/1/document/196/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp9)
-
 ### Bætum kjör aldraðra
 
 Ísland var áður land yngri kynslóðanna þar sem hlutfallslega voru miklu fleiri ungir en eldri. Nú er að myndast jafnvægi í fólksfjöldadreifingu milli yngri og eldri Íslendinga og vegna þess verðum við að byggja upp lífeyriskerfi sem virkar fyrir núverandi aldurssamsetningu samfélagsins. Búsetuúrræði fyrir aldraða þarf að bæta og starfslok þurfa að vera sveigjanlegri en nú er.
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp9)
 
 ### Lögfestum lágmarksframfærsluviðmið
 
@@ -348,23 +317,17 @@ Allir eiga rétt á mannsæmandi framfærslu í auðugu landi. Lágmarksframfær
 Stefna Pírata: [https://x.piratar.is/issue/41/](https://x.piratar.is/issue/41/ "https://x.piratar.is/issue/41/")  
 Ný stjórnarskrá: “Öllum skal með lögum tryggður réttur til lífsviðurværis og félagslegs öryggis.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp9)
-
 ### Einföldum framfærslukerfið
 
 Píratar vilja einfalda og straumlínulaga öll framfærslukerfin svo að réttindi allra borgara til lágmarksframfærslu og tækifæra séu virt með skilvirkum hætti. Viðmót þjónustustofnana miðist við þarfir notandans; ferlið sé einfaldað, komið í veg fyrir tvíverknað og eyðublaðaburð á milli stofnana. Leitast skal við að samræma félagsbætur, atvinnuleysisbætur, örorkubætur, barnabætur, fæðingarorlof, námslán og önnur stuðningskerfi hins opinbera til að einfalda yfirsýn og tryggja sömu réttindi milli ólíkra hópa.  
   
 Stefna Pírata: [https://x.piratar.is/polity/1/document/11/](https://x.piratar.is/polity/1/document/11/ "https://x.piratar.is/polity/1/document/11/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp10)
-
 ### Lýðræðislegir lífeyrissjóðir
 
 Lífeyrissjóðakerfið verði lýðræðisvætt. Stjórn lífeyrissjóða verði í höndum sjóðsfélaga, sem kjósi alla stjórnarmeðlimi í lýðræðislegum kosningum.  
   
 Stefna Pírata: [https://x.piratar.is/polity/1/document/235/](https://x.piratar.is/polity/1/document/235/ "https://x.piratar.is/polity/1/document/235/")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp10)
 
 ### Skjól fyrir alla
 
@@ -374,22 +337,16 @@ Stefna Pírata: [https://x.piratar.is/polity/1/document/53/](https://x.piratar.i
 
 Ný stjórnarskrá: “Öllum skal með lögum tryggður réttur til lífsviðurværis og félagslegs öryggis.”
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp10)
-
 ### Leiðréttum stöðuna fyrir leigjendur
 
 Stjórnvöld þurfa að setja hagsmuni leigjenda í forgang með stöðugum og regluvörðuðum leigumarkaði. Þannig komum við í veg fyrir miklar sveiflur á húsnæðismarkaði og bjóðum fólki upp á aukinn sveigjanleika og öryggi. Það þýðir að fólk getur valið að leigja til lengri eða skemmri tíma án þess að óttast að vera sagt upp húsnæði með litlum fyrirvara. Möguleikinn á að leigja til langframa nýtist bæði þeim sem vilja spara fyrir eigin húsnæði og þeim sem hugnast ekki að kaupa húsnæði.  
 Stefna Pírata: [https://x.piratar.is/polity/1/document/53/](https://x.piratar.is/polity/1/document/53/ "https://x.piratar.is/polity/1/document/53/")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp10)
 
 ### Styttum vinnudaginn
 
 Breyta skal lögbundinni vinnuviku úr 40 tímum í 35 tíma. Að tveimur árum liðnum skuli áhrifin af þeirri breytingu metin og ákvörðun tekin um framhaldið.  
   
 Stefna Pírata: [https://x.piratar.is/polity/1/document/34/](https://x.piratar.is/polity/1/document/34/ "https://x.piratar.is/polity/1/document/34/")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp)
 
 ## 11. Landbúnaður
 
@@ -401,15 +358,11 @@ Stefna Pírata er að nýsamþykktir búvörusamningar skuli aflagðir og nýju 
   
 Stefna Pírata: [https://x.piratar.is/polity/1/document/267/](https://x.piratar.is/polity/1/document/267/ "https://x.piratar.is/polity/1/document/267/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp10)
-
 ### Afnemum tolla á landbúnaðarvörum í skrefum
 
 Tollar á matvæli og innflutningshömlur, aðrar en af heilbrigðisástæðum, lækki í áföngum og falli að lokum niður.  
   
 Stefna Pírata: [https://x.piratar.is/issue/286/](https://x.piratar.is/issue/286/ "https://x.piratar.is/issue/286/")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp4)
 
 ### Afnemum undanþágur matvælafyrirtækja frá samkeppnislögum
 
@@ -422,8 +375,6 @@ Stefna Pírata: [https://x.piratar.is/polity/1/document/267/](https://x.piratar.
 Virkir bændur sem viðhafa viðurkenndar starfsaðferðir eiga rétt á grunnstuðningi. Grunnstuðningi er ætlað að tryggja afkomuöryggi bænda. Stjórnvöldum ber að skilgreina hvað telst virkur bóndi og upphæð fulls grunnstuðnings. Viðurkenndar starfsaðferðir teljast varða fæðuöryggi, dýravelferð, velferð plantna, sjálfbæra landnýtingu, loftslagsvernd, vatnsvernd, ástand ræktaðs lands og fleira. Sérstakur stuðningur ætti að bjóðast ungum bændum og fyrir valkvæð verkefni sem stuðla að vernd loftslags og umhverfis, dýravelferð, vöruþróun, tækniþróun, upprunamerkingu o.fl.  
   
 Stefna Pírata: [https://x.piratar.is/polity/1/document/267/](https://x.piratar.is/polity/1/document/267/ "https://x.piratar.is/polity/1/document/267/")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp10)
 
 # 12. Eflum byggðir
 
@@ -457,20 +408,14 @@ Ferðaþjónusta er orðin einn allra mikilvægasti atvinnuvegur landsins og au�
   
 Stefna Pírata: [https://x.piratar.is/polity/1/document/238/](https://x.piratar.is/polity/1/document/238/ "https://x.piratar.is/polity/1/document/238/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp12)
-
 ### Gistináttagjaldið til sveitarfélaganna
 
 Gistináttagjald verði notað til að fjármagna betur uppbyggingu innviða í ferðaþjónustu. Gjaldið renni í auknum mæli til sveitarfélaga á starfssvæði gistiþjónustunnar og verði prósentuhlutfall af verði gistingar, frekar en föst upphæð.  
   
 Stefna Pírata: [https://x.piratar.is/polity/1/document/238/](https://x.piratar.is/polity/1/document/238/ "https://x.piratar.is/polity/1/document/238/")
 
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp12)
-
 ### Langtímaáætlun með öryggi og umhverfisvernd að leiðarljósi
 
 Gerð verði langtímaáætlun um skipulag og uppbyggingu ferðaþjónustu á Íslandi. Sú langtímaáætlun miði m.a. að því að tryggja vernd íslenskrar náttúru, efla samráð ólíkra aðila í ferðaþjónustu, styðja við sjálfsákvörðunarrétt nærsamfélaga, tryggja fullnægjandi menntun í ferðaþjónustu, tryggja öryggi ferðamanna, auka framlög til björgunarsveita og dreifa álagi vegna ferðamannastraums á fleiri staði á landinu.
 
 Stefna Pírata: [https://x.piratar.is/polity/1/document/238/](https://x.piratar.is/polity/1/document/238/ "https://x.piratar.is/polity/1/document/238/")
-
-[Upp](https://piratar.is/kosningar/kosningarforsida/frambod-2016/framtidarsyn-pirata/#Upp12)
