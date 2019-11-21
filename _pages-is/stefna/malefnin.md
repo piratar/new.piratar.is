@@ -129,7 +129,7 @@ Miðhálendið er ein dýrmætasta perla landsins. Þar má finna eldfjöll, jö
 
 Píratar vilja stuðla að rafbílavæðingu Íslands, m.a. með því að huga að innviðum og með fjárhagslegum ívilnunum sem stefni að því að auka hlutfall rafbíla. Almenn orkumála- og umhverfisstefna ætti að innihalda markmið um rafbílavæðingu og gera nauðsynlegar ráðstafanir til að ná þeim markmiðum.  
 
-# FRAMTÍÐIN OKKAR
+# **FRAMTÍÐIN OKKAR**
 
 Framundan eru miklar breytingar á heiminum og það skiptir máli hvernig við bregðumst við þeim.  
 Framtíðin er okkar ef við tökum hana í okkar hendur.
