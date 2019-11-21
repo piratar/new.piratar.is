@@ -1,0 +1,16 @@
+---
+label: Starfsfólk
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: image
+  label: image
+- type: text
+  name: description
+  label: description
+- type: text
+  name: lang
+  label: lang
