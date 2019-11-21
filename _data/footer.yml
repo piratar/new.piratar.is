@@ -85,10 +85,8 @@ is:
     cta: true
   - title: Grasrótarinn
     url: https://x.piratar.is/polity/1/tasks/
-  - title: Taktu þátt í starfinu
-    url: "/takathatt"
-  - title: Bóka viðburð í Tortuga
-    url: "/tortuga-boka"
+  - title: Píratar á Github
+    url: https://github.com/piratar
 - title: Tortúga og rekstur
   url: ''
   email: piratar@piratar.is
