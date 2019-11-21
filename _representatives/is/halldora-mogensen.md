@@ -4,7 +4,7 @@ layout: representative
 lang: is
 category: parliament
 description: Þingmaður Pírata
-image: "/assets/img/halldora-mogensen.jpg"
+image: "/uploads/halldora-headshot.jpg"
 representative: halldóra-mogensen
 email: halldoram@althingi.is
 details: Reykjavíkurkjördæmi norður
