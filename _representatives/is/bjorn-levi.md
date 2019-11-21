@@ -26,9 +26,9 @@ roles:
   url: https://www.althingi.is/thingnefndir/fastanefndir/fjarlaganefnd/
 
 ---
-Björn Leví er með M.A. í tölvunarfræði, tveggja barna faðir, með óhemjandi áhuga á tölfræði. Hann hefur verið varaþingmaður og þingmaður Pírata, þekkir menntakerfið inn og út, og ákaft talað fyrir sanngjarnara kosningakerfi.
+Björn Leví er tveggja barna faðir, með óhemjandi áhuga á tölfræði. Hann hefur verið varaþingmaður og þingmaður Pírata, þekkir menntakerfið inn og út, og ákaft talað fyrir gegnsæi sem aðgerð gegn spillingu.
 
-Áður en Björn Leví tók til starfa á Alþingi Íslendinga vann hann sem hugbúnaðarsérfræðingur hjá Menntamálastofnun. Björn er með mikla sérþekkingu á sviði upplýsingatækni í námi (online social learning), sem skoðar hvernig samskipti fólks á netinu hafa áhrif á nám. Björn er menntaður í kerfisgreiningu. Eitt af því sem mest truflar Björn Leví er notkun rökvillna í stjórnmálum en hann hefur óbilandi trú á beinu lýðræði. Lýðræði frá fólkinu en ekki til fólksins.. Björn Leví lítur á stjórnmálin sem bilað kerfi sem virkar ekki sem hann vill laga. Björn vill að Alþingi og stjórnkerfið sé þjónustutæki en ekki stjórntæki. 
+Áður en Björn Leví tók til starfa á Alþingi Íslendinga vann hann sem hugbúnaðarsérfræðingur hjá Menntamálastofnun. Björn er með mikla sérþekkingu á sviði upplýsingatækni í námi (online social learning), sem skoðar hvernig samskipti fólks á netinu hafa áhrif á nám. Björn er menntaður í kerfisgreiningu. Eitt af því sem mest truflar Björn Leví er notkun rökvillna í stjórnmálum en hann hefur óbilandi trú á beinu lýðræði. Lýðræði frá fólkinu en ekki til fólksins.. Björn Leví lítur á stjórnmálin sem bilað kerfi sem virkar ekki sem hann vill laga. Björn vill að Alþingi og stjórnkerfið sé þjónustutæki en ekki stjórntæki.
 
 Björn Leví hefur starfað um víðan völl. Hann hefur búið á Norðurlandi, Vesturlandi, Suðurlandi, höfuðborgarsvæðinu og erlendis. Hann hefur starfað  í sveit, fiskvinnslu, byggingarvinnu, opinberri þjónustu, tölvuþjónustu, við gæðastjórnun í alþjóðlegu leikjafyrirtæki og kennt í leik- og grunnskóla.
 
