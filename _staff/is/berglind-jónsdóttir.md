@@ -2,7 +2,7 @@
 title: Berglind Jónsdóttir
 description: Starfsmaður Pírata
 lang: is
-image: ''
+image: "/uploads/Berglind-headshot.jpg"
 email: berglind@piratar.is
 
 ---
