@@ -10,20 +10,23 @@ email: smarim@althingi.is
 image: "/uploads/211B6597.jpg"
 social:
   twitter: https://twitter.com/smarimc
+  facebook: https://www.facebook.com/smarimc
+  instagram: https://www.instagram.com/smarimccarthy/
+roles:
+- title: Alþingismaður Suðurkjördæmis síðan 2016 (Píratar).
+- title: Efnahags- og viðskiptanefnd 2016–2017 og 2018–, atvinnuveganefnd 2017–2018,
+    utanríkismálanefnd 2017–.
+- title: Íslandsdeild þingmannanefnda EFTA og EES 2017– (formaður 2017–).
 
 ---
-Smári McCarthy tók þátt í að stofna Pírata árið 2012 og hefur verið þingmaður suðurkjördæmis síðan 2016. Tæknistjórn var starfssvið Smára fyrir  þingsetu. Tæknimál og þróun ýttu Smára út í stjórnmálin þegar hann áttaði sig á hversu miklar afleiðingar tækniþróun mun hafa á samfélag og stjórnmál.
+Smári McCarthy tók þátt í að stofna Pírata árið 2012 og hefur verið þingmaður suðurkjördæmis síðan 2016. Tæknistjórn var starfssvið Smára fyrir  þingsetu, en tæknimál voru einmitt það ýtti Smára út í stjórnmálin þegar hann áttaði sig á hversu miklar afleiðingar tækniþróun mun hafa á samfélag og stjórnmál.
 
-Smári bættu umhverfi fjölmiðla og tjáningarfrelsi. Rannsóknarblaðamennsku. Spennufíkill.w
+Smári hefur undanfarin ár fyrst og fremst unnið í upplýsingafrelsis- og lýðræðismálum víða um heim. Hann var tæknistjóri hjá Organized Crime and Corruption Reporting Project og hefur þróað ýmsan frjálsan hugbúnað, meðal annars kosningakerfið Wasa2il sem var tilnefnt til Prix Ars Electronica verðlaunanna 2013.
 
-hefur undanfarin ár fyrst og fremst unnið í upplýsingafrelsis- og lýðræðismálum út um allar trissur. Smári er fyrrum tæknistjóri hjá Organized Crime and Corruption Reporting Project.
-
-Hefur þróað ýmsan frjálsan hugbúnað, meðal annars kosningakerfið Wasa2il sem var tilnefnt til Prix Ars Electronica verðlaunanna 2013.
-
-Skrifar mikið, m.a. fyrir tímaritin Arc og New Internationalist, en hefur einnig skrifað ritgerðir í ritgerðarsöfn á borð við Bergeron’s Children (í Despatches from the Invisible Revolution), Mediando la Democracía (í Redvolución), The End of Artificial Scarcity (í Free Beer v1.0).
+Greinaskrifum hefur Smári sinnt af miklum eldmóð, en hann skrifar mikið, m.a. fyrir tímaritin Arc og New Internationalist, en hefur einnig skrifað ritgerðir í ritgerðarsöfn á borð við Bergeron’s Children (í Despatches from the Invisible Revolution), Mediando la Democracía (í Redvolución), The End of Artificial Scarcity (í Free Beer v1.0).
 
 Meðal birtra fræðigreina eru “Cloud Computing: Legal Issues in Centralized Architectures” (í proceedings of Internet, Law & Politics Congress 2011) og “Cloud Computing: Centralization and Data Sovereignty” í European Journal of Law and Technology. Hefur auk þess þýtt bókina La Samtavolana Produktadomainero yfir á Íslensku (Jafningjaiðnaðurinn).
 
-Hefur verið fyrirlesari á ótal ráðstefnum á borð við Internet At Liberty, e-STAS, FSCONS, Oekonux 4, SHARE2, SHARE Beirut, Living On The Edge, SKUB 2012, Democracía Digital de Andalucia, Me Craft/You Industry Symposium, Free Culture Forum 2010, Internet, Law and Politics 2011, Re:publica 2011 og TEDx Reykjavík 2009.
+Smári er vinsæll fyrirlesari á hinum ýmsu tæknitengdum ráðstefnum og hefur verið gestafyrirlesari við ýmsa háskóla á borð við Berkman Center við Harvard, London City University og Universidad Rey Juan Carlos í Madrid. Eins hefur Smári starfað sem stundakennari hjá International School of Digital Transformation við University of Texas í Austin og hjá Center of Investigative Journalism.
 
-Hefur verið gestafyrirlesari við ýmsa háskóla á borð við Berkman Center við Harvard, London City University og Universidad Rey Juan Carlos í Madrid. Hefur verið í “faculty” hjá International School of Digital Transformation við University of Texas í Austin og hjá Center of Investigative Journalism.
+Flug og flugvélar eru eitt stærsta áhugamál Smára. Hann tók einkaflugmannsréttindin sumarið 2019 en það sem heillar helst við flugið er frelsið sem fylg­ir því að svífa um loft­in. Hins veg­ar þykir honum flugið áhuga­vert út frá tækni­leg­um nör­da­skap.
