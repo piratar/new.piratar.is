@@ -82,7 +82,6 @@ is:
     url: "/postlisti"
   - title: Kosningakerfið
     url: https://x.piratar.is
-    cta: true
   - title: Grasrótarinn
     url: https://x.piratar.is/polity/1/tasks/
   - title: Píratar á Github
