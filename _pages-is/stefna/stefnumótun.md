@@ -19,3 +19,4 @@ Píratar móta sér stefnu í opnu ferli þar sem allir félagsmenn hafa mögule
 
 Til að sjá mál sem er í kosningu eða greiða atkvæði: [Kosningakerfið á x.piratar.is](x.piratar.is)
 
+Til að bóka viðburð eða málefnafund í Tortuga: [Bóka viðburð í Tortuga](/tortuga-boka)
