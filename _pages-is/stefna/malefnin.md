@@ -113,7 +113,7 @@ Tryggjum rétt blaðamanna að upplýsingum og verndum þá gegn lögsóknum.
 
 Stjórnsýsla á Íslandi þarfnast uppfærslu í takt við tímann. Núverandi stjórnarskrá býður okkur upp á óstöðugt stjórnarfar þar sem ráðherrar fara sínu fram án samráðs við almenning.
 
-#### Samþykkjum nýja stjórnarskrá, útrýmum leyndarhyggju og leyfum almenningi að ráða för.  
+**Samþykkjum nýja stjórnarskrá, útrýmum leyndarhyggju og leyfum almenningi að ráða för.**  
 
 ## **UMHVERFISMÁL**
 
