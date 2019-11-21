@@ -22,6 +22,7 @@ fields:
     required: false
   label: email
 pages:
+- _staff/is/eiríkur-rafn-rafnsson.md
 - _staff/is/berglind-jónsdóttir.md
 - _staff/is/baldur-karl-magnússon.md
 - _staff/en/sunna-rós-víðisdóttir.md
@@ -35,4 +36,3 @@ pages:
 - _staff/is/elsa-kristjánsdóttir.md
 - _staff/is/sunna-rós-víðisdóttir.md
 - _staff/is/inga-dóra-guðmundsdóttir.md
-- _staff/is/eiríkur-rafn-rafnsson.md

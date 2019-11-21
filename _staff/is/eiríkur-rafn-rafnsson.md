@@ -3,5 +3,6 @@ title: Eiríkur Rafn Rafnsson
 description: Starfsmaður þingflokks Pírata
 lang: is
 image: "/uploads/IMG_9054_quarter_square.jpg"
+email: eirikurrafn@althingi.is
 
 ---
