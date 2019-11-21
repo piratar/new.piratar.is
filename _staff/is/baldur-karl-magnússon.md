@@ -2,7 +2,7 @@
 title: Baldur Karl Magnússon
 description: Starfsmaður þingflokks Pírata
 lang: is
-image: "/uploads/IMG_9026_quarter_square.jpg"
+image: "/uploads/BaldurK-headshot.jpg"
 email: baldurkarl@althingi.is
 
 ---
