@@ -55,7 +55,7 @@ Sanngjarnasta leiðin til að lækka skatta er að hækka persónuafslátt. Pír
 
 #### **Drögum úr skerðingu – allir mega vinna**
 
-Hækkun örorkulífeyris og lækkun krónu-á-móti-krónu skerðingar eru réttlætismál. Sama gildir um rétt aldraðra til að vinna án þess að missa áunnin réttindi. Nýtum reynslu og þekkingu í framtíðinni – þar sem hana vantar.
+Hækkun örorkulífeyris og afnám krónuskerðinga eru réttlætismál. Sama gildir um rétt aldraðra til að vinna án þess að missa áunnin réttindi. Nýtum reynslu og þekkingu í framtíðinni – þar sem hana vantar.
 
 Ríkið á ekki að segja eldri borgurum hvar, hvort og hvernig þeir eigi að vinna, lifa eða njóta í ellinni.
 
@@ -65,9 +65,9 @@ Skoðum leiðir til að tryggja öllum borgurum landsins skilyrðislausa grunnfr
 
 ## RÉTTINDI FÓLKS MEÐ FÖTLUN
 
-#### Lögfestum NPA
+#### Eflum NPA
 
-Hættum að tefja fyrir réttindum fólks með fötlun. Lögfestum notendastýrða persónulega aðstoð (NPA) strax og höldum áfram að vinna að úrbótum í málefnum fólks með fötlun og skerta starfsgetu.
+Hættum að tefja fyrir réttindum fólks með fötlun. Eflum notendastýrða persónulega aðstoð (NPA) og höldum áfram að vinna að úrbótum í málefnum fólks með fötlun og skerta starfsgetu.
 
 ## RÉTTLÆTI FYRIR ÞOLENDUR
 
