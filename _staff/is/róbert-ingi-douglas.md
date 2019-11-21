@@ -2,7 +2,7 @@
 title: Róbert Ingi Douglas
 description: Starfsmaður Pírata
 lang: is
-image: ''
+image: "/uploads/Robbi-headshot.jpg"
 email: douglas@piratar.is
 
 ---
