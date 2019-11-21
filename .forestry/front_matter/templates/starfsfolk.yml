@@ -16,3 +16,5 @@ fields:
   config:
     maxSize: 250
   label: image
+pages:
+- _staff/is/eiríkur-rafn-rafnsson.md
