@@ -41,6 +41,8 @@ Setjum öryggi og réttindi leigjenda í forgang.
 
 **Látum það ekki bíða lengur.**  
 
+<br>
+
 ## **MENNTAMÁL**
 
 #### Fyrirframgreidd námslán og einstaklingsmiðað nám
@@ -50,6 +52,8 @@ Menntun er lykillinn að framtíðarsamfélaginu. Jafnt aðgengi allra að námi
 Námslán þurfa að greiðast fyrirfram, svo að námsfólk skuldi ekki yfirdrátt, og lánin þurfa að tryggja grunnframfærslu. Byggja þarf fleiri íbúðir fyrir námsfólk í gegnum byggingarfélög stúdenta og einnig þarf að byggja nýjan listaháskóla.
 
 Nám framtíðarinnar er einstaklingsmiðað, sveigjanlegt, skapandi og frjálst. Þannig búum við okkur undir störf 21. aldarinnar.  
+
+<br>
 
 ## **PERSÓNUAFSLÁTTUR, SKERÐINGAR OG BORGARALAUN**
 
@@ -73,6 +77,8 @@ Skoðum leiðir til að tryggja öllum borgurum landsins skilyrðislausa grunnfr
 
 Hættum að tefja fyrir réttindum fólks með fötlun. Eflum notendastýrða persónulega aðstoð (NPA) og höldum áfram að vinna að úrbótum í málefnum fólks með fötlun og skerta starfsgetu.  
 
+<br>
+
 ## **RÉTTLÆTI FYRIR ÞOLENDUR**
 
 ### Í framtíðinni okkar hafa þolendur rödd
@@ -80,6 +86,8 @@ Hættum að tefja fyrir réttindum fólks með fötlun. Eflum notendastýrða pe
 Bætum meðferð kynferðisbrotamála í samráði við þolendur. Gefum þolendum aukna aðkomu og aðild að kærumálum sínum og eflum sálrænan og félagslegan stuðning.
 
 Aukum forvarnir með víðtækri fræðslu um upplýst samþykki og persónuréttindii allra. Eflum meðferðarúrræði fyrir gerendur og endurskoðum veitingu starfsréttinda með hagsmuni barna í huga.  
+
+<br>
 
 ## **AUÐLINDIR ÍSLANDS**
 
@@ -91,6 +99,8 @@ Aukum forvarnir með víðtækri fræðslu um upplýst samþykki og persónurét
 
 Við viljum gera langtímaáætlun um skipulag og uppbyggingu ferðamannaþjónustu. Í þeirri vinnu þarf virkt samtal við fólkið í nærsamfélaginu og að sjá til þess að tekjur af ferðamönnum fari í uppbyggingu um allt land. Hugsum lengra, hugsum til framtíðarinnar og framkvæmum svo.  
 
+<br>
+
 ## **NÝSKÖPUN, SAMGÖNGUR OG ATVINNULÍF**
 
 ### Tengjum Ísland og fjármögnum samgönguáætlun
@@ -100,6 +110,8 @@ Til að atvinnulíf um allt land blómstri og allir njóti tækifæra þarf að 
 ### Atvinnulíf framtíðarinnar
 
 Píratar vilja gera nýskráningu fyrirtækja einfalda og ódýra. Stuðlum að nýsköpun með því að leyfa skuldabréfum í sprotafyrirtækjum að breytast í hlutafé. Þannig eflum við þá sem hugsa út fyrir boxið og finna ný sóknarfæri. Íslenskt hugvit er dýrmæt auðlind.  
+
+<br>
 
 ## **STJÓRNSÝSLA, SJÓRNARSKRÁ OG BORGARRÉTTINDI**
 
@@ -119,6 +131,8 @@ Stjórnsýsla á Íslandi þarfnast uppfærslu í takt við tímann. Núverandi 
 
 **Samþykkjum nýja stjórnarskrá, útrýmum leyndarhyggju og leyfum almenningi að ráða för.**  
 
+<br>
+
 ## **UMHVERFISMÁL**
 
 ### Ísland verði í fararbroddi í umhverfismálum
@@ -132,6 +146,8 @@ Miðhálendið er ein dýrmætasta perla landsins. Þar má finna eldfjöll, jö
 ### Styðjum við rafbílavæðingu
 
 Píratar vilja stuðla að rafbílavæðingu Íslands, m.a. með því að huga að innviðum og með fjárhagslegum ívilnunum sem stefni að því að auka hlutfall rafbíla. Almenn orkumála- og umhverfisstefna ætti að innihalda markmið um rafbílavæðingu og gera nauðsynlegar ráðstafanir til að ná þeim markmiðum.  
+
+<br>
 
 # **FRAMTÍÐIN OKKAR**
 
