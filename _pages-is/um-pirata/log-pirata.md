@@ -1,7 +1,7 @@
 ---
 layout: page
 menu:
-  current: []
+  current: ''
   menus: []
   weight: 
 title: Lög Pírata
