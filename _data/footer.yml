@@ -87,18 +87,22 @@ is:
     url: https://x.piratar.is/polity/1/tasks/
   - title: Píratar á Github
     url: https://github.com/piratar
-- title: Tortúga og rekstur
+- title: Rekstur og fjármál
   url: ''
-  email: piratar@piratar.is
+  email: ''
   sub:
+  - title: Rekstur Pírata
+    url: "/rekstur"
+  - title: Opið bókhald
+    url: "/arsreikningar-og-bokhald"
   - title: Bóka viðburð í Tortúga
     url: "/tortuga/boka-vidburd"
-  - title: Fundir og viðburðir
-    url: "/fundir"
-  - title: Ársreikningar og opið bókhald
-    url: "/arsreikningar-og-bokhald"
+  - title: Hönnunarstaðall
+    url: "/honnunarstadall"
   - title: Fundagerðir
     url: "/fundagerdir"
+  - title: Fyrir fjölmiðla
+    url: "/fjolmidlar"
 - title: 'Stjórn Pírata - MÁ EYÐA, SAMEINAÐ FÓLKIÐ - '
   url: ''
   email: framkvaemdarad@piratar.is
