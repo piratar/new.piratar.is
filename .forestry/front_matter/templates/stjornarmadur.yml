@@ -26,6 +26,7 @@ fields:
   name: description
   label: description
 pages:
+- _administration/úlfhildur-stefánsdóttir.md
 - _administration/jóhannes-jónsson.md
 - _administration/hrannar-jónsson.md
 - _administration/valgerður-árnadóttir.md
