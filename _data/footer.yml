@@ -103,18 +103,6 @@ is:
     url: "/fundagerdir"
   - title: Fyrir fjölmiðla
     url: "/fjolmidlar"
-- title: 'Stjórn Pírata - MÁ EYÐA, SAMEINAÐ FÓLKIÐ - '
-  url: ''
-  email: ''
-  sub:
-  - title: Trúnaðarráð
-    url: "/stjorn-pirata?category=trunadarrad"
-  - title: Framkvæmdaráð
-    url: "/stjorn-pirata?category=framkvaemdarad"
-  - title: Úrskurðarnefnd
-    url: "/stjorn-pirata?category=urskurdarnefnd"
-  - url: "/log"
-    title: Lög Pírata
 en:
 - title: News
   url: ''
