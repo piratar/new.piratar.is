@@ -80,7 +80,7 @@ is:
     url: "/styrkja"
   - title: Skrá mig á póstlista
     url: "/postlisti"
-  - title: Kosningakerfið x.piratar.is
+  - title: Kosningakerfið
     url: https://x.piratar.is
     cta: true
   - title: Grasrótarinn
