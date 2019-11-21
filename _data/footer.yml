@@ -40,6 +40,16 @@ is:
     url: "/stefna/framtidarsyn"
   - title: Stefnumótun
     url: "/stefna/stefnumotun"
+- title: Á döfinni
+  url: ''
+  email: ''
+  sub:
+  - title: Greinar
+    url: ''
+  - title: Fréttir og tilkynningar
+    url: ''
+  - title: ''
+    url: ''
 - title: Aðildarfélögin
   email: ''
   url: ''
