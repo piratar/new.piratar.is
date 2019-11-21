@@ -14,6 +14,8 @@ show-title: false
 ---
 # MÁLEFNIN
 
+Píratar 
+
 ## **HEILBRIGÐISMÁL**
 
 ### Heilbrigðismálin fyrst og fremst
@@ -24,6 +26,8 @@ Andleg heilsa er ekki síður mikilvæg en líkamleg. Andleg umönnun og sálfr�
 **Komum geðheilbrigðisþjónustunni okkar í lag!**
 
 Í framtíðinni okkar er engum refsað fyrir að vera fíkill. Allir sem þurfa á hjálp að halda að eiga að fá viðeigandi aðstoð án tafar. Af því að heilbrigðisþjónustan snýst um fólk en ekki kerfi.  
+
+<br>
 
 ## **HÚSNÆÐISMÁL**
 
