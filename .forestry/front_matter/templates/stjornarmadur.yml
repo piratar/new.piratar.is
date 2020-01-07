@@ -26,14 +26,14 @@ fields:
   name: description
   label: description
 pages:
-- _administration/einar-hrafn-árnason.md
 - _administration/bergþór-h-þórðarsson.md
-- _administration/herbert-snorrason.md
 - _administration/björn-þór-jóhannesson.md
-- _administration/unnar-þór-sæmundsson.md
-- _administration/úlfhildur-stefánsdóttir.md
-- _administration/jóhannes-jónsson.md
-- _administration/hrannar-jónsson.md
-- _administration/valgerður-árnadóttir.md
-- _administration/guðmundur-arnar-guðmundsson.md
+- _administration/einar-hrafn-árnason.md
 - _administration/gamithra-marga.md
+- _administration/guðmundur-arnar-guðmundsson.md
+- _administration/herbert-snorrason.md
+- _administration/hrannar-jónsson.md
+- _administration/jóhannes-jónsson.md
+- _administration/unnar-þór-sæmundsson.md
+- _administration/valgerður-árnadóttir.md
+- _administration/úlfhildur-stefánsdóttir.md
