@@ -17,3 +17,8 @@ Til að búa síðuna til á þinni tölvu þarf fyrst að sækja síðuna, anna
 Jekyll býr til síðuna og ræsir hana á http://127.0.0.1:4000 á tölvunni þinni.
 
 
+## Breytingabeiðnir (Pull request)
+
+Endilega hjálpið okkur við að gera síðuna betri eða laga stafsetningarvillur osfrv.
+
+Takk fyrir!
