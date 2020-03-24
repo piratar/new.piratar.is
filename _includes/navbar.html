@@ -67,7 +67,7 @@
               {% for link in site.data.burger-menu.[page.lang].main %}
               {% if link.sub %}
               <li class="nav-item">
-                <a href="{{ link.url | absoulute_url }}">
+                <a href="{{ link.url | absolute_url }}">
                   <h4 class="nav-title">{{ link.title }}</h4>
                 </a>
                 <div class="submenu p-0">
