@@ -67,9 +67,13 @@
               {% for link in site.data.burger-menu.[page.lang].main %}
               {% if link.sub %}
               <li class="nav-item">
-                <a href="{{ link.url | absolute_url }}">
+                {% if link.url and link.url != '' %}
+                  <a href="{{ link.url | absolute_url }}">
+                    <h4 class="nav-title">{{ link.title }}</h4>
+                  </a>
+                {% else %}
                   <h4 class="nav-title">{{ link.title }}</h4>
-                </a>
+                {% endif %}
                 <div class="submenu p-0">
                   {% for child in link.sub %}
                   <a href="{{ child.url | absolute_url }}" class="submenu-item">
