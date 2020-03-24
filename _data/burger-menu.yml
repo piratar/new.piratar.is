@@ -1,18 +1,18 @@
 ---
 is:
   upper:
-    democracy:
-      title: x.piratar.is
-      url: https://x.piratar.is
-    podcasts:
-      title: Hlaðvarp
-      url: "/hladvarp"
-    events:
-      title: Viðburðir
-      url: "/vidburdir"
-    chat:
-      title: Málefnaspjall
-      url: https://spjall.piratar.is
+  - title: x.piratar.is
+    url: https://x.piratar.is
+    icon: home
+  - title: Hlaðvarp
+    url: "/hladvarp"
+    icon: podcast
+  - title: Viðburðir
+    url: "/vidburdir"
+    icon: events
+  - title: Málefnaspjall
+    url: https://spjall.piratar.is
+    icon: speech
   lower:
     preferences:
       title: Stillingar
