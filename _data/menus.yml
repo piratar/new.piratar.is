@@ -1,15 +1,15 @@
 list: [about-pirates, policies, events, tortuga]
 translations:
   - 
+    key: policies
+    en: Policies
+    is: Stefnan
+    pl: Policies
+  -
     key: about-pirates
     is: Um Pírata
     en: About us
     pl: About us
-  - 
-    key: policies
-    en: Policies
-    is: Stefna
-    pl: Policies
   - 
     key: events
     en: Events
