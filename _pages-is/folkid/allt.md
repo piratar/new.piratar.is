@@ -1,8 +1,9 @@
 ---
 title: Allt
 layout: representatives
+category: all
 menu:
-  current: folkid
+  current: all
   menus:
     - policies
     - folkid

@@ -58,7 +58,6 @@ const updateQuery = (string) => {
 {% include_relative newsfeed.js %}
 {% include_relative representative.js %}
 {% include_relative articles.js %}
-{% include_relative representatives.js %}
 {% include_relative article.js %}
 {% include_relative cookie-consent.js %}
 {% include_relative hero.js %}

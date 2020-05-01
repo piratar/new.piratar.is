@@ -18,15 +18,13 @@ collections:
   articles:
     output: true
     permalink: /folkid/greinar/:path/
-  representatives:
-    output: true
   administration:
     output: true
   associations:
     output: true
-  staff:
-    output: false
   external-articles:
+    output: false
+  people:
     output: false
 defaults:
   -
@@ -63,34 +61,6 @@ defaults:
       lang: is
   -
     scope:
-      path: "_representatives"
-    values:
-      layout: representative
-      banner: true
-      lang: is
-      permalink: /folkid/:title/
-      representatives_page: /folkid
-      see_more: true
-  -
-    scope:
-      path: "_representatives/en"
-    values:
-      layout: representative
-      banner: true
-      lang: en
-      permalink: /en/representatives/:path/
-      representatives_page: /pl/representatives
-  -
-    scope:
-      path: "_representatives/pl"
-    values:
-      layout: representative
-      banner: true
-      lang: pl
-      permalink: /pl/representatives/:path/
-      representatives_page: /pl/representatives
-  -
-    scope:
       path: "_associations"
     values:
       layout: association
@@ -104,17 +74,6 @@ defaults:
       permalink: /en/assoications/:title/
       lang: en
       layout: association
-  -
-    scope:
-      path: "_staff"
-    values:
-      lang: is
-      category: staff
-  -
-    scope:
-      path: "_staff/en"
-    values:
-      lang: en
 facebook:
   app_id: 2425179654215087
 plugins:

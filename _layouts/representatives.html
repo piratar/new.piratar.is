@@ -3,26 +3,5 @@ layout: default
 class: representatives-page
 ---
 
-<nav class="representative-filters mt-5 container">
-  <ul>
-    <li class="active">
-      <a href="#" class="underline category">{{ site.data.translations[page.lang].reps_all }}</a>
-    </li>
-    <li>
-      <a href="#" class="underline category"
-        data-category="parliament">{{ site.data.translations[page.lang].reps_parliament }}</a>
-    </li>
-    <li>
-      <a href="#" class="underline category"
-        data-category="municipal">{{ site.data.translations[page.lang].reps_municipal }}</a>
-    </li>
-    <li>
-      <a href="#" class="underline category"
-        data-category="staff">{{ site.data.translations[page.lang].reps_staff }}</a>
-    </li>
-  </ul>
-</nav>
-{% assign reps = site.representatives | where:"lang", page.lang %}
-{% assign staff = site.staff | where:"lang", page.lang %}
-{% assign people = reps | concat: staff | sort: 'title' %}
+{% assign people = site.people | where:"lang", page.lang | where:"category", page.category %}
 {% include representative-list.html list=people %}
