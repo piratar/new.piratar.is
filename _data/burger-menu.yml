@@ -1,52 +1,52 @@
 ---
 is:
   upper:
-    democracy:
-      title: x.piratar.is
-      url: https://x.piratar.is
-    podcasts:
-      title: Hlaðvarp
-      url: "/hladvarp"
-    events:
-      title: Viðburðir
-      url: "/vidburdir"
-    chat:
-      title: Málefnaspjall
-      url: https://spjall.piratar.is
+  - title: x.piratar.is
+    url: https://x.piratar.is
+    icon: home
+  - title: Hlaðvarp
+    url: "/hladvarp"
+    icon: podcast
+  - title: Viðburðir
+    url: "/vidburdir"
+    icon: events
+  - title: Málefnaspjall
+    url: https://spjall.piratar.is
+    icon: speech
   lower:
     preferences:
       title: Stillingar
       url: "/stillingar"
   main:
   - title: Stefnan
-    url: "/stefna/malefnin"
+    url: "/stefna/grunnstefna"
     sub:
     - title: Grunnstefna Pírata
       url: "/stefna/grunnstefna"
     - title: Málefnin
       url: "/stefna/malefnin"
+    - title: Stefnumótun
+      url: "/stefna/stefnumotun"
     - title: Framtíðarsýn
       url: "/stefna/framtidarsyn"
   - title: Fólkið
-    url: ''
+    url: "/folkid"
     sub:
     - title: Þingflokkur
       url: "/folkid?category=parliament"
     - title: Sveitar- og borgarstjórn
       url: "/folkid?category=municipal"
-    - url: framkvaemdarad
-      title: Framkvæmdaráð
     - title: Starfsfólk
       url: "/folkid?category=staff"
   - title: Um Pírata
-    url: ''
+    url: "/um-pirata/af-hverju-piratar"
     sub:
     - title: Af hverju Píratar?
-      url: "/um-pirata/afhverju"
+      url: "/um-pirata/af-hverju-piratar"
     - title: Grasrót Pírata
-      url: "/grasrot"
-    - title: Píratar fyrir byrjendur
-      url: "/um-pirata/byrjendur"
+      url: "/um-pirata/grasrot"
+    - title: Lög Pírata
+      url: "/um-pirata/log-pirata"
   - title: Taka þátt
     url: ''
     sub:

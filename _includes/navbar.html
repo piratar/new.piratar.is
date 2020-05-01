@@ -40,36 +40,26 @@
             </ul>
           </div>
           <div class="nav-lower">
-            {% assign upper = site.data.burger-menu.[page.lang].upper %}
             <ul class="navbar-nav icon-nav">
+              {% for link in site.data.burger-menu.[page.lang].upper %}
               <li class="nav-item">
-                <a class="nav-link" href="{{ upper.democracy.url }}" target="_blank">
-                  <div class="icon icon-home"></div><span>{{ upper.democracy.title }}</span>
+                <a class="nav-link" href="{{ link.url }}" target="_blank">
+                  <div class="icon icon-{{ link.icon }}"></div><span>{{ link.title }}</span>
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ upper.podcasts.url }}" target="_blank">
-                  <div class="icon icon-podcast"></div><span>{{ upper.podcasts.title }}</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ upper.events.url }}" target="_blank">
-                  <div class="icon icon-events"></div><span>{{ upper.events.title}}</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="{{ upper.chat.url }}">
-                  <div class="icon icon-speech"></div><span>{{ upper.chat.title }}</span>
-                </a>
-              </li>
+              {% endfor %}
             </ul>
             <ul class="navbar-nav main-nav">
               {% for link in site.data.burger-menu.[page.lang].main %}
               {% if link.sub %}
               <li class="nav-item">
-                <a href="{{ link.url | absoulute_url }}">
+                {% if link.url and link.url != '' %}
+                  <a href="{{ link.url | absolute_url }}">
+                    <h4 class="nav-title">{{ link.title }}</h4>
+                  </a>
+                {% else %}
                   <h4 class="nav-title">{{ link.title }}</h4>
-                </a>
+                {% endif %}
                 <div class="submenu p-0">
                   {% for child in link.sub %}
                   <a href="{{ child.url | absolute_url }}" class="submenu-item">

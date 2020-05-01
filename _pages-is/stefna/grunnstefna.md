@@ -7,7 +7,7 @@ menu:
   menus:
   - policies
   - about-pirates
-  weight: 2
+  weight: 1
 layout: page
 show-title: false
 files: []

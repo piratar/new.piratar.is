@@ -4,14 +4,12 @@ layout: page
 menu:
   current: about-pirates
   menus:
-  - about-pirates
   - policies
-  weight: 2
+  - about-pirates
+  weight: 1
 files:
 - {}
 show-title: true
-published: false
-
 ---
 Allt frá stofnun Pírata á Íslandi hefur markmiðið verið skýrt – réttlátt samfélag sem hvetur til lýðræðislegrar þátttöku allra þeirra sem vilja, með gagnsæi og ábyrgð að leiðarljósi.
 

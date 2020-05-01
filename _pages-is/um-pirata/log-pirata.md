@@ -1,9 +1,11 @@
 ---
-layout: files
+layout: page
 menu:
-  current: ''
-  menus: []
-  weight: 
+  current: about-pirates
+  menus:
+    - policies
+    - about-pirates
+  weight: 3
 title: Lög Pírata
 show-title: true
 files: []
