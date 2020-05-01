@@ -1,0 +1,154 @@
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-md-6 ml-auto" id="the_target">
+      <h5>Nýjustu umræður á Spjallinu:</h5>
+    </div>
+  </div>
+
+  <script charset="utf-8">
+
+    mock_data = {
+      topic_list: {
+        can_create_topic: false,
+        more_topics_url: "/latest?no_definitions=true&page=1",
+        draft: null,
+        draft_key: "new_topic",
+        draft_sequence: null,
+        per_page: 30,
+        topics: [
+          {
+            id: 35,
+            title: "Velkomin! Lesið þetta fyrst!",
+            fancy_title: "Velkomin! Lesið þetta fyrst!",
+            slug: "velkomin-lesid-thetta-fyrst",
+            posts_count: 1,
+            reply_count: 0,
+            highest_post_number: 1,
+            image_url: null,
+            created_at: "2018-11-25T22:15:00.474Z",
+            last_posted_at: "2018-11-25T22:15:00.780Z",
+            bumped: true,
+            bumped_at: "2019-09-12T18:19:50.675Z",
+            unseen: false,
+            pinned: true,
+            unpinned: null,
+            excerpt: "Málefnaspjall Pírata Málefnaspjall Pírata (hér eftir nefnt Spjallið) er umræðuvettvangur fyrir stefnumál og starf Pírata. Tilgangur Spjallsins er að vera opinber spjallvettvangur á vegum Pírata þar sem meðlimir geta spj&hellip;",
+            visible: true,
+            closed: false,
+            archived: false,
+            bookmarked: null,
+            liked: null,
+            views: 387,
+            like_count: 3,
+            has_summary: false,
+            archetype: "regular",
+            last_poster_username: "helgihg",
+            category_id: 1,
+            pinned_globally: true,
+            featured_link: null,
+            posters: [
+              {
+                extras: "latest single",
+                description: "Original Poster, Most Recent Poster",
+                user_id: 7,
+                primary_group_id: null
+              }
+            ]
+          },
+          {
+            id: 418,
+            title: "COVID-app, persónuvernd, öryggi og opinn kóði",
+            fancy_title: "COVID-app, persónuvernd, öryggi og opinn kóði",
+            slug: "covid-app-personuvernd-oryggi-og-opinn-kodi",
+            posts_count: 58,
+            reply_count: 35,
+            highest_post_number: 60,
+            image_url: null,
+            created_at: "2020-03-26T18:16:39.997Z",
+            last_posted_at: "2020-04-30T17:41:24.943Z",
+            bumped: true,
+            bumped_at: "2020-04-30T17:41:24.943Z",
+            unseen: false,
+            pinned: false,
+            unpinned: null,
+            visible: true,
+            closed: false,
+            archived: false,
+            bookmarked: null,
+            liked: null,
+            views: 391,
+            like_count: 45,
+            has_summary: true,
+            archetype: "regular",
+            last_poster_username: "bjarkih",
+            category_id: 1,
+            pinned_globally: false,
+            featured_link: null,
+            posters: [
+              {
+                extras: null,
+                description: "Original Poster",
+                user_id: 7,
+                primary_group_id: null
+              },
+              {
+                extras: null,
+                description: "Frequent Poster",
+                user_id: 11,
+                primary_group_id: null
+              },
+              {
+                extras: null,
+                description: "Frequent Poster",
+                user_id: 74,
+                primary_group_id: null
+              },
+              {
+                extras: null,
+                description: "Frequent Poster",
+                user_id: 24,
+                primary_group_id: null
+              },
+              {
+                extras: "latest",
+                description: "Most Recent Poster",
+                user_id: 32,
+                primary_group_id: null
+              }
+            ]
+          }
+        ]
+      }
+    }
+
+    var the_target = document.getElementById('the_target');
+    // Now using Mock data
+    var list = document.createElement('ul');
+
+    Object.values(mock_data.topic_list.topics).forEach(function(item) {
+      //console.log(item.title);
+
+      var li = document.createElement('li');
+      li.appendChild(document.createTextNode(item.title));
+      list.appendChild(li);
+    });
+    document.getElementById('the_target').appendChild(list);
+
+    // Need to enable CORS on discourse server
+    /*
+    fetch('https://spjall.piratar.is/latest.json?format=json')
+    .then(response => response.json())
+    .then(the_data => {
+      //console.log(the_data);
+      Object.values(the_data).forEach(a => {
+        //console.log(a)
+      });
+      //document.getElementById('the_target').innerHTML = the_data;
+    });
+    */
+
+
+  </script>
+
+</div>
