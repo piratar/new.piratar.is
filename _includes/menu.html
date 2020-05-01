@@ -9,7 +9,7 @@
 
 <nav class="representative-filters mt-5">
 	<ul>
-		{% for menu in page.menu.menus %}
+        {% for menu in site.data.menus.list %}
 		{% assign menu_pages = all_pages | where_exp: "item", "item.menu.current == menu" | sort: "menu.weight" %}
 		<li {% if page.menu.current == menu %} class="active" {% endif %}>
 			{% assign menu_translation = site.data.menus.translations | where: "key", menu %}

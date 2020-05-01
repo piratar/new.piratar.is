@@ -1,10 +1,14 @@
-list: [about-pirates, policies, events, tortuga]
+list: [about-pirates, folkid, policies, events, tortuga]
 translations:
   - 
     key: policies
     en: Policies
     is: Stefnan
     pl: Policies
+  -
+    key: folkid
+    en: People
+    is: Fólkið
   -
     key: about-pirates
     is: Um Pírata

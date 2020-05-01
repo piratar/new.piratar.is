@@ -33,11 +33,11 @@ is:
     url: "/folkid"
     sub:
     - title: Þingflokkur
-      url: "/folkid?category=parliament"
+      url: "/folkid/thingflokkur"
     - title: Sveitar- og borgarstjórn
-      url: "/folkid?category=municipal"
+      url: "/folkid/sveitar-og-borgarstjorn"
     - title: Starfsfólk
-      url: "/folkid?category=staff"
+      url: "/folkid/starfsfolk"
   - title: Um Pírata
     url: "/um-pirata/af-hverju-piratar"
     sub:
