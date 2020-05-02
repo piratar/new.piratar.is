@@ -1,7 +1,0 @@
-{% for btn in site.data.cta-buttons[page.lang] %}
-{% assign url4 = btn.url | slice: 0,4 %}
-<script type="text/template" data-template="{{ btn.template }}">
-  <a class="btn bottom-shadow w-100 mt-5 mb-5 container" href="{{ btn.url }}" {% if url4 == "http" %} target="_blank" {% endif %}>
-    <h2 class="cta">{{ btn.title }}</h2>
-  </a></script>
-{% endfor %}

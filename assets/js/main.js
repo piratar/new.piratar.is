@@ -53,7 +53,6 @@ const updateQuery = (string) => {
 }
 
 {% include_relative event-carousel.js %}
-{% include_relative cta-section.js %}
 {% include_relative search.js %}
 {% include_relative newsfeed.js %}
 {% include_relative representative.js %}
