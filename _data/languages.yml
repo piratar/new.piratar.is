@@ -1,10 +1,12 @@
+is:
+  url: /
+  title: Íslenska
+
 # The website was originally developed to support multiple languages, but
 # since we have nothing to offer in terms of translations yet, we'll comment
 # them until whenever we have translated content, if indeed ever.
 #
-#is:
-#  url: /
-#  title: English
+
 #en:
 #  url: /en
 #  title: English

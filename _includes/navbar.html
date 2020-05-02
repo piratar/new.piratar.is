@@ -27,6 +27,7 @@
               <span class="icon-bar dark"></span>
             </button>
           </div>
+          {% if site.data.languages.size > 1 %}
           <div class="nav-upper d-flex">
             <ul class="navbar-nav lang-nav">
               {% for language in site.data.languages%}
@@ -39,6 +40,7 @@
               {% endfor %}
             </ul>
           </div>
+          {% endif %}
           <div class="nav-lower">
             <ul class="navbar-nav icon-nav">
               {% for link in site.data.burger-menu.[page.lang].upper %}
