@@ -132,13 +132,17 @@
     function dataToList(thedata) {
       Object.values(thedata).forEach(function(item) {
         var li = document.createElement('li');
-        li.appendChild(document.createTextNode(item.title));
+        var a = document.createElement('a');
+        var linkText = document.createTextNode(item.title)
+        a.appendChild(linkText);
+        a.title = item.title;
+        a.href = 'https://spjall.piratar.is/t/' + item.slug;
+        a.target = '_blank';
+        li.appendChild(a);
         the_list.appendChild(li);
       });
       document.getElementById('the_target').appendChild(the_list);
     }
-
-    //dataToList( mock_data.topic_list.topics);
 
     // Need to enable CORS on discourse server
     fetch('https://spjall.piratar.is/latest.json?format=json')
