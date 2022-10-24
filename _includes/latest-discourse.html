@@ -1,23 +1,18 @@
 <div class="container-fluid">
 
+  <h5 class="text-center">
+    Nýjustu umræður á
+    <a href="https://spjall.piratar.is" target="_blank" style="text-decoration: underline">Spjallinu</a>
+  </h5>
   <div class="row">
-    <div class="col-md-6 ml-auto">
-      <h5>
-        Nýjustu umræður á
-        <a href="https://spjall.piratar.is" target="_blank" style="text-decoration: underline">Spjallinu</a>
-      </h5>
-      <div id="the_target"> </div>
+    <div class="col-md-6">
+      <div id="spjall_results"> </div>
     </div>
   </div>
 
   <script charset="utf-8">
-
-    var the_target = document.getElementById('the_target');
-
-    // Now using Mock data
-    var the_list = document.createElement('ul');
-
-    function dataToList(thedata) {
+    function spjallToList(thedata) {
+      var the_list = document.createElement('ul');
       for(let i = 0; i < thedata.length; i++){
         item = thedata[i];
         if(i > 6){
@@ -33,7 +28,7 @@
         li.appendChild(a);
         the_list.appendChild(li);
       };
-      document.getElementById('the_target').appendChild(the_list);
+      document.getElementById('spjall_results').appendChild(the_list);
     }
 
     // Need to enable CORS on discourse server
@@ -47,12 +42,12 @@
     })
     .then(the_data => {
       console.log(2, the_data);
-      dataToList(the_data.topic_list.topics);
+      spjallToList(the_data.topic_list.topics);
     })
     .catch(err => {
       console.error(3, err);
       // If error, use mock_data - we could also just say there is an error?
-      document.getElementById('the_target').appendChild(document.createTextNode('Ekkert fannst...'));
+      document.getElementById('spjall_results').appendChild(document.createTextNode('Tenging náðist ekki...'));
     })
 
   </script>

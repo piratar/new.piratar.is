@@ -1,0 +1,67 @@
+<div class="container-fluid">
+  <div id="kosningakerfi" class="text-center mb-4">
+    <h5>
+      Nýjast frá
+      <a href="https://x.piratar.is" target="_blank" style="text-decoration: underline">kosningakerfinu</a>
+    </h5>
+  </div>
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <h4>Kosningar</h4>
+      <div id="kosningakerfi-elections"> </div>
+    </div>
+    <div class="col-md-6">
+      <h4>Mál</h4>
+      <div id="kosningakerfi-issues"> </div>
+    </div>
+  </div>
+
+  <script charset="utf-8">
+    // Now using Mock data
+    var mock_data = {"elections": [{"url": "https://x.piratar.is/polity/102/election/152/", "polity": "P\u00edratar \u00ed Reykjav\u00edk", "polity_shortname": "P\u00edR", "name": "Stj\u00f3rn P\u00edrata \u00ed Reykjav\u00edk 2022", "state": "concluded", "state_human_readable": "Loki\u00f0", "candidate_count": 5, "vote_count": 31}, {"url": "https://x.piratar.is/polity/1/election/147/", "polity": "P\u00edratar", "polity_shortname": "", "name": "Framkv\u00e6mdastj\u00f3rn 2022", "state": "concluded", "state_human_readable": "Loki\u00f0", "candidate_count": 8, "vote_count": 122}, {"url": "https://x.piratar.is/polity/1/election/148/", "polity": "P\u00edratar", "polity_shortname": "", "name": "Stefnu- og m\u00e1lefnanefnd 2022", "state": "concluded", "state_human_readable": "Loki\u00f0", "candidate_count": 7, "vote_count": 113}, {"url": "https://x.piratar.is/polity/1/election/149/", "polity": "P\u00edratar", "polity_shortname": "", "name": "Fj\u00e1rm\u00e1lar\u00e1\u00f0 2022", "state": "concluded", "state_human_readable": "Loki\u00f0", "candidate_count": 3, "vote_count": 107}, {"url": "https://x.piratar.is/polity/1/election/150/", "polity": "P\u00edratar", "polity_shortname": "", "name": "\u00darskur\u00f0arnefnd 2022", "state": "concluded", "state_human_readable": "Loki\u00f0", "candidate_count": 3, "vote_count": 88}, {"url": "https://x.piratar.is/polity/1/election/151/", "polity": "P\u00edratar", "polity_shortname": "", "name": "Sko\u00f0unarmenn reikninga 2022", "state": "concluded", "state_human_readable": "Loki\u00f0", "candidate_count": 4, "vote_count": 106}], "issues": [{"url": "https://x.piratar.is/polity/1/issue/492/", "polity": "P\u00edratar", "polity_shortname": "", "log_number": "1/2022", "name": "Lagabreytingar: Endursko\u00f0endur", "state": "concluded", "state_human_readable": "Loki\u00f0", "majority_reached": true, "majority_reached_human_readable": "Sam\u00feykkt", "special_process": null, "special_process_human_readable": null, "comment_count": 1, "vote_count": 23}]}
+
+    function dataToList(thedata, thetarget) {
+      var the_list = document.createElement('ul');
+      for(let i = 0; i < thedata.length; i++){
+        item = thedata[i];
+        if(i > 6){
+          break
+        };
+        var li = document.createElement('li');
+        var a = document.createElement('a');
+        var linkText = document.createTextNode(item.name + ' - ' + item.state_human_readable)
+        a.appendChild(linkText);
+        a.title = item.name;
+        a.href = item.url;
+        a.target = '_blank';
+        li.appendChild(a);
+        the_list.appendChild(li);
+      };
+      thetarget.appendChild(the_list);
+    }
+
+    // Need to enable CORS on discourse server
+    fetch('http://x.piratar.is/api/recent-activity/')
+    .then(response => {
+      //console.log(1, response);
+      if(!response.ok){
+        throw new Error(response.status);
+      }
+      return response.json()
+    })
+    .then(the_data => {
+      //console.log(2, the_data);
+      dataToList(the_data.elections, document.getElementById('kosningakerfi-elections'));
+      dataToList(the_data.issues, document.getElementById('kosningakerfi-issues'));
+    })
+    .catch(err => {
+      dataToList(mock_data.elections, document.getElementById('kosningakerfi-elections'));
+      dataToList(mock_data.issues, document.getElementById('kosningakerfi-issues'));
+      console.error(3, err);
+      // If error, use mock_data - we could also just say there is an error?
+      document.getElementById('kosningakerfi').appendChild(document.createTextNode('Tenging náðist ekki. Sýni nú gamlar niðurstöður...'));
+    })
+
+  </script>
+
+</div>
