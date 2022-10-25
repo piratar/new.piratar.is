@@ -29,8 +29,18 @@
         };
         var li = document.createElement('li');
         var a = document.createElement('a');
-        var linkText = document.createTextNode(item.name + ' - ' + item.state_human_readable)
+        var linkText = document.createTextNode(item.name)
         a.appendChild(linkText);
+        var myspan = document.createElement('span')
+        myspan.innerHTML = ' - ' + item.state_human_readable
+
+        if(item.state === 'concluded') {
+          myspan.classList.add('text-danger')
+        } else {
+          myspan.classList.add('text-success')
+        }
+
+        a.appendChild(myspan);
         a.title = item.name;
         a.href = item.url;
         a.target = '_blank';
